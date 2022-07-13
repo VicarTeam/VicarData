@@ -1,0 +1,210 @@
+[
+  {
+    "id": 1,
+    "name": "Banu Haqim",
+    "slogan": "Clan of the Hunt",
+    "curse": "The Banu Haqim are attracted to those who deserve their punishment. This is especially true of vampiric blood, the essence of sin. If one of the judges tastes the blood of another Cainite, it is very difficult for him to stop. If at least one level of hunger is satisfied with vampiric vitæ, this causes a trial against Hunger Frenzy (see Basic Rulebook p. 220) against a difficulty of 2 + severity of the curse. If the trial fails, Haqim's child tries to feast on the vampire's blood, sometimes until it diablerizes its blood-related victim. This causes many problems, as the Banu Haqim have joined the Camarilla, who tend to view the Amaranth as anathema.",
+    "description": "Based in their hidden fortress of Alamut in the Middle East, they are traditionally seen by their Western blood relatives as dangerous assassins and diablerists, but in truth they are guardians, warriors and scholars who seek to distinguish themselves from the Jyhad. Throughout their history they have remained a self-sufficient and independent clan, even though they have recently joined the Camarilla.",
+    "disciplines": [
+      3,
+      4,
+      10
+    ]
+  },
+  {
+    "id": 2,
+    "name": "Brujah",
+    "slogan": "The Learned Clan",
+    "curse": "The Brujah's blood simmers with barely restrained rage and explodes at the slightest provocation. Subtract from each roll a number of dice equal to the severity of the Brujah's curse to resist the fury. This can never reduce the supply below one die.",
+    "description": "The Brujah are a clan of radicals and troublemakers, ready to put someone in their place when the situation calls for it. Most see themselves as warriors with a cause, and these rebels are guided by their passion, strength, and dedication to their ideals - whatever those may be.",
+    "disciplines": [
+      4,
+      8,
+      6
+    ]
+  },
+  {
+    "id": 3,
+    "name": "Gangrel",
+    "slogan": "Clan of the Beast",
+    "curse": "The Gangrel's relationship with their animal is similar to the attitude that other blood relatives have toward Gangrel: a distrustful partnership. Falling into a frenzy, Gangrel acquire one or more animal traits: a physical characteristic, a smell, or a tic in their behavior. These traits last for another night, like a hangover after a night of drinking. Each of these traits lowers an attribute by 1 point, though the storyteller may decide that a forked tongue or a bearish musky smell reduce Charisma, whereas bat-like ears lower Determination (\"all those annoying noises\"). If you can't think of anything immediately, the trait lowers Intelligence or Manipulation. The number of traits that manifest on a Gangrel is equal to his severity of the curse. When your character rides the wave of his fury (see p. 219), you can choose only one trait to manifest, which causes you to suffer a penalty to only one of your attributes.",
+    "description": "They are nomads who have closer ties to the wild than most of their city-bound cousins. They are also closer to the animal aspect of the Beast and are masters of Protean discipline. They were one of the seven founding clans of the Camarilla, but became disillusioned with the sect during the Last Nights, and their elders eventually decided to sever their ties and become an independent clan.",
+    "disciplines": [
+      9,
+      7,
+      5
+    ]
+  },
+  {
+    "id": 4,
+    "name": "Hecata",
+    "slogan": "Clan of Death",
+    "curse": "The fangs of the Hecata are imbued with death and bring not bliss but torment. Victims caught unprepared resist fiercely if not restrained, and few people voluntarily submit to the torture that is the Hecata kiss. If they drink directly from a victim, Hecata can only drink harmfully, resulting in blood loss (Vampires: The Masquerade, p.212). Unwilling mortals who are not restrained attempt to flee, and even those who are forced or willing must make a Resistance and Resolve check against Difficulty 2 + Curse Severity to not retreat. Forced or willing vampire victims of the Hecata Bite must make a Frenzy check against Difficulty 3 to avoid falling into a fright frenzy.",
+    "description": "They are not a completely organic clan derived from a single Antediluvian and an unbroken bloodline, but consist of the Giovanni and the remnants of the ancient clan Cappadocian and their related bloodlines, as well as the Nagaraja, though they have no connection to Antediluvian. Together, they constitute a new, (mostly) unified Clan of Death, consisting of blood relatives who practice necromancy through the use of Oblivion. Much like the Giovanni, whom it almost entirely subsumes, it too is a family, albeit a much larger one. With the Banu Haqim joining the Camarilla and the Ministry joining the Anarchs, the Hecata are the last independent clan of note in the Nights.",
+    "disciplines": [
+      1,
+      7,
+      11
+    ]
+  },
+  {
+    "id": 5,
+    "name": "Lasombra",
+    "slogan": "The Night Clan",
+    "curse": "The broken souls of Lasombra vampires are pulled halfway into the Abyss. All reflections and recordings distort, flicker, or become transparent (though this does not obscure their identities with certainty). Microphones have the same difficulty with the vampires' voice as cameras do with their image, touch technology is insensitive at best, and their anomalous nature makes it difficult to bypass electronic detection systems. If they try hard, they can overcome these difficulties, but it is as if they exist on a slightly different frequency than other beings, flickering in and out of the light. Many Lasombra have servants to handle the technology for them, but a few strange beasts can manage without them. This curse also means that people who come across such footage, sound recordings or images, and know what to look for, can easily find out what the creature depicted really is.",
+    "description": "The Lasombra live for their own success, they fight for personal victories and not just for a crown they wear or a throne they sit on. They believe that might makes right, and are willing to sacrifice anything to achieve their goals. They are a clan that uses spirituality as a tool rather than striving for honest enlightenment, and their fickle loyalty is currently underscored by the fact that half of their clan has deviated from the Sabbat.",
+    "disciplines": [
+      2,
+      11,
+      8
+    ]
+  },
+  {
+    "id": 6,
+    "name": "Malkavians",
+    "slogan": "Clan of the Moon",
+    "curse": "All Malkavians are cursed with at least one type of mental disorder due to their ancestry. Depending on their history and state of mind at their death, they may experience delusions, visions of terrible clarity, or something else entirely. When the Malkavian suffers a bestial failure or compulsion, their curse comes to the fore. You suffer a deduction for the entire scene equal to the severity of your character's curse in one category of the die pool (physical, social, or mental). This is in addition to any deductions incurred due to constraints. You and the narrator decide the type of deduction and the detailed nature of the character's suffering during character creation.",
+    "description": "The Malkavians are an enigmatic and deeply disturbed group of Cainites. Members of the clan have taken on the role of seers and oracles among their blood kin, sinister figures with strange compulsions and the ability to perceive what others cannot see. They are also notorious pranksters whose \"jokes\" range from silly to sadistic. Against all odds, however, the Children of Malkav are among the oldest surviving vampire lineages. They are one of the 13 original clans of Cainites and can trace their history back to before the biblical Flood. They were also among the founders of the powerful Camarilla and are widely known as one of its pillars in the modern nights.",
+    "disciplines": [
+      1,
+      2,
+      10
+    ]
+  },
+  {
+    "id": 7,
+    "name": "The Ministry",
+    "slogan": "Clan of Faith",
+    "curse": "The blood of a priest abhors light. When members of the clan are exposed to direct lighting, whether natural or artificial, they recoil. Priests receive a deduction equal to the severity of their curse on all die stocks when exposed to bright light directed directly at them. Also, add the severity of the curse to the Severe damage caused by sunlight.",
+    "description": "The orthodox belief of the Setites is that Set will one day return to rule or devour the world, and the devout Setites are preparing the way for his resurrection. To this end, the clan remains independent of the sects of other bloods and practices with great skill the arts of corruption, deception, and ancient sorcery. They refer to themselves as the Mesu Bedshet, the \"Children of Rebellion\".",
+    "disciplines": [
+      10,
+      6,
+      5
+    ]
+  },
+  {
+    "id": 8,
+    "name": "Nosferatu",
+    "slogan": "Clan of the Hidden",
+    "curse": "Ghastly and Abominable all Nosferatu have the Weakness Repulsive (-2) and can never increase their value in the Appearance feat. In addition, any attempt to disguise as a human results in a deduction to the dice pool equal to the severity of the character's curse (this includes the Mask of a Thousand Faces and Impostor's Disguise powers).",
+    "description": "The archetypal Nosferatu resembles Max Shreck's Count Orlok, although the curse has a number of variations. The Nosferatu are the spy masters of the dead, gathering information and selling it at a high price. They are also the masters of the underground and live in the sewers for protection.",
+    "disciplines": [
+      9,
+      10,
+      8
+    ],
+    "actions": [
+      {
+        "description": "Given by Clan Bane.",
+        "type": "add_flaw",
+        "data": {
+          "choices": [
+            {
+              "type": "merit",
+              "id": 6,
+              "flawId": 2
+            }
+          ]
+        }
+      }
+    ]
+  },
+  {
+    "id": 9,
+    "name": "Ravnos",
+    "slogan": "The Haunted",
+    "curse": "The Ravnos are doomed. The fire of the sun that consumed their founder also burns in the blood of the clan. Should they settle for any length of time, it will burst forth from their innermost being. If they sleep in the same place more than once within seven nights, they must roll a number of dice equal to their severity of the curse. Each 10 rolled (critical result) scorches them from within, inflicting one level of Severe damage. This happens every time they spend the day in a place where they have already spent less than a week before. Exactly what defines a place in this regard depends on the framework of the chronicle. But unless otherwise specified, two places of daily rest must be at least 1 mile apart to avoid triggering the curse. A mobile refuge, such as a moving truck, is considered a safe place as long as the truck is parked again at least one mile from the last location. Ravnos characters cannot select the No Refuge taint during their character creation.",
+    "description": "The Ravnos are known as wandering rogues, mystics and vagabonds. They are incorrigible daredevils who delight in the art of dangerous non-life. No one in the West understood the ancient Ravnos, and now it is far too late for that, for Zapathasura rose from his slumber in the Week of Nightmares and wiped out almost his entire clan in his death throes. The few remaining were left without any connection to their true heritage and history, and are forced to rewrite it themselves. But if they have not migrated before, they have no choice but to do so, or they will meet the same fate as their progenitor.",
+    "disciplines": [
+      6,
+      9,
+      10
+    ]
+  },
+  {
+    "id": 10,
+    "name": "Salubri",
+    "slogan": "Saulot's descendants",
+    "curse": "The Salubri are hunted: members of other clans are especially ... grateful for Vitæ of Salubri. If a non-salubri ingests the blood of a cyclops, he often finds it difficult to tear himself away. Drinking enough to satisfy at least one level of hunger requires a Hunger Frenzy roll (see Vampires: The Masquerade, p. 220) against a difficulty of 2 + the severity of the salubri's curse (difficulty 3 + severity of the salubri's curse for Banu Haqim). If the roll fails, the blood relative simply continues to drink, to the point where he may need to be physically dissuaded. If a salubri passes on the embrace, the third eye of the bloodline that Saulot opened on one of his many journeys is also passed on. This third eye is not always clearly of human origin. Rumors persist of vertical, serpentine pupils or even worm-like dot eyes. While this third eye can be physically concealed, such as with a headscarf or hood, it is always present and cannot be disguised by any supernatural force. Every time a salubri activates the power of a discipline, the third eye weeps out Vitæ. The intensity is proportional to the level of the discipline used and ranges from trickling to streaming. The bloody tears from the third eye trigger a Hunger Frenzy trial on nearby vampires with a Hunger score of 4 or more.",
+    "description": "In the Last Nights, the once-mighty Salubri clan is barely considered a bloodline after the death of its progenitor Saulot. Their generally small numbers lend credence to rumors that they consist of only seven vampires at any given time, and that these modern Salubri are fully dedicated to the quest for Golconda - performing a bloody ritual when they reach that state or despair of ever reaching it. They are divided into three branches: the Healers, the Warriors and the Guardians, and each of these branches has its own specific vampiric weakness.",
+    "disciplines": [
+      1,
+      2,
+      7
+    ]
+  },
+  {
+    "id": 11,
+    "name": "Toreador",
+    "slogan": "Clan of the Rose",
+    "curse": "Toreador are the unliving example of the old adage that art takes strange forms in the blood. They crave beauty so much that they suffer in its absence. While your character is in a less beautiful environment, you lose the equivalent of the severity of your curse in dice from your dice supply when you use Disciplines. The narrator decides specifically, based on the character's aesthetics, how the beauty or ugliness of the toreador's surroundings (including clothing, blood dolls, etc.) affects him. However, even followers of the Ashcan School never perceive normal streets as immaculately beautiful. This obsession with aesthetics also causes divas to lose themselves in moments of beauty, and a bestial failure often leads to a rapturous trance, as described in the Rules for Compulsion (p. 208).",
+    "description": "The Degenerates are responsible for the legends of vampires who seduce and lure their prey with beauty, love and sensuality. Famous and infamous as a clan of artists and innovators, they are one of the bastions of the Camarilla, since their survival depends on the facade of courtesy and grace that the sect prides itself on.",
+    "disciplines": [
+      1,
+      4,
+      6
+    ]
+  },
+  {
+    "id": 12,
+    "name": "Tremere",
+    "slogan": "The Broken Clan",
+    "curse": "Once the clan was defined by a rigid hierarchy of blood ties that reached from the top to the very bottom of the pyramid. But after the fall of Vienna, the blood has receded and all those ties have been broken. The Vitæ of Tremere can no longer form blood bonds with other blood relatives, although they themselves can be bonded by blood relatives of other clans. A Tremere can still bind mortals and ghouls, though the corrupted Vitæ must be drunk an additional number of times equal to the severity of the vampire's curse for the bond to form. Some adhere to the theory that this change is the revenge of the pre-Flood devoured by Tremere, others attribute it to a simple mutation. Regardless, the clan studies its Vitæ carefully to find out if the process can be reversed and, in fact, to find out if they really want to.",
+    "description": "In the (comparatively) short time since their founding, the Warlocks have made incredible strides in vampiric society and are arguably the most powerful clan in the modern Nights. This is due in no small part to their strict hierarchy, secrecy, and mastery of thaumaturgy, which inspires distrust, fear, and respect among other Cainites. The warlocks are a mainstay of the Camarilla and one of its main defenders, although they exist almost as a sub-sect. Some even go so far as to consider themselves the evolution of vampirism, as they can use blood magic in extremely versatile ways and there is no real clan curse. However, the Last Nights hold many things in store for the Tremere, and the more powerful they become, the more enemies they accumulate - and in their quest for power, the Tremere have amassed more enemies than most.",
+    "disciplines": [
+      1,
+      3,
+      2
+    ]
+  },
+  {
+    "id": 13,
+    "name": "Tzimisce",
+    "slogan": "The Old Clan",
+    "curse": "The Tzimisce are bound: Each tzimisce must choose a specific good: a physical domain, a group of people, an organization, or even something more spiritual. However, it must be clearly defined and delimitable. These blood relatives must spend their daytime sleep in the vicinity of their chosen estate. Historically, this often meant that they slumbered in the soil of their land. However, it can also manifest itself by surrounding themselves with whatever they rule over during the nights: a certain type of people, a building that has a deep connection with their obsession, a grouping of a local counterculture, or other, more outlandish elements. If they do not do this, when they wake up the following night, they suffer Severe Damage to Willpower equal to their Severity of the Curse.",
+    "description": "If someone were to call a Tzimisce inhuman and sadistic, the Tzimisce would probably praise them for their acumen and then show them that their mortal definition of sadism is laughably inadequate. The Tzimisce have gladly left being human behind and now focus on pushing the boundaries of the vampiric state. At a cursory glance or brief conversation, a Tzimisce seems to be one of the more pleasant vampires. Polite, intelligent, and inquisitive, they seem in stark contrast to the roaring Sabbat mobs or even the seemingly more humane Brujah or Nosferatu. Upon closer inspection, however, it becomes clear that this is only a mask behind which something alien and monstrous is hidden.",
+    "disciplines": [
+      2,
+      5,
+      9
+    ]
+  },
+  {
+    "id": 14,
+    "name": "Ventrue",
+    "slogan": "Clan of Kings",
+    "curse": "The Ventrue have a very fine palate. When a Ventrue drinks blood from a mortal who does not meet his preferences, a great effort of will is required, otherwise he will expel the drunk blood in the form of scarlet vomit. Preferences vary greatly, from Ventrue who can only feed on true brunettes, to individuals of Swiss descent or exclusively homosexuals, to others who can only drink from soldiers, mortals with PTSD, or users of methamphetamine. With a roll on Determination + Perception (difficulty 4 or above), your character can sense if a mortal has the blood you need. If you want your character to feed on something other than his preferred victim, you must spend Willpower points equal to the severity of the character's curse.",
+    "description": "The Ventrue have long been one of the proudest vampire lineages. Their members work hard to maintain a reputation for honor, noble behavior, and leadership. The clan has long been imbued with a sense of noblesse oblige, accompanied by a sincere belief that the Ventrue know what is best for all. Not only do they consider themselves the oldest clan, but they also see themselves as the guardians of tradition and the rightful leaders of their blood kin. They have long been embraced from the ranks of nobility and the privileged, be they kings or merchant princes, but they were also known as knights and warlords who sought to live by the laws of chivalry and duty. If anything, the Ventrue have adapted to leadership roles over the centuries and are more politician than noble warrior, more CEO than Baron-Lord in the Last Nights. They remain the greatest supporters of the Camarilla and the Masquerade, believing both institutions to be the surest means of protecting the vampires from the growing mass of mortals and preserving their own power.",
+    "disciplines": [
+      2,
+      7,
+      6
+    ]
+  },
+  {
+    "id": 15,
+    "name": "Caitiff",
+    "slogan": "The Clanless",
+    "curse": "Untouched by the Antediluvians, the Caitiff share no common bane. Caitiff characters begin with the Suspect (*) Flaw and you may not purchase positive Status for them during character creation. The Storyteller may always impose a one or two dice penalty on Social tests against fellow Kindred who know they are Caitiff, regardless of their eventual Status. Further, to improve one of the Disciplines of a Caitiff costs six times the level purchased in experience points.",
+    "description": "Not all Kindred inherit the curse of one of the 13. Some don’t care what their lineage is. Certain bloodlines of kindred have always been clanless, and sometimes childer of the clans are just born different. They’re often discarded, exiled, or choose to distance themselves from the clans that despise them. Pure vampires, the Caitiff make up for what they lose in respect and pedigree by flexible blood and the absence of a crippling bane. Proud or ashamed of their clanless nature as they may be, these creatures have no family and represents vampirism at its purest and most individualistic.",
+    "disciplines": [
+      1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11
+    ],
+    "actions": [
+      {
+        "description": "Given by Clan Bane.",
+        "type": "add_flaw",
+        "data": {
+          "choices": [
+            {
+              "type": "background",
+              "id": 11,
+              "flawId": 1
+            }
+          ]
+        }
+      }
+    ]
+  }
+]

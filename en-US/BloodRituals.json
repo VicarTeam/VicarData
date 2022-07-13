@@ -1,0 +1,236 @@
+[
+  {
+    "id": 1,
+    "level": 1,
+    "name": "Blood Walk",
+    "description": "With this ritual, the power A Sense of Blood is enhanced, allowing the user to see more details about the victim, provided it is a vampire.",
+    "ingredients": "a silver bowl of the victim's blood (as much as a surge check will yield).",
+    "execution": "The user mixes his blood with the victim's and repeatedly speaks the incantation over the bowl for about an hour.",
+    "system": "A successful roll on the ritual trial allows the user to learn the generation and name of the victim and the name of his sire. A critical Triumph also reveals to the user active blood ties to which the victim is subject, whether as master or slave."
+  },
+  {
+    "id": 2,
+    "level": 1,
+    "name": "Clinging of the Insect",
+    "description": "The vampire gains the ability to cling to walls like a grotesque insect or spider.",
+    "ingredients": "a living spider.",
+    "execution": "The caster fills a vial with his own blood, crushes the spider, and mixes the crushed body with the blood before drinking the concoction. (This does not restore hunger.) The vampire can only perform the ritual on himself; others gain no benefit from drinking the concoction.",
+    "system": "A successfully performed ritual grants the ability to cling to walls and ceilings for one scene. On a critical triumph, the effect lasts for one night. The vampire must cling to the surface with both hands and feet, and his speed is halved."
+  },
+  {
+    "id": 3,
+    "level": 1,
+    "name": "Craft Bloodstone",
+    "description": "From this ritual one gains a bloodstone, a magical tracking device whose direction and distance the thaumaturge always knows. Since the Camarilla is visibly renouncing modern technology, this ritual is used more and more often.",
+    "ingredients": "a small piece of iron ore or a small magnet and a liter of blood from any source in a silver bowl.",
+    "execution": "the user mixes his blood with the blood in the bowl and casts a spell over it for one hour, repeating it for the following two nights. The iron ore (or magnet) absorbs the blood within three nights. If the ritual is performed successfully, the liquid appears transparent.",
+    "system": "At the end of the third night, perform the ritual test. If triumphant, the caster attunes to the bloodstone and can unerringly sense the direction and distance of the stone. The effect lasts until the bloodstone is destroyed or a week has passed. A thaumaturge can have and keep track of as many stones as his value in determination."
+  },
+  {
+    "id": 4,
+    "level": 1,
+    "name": "Wake with evening's freshness",
+    "description": "Performed before dawn, this ritual allows the vampire to awaken at the sign of danger, being wide awake as in the night.",
+    "ingredients": "the burnt bones and feathers of a rooster.",
+    "execution": "The thaumaturge mixes the ashes with his own blood and paints a circle around his resting place with the mixture.",
+    "system": "Only when there is real danger, the ritual sample is taken. If the vampire is threatened during the day, take the ritual sample. On a triumph, the vampire awakens and ignores until the end of the scene the disadvantages it would suffer for being awake during the day. On a critical Triumph, the effect lasts until the next dawn."
+  },
+  {
+    "id": 5,
+    "level": 1,
+    "name": "Ward against Ghouls",
+    "description": "Distrustful tremere designed this ritual to protect themselves from the minions of vengeful rivals. This protection sign uses the standard rules for protection signs (p. 255).",
+    "ingredients": "only the blood of the caster, as prescribed.",
+    "execution": "",
+    "system": ""
+  },
+  {
+    "id": 6,
+    "level": 2,
+    "name": "Communicate with kindred sire",
+    "description": "The thaumaturge uses the bond between the sire and the child to build a mental bridge that allows the child to establish a telepathic link to communicate over great distance. Like some other rituals, this one is becoming more common again in these nights of listening devices and electronic surveillance.",
+    "ingredients": "an object that once belonged to the creator, and a silver bowl of clear water.",
+    "execution": "The thaumaturge places the object in the water and drips its blood into the bowl while concentrating on the last memory of its maker for a maximum of 30 minutes.",
+    "system": "Once 15 minutes have passed, the ritual sample is taken. In the case of a triumph, mental communication can be made in either direction for 10 minutes once another 15 minutes have passed. In the case of a critical triumph, communication is instantaneous. A major disturbance on either side breaks the connection."
+  },
+  {
+    "id": 7,
+    "level": 2,
+    "name": "Eyes of Babel",
+    "description": "By eating a person's tongue and an eyeball, the vampire gains the ability to read and speak any language known to the victim.",
+    "ingredients": "a fresh eyeball and the tongue of a person.",
+    "execution": "The ingredients are freshly taken from the victim and chewed and swallowed by the vampire. (By doing this, he will most likely get a taint.)",
+    "system": "The surge check required for this ritual causes the ingredients to supernaturally dissolve once swallowed. Afterwards, make the ritual check. On a Triumph, the caster gains the ability to read and speak any language at the same level as the victim that the victim knows for one week. On a critical Triumph, the effect is extended to one month."
+  },
+  {
+    "id": 8,
+    "level": 2,
+    "name": "Illuminate the Trail of Pray",
+    "description": "The ritual allows the thaumaturge to perceive the former whereabouts of a specific person as a faintly glowing trail visible only to him.",
+    "ingredients": "a white satin ribbon.",
+    "execution": "The performer of the ritual dips the ribbon into his own blood and ignites it.",
+    "system": "In a triumph from the ritual rehearsal, the ribbon catches fire, even though it is soaked, and burns like a fuse. As soon as the ribbon is burned, the effect of the ritual takes effect. As long as the ritual is in effect, the vampire can follow the victim's faint trail, even in places where it has left no trace, such as densely populated cities. To follow the trail, the vampire rolls for Intelligence + Survival at a difficulty of 6 minus the difference in the ritual trial. The vampire must know the victim by sight and can retrace the path the victim has taken in the past 24 hours. The path remains visible for one night. In the case of a critical triumph, the effect is extended to two nights."
+  },
+  {
+    "id": 9,
+    "level": 2,
+    "name": "Truth of Blood",
+    "description": "Until recently known only to the viziers of the Banu Haqim, this ritual creates a potion that separates lies from truth. This ritual has the power to sometimes even elicit facts from the speaker that were previously unknown to himself.",
+    "ingredients": "a pint of blood from the victim",
+    "execution": "The performer of the ritual mixes his blood with that of the victim in a container large enough for him to put a finger into.",
+    "system": "Instead of the usual ritual test, the thaumaturge dips his finger into the mixture and rolls for Determination + Blood Magic vs. Composure + Occultism each time the victim makes a statement. If the contest fails once, the ritual ends. On a Triumph, he learns whether the statement is true from the victim's point of view. In the case of a critical triumph by the spellcaster, the victim elaborates on his statement and provides further information, even details he has only casually noticed and unconsciously forgotten. (The narrator should tell the player if there is no further information on the subject). The mixture bubbles and foams as it is performed and turns to ash at the end of the scene. Memory Fog, Forgetful Mind, or other memory-erasing powers cannot be imbued with this ritual. The thaumaturge can guess the cause of a non-existent or cloudy memory, but cannot retrieve the actual memory."
+  },
+  {
+    "id": 10,
+    "level": 2,
+    "name": "Ward against Spirits",
+    "description": "This ritual is used to protect an item against incorporeal beings such as death aliens, ghosts, and elemental spirits. Any attempt on their part to affect or penetrate the item will trigger the effect. This protection character uses the standard rules for protection characters (p. 255).",
+    "ingredients": "a handful of salt (in some variants, a handful of brick dust instead) mixed with the caster's blood.",
+    "execution": "",
+    "system": ""
+  },
+  {
+    "id": 11,
+    "level": 2,
+    "name": "Warding Circle against Ghouls",
+    "description": "With this ritual, you create a circular protective sign on the ground to block the way of ghouls. This protective sign uses the standard rules for protective circles (p. 255).",
+    "ingredients": "The thaumaturge draws the protective circle with a human bone dipped in its blood.",
+    "execution": "",
+    "system": ""
+  },
+  {
+    "id": 12,
+    "level": 3,
+    "name": "Dagon's Call",
+    "description": "This horrible procedure, used by the Banu Haqim assassins, can be used to burst the veins of the victim from a distance, after touching him only briefly before. Mortals thus die quite unpleasantly, and even vampires fear this creeping death.",
+    "ingredients": "a ceremonial dagger decorated with gold.",
+    "execution": "Before the ritual can be performed, the victim must be exposed to the thaumaturge's blood, either by drinking it or by having its blood touch an open wound or even bare skin: a single drop smeared on the arm is enough. After an hour has passed, but before the end of a week, the caster can perform the ritual by stabbing his own skin with the ceremonial dagger and spilling his blood. As soon as his blood falls to the ground, the ritual takes effect.",
+    "system": "Roll for Determination + Blood Magic vs. Resilience + Determination. On a Triumph, each point of difference causes one point of damage to the victim as his veins burst and his lungs fill with blood. Mortals suffer Heavy damage, vampires only Light. The vampire may perform the ritual two more times, but must make an additional Wallow check each time."
+  },
+  {
+    "id": 13,
+    "level": 3,
+    "name": "Deflection of Wooden Doom",
+    "description": "By performing this ritual, the vampire protects himself from being staked. The first stake that would pierce his heart shatters before it breaks the skin.",
+    "ingredients": "wood splinters or chips.",
+    "execution": "The vampire mixes the chips with his blood and draws a circle around himself. He then meditates in the circle for an hour and then places a splinter under his tongue.",
+    "system": "The ritual sample is not taken until the vampire is staked. In a Triumph, the stake shatters as soon as it touches the vampire's skin. (A critical Triumph blinds the attacker for two rounds as the splinters fly into their face). This only works when actually trying to stake him - merely pressing the stake against the vampire does not trigger the effect. The protection lasts until the end of the night or until the splinter is removed from under the vampire's tongue, whichever happens first."
+  },
+  {
+    "id": 14,
+    "level": 3,
+    "name": "Essence of Air",
+    "description": "The thaumaturge brews a potion that, when drunk, temporarily gives him the ability to fly. The Camarilla frowns upon the use of this ritual because it poses an extreme risk to the masquerade. For this reason, it is no longer very popular on these modern nights.",
+    "ingredients": "leaves and berries of belladonna.",
+    "execution": "The thaumaturge drenches the belladonna with his blood and boils the concoction over a fire bowl while speaking words of power.",
+    "system": "Pass the ritual test while cooking. (A critical triumph yields two doses of the potion.) The vampire will know if the ritual has succeeded, and will not end up with a blank in his hand. The resulting black potion retains its effects for one night, activated as soon as it is drunk. The potion enables the caster (and only him) to fly or levitate at running speed for one scene. The vampire can carry something human-sized with him, though this slows his speed to walking speed. Grabbing an unwilling subject and carrying it with him, or pulling the flying one to the ground, each requires a contest between the thaumaturge's physical strength + blood magic and the other's physical strength + athleticism."
+  },
+  {
+    "id": 15,
+    "level": 3,
+    "name": "Firewalker",
+    "description": "Even though performing the ritual is painful, it allows the caster to harden themselves and even their companions against fire.",
+    "ingredients": "a fingertip of the thaumaturge.",
+    "execution": "The vampire cuts off a fingertip and burns it along with his blood in a golden chalice or bowl.",
+    "system": "Roll for Resilience + Determination (difficulty 3) to cut off the fingertip. If triumphant in the ritual trial, a bluish flame engulfs the blood and fingertip, signifying the success of the ritual. Until the end of the night, fire damage taken by the caster is halved. The ritual can be cast on others, but the fingertips sacrificed for it must all come from the Thaumaturge. The mutilation is not great enough to count as damage, and the fingertip grows back during the day's rest."
+  },
+  {
+    "id": 16,
+    "level": 3,
+    "name": "Ward against Lupines",
+    "description": "This ritual protects an item against werewolves in any form. Any attempt on their part to touch the item triggers the effect. This protection sign uses the standard rules for protection signs (p. 255).",
+    "ingredients": "a handful of silver dust mixed with the caster's blood.",
+    "execution": "",
+    "system": ""
+  },
+  {
+    "id": 17,
+    "level": 3,
+    "name": "Wardening Circle against Spirits",
+    "description": "With this ritual, you create a circular protective sign on the ground to block the path of ghosts. Although more complex than some other protective circles, this protective circle is particularly common in grimoires and other sources. A human occultist could possibly reconstruct a functional version of the ritual if he made a trial of Intelligence + Occultism (difficulty 6), even if he could not do it without Vitæ or other supernatural aid or elements. This protective character uses the standard rules for protective circles (p. 255).",
+    "ingredients": "The caster draws the circle of protection with an iron knife dipped in salt and its blood.",
+    "execution": "",
+    "system": ""
+  },
+  {
+    "id": 18,
+    "level": 4,
+    "name": "Defense of the Sacred Haven",
+    "description": "The performer of this powerful ritual can protect his sanctuary from the sun itself and keep his resting place from the intrusion of its destructive rays while mystical darkness blankets the area.",
+    "ingredients": "only the blood of the thaumaturge.",
+    "execution": "The thaumaturge draws sigils and glyphs on the area to be protected and in its surroundings. He must pay particular attention to windows and doors, but can also have an open passageway protected if the area is inside. (The ritual can be used to protect gray areas and border areas, such as ruins, at the narrator's discretion).",
+    "system": "It takes at least an hour to perform, depending on the nature or area to be protected. The area cannot be larger than a circle with a radius of 6 meters. The ritual automatically fails if the caster leaves the area after the protection has taken effect. The vampire takes the ritual test as soon as the sun rises. On a Triumph, shadows cover the area, blocking the view from outside, but also preventing the sun from harming the vampires in the protected area. During a critical Triumph, those inside can indistinctly perceive the world outside. The ritual works for an entire day, unless it is ended because the caster leaves the area."
+  },
+  {
+    "id": 19,
+    "level": 4,
+    "name": "Eyes of the Nighthawk",
+    "description": "Related to the primitive powers of beastliness, this ritual allows the thaumaturgist to cast carnivorous birds, usually ravens or birds of prey, and direct their flight or see through their eyes. Parrots and maina cannot be used for this ritual, as they are not carnivores. Some Tremere train crows or ravens to speak for years before using them as nighthawks. Since the pyramid is shattered, few warlocks have the time to do this anymore.",
+    "ingredients": "the eyes of the bird to be used, which are removed from it at the end of the ritual.",
+    "execution": "The thaumaturge feeds the bird with his blood and enters a trance.",
+    "system": "After a successful ritual trial, the vampire can control the bird and see through its eyes. On a critical triumph, the bird can perform simple actions under control, such as picking up objects or using keys or phone buttons. The vampire can use most nonphysical disciplines with the bird, even domination, provided the thaumaturge can communicate with the victim using telepathy (p. 248) or otherwise not verbally. There is no limit to how far the bird can fly, but if the vampire does not remove the bird's eyes at the end of the night, it will blind itself for three nights."
+  },
+  {
+    "id": 20,
+    "level": 4,
+    "name": "Incorporeal Passage",
+    "description": "The Thaumaturge puts himself in a disembodied state, not unlike a ghost, and can penetrate objects and is completely immune to physical damage. In exchange, he cannot interact with the material world, but can only see it and speak within it.",
+    "ingredients": "a mirror.",
+    "execution": "The thaumaturge spills his blood on the mirror, speaks an incantation, and then breaks it.",
+    "system": "cast the ritual trial. Upon triumph, the caster assumes a disembodied form while holding a shard of the broken mirror. In the disembodied state, the vampire is immune to everything except fire, sunlight, and arcane weapons and rituals that can harm spirits. The vampire is still visible and audible, but it cannot physically interact with things or living creatures. The disembodied vampire does not gain access to the spirit world, as the ritual does not transform it into a death-alb or spirit. The vampire can move through walls and other objects, but only in a straight path; it cannot change direction while inside an object. The effect of the ritual lasts for one scene or until the caster drops the mirror shard. Returning to the material world while still in solid matter can destroy you, imprison you, or simply inconvenience you if, for example, the ashtray is partially stuck in your arm. The narrator determines the exact outcome."
+  },
+  {
+    "id": 21,
+    "level": 4,
+    "name": "Ward against Cainites",
+    "description": "This ritual can be used to protect an item from vampires, the thaumaturge excluded. Any attempt to touch the item will trigger the effect. However, a vampire can examine the protection sign with Auspex and read the thaumaturge's name with a successful roll on Intelligence + Auspex vs. Intelligence + Blood Magic of the caster. This protection sign uses the standard rules for protection signs (p. 255).",
+    "ingredients": "warm ash, fresh from a still-burning fire; the thaumaturge risks Furchtraserei, and cannot write the protection sign that night if he falls to it.",
+    "execution": "",
+    "system": ""
+  },
+  {
+    "id": 22,
+    "level": 4,
+    "name": "Warding Circle against Lupines",
+    "description": "This circle of protection uses the standard rules for circles of protection (p. 255).",
+    "ingredients": "The thaumaturge draws the circle of protection with a silver knife dipped in wolfsbane and its blood.",
+    "execution": "",
+    "system": ""
+  },
+  {
+    "id": 23,
+    "level": 5,
+    "name": "Escape to True Sanctuary",
+    "description": "After crafting two mystic circles in an elaborate ritual, the thaumaturge can instantly travel from one to the other. The travel only works in one direction, so the vampire must set one circle for departure while the other is the arrival circle for exit.",
+    "ingredients": "two charred circles with a diameter of about 1 meter.",
+    "execution": "The thaumaturge burns the circles into the ground with a flame, then consecrates both circles. For consecration, he must cast incantations for two hours per night for three nights in a row and make two Walling Checks. In total, he needs as much blood for the ritual as 12 Wallungs Checks yield.",
+    "system": "Once the circles are made, the caster need only enter the one for departure, concentrate for one round, and then make a ritual check. (The thaumaturge makes the ritual trial each time he wishes to travel, but can only attempt it once per scene). When triumphant, the vampire disappears and appears in the center of the starting circle at the same instant. The distance between the two circles is not limited, but they must be burned into the floor of a building, not that of a companion. The thaumaturge can take one person or objects that occupy a total of no more than one person. If one of the circles is damaged, the ritual is ineffective and both circles are inactive. A vampire can possess only one such pair of circles at a time."
+  },
+  {
+    "id": 24,
+    "level": 5,
+    "name": "Heart of Stone",
+    "description": "Performing this ritual turns the thaumaturge's undead heart into stone. This makes him immune to impalement, but through an unfortunate effect of sympathetic magic, he simultaneously becomes a pitiless and hard-hearted robot, completely unresponsive to emotional and social cues. More than usual.",
+    "ingredients": "a stone slab and a wax candle soaked in the blood of the thaumaturge.",
+    "execution": "The thaumaturge lies down on the stone slab with the candle on his chest and lets the candle burn overnight until nothing is left. Once the fire reaches his chest, it deals 1 point of Heavy damage and forces a Fear Frenzy roll (difficulty 3). If the roll on Frenzy fails, the ritual is aborted. If the vampire does not fall into frenzy, he takes the ritual test. On a Triumph, the ritual is completed. On a critical Triumph, the damage is healed by the candle flame. The effect lasts indefinitely, and if the caster wishes to undo the effect, he must repeat the ritual.",
+    "system": "While under the influence of the ritual, the thaumaturge's heart is literally made of stone. Stakes cannot pierce it and break instead. The vampire is completely emotionless, which causes him to have three fewer dice on any trial of Remorse and any active roll on Social Interactions (except for Resistance rolls), except for Intimidate and Domination. The vampire cannot use Presence, but gains three additional dice on die stocks used to resist the effects of this discipline."
+  },
+  {
+    "id": 25,
+    "level": 5,
+    "name": "Shaft of Belated Dissolution",
+    "description": "The blood kin fear few weapons as much as the stake made with this ritual. Presumably the origin of the legend that the stake is the ultimate weapon for destroying vampires, the Shaft of Delayed Decay not only seeks the heart of the vampire it was directed against, but also causes its final death once it reaches its target. If necessary, the shaft works its way as a splinter inch by inch through the body of the targeted vampire to reach its destination.",
+    "ingredients": "a stake carved from rowan wood with ominous runes carved into it.",
+    "execution": "The thaumaturge soaks the stake in as much of its blood as two Wallungs checks will yield, while blackening it in a fire fed by oak wood and casting incantations over it. It takes five hours to complete the ritual.",
+    "system": "This stake grants a bonus of three dice for each die supply used to stake a vampire, whether doing so involves hammering it into the chest of a sleeping victim or shooting it from a crossbow. The stake does not have to be used by the thaumaturge himself. If the difference is 5 or more on a successful attack roll, the vampire crumbles to dust within one round, as if burned by invisible flames. If the stake hits without the difference being enough (less than 5) to pierce the heart, the stake breaks in the wound and the tip slowly digs deeper to the victim's heart. Depending on where the stake hit, this can take hours or nights, but unless it is removed medically or magically, the vampire is assured of final death. To surgically remove the stake, someone other than the victim must take a Dexterity + Medicine (difficulty 6) test. Removal takes up to four hours. If no one with medical experience is present, someone can also remove the splinter by severing the affected limb - unless the splinter has already reached the torso."
+  },
+  {
+    "id": 26,
+    "level": 5,
+    "name": "Warding Circle against Cainites",
+    "description": "This protection mark uses the standard rules for protection circles (p. 255).",
+    "ingredients": "The thaumaturge draws the circle of protection with a staff of rowan wood dipped in a mixture of ashes from a still-burning fire and its blood.",
+    "execution": "",
+    "system": ""
+  }
+]

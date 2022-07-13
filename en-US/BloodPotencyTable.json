@@ -1,0 +1,101 @@
+[
+  {
+    "value": 0,
+    "bleedingSpurt": 0,
+    "healedDamage": 1,
+    "disciplineBonus": 0,
+    "rouseRepeatDisciplineLevel": 0,
+    "baneLevel": 0,
+    "pray": "No effect"
+  },
+  {
+    "value": 1,
+    "bleedingSpurt": 1,
+    "healedDamage": 1,
+    "disciplineBonus": 0,
+    "rouseRepeatDisciplineLevel": 1,
+    "baneLevel": 1,
+    "pray": "No effect"
+  },
+  {
+    "value": 2,
+    "bleedingSpurt": 1,
+    "healedDamage": 2,
+    "disciplineBonus": 1,
+    "rouseRepeatDisciplineLevel": 1,
+    "baneLevel": 1,
+    "pray": "Animal and bagged blood slakes half Hunger"
+  },
+  {
+    "value": 3,
+    "bleedingSpurt": 2,
+    "healedDamage": 2,
+    "disciplineBonus": 1,
+    "rouseRepeatDisciplineLevel": 2,
+    "baneLevel": 2,
+    "pray": "Animal and bagged blood slakes no Hunger"
+  },
+  {
+    "value": 4,
+    "bleedingSpurt": 2,
+    "healedDamage": 3,
+    "disciplineBonus": 2,
+    "rouseRepeatDisciplineLevel": 2,
+    "baneLevel": 2,
+    "pray": "Animal and bagged blood slakes no Hunger; Slake 1 less Hunger per human"
+  },
+  {
+    "value": 5,
+    "bleedingSpurt": 3,
+    "healedDamage": 3,
+    "disciplineBonus": 2,
+    "rouseRepeatDisciplineLevel": 3,
+    "baneLevel": 3,
+    "pray": "Animal and bagged blood slakes no Hunger; Slake 1 less Hunger per human; Must drain and kill a human to reduce Hunger below 2"
+  },
+  {
+    "value": 6,
+    "bleedingSpurt": 3,
+    "healedDamage": 3,
+    "disciplineBonus": 3,
+    "rouseRepeatDisciplineLevel": 3,
+    "baneLevel": 3,
+    "pray": "Animal and bagged blood slakes no Hunger"
+  },
+  {
+    "value": 7,
+    "bleedingSpurt": 4,
+    "healedDamage": 3,
+    "disciplineBonus": 3,
+    "rouseRepeatDisciplineLevel": 4,
+    "baneLevel": 4,
+    "pray": "Slake 2 less Hunger per human; Must drain and kill a human to reduce Hunger below 2"
+  },
+  {
+    "value": 8,
+    "bleedingSpurt": 4,
+    "healedDamage": 4,
+    "disciplineBonus": 4,
+    "rouseRepeatDisciplineLevel": 4,
+    "baneLevel": 4,
+    "pray": "Animal and bagged blood slakes no Hunger"
+  },
+  {
+    "value": 9,
+    "bleedingSpurt": 5,
+    "healedDamage": 4,
+    "disciplineBonus": 4,
+    "rouseRepeatDisciplineLevel": 5,
+    "baneLevel": 5,
+    "pray": "Slake 2 less Hunger per human; Must drain and kill a human to reduce Hunger below 3"
+  },
+  {
+    "value": 10,
+    "bleedingSpurt": 5,
+    "healedDamage": 5,
+    "disciplineBonus": 5,
+    "rouseRepeatDisciplineLevel": 5,
+    "baneLevel": 5,
+    "pray": "Animal and bagged blood slakes no Hunger; Slake 3 less Hunger per human; Must drain and kill a human to reduce Hunger below 3"
+  }
+]

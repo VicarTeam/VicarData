@@ -1,0 +1,319 @@
+﻿[
+  {
+    "id": 1,
+    "name": "Archaic",
+    "description": "Only Ancillae or older vampires may choose one of these flaws.",
+    "isCombinable": true,
+    "restriction": {
+      "type": "max_generation",
+      "data": 11
+    },
+    "advantages": [],
+    "disadvantages": [
+      {
+        "id": 1,
+        "level": 1,
+        "name": "Living in the Past",
+        "description": "You have one or more old-fashioned beliefs such as \"lower classes are for serving.\" For each dice supply in a social conflict situation where the belief applies and the other being is not the same age or older and thus could respect the belief, you have one less die"
+      },
+      {
+        "id": 2,
+        "level": 2,
+        "name": "Archaic",
+        "description": "You can not use modern technology"
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "name": "Bonding",
+    "isCombinable": true,
+    "description": "Not all vampires react equally strongly to the blood bond. Some fall for a master or mistress with blissful ease, others resist it with all their might. The merits and flaws can be combined; for example, a character may have two points in Bond Junkie and one Short Bond.",
+    "advantages": [
+      {
+        "id": 1,
+        "level": 1,
+        "name": "Bond Resistenz",
+        "description": "It is easier for you to fight against the bond. Per level in this move (max. 3) you get one more die when defending against the bond."
+      },
+      {
+        "id": 2,
+        "level": 2,
+        "name": "Short Bond",
+        "description": "The strength of the bond wears off faster. Per month the bond loses 2 points without renewal"
+      },
+      {
+        "id": 3,
+        "level": 5,
+        "name": "Unbondable",
+        "description": "The blood bond has no effect on you"
+      }
+    ],
+    "disadvantages": [
+      {
+        "id": 1,
+        "level": 1,
+        "name": "Bond Junkie",
+        "description": "The bond feels more affectionate. You get one less die when you trade for the ribbon"
+      },
+      {
+        "id": 2,
+        "level": 1,
+        "name": "Long Bond",
+        "description": "The bond lasts longer and takes 3 months to lose a point"
+      },
+      {
+        "id": 3,
+        "level": 2,
+        "name": "Bondslave",
+        "description": "You bind yourself at the first sip of Vitae"
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "name": "Feeding",
+    "isCombinable": true,
+    "description": "These merits and flaws describe your drinking habits.",
+    "advantages": [
+      {
+        "id": 1,
+        "level": 1,
+        "name": "Bloodhound",
+        "description": "You can smell the resonance of the blood instead of having to taste the blood (sample: Resolve + Awareness >= 3)"
+      },
+      {
+        "id": 2,
+        "level": 3,
+        "name": "Iron Gullet",
+        "description": "You can feed on cold blood, rancid blood or fractionated plasma",
+        "restriction": {
+          "type": "exclude_clans",
+          "data": [14]
+        }
+      }
+    ],
+    "disadvantages": [
+      {
+        "id": 1,
+        "level": 1,
+        "name": "Methuselah's Thirst",
+        "description": "You can reduce your hunger only by drinking supernatural creatures, or thin blood thickened by alchemists, otherwise your hunger is always at least 1"
+      },
+      {
+        "id": 2,
+        "level": 1,
+        "name": "Prey Exclusion",
+        "description": "You refuse to hunt a certain type of prey,"
+      },
+      {
+        "id": 3,
+        "level": 2,
+        "name": "Vegan",
+        "description": "You feed only on animal blood. It costs you 2 points of willpower to drink human blood"
+      },
+      {
+        "id": 4,
+        "level": 2,
+        "name": "Organovore",
+        "description": "Your hunger can only be reduced by eating organs, especially the bloody ones, or human flesh"
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "name": "Ghouls",
+    "isCombinable": true,
+    "description": "PLACEHOLDER -- NOT SUPPORTED YET",
+    "advantages": [],
+    "disadvantages": []
+  },
+  {
+    "id": 5,
+    "name": "Linguistics",
+    "isCombinable": true,
+    "description": "Each character can speak, read and write his native language fluently. Each additional point in this merit, allows you to speak, read and write another language.",
+    "advantages": [
+      {
+        "id": 1,
+        "level": 1,
+        "name": "Language 1",
+        "description": "You can speak, read and write the named language."
+      },
+      {
+        "id": 2,
+        "level": 2,
+        "name": "Language 2",
+        "description": "You can speak, read and write the named language."
+      },
+      {
+        "id": 3,
+        "level": 3,
+        "name": "Language 3",
+        "description": "You can speak, read and write the named language."
+      },
+      {
+        "id": 4,
+        "level": 4,
+        "name": "Language 4",
+        "description": "You can speak, read and write the named language."
+      },
+      {
+        "id": 5,
+        "level": 5,
+        "name": "Language 5",
+        "description": "You can speak, read and write the named language."
+      }
+    ],
+    "disadvantages": [
+      {
+        "id": 1,
+        "level": 2,
+        "name": "Illiterate",
+        "description": "You can't read and write languages.",
+        "actions": [
+          {
+            "description": "Academcis maximum reduced to 1",
+            "type": "cap_skill",
+            "data": {
+              "skill": "aca",
+              "value": 1
+            }
+          },
+          {
+            "description": "Science maximum reduced to 1",
+            "type": "cap_skill",
+            "data": {
+              "skill": "sci",
+              "value": 1
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 6,
+    "name": "Looks",
+    "isCombinable": true,
+    "description": "The merits and flaws relate to the appearance of the vampire and have an impact on the social environment",
+    "advantages": [
+      {
+        "id": 1,
+        "level": 2,
+        "name": "Beautiful",
+        "description": "For all matching social dice supplies, you have a bonus of 1"
+      },
+      {
+        "id": 2,
+        "level": 4,
+        "name": "Stunning",
+        "description": "For all matching social dice supplies, you have a bonus of 2"
+      }
+    ],
+    "disadvantages": [
+      {
+        "id": 1,
+        "level": 1,
+        "name": "Ugly",
+        "description": "For all matching social dice supplies, you have a penalty of 1"
+      },
+      {
+        "id": 2,
+        "level": 2,
+        "name": "Repulsive",
+        "description": "For all matching social dice supplies, you have a penalty of 2"
+      }
+    ]
+  },
+  {
+    "id": 7,
+    "name": "Mythic Merits and Flaws",
+    "isCombinable": true,
+    "description": "These merits and flaws relate to magical curses, peculiarities of blood and other mystical effects.",
+    "advantages": [
+      {
+        "id": 1,
+        "level": 2,
+        "name": "Eat Food",
+        "description": "You can gain weight and enjoy food, but it does not nourish you and must be eliminated before resting"
+      }
+    ],
+    "disadvantages": [
+      {
+        "id": 1,
+        "level": 1,
+        "name": "Folkloric Bane",
+        "description": "You take heavy damage from a folkloric curse such as \"ultraviolet light\" or \"holy water\"."
+      },
+      {
+        "id": 2,
+        "level": 1,
+        "isRepeatable": true,
+        "name": "Folkloric Block",
+        "description": "In front of such a blockade you must retreat or use one point of willpower to break the blockade. Blockades are e.g. \"sacred symbol\" or \"crossing the threshold of a house without invitation of the owner\"."
+      },
+      {
+        "id": 3,
+        "level": 1,
+        "name": "Stigmata",
+        "description": "When you reach hunger 4, you bleed from open wounds and can leave your mark and attract attention"
+      },
+      {
+        "id": 4,
+        "level": 2,
+        "name": "Stake Bait",
+        "description": "Should a stake pierce your heart, you die for good instead of falling into rigidity"
+      }
+    ]
+  },
+  {
+    "id": 8,
+    "name": "Psychological",
+    "isCombinable": true,
+    "description": "These merits and demerits refer to psychological peculiarities of the character.",
+    "advantages": [],
+    "disadvantages": [
+      {
+        "id": 1,
+        "level": 2,
+        "name": "Life on a Knife Edge",
+        "description": "You suffer from the compulsion to always have new experiences. This compulsion likes to force you to perform suicidal and partly unpredictable actions as well"
+      },
+      {
+        "id": 2,
+        "level": 3,
+        "name": "Weak Will",
+        "description": "Your will is weak and you have trouble asserting your own personality when confronted with someone else's will. Even if you know someone wants to influence you mentally or emotionally (through domination, for example), you must not resist."
+      }
+    ]
+  },
+  {
+    "id": 9,
+    "name": "Substance Use",
+    "isCombinable": true,
+    "description": "You are not only addicted to blood, but also to another substance that usually punishes you if you don't have access to it.",
+    "advantages": [
+      {
+        "id": 1,
+        "level": 1,
+        "name": "High-Functioning Addict",
+        "description": "You get a bonus of 1 to all dice supplies if the last person you drank from had your drug intact"
+      }
+    ],
+    "disadvantages": [
+      {
+        "id": 1,
+        "level": 1,
+        "name": "Addiction",
+        "description": "You receive a penalty of 1 to all dice supplies (except those that favor your drug use), unless the last person you drank from had your drug in them"
+      },
+      {
+        "id": 2,
+        "level": 2,
+        "name": "Hopeless Addiction",
+        "description": "You receive a penalty of 2 to all dice supplies (except those that favor your drug use), unless the last person you drank from had your drug in them"
+      }
+    ]
+  }
+]

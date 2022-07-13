@@ -1,0 +1,101 @@
+[
+  {
+    "value": 0,
+    "bleedingSpurt": 0,
+    "healedDamage": 1,
+    "disciplineBonus": 0,
+    "rouseRepeatDisciplineLevel": 0,
+    "baneLevel": 0,
+    "pray": "keiner"
+  },
+  {
+    "value": 1,
+    "bleedingSpurt": 1,
+    "healedDamage": 1,
+    "disciplineBonus": 0,
+    "rouseRepeatDisciplineLevel": 1,
+    "baneLevel": 1,
+    "pray": "keiner"
+  },
+  {
+    "value": 2,
+    "bleedingSpurt": 1,
+    "healedDamage": 2,
+    "disciplineBonus": 1,
+    "rouseRepeatDisciplineLevel": 1,
+    "baneLevel": 1,
+    "pray": "Tier- und Blutkonserven stillen die Hälfte des Hungers"
+  },
+  {
+    "value": 3,
+    "bleedingSpurt": 2,
+    "healedDamage": 2,
+    "disciplineBonus": 1,
+    "rouseRepeatDisciplineLevel": 2,
+    "baneLevel": 2,
+    "pray": "Tier- und Blutkonserven stillen keinen Hunger"
+  },
+  {
+    "value": 4,
+    "bleedingSpurt": 2,
+    "healedDamage": 3,
+    "disciplineBonus": 2,
+    "rouseRepeatDisciplineLevel": 2,
+    "baneLevel": 2,
+    "pray": "Tier- und Blutkonserven stillen keinen Hunger; stillt pro Mensch 1 Punkt Hunger weniger"
+  },
+  {
+    "value": 5,
+    "bleedingSpurt": 3,
+    "healedDamage": 3,
+    "disciplineBonus": 2,
+    "rouseRepeatDisciplineLevel": 3,
+    "baneLevel": 3,
+    "pray": "Tier- und Blutkonserven stillen keinen Hunger; stillt pro Mensch 1 Punkt Hunger weniger; muss einen Menschen ausbluten und töten, um den Hunger unter 2 senken zu können"
+  },
+  {
+    "value": 6,
+    "bleedingSpurt": 3,
+    "healedDamage": 3,
+    "disciplineBonus": 3,
+    "rouseRepeatDisciplineLevel": 3,
+    "baneLevel": 3,
+    "pray": "Tier- und Blutkonserven stillen keinen Hunger"
+  },
+  {
+    "value": 7,
+    "bleedingSpurt": 4,
+    "healedDamage": 3,
+    "disciplineBonus": 3,
+    "rouseRepeatDisciplineLevel": 4,
+    "baneLevel": 4,
+    "pray": "stillt pro Mensch 2 Punkte Hunger weniger; muss einen Menschen ausbluten und töten, um den Hunger unter 2 senken zu können"
+  },
+  {
+    "value": 8,
+    "bleedingSpurt": 4,
+    "healedDamage": 4,
+    "disciplineBonus": 4,
+    "rouseRepeatDisciplineLevel": 4,
+    "baneLevel": 4,
+    "pray": "Tier- und Blutkonserven stillen keinen Hunger"
+  },
+  {
+    "value": 9,
+    "bleedingSpurt": 5,
+    "healedDamage": 4,
+    "disciplineBonus": 4,
+    "rouseRepeatDisciplineLevel": 5,
+    "baneLevel": 5,
+    "pray": "stillt pro Mensch 2 Punkte Hunger weniger; muss einen Menschen ausbluten und töten, um den Hunger unter 3 zu senken"
+  },
+  {
+    "value": 10,
+    "bleedingSpurt": 5,
+    "healedDamage": 5,
+    "disciplineBonus": 5,
+    "rouseRepeatDisciplineLevel": 5,
+    "baneLevel": 5,
+    "pray": "Tier- und Blutkonserven stillen keinen Hunger; stillt pro Mensch 3 Punkte Hunger weniger; muss einen Menschen ausbluten und töten, um den Hunger unter 3 zu senken"
+  }
+]

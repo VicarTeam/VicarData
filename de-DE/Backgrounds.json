@@ -1,0 +1,664 @@
+﻿[
+  {
+    "id": 1,
+    "name": "Gefolge",
+    "description": "Du hast einen oder mehrere treue und unerschütterliche Diener oder Assistenten. Das Gefolge besteht jedoch aus keinen Marionetten sondern eigenständigen Charakteren",
+    "isCombinable": true,
+    "advantages": [
+      {
+        "id": 1,
+        "level": 1,
+        "name": "Gefolge 1",
+        "description": "Schwache Sterbliche wie Kinder, Kleinkriminelle oder Horrorfans, die auch ohne Blutsband kleinere Wünsche erfüllen"
+      },
+      {
+        "id": 2,
+        "level": 2,
+        "name": "Gefolge 2",
+        "description": "Gewöhnliche Sterbliche oder Ghule ohne Vorteile wie Ghule, Familiendiener oder menschliche Liebhaber"
+      },
+      {
+        "id": 3,
+        "level": 3,
+        "name": "Gefolge 3",
+        "description": "Ghule mit Eigenschaften wie ein Sterblicher. Gefolgsleute die aus freien Stücken handeln können"
+      }
+    ],
+    "disadvantages": [
+      {
+        "id": 1,
+        "level": 1,
+        "name": "Stalker",
+        "description": "Sterbliche, welche in dich verschossen sind, Erinnerungen zu dir bewahren und das Verlangen hegen zur dir zurückzukehren"
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "name": "Kontakte",
+    "description": "Jemand, der dir Informationen, Dienstleistungen oder Waren in einem bestimmten Bereich liefert.",
+    "isCombinable": true,
+    "advantages": [
+      {
+        "id": 1,
+        "level": 1,
+        "name": "Kontakte 1",
+        "description": "Kontakt, der etwas Gewöhnliches (Ressourcen 1) erledigen kann (z.B. Gras-Dealer oder Autoverkäufer)"
+      },
+      {
+        "id": 2,
+        "level": 2,
+        "name": "Kontakte 2",
+        "description": "Kontakt, der etwas Nützliches (Ressourcen 2) erledigen kann (z.B. unbedeutender Waffenhändler oder Tierarzt"
+      },
+      {
+        "id": 3,
+        "level": 3,
+        "name": "Kontakte 3",
+        "description": "Kontakt, der etwas Teures (Ressourcen 4) erledigen kann (z.B. Polizeileutnant in der Mordkommission oder Experte für Überwachungssystem)"
+      }
+    ],
+    "disadvantages": []
+  },
+  {
+    "id": 3,
+    "name": "Ruhm",
+    "description": "Wie bekannt du bist, normalerweise unter den Sterblichen, aber auch unter den Blutsverwandten kann das zutreffen.",
+    "isCombinable": true,
+    "advantages": [
+      {
+        "id": 1,
+        "level": 1,
+        "name": "Ruhm 1",
+        "description": "Eine Subkultur kennt und bewundert dich"
+      },
+      {
+        "id": 2,
+        "level": 2,
+        "name": "Ruhm 2",
+        "description": "Du bist eine lokale Berühmtheit und ein Großteil der Stadt erkennt dich"
+      },
+      {
+        "id": 3,
+        "level": 3,
+        "name": "Ruhm 3",
+        "description": "Die meisten Bewohner des Landes kennen zumindest deinen Namen"
+      },
+      {
+        "id": 4,
+        "level": 4,
+        "name": "Ruhm 4",
+        "description": "Die, die am Rande sich für soziale Trends oder dein Fachgebiet interessieren, wissen etwas über dich"
+      },
+      {
+        "id": 5,
+        "level": 5,
+        "name": "Ruhm 5",
+        "description": "Du besitzt nationale oder sogar internationale Bekanntheit, wie z.B. ein Rockstar"
+      }
+    ],
+    "disadvantages": [
+      {
+        "id": 1,
+        "level": 1,
+        "name": "Dunkles Geheimnis",
+        "description": "Du hast ein dunkles Geheimnis was du bewahren musst. Zum Beispiel eine Schuld, die noch nicht beglichen hast. Oder dein Ehepartner oder Liebhaber hat Infam"
+      },
+      {
+        "id": 2,
+        "level": 2,
+        "name": "Infam",
+        "description": "Du bist berühmt, weil du etwas Schreckliches oder Verwerfliches in den Augen der Sterblichen oder der Gesellschaft der Blutsverwandten getan hast"
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "name": "Verbündete",
+    "description": "Ein Sterblicher oder eine Gruppe von Sterblichen, die dir gegenüber loyal und vertrauenswürdig sind und dir bei Bedarf helfen.",
+    "isCombinable": true,
+    "specialRules": "allies",
+    "advantages": [
+      {
+        "id": 1,
+        "level": 1,
+        "name": "Nützlichkeit 1",
+        "description": "Schwacher Sterblicher, welcher in gewaltsamen Situationen wahrscheinlich nutzlos ist"
+      },
+      {
+        "id": 2,
+        "level": 2,
+        "name": "Nützlichkeit 2",
+        "description": "Gewöhnlicher Sterblicher oder engverbunde Gruppe schwacher Sterblicher (z.B. Nachbarschaftskinder die Rätsel lösen)"
+      },
+      {
+        "id": 3,
+        "level": 3,
+        "name": "Nützlichkeit 3",
+        "description": "Begabter Sterblicher oder gefährliche Gruppe gewöhnlicher Sterblicher (z.B. Straßengang)"
+      },
+      {
+        "id": 4,
+        "level": 4,
+        "name": "Nützlichkeit 4",
+        "description": "Gefährlicher Sterblicher, begabter Sterblicher mit Magie oder andere übernatürliche Talente (z.B. Russische Mafia)"
+      },
+      {
+        "id": 5,
+        "level": 1,
+        "name": "Zuverlässigkeit 1",
+        "description": "50%ige Chance, dass sie beim Rufen erscheinen"
+      },
+      {
+        "id": 6,
+        "level": 2,
+        "name": "Zuverlässigkeit 2",
+        "description": "Sie erscheinen innerhalb 1-10 Stunden (auswürfeln), wenn du sie rufst"
+      },
+      {
+        "id": 7,
+        "level": 3,
+        "name": "Zuverlässigkeit 3",
+        "description": "Sie erscheinen schnellstmöglich, wenn du sie rufst"
+      }
+    ],
+    "disadvantages": [
+      {
+        "id": 1,
+        "level": 1,
+        "name": "Feind 1",
+        "description": "Schwacher Sterblicher, welcher in gewaltsamen Situationen wahrscheinlich nutzlos ist"
+      },
+      {
+        "id": 2,
+        "level": 2,
+        "name": "Feind 2",
+        "description": "Gewöhnlicher Sterblicher oder engverbunde Gruppe schwacher Sterblicher (z.B. Nachbarschaftskinder die Rätsel lösen)"
+      },
+      {
+        "id": 3,
+        "level": 3,
+        "name": "Feind 3",
+        "description": "Begabter Sterblicher oder gefährliche Gruppe gewöhnlicher Sterblicher (z.B. Straßengang)"
+      },
+      {
+        "id": 4,
+        "level": 4,
+        "name": "Feind 4",
+        "description": "Gefährlicher Sterblicher, begabter Sterblicher mit Magie oder andere übernatürliche Talente (z.B. Russische Mafia)"
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "name": "Einfluss",
+    "description": "Du hast Einfluss in der Gemeinschaft der Sterblichen, sei es durch Reichtum, Prestige, politische Ämter, Erpressung oder übernatürliche Manipulation. Der Erzähler kann diesen Einfluss bei sozialen Proben als optionalen Würfelvorrat zulassen.",
+    "isCombinable": true,
+    "advantages": [
+      {
+        "id": 1,
+        "level": 1,
+        "name": "Gute Beziehungen",
+        "description": "Man wird dich respektvoll anhören"
+      },
+      {
+        "id": 2,
+        "level": 2,
+        "name": "Relevant",
+        "description": "Die Leute tun dir gerne einen Gefallen"
+      },
+      {
+        "id": 3,
+        "level": 3,
+        "name": "Etabliert",
+        "description": "Sterbliche Strippenzieher und Franktionen zögern, sich dir entgegenzustellen"
+      },
+      {
+        "id": 4,
+        "level": 4,
+        "name": "Einflussreich",
+        "description": "Funktionäre und Flußsoldaten gehorchen dir, wenn sie keinen guten Grund haben, es nicht zu tun"
+      },
+      {
+        "id": 5,
+        "level": 5,
+        "name": "Herrschend",
+        "description": "Personen, die unter dir stehen, lesen dir jeden Wunsch von den Lippen ab"
+      }
+    ],
+    "disadvantages": [
+      {
+        "id": 1,
+        "level": 1,
+        "name": "Unbeliebt",
+        "description": "Bei Würfelvorräten für gesellschaftliche Interaktionen in deiner Stadt außer mit deinen Kontakten oder Verbündeten hast du einen Malus von 1"
+      },
+      {
+        "id": 2,
+        "level": 2,
+        "name": "Verachtet",
+        "description": "Eine Gruppe oder ein Gebiet will gegen dich Vorgehen. Du hast einen Malus von 2 um neutrale Akteure von deiner politischen Position zu überzeugen"
+      }
+    ]
+  },
+  {
+    "id": 6,
+    "name": "Zuflucht",
+    "description": "Ein Platz zum Schlafen, der nicht von anderen Hintergründen abhängig ist.",
+    "isCombinable": true,
+    "specialRules": "haven",
+    "advantages": [
+      {
+        "id": 1,
+        "level": 1,
+        "name": "Zufluchtsgröße 1",
+        "description": "Kleine Zuflucht, aber sicherer und privater als der Standard (z.B. Kellerwohnungen oder Gruften)"
+      },
+      {
+        "id": 2,
+        "level": 2,
+        "name": "Zufluchtsgröße 2",
+        "description": "Anständige Größe, Sicherheit und/oder Privatsphäre (z.B. Einfamilien- oder Reihenhäuser)"
+      },
+      {
+        "id": 3,
+        "level": 3,
+        "name": "Zufluchtsgröße 3",
+        "description": "Sehr groß, sicher oder privat (z.B. Grundstücke außerhalb der Stadt oder Bankgeschäfte)"
+      },
+      {
+        "id": 4,
+        "level": 1,
+        "name": "Versteckte Waffenkammer",
+        "requirement": {
+          "type": "or",
+          "values":  [1, 2, 3]
+        },
+        "description": "Jeder Punkt in diesem Vorzug fügt dem Vorrat weitere Waffen hinzu (z.B. Kurzwaffen, Langwaffen oder Munition)"
+      },
+      {
+        "id": 5,
+        "level": 1,
+        "name": "Zelle",
+        "requirement": {
+          "type": "or",
+          "values":  [2, 3]
+        },
+        "description": "Du kannst 2 Gefangene in dieser Zelle einsperren. Mit jedem Punkt kannst du doppelt so viele Gefangene einsperren (max. 32 bei Zufluchtsgröße 3; geht nicht bei Zufluchtsgröße 1)"
+      },
+      {
+        "id": 6,
+        "level": 1,
+        "name": "Wachleute",
+        "requirement": {
+          "type": "or",
+          "values":  [1, 2, 3]
+        },
+        "description": "Entweder professionelle Sicherheitsleute oder Schlägertypen. Jeder Punkt gewährt dir 4 Wachleute und einen begabten Boss"
+      },
+      {
+        "id": 7,
+        "level": 1,
+        "name": "Labor",
+        "requirement": {
+          "type": "or",
+          "values":  [2, 3]
+        },
+        "description": "Deine Zuflucht besitzt ein vollausgestattetes Labor. Bei der Benutzung des Labors in Verbindung mit einer naturwissenschaftlichen oder technologischen Spezialisierung erhälst du pro Punkt einen Würfel im Vorrat mehr (nicht für Zufluchtsgröße 1)"
+      },
+      {
+        "id": 8,
+        "level": 1,
+        "name": "Bibliothek",
+        "requirement": {
+          "type": "or",
+          "values":  [1, 2, 3]
+        },
+        "restrictRepeats": {
+          "size": 1,
+          "amount": 1
+        },
+        "description": "Deine Zuflucht besitzt eine Bibliothek über Okkultismus und Vampiresagen. Du erhälst pro Punkt einen Würfel mehr auf Spezialisierungen Geisteswissenschaften, Okkultismus oder Ermitteln beim Recherchieren (bei Zufluchtsgröße 1 auf 1 beschränkt)"
+      },
+      {
+        "id": 9,
+        "level": 1,
+        "name": "Lage",
+        "requirement": {
+          "type": "or",
+          "values":  [1, 2, 3]
+        },
+        "description": "Deine Zuflucht liegt in einer exklusiven Gegend. Du bekommst 2 Würfel Bonus auf Werte die zu deiner Lage passen (z.B. Zuflucht neben dem Elysium: Aufschnappen von Gerüchten)"
+      },
+      {
+        "id": 10,
+        "level": 1,
+        "name": "Luxus",
+        "requirement": {
+          "type": "or",
+          "values":  [1, 2, 3]
+        },
+        "description": "Du erhälst luxuriöse Güter wie Designermöbel. Bei sterblichen Gästen in der Zuflucht erhälst einen Bonus von 2 auf gesellschaftliche Interaktionen (hast du nicht mindestens Ressourcen 3, sind die Güter illegal erworben)"
+      },
+      {
+        "id": 11,
+        "level": 1,
+        "name": "Hintereingang",
+        "requirement": {
+          "type": "or",
+          "values":  [1, 2, 3]
+        },
+        "description": "Deine Zuflucht erhält einen Hintereingang wie einen Geheimtunnel zum Flüchten. Jeder Punkt gewährt dir 2 Würfel Bonus wenn du Überwachung in der Nähe der Zuflucht ausweichen willst"
+      },
+      {
+        "id": 12,
+        "level": 1,
+        "name": "Sicherheitssystem",
+        "requirement": {
+          "type": "or",
+          "values":  [1, 2, 3]
+        },
+        "description": "Das Sicherheitssystem deiner Zuflucht ist besser als der Standard. Jeder Punkt gewährt dir 2 Würfel Bonus um ungewährten Zugriff in deine Zuflucht zu verhindern oder dich zu warnen"
+      },
+      {
+        "id": 13,
+        "level": 1,
+        "name": "Behandlungszimmer",
+        "requirement": {
+          "type": "or",
+          "values":  [2, 3]
+        },
+        "description": "Deine Zuflucht ist für Wundversorgung oder mehr ausgestattet. Jeder Punkt gewährt dir 2 Würfel Bonus für die passende Probe auf Medizin (geht nicht bei Zufluchtsgröße 1)"
+      },
+      {
+        "id": 14,
+        "level": 1,
+        "name": "Schutz",
+        "requirement": {
+          "type": "or",
+          "values":  [1, 2, 3]
+        },
+        "description": "Deine Zuftlucht ist magisch gegen übernatürliche Kräfte geschützt. Jeder Punkt gewährt dir 1 Würfel Bonus um dich gegen übernatürliche Wahrsagekünste o.ä. zu wehren (Erzähler kann dies durch einen Mindestwert auf Okkultismus o.ä. beschränken)"
+      }
+    ],
+    "disadvantages": [
+      {
+        "id": 1,
+        "level": 1,
+        "name": "Keine Zuflucht",
+        "description": "Du musst dich jeden Morgen bemühen, um eine neue Ruhestätte zu finden"
+      },
+      {
+        "id": 2,
+        "level": 1,
+        "name": "Unheimlich",
+        "description": "Deine Zuflucht sieht z.B. so als wäre sie von einem Serienmörder worüber Personen stolpern können und die Polizei rufen können oder einfach nur plaudern können. Du erhälst einen Malus von 2 bei gesellschaftlichen Würfelvorräten, wenn du jemanden beruhigen möchtest oder in deine Zuflucht einladen möchtest"
+      },
+      {
+        "id": 3,
+        "level": 1,
+        "name": "Heimgesucht",
+        "description": "In deiner Zuflucht manifestiert sich ein übernatürliches Wesen wie z.B: ein Geist, welchen du weder verstehen noch kontrollieren kannst. Die Auswirkungen entscheidet der Erzähler"
+      },
+      {
+        "id": 4,
+        "level": 2,
+        "name": "Aufgeflogen",
+        "description": "Die Zuflucht ist bereits bekannt (wurde z.B. von Einbrechern überfallen). Eindringlinge bekommen ein Bonus von 2 wenn sie versuchen in die Zuflucht einzudringen"
+      }
+    ]
+  },
+  {
+    "id": 7,
+    "name": "Herde",
+    "description": "Eine Gruppe von Sterblichen, von denen du dich ohne Probleme ernähren kannst.",
+    "isCombinable": true,
+    "advantages": [
+      {
+        "id": 1,
+        "level": 1,
+        "name": "Herde 1",
+        "description": "1 bis 3 Gefäße mit zufälliger Resonanz und ohne Dyskrasie"
+      },
+      {
+        "id": 2,
+        "level": 2,
+        "name": "Herde 2",
+        "description": "4 bis 7 Gefäße wobei die Hälfte die gleiche Resonanz hat (bei Auswahl kannst du entscheiden)"
+      },
+      {
+        "id": 3,
+        "level": 3,
+        "name": "Herde 3",
+        "description": "7 bis 15 Gefäße mit zwei verschiedenen Resonanzen, die du pro Woche auswählen kannst"
+      },
+      {
+        "id": 4,
+        "level": 4,
+        "name": "Herde 4",
+        "description": "16 bis 30 Gefäße. Du wählst jede Woche 2 Resonanzen aus"
+      },
+      {
+        "id": 5,
+        "level": 5,
+        "name": "Herde 5",
+        "description": "31 bis 60 Gefäße. Du wählst jede Woche 3 Resonanzen aus"
+      }
+    ],
+    "disadvantages": [
+      {
+        "id": 1,
+        "level": 2,
+        "name": "Offensichtliches Raubtier",
+        "description": "Du legst ein raubtierhaftes Verhalten an den Tag und die Menschen fürchten dich oder misstrauen dir instinktiv. Im Würfelvorrat für die Jagd hast du zwei Würfel weniger, außer bei rein körperlichem Jagdverhalten wie dem Pirschen, Jagen und Töten. Bei jeder gesellschaftlichen Interaktion, die dazu gedacht ist, Menschen zu beruhigen, hast du einen Würfel weniger im Würfelvorrat. Du kannst keine Herde halten."
+      }
+    ]
+  },
+  {
+    "id": 8,
+    "name": "Alias",
+    "description": "Die Stärke deiner gefälschten Identität, wenn du eine hast.",
+    "isCombinable": true,
+    "specialRules": "mask",
+    "advantages": [
+      {
+        "id": 1,
+        "level": 1,
+        "name": "Alias 1",
+        "description": "Du besitzt einen gut gefälschten Ausweis; deine Kreditkarte, Bankkonto, Bonität, Geburtsurkunde laufen unter deinem Alias. Einer Überprüfung auf Bundesstaats- oder Provinzebene hältst du stand"
+      },
+      {
+        "id": 2,
+        "level": 2,
+        "name": "Alias 2",
+        "description": "Dein Alias hält einer Überprüfung durch die Polizei aug Landesebene Stadt (FBI, Scotland Yard oder Äquivalente). Wenn du eine Akte beim Militär oder dem Geheimdienst hast, steht sie unter Verschluss"
+      },
+      {
+        "id": 3,
+        "level": 1,
+        "name": "Gelöscht",
+        "description": "Jemand an hoher Stelle hat deine echten Daten gelöscht. Offiziell existierst du nicht"
+      },
+      {
+        "id": 4,
+        "level": 1,
+        "name": "Idenditätsschieber",
+        "description": "Du kannst ein Alias herstellen oder beschaffen. Herstellung eines Alias dauert 3 Tage pro Punkt und könnte dich online entlarven. Ein Alias zu beschaffen dauert einen Tag pro Punkt und kostet etwas. Wie viel hängt davon ab, wie viel Einfluss du hast, wie groß die Differenz bei der Probe auf gesellschaftliche Interaktion ist oder was der Erzähler entscheidet."
+      }
+
+    ],
+    "disadvantages": [
+      {
+        "id": 1,
+        "level": 1,
+        "name": "Bekannter Leichnam",
+        "description": "Die Leute wissen, dass du vor kurzem gestobren bist und würden geschockt und entsetzt reagieren, falls du unter ihnen auftauchst. Diese Schwäche erscheint auch bei Überprüfung deiner Identität in Datenbanken"
+      },
+      {
+        "id": 2,
+        "level": 2,
+        "name": "Bekannter Leerkörper",
+        "description": "Deine biometrischen Daten, Name, Vergangenheit, bekannte Partner und Alias tauchen in den Datenbanken verschiedener Geheimdienste auf; dort bist du als potenzieller Terrorist markiert. Inquisitoren können zwischen den Zeilen lesen und erkennen dich als Vampir"
+      }
+    ]
+  },
+  {
+    "id": 9,
+    "name": "Mawla",
+    "description": "Ein einzelner oder eine Gruppe von Vampiren hilft dir und bietet Informationen, Beratung oder Hilfe.",
+    "isCombinable": true,
+    "advantages": [
+      {
+        "id": 1,
+        "level": 1,
+        "name": "Mawla 1",
+        "description": "Neugeboren"
+      },
+      {
+        "id": 2,
+        "level": 2,
+        "name": "Mawla 2",
+        "description": "Ancilla"
+      },
+      {
+        "id": 3,
+        "level": 3,
+        "name": "Mawla 3",
+        "description": "Ahnen"
+      },
+      {
+        "id": 4,
+        "level": 4,
+        "name": "Mawla 4",
+        "description": "Erstgeborene oder Mitglied im Revolutionsrat der Anarchen"
+      },
+      {
+        "id": 5,
+        "level": 5,
+        "name": "Mawla 5",
+        "description": "Prinz oder Baron"
+      }
+
+    ],
+    "disadvantages": [
+      {
+        "id": 1,
+        "level": 1,
+        "name": "Widersacher 1",
+        "description": "Ahnen"
+      },
+      {
+        "id": 2,
+        "level": 2,
+        "name": "Widersacher 2",
+        "description": "Erstgeborene oder Mitglied im Revolutionsrat der Anarchen"
+      },
+      {
+        "id": 3,
+        "level": 3,
+        "name": "Widersacher 3",
+        "description": "Prinzen oder mächtige Ränkespieler"
+      }
+    ]
+  },
+  {
+    "id": 10,
+    "name": "Ressourcen",
+    "description": "Diese Vorteile sind nicht unbedingt finanzieller Natur und selten vollständig liquide, aber man kann sie oft verkaufen, um Geld zu gewinnen.",
+    "isCombinable": true,
+    "advantages": [
+      {
+        "id": 1,
+        "level": 1,
+        "name": "Portfolio-Proletariat",
+        "description": "Du lebst von Gehaltsscheck zu Gehaltsscheck: Wohnung, Auto, Zeltausrüstung"
+      },
+      {
+        "id": 2,
+        "level": 2,
+        "name": "Mittelstand",
+        "description": "Nette Wohnung oder kleines Haus, mehrere Autos, hochwertige Ausrüstung"
+      },
+      {
+        "id": 3,
+        "level": 3,
+        "name": "Reich",
+        "description": "Tolle Eigentumswohnung oder nettes Haus, Luxusgegenstände, hochwertige Ausrüstung für mehrere Leute"
+      },
+      {
+        "id": 4,
+        "level": 4,
+        "name": "Wohlhabend",
+        "description": "Anwesen, Helikopter oder Privatjet, hochspezialisierte Ausrüstung"
+      },
+      {
+        "id": 5,
+        "level": 5,
+        "name": "Superreich",
+        "description": "Mehrere Anwesen, \"alles, was man für Geld kriegen kann\""
+      }
+    ],
+    "disadvantages": [
+      {
+        "id": 1,
+        "level": 1,
+        "name": "Mittellos",
+        "description": "Du hast kein Geld oder Zuhause"
+      }
+
+    ]
+  },
+  {
+    "id": 11,
+    "name": "Status",
+    "description": "Du hast einen gewissen Ruf und ein gewisses Ansehen (verdient oder unverdient) innerhalb einer bestimmten lokalen Gemeinschaft von Blutsverwandten, wahrscheinlich Camarilla oder Anarch.",
+    "isCombinable": true,
+    "advantages": [
+      {
+        "id": 1,
+        "level": 1,
+        "name": "Bekannt",
+        "description": "Ordentlich eingeführte Neugeborene, in denen man Potenzial sieht"
+      },
+      {
+        "id": 2,
+        "level": 2,
+        "name": "Respektiert",
+        "description": "Du hast Verpflichtungen und gehörst zu den Ancilla"
+      },
+      {
+        "id": 3,
+        "level": 3,
+        "name": "Einflussreich",
+        "description": "Du hast Macht über einen Teil der Gruppe und gehörst zu den gewöhnlichen Ahnen"
+      },
+      {
+        "id": 4,
+        "level": 4,
+        "name": "Mächtig",
+        "description": "Du hast ein Amt inne, wie Sheriff, Harpyrie oder Geißel"
+      },
+      {
+        "id": 5,
+        "level": 5,
+        "name": "Koryphäe",
+        "description": "Du sitzt am Tisch der Machthabenden und bist ein respektiertes Mitglied der Erstgeborenen"
+      }
+
+    ],
+    "disadvantages": [
+      {
+        "id": 1,
+        "level": 1,
+        "name": "Verdächtig",
+        "description": "Du hast in dieser Sekte keine gute Stellung. Wenn du deine Taten nicht irgendwie wiedergutmachst, hast du bei allen gesellschaftlichen Interaktionen mit der gekränkten Fraktion zwei Würfel weniger zu Verfügung"
+      },
+      {
+        "id": 2,
+        "level": 2,
+        "name": "Verstoßen",
+        "description": "Du wirst von dieser Sekte veranscheut. Mitglieder dieser Gruppe werden aktiv gegen dich agieren, wenn sie können"
+      }
+    ]
+  }
+]

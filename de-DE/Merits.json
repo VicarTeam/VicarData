@@ -1,0 +1,319 @@
+﻿[
+  {
+    "id": 1,
+    "name": "Archaisch",
+    "description": "Nur Ancillae oder ältere Vampire dürfen sich eine dieser Schwächen aussuchen.",
+    "isCombinable": true,
+    "restriction": {
+      "type": "max_generation",
+      "data": 11
+    },
+    "advantages": [],
+    "disadvantages": [
+      {
+        "id": 1,
+        "level": 1,
+        "name": "Im Gestern leben",
+        "description": "Du hast eine oder mehrere altmodische Überzeugungen wie z.B. \"Niedere Klassen sind zum Dienen\". Bei jedem Wurfelvorrat in einer gesellschaftlichen Konfliktsituation, wo der Glaubenssatz Anwendung findet und das andere Wesen nicht gleich alt oder älter ist und somit dem Glaubenssatz respektieren könnte, hast du einen Würfel weniger"
+      },
+      {
+        "id": 2,
+        "level": 2,
+        "name": "Archaisch",
+        "description": "Du kannst moderne Technologie nicht verwenden"
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "name": "Bindung",
+    "isCombinable": true,
+    "description": "Nicht alle Vampire reagieren gleich stark auf das Blutsband. Manche verfallen einem Herrn oder einer Herrin mit glückseliger Leichtigkeit, andere widersetzen sich dem aller Macht. Die Vorzüge und Schwächen lassen sich kombinieren, ein Charakter kann zum Beispiel zwei Punkte in Bindungsjunkie und ein Kurze Bindung haben.",
+    "advantages": [
+      {
+        "id": 1,
+        "level": 1,
+        "name": "Bindungsresistenz",
+        "description": "Es ist einfacher für dich gegen das Band zu wehren. Pro Stufe in diesem Vorzug (max. 3) erhälst du einen Würfel beim Wehren gegen das Band mehr"
+      },
+      {
+        "id": 2,
+        "level": 2,
+        "name": "Kurzes Band",
+        "description": "Die Kraft des Bandes lässt schneller nach. Pro Monat verliert das Band ohne Erneuerung 2 Punkte"
+      },
+      {
+        "id": 3,
+        "level": 5,
+        "name": "Ewig Ungebunden",
+        "description": "Das Blutband hat bei dir keine Wirkung"
+      }
+    ],
+    "disadvantages": [
+      {
+        "id": 1,
+        "level": 1,
+        "name": "Bindungsjunkie",
+        "description": "Das Band fühlt sich liebevoller an. Du bekommst einen Würfel weniger, wenn du gegen das Band handeln willst"
+      },
+      {
+        "id": 2,
+        "level": 1,
+        "name": "Lange Bindung",
+        "description": "Das Band hält länger und braucht 3 Monate um einen Punkt zu verlieren"
+      },
+      {
+        "id": 3,
+        "level": 2,
+        "name": "Sklave des Bandes",
+        "description": "Du bindest dich beim ersten Schluck von Vitae"
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "name": "Trinken",
+    "isCombinable": true,
+    "description": "Diese Vorzüge und Schwächen beschreiben deine Gewohnheiten beim Trinken.",
+    "advantages": [
+      {
+        "id": 1,
+        "level": 1,
+        "name": "Bluthund",
+        "description": "Du kannst die Resonanz des Blutes erriechen anstatt das Blut schmecken zu müssen (Probe: Entschlossenheit + Wahrnehmung >= 3)"
+      },
+      {
+        "id": 2,
+        "level": 3,
+        "name": "Eiserner Magen",
+        "description": "Du kannst dich von kaltem Blut, ranzigem Blut oder fraktioniertem Plasma ernähren",
+        "restriction": {
+          "type": "exclude_clans",
+          "data": [14]
+        }
+      }
+    ],
+    "disadvantages": [
+      {
+        "id": 1,
+        "level": 1,
+        "name": "Durst des Methusalems",
+        "description": "Du kannst dein Hunger nur durch das Trinken von übernatürlichen Wesen, oder durch Alchemisten angedicktes Dünnblütigen-Blut verringern, ansonsten ist dein Hunger immer mindestens 1"
+      },
+      {
+        "id": 2,
+        "level": 1,
+        "name": "Beutebeschränkung",
+        "description": "Du weigsterst dich eine bestimmte Beuteart zu jagen,"
+      },
+      {
+        "id": 3,
+        "level": 2,
+        "name": "Vegan",
+        "description": "Du ernährst dich nur von Tierblut. Es kostet dich 2 Punkte Willenskraft um menschliches Blut zu trinken"
+      },
+      {
+        "id": 4,
+        "level": 2,
+        "name": "Organfresser",
+        "description": "Dein Hunger kann nur durch das Essen von Organen, besonders den blutigen, oder menschlichem Fleisch verringert werden"
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "name": "Ghule",
+    "isCombinable": true,
+    "description": "PLACEHOLDER -- NOT SUPPORTED YET",
+    "advantages": [],
+    "disadvantages": []
+  },
+  {
+    "id": 5,
+    "name": "Sprachen",
+    "isCombinable": true,
+    "description": "Jeder Charakter kann seine Muttersprache flüssig sprechen, lesen und schreiben. Jeder weitere Punkt in diesem Vorzug, erlaubt es dir eine weitere Sprache zu sprechen, lesen und schreiben.",
+    "advantages": [
+      {
+        "id": 1,
+        "level": 1,
+        "name": "Sprache 1",
+        "description": "Du kannst die benannte Sprache sprechen, lesen und schreiben."
+      },
+      {
+        "id": 2,
+        "level": 2,
+        "name": "Sprache 2",
+        "description": "Du kannst die benannte Sprache sprechen, lesen und schreiben."
+      },
+      {
+        "id": 3,
+        "level": 3,
+        "name": "Sprache 3",
+        "description": "Du kannst die benannte Sprache sprechen, lesen und schreiben."
+      },
+      {
+        "id": 4,
+        "level": 4,
+        "name": "Sprache 4",
+        "description": "Du kannst die benannte Sprache sprechen, lesen und schreiben."
+      },
+      {
+        "id": 5,
+        "level": 5,
+        "name": "Sprache 5",
+        "description": "Du kannst die benannte Sprache sprechen, lesen und schreiben."
+      }
+    ],
+    "disadvantages": [
+      {
+        "id": 1,
+        "level": 2,
+        "name": "Analphabet",
+        "description": "Du kannst keine Sprachen lesen und schreiben.",
+        "actions": [
+          {
+            "description": "Geisteswissenschaft Maximum auf 1 reduziert",
+            "type": "cap_skill",
+            "data": {
+              "skill": "aca",
+              "value": 1
+            }
+          },
+          {
+            "description": "Naturwissenschaft Maximum auf 1 reduziert",
+            "type": "cap_skill",
+            "data": {
+              "skill": "sci",
+              "value": 1
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 6,
+    "name": "Aussehen",
+    "isCombinable": true,
+    "description": "Die Vorzüge und Schwächen beziehen sich auf das Aussehen des Vampirs und haben Einfluss auf das soziale Umfeld",
+    "advantages": [
+      {
+        "id": 1,
+        "level": 2,
+        "name": "Schön",
+        "description": "Bei sämtlichen passenden gesellschaftlichen Würfelvorräten hast du einen Bonus von 1"
+      },
+      {
+        "id": 2,
+        "level": 4,
+        "name": "Umwerfend",
+        "description": "Bei sämtlichen passenden gesellschaftlichen Würfelvorräten hast du einen Bonus von 2"
+      }
+    ],
+    "disadvantages": [
+      {
+        "id": 1,
+        "level": 1,
+        "name": "Hässlich",
+        "description": "Bei sämtlichen passenden gesellschaftlichen Würfelvorräten hast du einen Malus von 1"
+      },
+      {
+        "id": 2,
+        "level": 2,
+        "name": "Abstoßend",
+        "description": "Bei sämtlichen passenden gesellschaftlichen Würfelvorräten hast du einen Malus von 2"
+      }
+    ]
+  },
+  {
+    "id": 7,
+    "name": "Mythische Vorzüge und Schwächen",
+    "isCombinable": true,
+    "description": "Diese Vorzüge und Schwächen beziehen sich auf magische Flüche, Besonderheiten des Blutes und andere mystische Wirkungen.",
+    "advantages": [
+      {
+        "id": 1,
+        "level": 2,
+        "name": "Nahrung konsumieren",
+        "description": "Du kannst Nahrung zunehmen und genießen, welche dich jedoch nicht nährt und vor der Ruhe ausgeschieden werden muss"
+      }
+    ],
+    "disadvantages": [
+      {
+        "id": 1,
+        "level": 1,
+        "name": "Folkloristischer Fluch",
+        "description": "Du erhälst schweren Schaden von einem folklorischen Fluch wie z.B. \"ultraviolettes Licht\" oder \"Weihwasser\""
+      },
+      {
+        "id": 2,
+        "level": 1,
+        "isRepeatable": true,
+        "name": "Folkloristische Blockade",
+        "description": "Vor einer solchen Blockade musst du zurückweichen oder einen Punkt Willenskraft einsetzen um die Blockade zu durchbrechen. Blockaden sind z.B. \"heilige Symbol\" oder \"ohne Einladung des Besitzer die Türschwelle eines Hauses zu überschreiten\""
+      },
+      {
+        "id": 3,
+        "level": 1,
+        "name": "Stigmata",
+        "description": "Wenn du Hunger 4 erreichst, blutest du aus offenen Wunden und kannst damit Spuren hinterlassen und Aufmerksamkeit erregen"
+      },
+      {
+        "id": 4,
+        "level": 2,
+        "name": "Pflock-Opfer",
+        "description": "Sollte ein Pflock dein Herz durchbohren, stirbst du endgültig anstatt in Starre zu verfallen"
+      }
+    ]
+  },
+  {
+    "id": 8,
+    "name": "Psychologisch",
+    "isCombinable": true,
+    "description": "Diese Vorzüge und Schwächen beziehen sich auf psychologische Eigenheiten der Figur.",
+    "advantages": [],
+    "disadvantages": [
+      {
+        "id": 1,
+        "level": 2,
+        "name": "Leben auf Messers Schneide",
+        "description": "Sie leiden unter dem Zwang, immer neue Erfahrungen machen zu müssen. Dieser Zwang zwingt dich gerne auch selbstmörderische und teils unvorhersehbare Handlungen auszuführen"
+      },
+      {
+        "id": 2,
+        "level": 3,
+        "name": "Schwacher Wille",
+        "description": "Dein Wille ist schwach und du hast Mühe, deine eigene Persönlichkeit zu behaupten, wenn du mit dem Willen eines anderen konfrontiert wirst. Selbst wenn du weißt, jemand will dich geistig oder emotional beeinflussen (durch z.B. Beherrschung), darfst du dich nicht wiedersetzen"
+      }
+    ]
+  },
+  {
+    "id": 9,
+    "name": "Drogenkonsum",
+    "isCombinable": true,
+    "description": "Du bist nicht nur von Blut abhängig, sondern auch von einer anderen Substanz, die dich normalerweise bestraft, wenn du keinen Zugang zu ihr hast.",
+    "advantages": [
+      {
+        "id": 1,
+        "level": 1,
+        "name": "Hochfunktionale Sucht",
+        "description": "Du erhälst einen Bonus von 1 auf alle Würfelvorräte, wenn die letzte Person von der du getrunken hast, deine Droge intus hatte"
+      }
+    ],
+    "disadvantages": [
+      {
+        "id": 1,
+        "level": 1,
+        "name": "Sucht",
+        "description": "Du erhälst einen Malus von 1 auf alle Würfelvorräten (außer welche, die deinen Drogenkonsum begünstigen), sofern die letzte Person, von der du getrunken hast, nicht deine Droge intus hatte"
+      },
+      {
+        "id": 2,
+        "level": 2,
+        "name": "Hoffnungslose Abhängigkeit",
+        "description": "Du erhälst einen Malus von 2 auf alle Würfelvorräten (außer welche, die deinen Drogenkonsum begünstigen), sofern die letzte Person, von der du getrunken hast, nicht deine Droge intus hatte"
+      }
+    ]
+  }
+]

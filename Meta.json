@@ -1,0 +1,86 @@
+{
+  "languages": [
+    "de-DE",
+    "en-US"
+  ],
+  "books": [
+    {
+      "id": 1,
+      "clans": [
+        1,
+        2,
+        3,
+        6,
+        8,
+        11,
+        12,
+        14
+      ],
+      "merits": [
+        1, 2, 3, 5, 6, 7, 9
+      ],
+      "backgrounds": [
+        1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11
+      ],
+      "predatorTypes": [
+        1, 2, 3, 4, 5, 7, 9, 11, 12, 13
+      ]
+    },
+    {
+      "id": 2,
+      "clans": [
+        7
+      ],
+      "merits": [],
+      "backgrounds": [],
+      "predatorTypes": []
+    },
+    {
+      "id": 3,
+      "clans": [
+        5
+      ],
+      "merits": [],
+      "backgrounds": [],
+      "predatorTypes": []
+    },
+    {
+      "id": 4,
+      "clans": [
+        9,
+        10,
+        13
+      ],
+      "merits": [8],
+      "backgrounds": [],
+      "predatorTypes": []
+    },
+    {
+      "id": 5,
+      "clans": [
+        4
+      ],
+      "merits": [],
+      "backgrounds": [],
+      "predatorTypes": [
+        6, 8
+      ]
+    },
+    {
+      "id": 6,
+      "clans": [],
+      "merits": [],
+      "backgrounds": [],
+      "predatorTypes": [
+        10
+      ]
+    },
+    {
+      "id": 7,
+      "clans": [15, 16],
+      "merits": [],
+      "backgrounds": [],
+      "predatorTypes": []
+    }
+  ]
+}

@@ -1,0 +1,236 @@
+[
+  {
+    "id": 1,
+    "level": 1,
+    "name": "Wandeln auf den Pfaden des Blutes",
+    "description": "Mit diesem Ritual wird die Kraft Ein Sinn für Blut verstärkt, wodurch der Anwender weitere Einzelheiten über das Opfer erkennen kann, vorausgesetzt es handelt sich um einen Vampir.",
+    "ingredients": "eine silberne Schale mit dem Blut des Opfers (so viel, wie ein Wallungs-Check hergibt).",
+    "execution": "Der Anwender vermischt sein Blut mit dem des Opfers und spricht etwa eine Stunde lang wiederholt die Zauberformel über der Schale.",
+    "system": "Ein erfolgreicher Wurf auf die Ritualprobe gestattet dem Anwender, die Generation und den Namen des Opfers und den Namen seines Erzeugers zu erfahren. Ein kritischer Triumph enthüllt dem Anwender auch aktive Blutsbande, denen das Opfer unterworfen ist, sei es als Herr oder Sklave."
+  },
+  {
+    "id": 2,
+    "level": 1,
+    "name": "Insektenbeine",
+    "description": "Der Vampir erlangt die Fähigkeit, sich wie ein groteskes Insekt oder eine Spinne an Wänden festzuhalten.",
+    "ingredients": "eine lebende Spinne.",
+    "execution": "Der Zaubernde füllt eine Phiole mit seinem eigenen Blut, zerquetscht die Spinne und verrührt den zerquetschten Leib mit dem Blut, bevor er die Mixtur trinkt. (Dadurch wird kein Hunger zurückerstattet.) Der Vampir kann das Ritual nur auf sich selbst wirken, andere erlangen keinen Vorteil aus dem Trinken der Mixtur.",
+    "system": "Ein erfolgreich durchgeführtes Ritual verleiht die Fähigkeit, sich eine Szene lang an Wänden und Decken festzuhalten. Bei einem kritischen Triumph hält die Wirkung eine Nacht lang. Der Vampir muss sich mit beiden Händen und Füßen an der Oberfläche festhalten und seine Geschwindigkeit ist halbiert."
+  },
+  {
+    "id": 3,
+    "level": 1,
+    "name": "Blutstein herstellen",
+    "description": "Aus diesem Ritual gewinnt man einen Blutstein, einen magischen Peilsender, dessen Richtung und Entfernung der Thaumaturg stets kennt. Seit die Camarilla der modernen Technologie zusehends entsagt, findet dieses Ritual immer häufiger Anwendung.",
+    "ingredients": "ein kleines Stück Eisenerz oder ein kleiner Magnet und ein Liter Blut aus einer beliebigen Quelle in einer silbernen Schüssel.",
+    "execution": "Der Anwender mischt sein Blut mit dem Blut in der Schüssel und spricht eine Stunde lang einen Zauberspruch darüber, den er in den folgenden zwei Nächten wiederholt. Das Eisenerz (oder der Magnet) nimmt innerhalb von drei Nächten das Blut auf. Wird das Ritual erfolgreich durchgeführt, erscheint die Flüssigkeit durchsichtig.",
+    "system": "Führe am Ende der dritten Nacht die Ritualprobe durch. Bei einem Triumph stimmt sich der Zaubernde auf den Blutstein ein und kann zielsicher die Richtung und Entfernung des Steines spüren. Die Wirkung hält, bis der Blutstein zerstört wird oder eine Woche verstrichen ist. Ein Thaumaturg kann so viele Steine haben und im Auge behalten wie sein Wert in Entschlossenheit beträgt."
+  },
+  {
+    "id": 4,
+    "level": 1,
+    "name": "Abendfrisches Erwachen",
+    "description": "Vor dem Morgengrauen durchgeführt, erlaubt es dieses Ritual des Vampirs, beim Anzeichen von Gefahr zu erwachen, wobei er hellwach ist wie in der Nacht.",
+    "ingredients": "die verbrannten Knochen und Federn eines Hahns.",
+    "execution": "Der Thaumaturg vermischt die Asche mit seinem eigenen Blut und malt mit der Mixtur einen Kreis um seine Ruhestätte.",
+    "system": "Erst bei echter Gefahr wird die Ritualprobe abgelegt. Wird der Vampir tagsüber bedroht, lege die Ritualprobe ab. Bei einem Triumph erwacht der Vampir und ignoriert bis zum Ende der Szene die Nachteile, die er erleiden würde, weil er tagsüber wach ist. Bei einem kritischen Triumph hält die Wirkung bis zum nächsten Morgengrauen."
+  },
+  {
+    "id": 5,
+    "level": 1,
+    "name": "Schutzzeichen gegen Ghule",
+    "description": "Misstrauische Tremere entwarfen dieses Ritual, um sich vor den Lakaien rachsüchtiger Rivalen zu schützen. Dieses Schutzzeichen verwendet die Standardregeln für Schutzzeichen (S. 255).",
+    "ingredients": "nur das Blut des Zaubernden, wie vorgeschrieben.",
+    "execution": "",
+    "system": ""
+  },
+  {
+    "id": 6,
+    "level": 2,
+    "name": "Verständigung mit dem Erzeuger",
+    "description": "Der Thaumaturg verwendet das Band zwischen Erzeuger und Kind, um eine mentale Brücke aufzubauen, die es dem Kind gestattet, eine telepathische Verbindung herzustellen, um über große Distanz kommunizieren. Wie einige andere Rituale, wird auch dieses in diesen Nächten der Abhörgeräte und elektronischen Überwachung wieder häufiger verwendet.",
+    "ingredients": "ein Objekt, das einst dem Erzeuger gehörte, und eine silberne Schüssel mit klarem Wasser.",
+    "execution": "Der Thaumaturg legt das Objekt ins Wasser und träufelt sein Blut in die Schüssel, während er sich maximal 30 Minuten lang auf die letzte Erinnerung an seinen Erzeuger konzentriert.",
+    "system": "Sobald 15 Minuten verstrichen sind, wird die Ritualprobe abgelegt. Bei einem Triumph kann 10 Minuten lang in beide Richtung mental kommuniziert werden, sobald weitere 15 Minuten vergangen sind. Bei einem kritischen Triumph ist die Kommunikation augenblicklich möglich. Eine größere Störung auf einer der beiden Seiten unterbricht die Verbindung."
+  },
+  {
+    "id": 7,
+    "level": 2,
+    "name": "Augen von Babel",
+    "description": "Indem sie die Zunge und einen Augapfel einer Person verspeist, erlangt der Vampir die Fähigkeit, jede Sprache zu lesen und zu sprechen, die dem Opfer bekannt ist.",
+    "ingredients": "ein frischer Augapfel und die Zunge einer Person.",
+    "execution": "Die Zutaten werden dem Opfer frisch entnommen und von dem Vampir gekaut und verschluckt. (Damit holt er sich höchstwahrscheinlich einen Makel.)",
+    "system": "Der Wallungs-Check, der für dieses Ritual erforderlich ist, sorgt dafür, dass die Zutaten sich auf übernatürliche Weise auflösen, sobald sie geschluckt wurden. Lege anschließend die Ritualprobe ab. Bei einem Triumph erhält der Zaubernde eine Woche lang die Fähigkeit, jede Sprache auf demselben Niveau wie das Opfer zu lesen und zu sprechen, die das Opfer kennt. Bei einem kritischen Triumph verlängert sich die Wirkung auf einen Monat."
+  },
+  {
+    "id": 8,
+    "level": 2,
+    "name": "Erleuchtete Fährte des Blutes",
+    "description": "Das Ritual gestattet es dem Thaumaturgen, die ehemaligen Aufenthaltsorte einer bestimmten Person als schwach leuchtenden Pfad wahrzunehmen, der nur für ihn sichtbar ist.",
+    "ingredients": "ein weißes Satinband.",
+    "execution": "Der Durchführende des Rituals taucht das Band in sein eigenes Blut und entzündet es.",
+    "system": "Bei einem Triumph aus der Ritualprobe fängt das Band Feuer, obwohl es durchnässt ist, und brennt lichterloh wie eine Zündschnur. Sobald das Band verbrannt ist, tritt die Wirkung des Rituals ein. Solange das Ritual wirkt, kann der Vampir der schwachen Spur des Opfers folgen, selbst an Orten, an denen es keine Spuren hinterlassen hat, wie dicht bevölkerten Städten. Um der Spur zu folgen, würfelt der Vampir auf Intelligenz + Überleben bei einer Schwierigkeit von 6 minus der Differenz bei der Ritualprobe. Der Vampir muss das Opfer vom Sehen her kennen und kann den Weg zurückverfolgen, den das Opfer in den vergangenen 24 Stunden zurückgelegt hat. Der Pfad bleibt eine Nacht lang sichtbar. Bei einem kritischen Triumph verlängert sich die Wirkung auf zwei Nächte."
+  },
+  {
+    "id": 9,
+    "level": 2,
+    "name": "Wahrheit des Blutes",
+    "description": "Bis vor kurzem nur den Wesiren der Banu Haqim bekannt, erschafft dieses Ritual einen Trank, der Lügen von der Wahrheit trennt. Dieses Ritual hat die Kraft, dem Sprecher manchmal sogar Fakten zu entlocken, die ihm selbst bislang unbekannt waren.",
+    "ingredients": "ein halber Liter Blut vom Opfer.",
+    "execution": "Der Durchführende des Rituals mischt sein Blut mit dem des Opfers in einem Behälter, der groß genug ist, dass er einen Finger hineinstecken kann.",
+    "system": "Statt der üblichen Ritualprobe taucht der Thaumaturg seinen Finger in die Mixtur und würfelt bei jeder Aussage des Opfers auf Entschlossenheit + Blutmagie vs. Fassung + Okkultismus. Schlägt der Wettbewerb einmal fehl, endet das Ritual. Bei einem Triumph erfährt er, ob die Aussage aus Sicht des Opfers stimmt. Bei einem kritischen Triumph durch den Zaubernden führt das Opfer seine Aussage näher aus und liefert weitere Informationen, selbst Einzelheiten, die es nur beiläufig bemerkt und unbewusst wieder vergessen hat. (Die Erzählerin sollte dem Spieler mitteilen, wenn es zu dem Thema keine weiteren Informationen gibt.) Die Mixtur brodelt und schäumt während der Durchführung und verwandelt sich am Ende der Szene zu Asche. Mit diesem Ritual können nicht Erinnerung vernebeln, Vergesslicher Geist oder andere erinnerungslöschende Kräfte durchdrungen werden. Der Thaumaturg kann die Ursache einer nicht vorhandenen oder trüben Erinnerung erraten, aber nicht die eigentliche Erinnerung zurückholen."
+  },
+  {
+    "id": 10,
+    "level": 2,
+    "name": "Schutzzeichen gegen Geister",
+    "description": "Mit diesem Ritual wird ein Gegenstand gegen körperlose Wesen wie Todesalben, Geister und elementare Geister geschützt. Jeder Versuch ihrerseits, den Gegenstand zu beeinflussen oder ihn zu durchdringen, löst die Wirkung aus. Dieses Schutzzeichen verwendet die Standardregeln für Schutzzeichen (S. 255).",
+    "ingredients": "eine Handvoll Salz (in manchen Varianten stattdessen eine Handvoll Ziegelstaub) gemischt mit dem Blut der Zaubernden.",
+    "execution": "",
+    "system": ""
+  },
+  {
+    "id": 11,
+    "level": 2,
+    "name": "Schutzkreis gegen Ghule",
+    "description": "Mit diesem Ritual erschafft man ein kreisrundes Schutzzeichen auf dem Boden, um Ghulen den Weg zu versperren. Dieses Schutzzeichen verwendet die Standardregeln für Schutzkreise (S. 255).",
+    "ingredients": "Der Thaumaturg zeichnet den Schutzkreis mit einem menschlichen Knochen, der in sein Blut getaucht wurde.",
+    "execution": "",
+    "system": ""
+  },
+  {
+    "id": 12,
+    "level": 3,
+    "name": "Dagons Ruf",
+    "description": "Mit diesem schrecklichen Verfahren, das von den Assassinen der Banu Haqim angewendet wird, kann man die Adern des Opfers aus der Ferne zerplatzen lassen, nachdem man es zuvor nur kurz berührt hat. Sterbliche sterben somit recht unschön und selbst Vampire fürchten diesen schleichenden Tod.",
+    "ingredients": "ein mit Gold verzierter Zeremoniendolch.",
+    "execution": "Bevor das Ritual durchgeführt werden kann, muss das Opfer dem Blut des Thaumaturgen ausgesetzt werden, entweder, indem es davon trinkt oder indem sein Blut eine offene Wunde oder gar die bloße Haut berührt: ein einzelner Tropfen am Arm verschmiert reicht schon. Nachdem eine Stunde verstrichen ist, aber vor dem Ende einer Woche, kann der Zaubernde das Ritual durchführen, indem er mit dem Zeremoniendolch in seine eigene Haut sticht und sein Blut vergießt. Sobald sein Blut auf den Boden fällt, wirkt das Ritual.",
+    "system": "Würfle auf Entschlossenheit + Blutmagie vs. Widerstandsfähigkeit + Entschlossenheit. Bei einem Triumph verursacht jeder Differenzpunkt einen Schadenspunkt beim Opfer, während seine Adern platzen und sich seine Lungen mit Blut füllen. Sterbliche erleiden Schweren Schaden, Vampire nur Leichten. Der Vampir kann das Ritual zwei weitere Male durchführen, muss aber jedes Mal einen zusätzlichen Wallungs-Check ablegen."
+  },
+  {
+    "id": 13,
+    "level": 3,
+    "name": "Ablenkung des hölzernen Verhängnisses",
+    "description": "Mit der Durchführung dieses Rituals schützt sich der Vampir davor, gepfählt zu werden. Der erste Pflock, der sein Herz durchbohren würde, zerspringt, bevor er die Haut durchbricht.",
+    "ingredients": "Holzsplitter oder –späne.",
+    "execution": "Der Vampir vermischt die Späne mit seinem Blut und zeichnet einen Kreis um sich selbst. Danach meditiert er eine Stunde lang im Kreis und legt sich anschließend einen Splitter unter die Zunge.",
+    "system": "Die Ritualprobe wird erst abgelegt, wenn der Vampir gepfählt wird. Bei einem Triumph zerspringt der Pflock, sobald er die Haut des Vampirs berührt. (Ein kritischer Triumph blendet den Angreifer zwei Runden lang, da die Splitter in sein Gesicht fliegen.) Das funktioniert nur, wenn tatsächlich versucht wird, ihn zu pfählen – den Pflock lediglich an den Vampir zu drücken, löst die Wirkung nicht aus. Der Schutz hält bis zum Ende der Nacht oder bis der Splitter unter der Zunge des Vampirs entfernt wird, je nachdem was zuerst geschieht."
+  },
+  {
+    "id": 14,
+    "level": 3,
+    "name": "Essenz der Luft",
+    "description": "Der Thaumaturg braut einen Trank, der ihm nach dem Trinken vorübergehend die Fähigkeit verleiht, zu fliegen. Die Camarilla missbilligt die Verwendung dieses Rituals, weil es ein extremes Risiko für die Maskerade darstellt. Aus diesem Grund findet es in diesen modernen Nächten keinen großen Zuspruch mehr.",
+    "ingredients": "Blätter und Beeren der Tollkirsche.",
+    "execution": "Der Thaumaturg tränkt die Tollkirsche mit seinem Blut und kocht das Gebräu über einer Feuerschale, während er Worte der Macht spricht.",
+    "system": "Lege beim Kochen die Ritualprobe ab. (Ein kritischer Triumph ergibt zwei Dosierungen des Tranks.) Der Vampir erkennt, ob das Ritual geglückt ist, und endet nicht mit einer Niete in der Hand. Der daraus resultierende schwarze Trank bewahrt seine Wirkung eine Nacht lang, die aktiviert wird, sobald er getrunken wird. Der Trank befähigt den Zaubernden (und nur ihn), eine Szene lang mit Laufgeschwindigkeit zu fliegen oder zu schweben. Der Vampir kann etwas von Menschengröße mit sich tragen, allerdings verlangsamt sich dadurch sein Tempo auf Gehgeschwindigkeit. Ein unwilliges Subjekt zu greifen und mit sich zu tragen oder den Fliegenden zu Boden zu ziehen, erfordert jeweils einen Wettbewerb zwischen der Körperkraft + Blutmagie des Thaumaturgen und der Körperkraft + Sportlichkeit des anderen."
+  },
+  {
+    "id": 15,
+    "level": 3,
+    "name": "Feuerwandler",
+    "description": "Auch wenn die Durchführung des Rituals schmerzhaft ist, so ermöglicht es doch dem Zaubernden, sich selbst und sogar seine Gefährten gegen Feuer abzuhärten.",
+    "ingredients": "eine Fingerspitze des Thaumaturgen.",
+    "execution": "Der Vampir schneidet sich eine Fingerspitze ab und verbrennt sie zusammen mit seinem Blut in einem goldenen Kelch oder einer goldenen Schüssel.",
+    "system": "Würfle auf Widerstandsfähigkeit + Entschlossenheit (Schwierigkeit 3), um die Fingerspitze abzuschneiden. Bei einem Triumph bei der Ritualprobe verschlingt eine bläuliche Flamme das Blut und die Fingerspitze, was den Erfolg des Rituals signalisiert. Bis zum Ende der Nacht wird Feuerschaden, den der Zaubernde erleidet, halbiert. Das Ritual kann auch auf andere gewirkt werden, aber die Fingerspitzen, die dafür geopfert werden, müssen alle vom Thaumaturgen stammen. Die Verstümmelung ist nicht groß genug, um als Schaden zu gelten, und die Fingerspitze wächst während der Tagesruhe nach."
+  },
+  {
+    "id": 16,
+    "level": 3,
+    "name": "Schutzzeichen gegen Wolflinge",
+    "description": "Mit diesem Ritual wird ein Gegenstand gegen Werwölfe in jeder Gestalt geschützt. Jeder Versuch ihrerseits, den Gegenstand zu berühren, löst die Wirkung aus. Dieses Schutzzeichen verwendet die Standardregeln für Schutzzeichen (S. 255).",
+    "ingredients": "eine Handvoll Silberstaub gemischt mit dem Blut des Zaubernden.",
+    "execution": "",
+    "system": ""
+  },
+  {
+    "id": 17,
+    "level": 3,
+    "name": "Schutzkreis gegen Geister",
+    "description": "Mit diesem Ritual erschafft man ein kreisrundes Schutzzeichen auf dem Boden, um Geistern den Weg zu versperren. Wenngleich komplexer als manch anderer Schutzkreis, ist dieser Schutzkreis in den Grimoires und anderen Quellen besonders häufig zu finden. Ein menschlicher Okkultist könnte womöglich eine funktionale Version des Rituals rekonstruieren, wenn er eine Probe auf Intelligenz + Okkultismus (Schwierigkeit 6) ablegt, auch wenn er es ohne Vitæ oder andere übernatürliche Hilfe oder Elemente nicht durchführen kann. Dieses Schutzzeichen verwendet die Standardregeln für Schutzkreise (S. 255).",
+    "ingredients": "Der Zaubernde zeichnet den Schutzkreis mit einem Eisenmesser, das in Salz und sein Blut getaucht wurde.",
+    "execution": "",
+    "system": ""
+  },
+  {
+    "id": 18,
+    "level": 4,
+    "name": "Verteidigung der heiligen Zuflucht",
+    "description": "Der Durchführende dieses mächtigen Rituals kann seine Zuflucht vor der Sonne selbst schützen und seine Ruhestätte vor dem Eindringen ihrer zerstörerischen Strahlen bewahren, während mystische Dunkelheit das Gebiet überzieht.",
+    "ingredients": "nur das Blut des Thaumaturgen.",
+    "execution": "Der Thaumaturg zeichnet Sigillen und Glyphen auf dem Gebiet, das geschützt werden soll, und in seiner Umgebung. Besonders bei Fenstern und Türen muss er gut achtgeben, kann aber auch einen offenen Durchgang schützen lassen, wenn sich das Gebiet im Inneren befindet. (Mit dem Ritual lassen sich Grauzonen und Grenzgebiete schützen, wie Ruinen, nach Ermessen der Erzählerin.)",
+    "system": "Die Durchführung dauert mindestens eine Stunde, je nach Beschaffenheit oder Gebiet, das geschützt werden soll. Das Gebiet kann nicht größer sein als ein Kreis mit einem Radius von 6 Metern. Das Ritual schlägt automatisch fehl, wenn der Zaubernde das Gebiet verlässt, nachdem der Schutz in Kraft getreten ist. Der Vampir legt die Ritualprobe ab, sobald die Sonne aufgeht. Bei einem Triumph legen sich Schatten über das Gebiet und versperren den Blick von außen, hindern aber auch die Sonne daran, den Vampiren im Schutzgebiet Schaden zuzufügen. Bei einem kritischen Triumph können die Personen im Inneren die Welt außen undeutlich wahrnehmen. Das Ritual wirkt einen ganzen Tag lang, es sei denn, es wird beendet, weil der Zaubernde das Gebiet verlässt."
+  },
+  {
+    "id": 19,
+    "level": 4,
+    "name": "Augen des Nachtfalken",
+    "description": "Mit den primitiven Kräften der Tierhaftigkeit verwandt, erlaubt dieses Ritual dem Thaumaturgie, fleischfressende Vögel, für gewöhnlich Raben oder Greifvögel, zu besetzen und ihren Flug zu lenken oder durch ihre Augen zu sehen. Papageien und Maina können für dieses Ritual nicht verwendet werden, da sie keine Fleischfresser sind. Manche Tremere trainieren jahrelang Krähen oder Raben das Sprechen an, bevor sie sie als Nachtfalken einsetzen. Da die Pyramide zerrüttet ist, haben nur noch wenige Hexenmeister die Zeit dafür.",
+    "ingredients": "die Augen des Vogels, der verwendet werden soll, die ihm am Ende des Rituals entfernt werden.",
+    "execution": "Der Thaumaturg füttert den Vogel mit seinem Blut und begibt sich in eine Trance.",
+    "system": "Nach erfolgreicher Ritualprobe kann der Vampir den Vogel kontrollieren und durch seine Augen sehen. Bei einem kritischen Triumph kann der Vogel einfache Handlungen unter der Kontrolle ausführen, wie zum Beispiel Gegenstände aufheben oder Schlüssel oder Telefontasten benutzen. Der Vampir kann mit dem Vogel die meisten nicht-körperlichen Disziplinen einsetzen, selbst Beherrschung, vorausgesetzt, der Thaumaturg kann mit Telepathie (S. 248) oder auf andere Art nicht verbal mit dem Opfer kommunizieren. Es gibt keine Begrenzung, wie weit der Vogel fliegen kann, aber wenn der Vampir am Ende der Nacht dem Vogel nicht die Augen entfernt, wird er selbst drei Nächte lang erblinden."
+  },
+  {
+    "id": 20,
+    "level": 4,
+    "name": "Körperlose Bewegung",
+    "description": "Der Thaumaturg versetzt sich in einen körperlosen Zustand, einem Geist nicht unähnlich, und kann Gegenstände durchdringen und ist gegen körperlichen Schaden vollkommen immun. Dafür kann er nicht mit der stofflichen Welt interagieren, sondern sie lediglich sehen und in ihr sprechen.",
+    "ingredients": "ein Spiegel.",
+    "execution": "Der Thaumaturg vergießt sein Blut auf dem Spiegel, spricht eine Zauberformel und zerbricht ihn dann.",
+    "system": "Lege die Ritualprobe ab. Bei einem Triumph nimmt der Zaubernde eine körperlose Form an, solange er eine Scherbe des zerbrochenen Spiegels hält. Im köperlosen Zustand ist der Vampir gegen alles außer Feuer, Sonnenlicht und arkane Waffen und Rituale, die Geistern schaden können, immun. Der Vampir ist noch immer sichtbar und hörbar, aber er kann nicht körperlich mit Dingen oder Lebewesen interagieren. Der körperlose Vampir erhält keinen Zugang in die Geisterwelt, da das Ritual ihn nicht in einen Todesalb oder Geist verwandelt. Der Vampir kann sich durch Wände und andere Gegenstände hindurchbewegen, aber nur auf geradem Weg, er kann nicht die Richtung wechseln, solange er sich in einem Objekt aufhält. Die Wirkung des Rituals hält eine Szene lang an oder bis der Zaubernde die Spiegelscherbe fallenlässt. In die stoffliche Welt zurückzukehren, während man sich noch in fester Materie befindet, kann einen vernichten, einsperren oder einem einfach nur lästig sein, wenn zum Beispiel der Aschenbecher zum Teil im Arm feststeckt. Die Erzählerin bestimmt das genaue Resultat."
+  },
+  {
+    "id": 21,
+    "level": 4,
+    "name": "Schutzzeichen gegen Kainiten",
+    "description": "Mit diesem Ritual lässt sich ein Gegenstand vor Vampiren schützen, der Thaumaturg ausgenommen. Jeder Versuch, den Gegenstand zu berühren, löst die Wirkung aus. Ein Vampir kann jedoch das Schutzzeichen mit Auspex untersuchen und mit einem erfolgreichen Wurf auf Intelligenz + Auspex vs. Intelligenz + Blutmagie des Zaubernden den Namen des Thaumaturgen ablesen. Dieses Schutzzeichen verwendet die Standardregeln für Schutzzeichen (S. 255).",
+    "ingredients": "warme Asche, frisch aus einem noch brennenden Feuer; der Thaumaturg riskiert dabei Furchtraserei, und kann das Schutzzeichen in dieser Nacht nicht schreiben, wenn er ihr verfällt.",
+    "execution": "",
+    "system": ""
+  },
+  {
+    "id": 22,
+    "level": 4,
+    "name": "Schutzkreis gegen Wolflinge",
+    "description": "Dieses Schutzzeichen verwendet die Standardregeln für Schutzkreise (S. 255).",
+    "ingredients": "Der Thaumaturg zeichnet den Schutzkreis mit einem Silbermesser, das in Eisenhut und sein Blut getaucht wurde.",
+    "execution": "",
+    "system": ""
+  },
+  {
+    "id": 23,
+    "level": 5,
+    "name": "Entkommen in das wahre Heiligtum",
+    "description": "Nachdem er zwei mystische Kreise in einem aufwändigen Ritual hergestellt hat, kann der Thaumaturg augenblicklich von einem zum anderen reisen. Die Reise funktioniert nur in eine Richtung, der Vampir muss also einen Kreis für die Abreise festlegen, während der andere als Ankunftskreis den Ausgang bildet.",
+    "ingredients": "zwei verkohlte Kreise mit einem Durchmesser von etwa 1 Meter.",
+    "execution": "Der Thaumaturg brennt die Kreise mit einer Flamme in den Boden, dann weiht er beide Kreise. Für eine Weihe muss er drei Nächte hintereinander pro Nacht zwei Stunden lang Zauberformeln sprechen und zwei Wallungs- Checks ablegen. Insgesamt benötigt er für das Ritual so viel Blut wie 12 Wallungs-Checks hergeben.",
+    "system": "Sobald die Kreise hergestellt wurden, muss der Zaubernde nur noch den für die Abreise betreten, sich eine Runde lang konzentrieren und dann eine Ritualprobe ablegen. (Der Thaumaturg legt die Ritualprobe jedes Mal ab, wenn er reisen möchte, kann es aber nur einmal pro Szene versuchen.) Bei einem Triumph verschwindet der Vampir und erscheint im selben Augenblick in der Mitte des Ausgangskreises. Die Entfernung zwischen beiden Kreisen ist nicht begrenzt, aber sie müssen im Boden eines Gebäudes eingebrannt sein, nicht dem eines Gefährts. Der Thaumaturg kann eine Person oder Gegenstände, die insgesamt maximal so viel Raum einnehmen wie ein Mensch, mitnehmen. Wird einer der Kreise beschädigt, ist das Ritual wirkungslos und beide Kreise sind inaktiv. Ein Vampir kann nur ein solches Paar Kreise gleichzeitig besitzen."
+  },
+  {
+    "id": 24,
+    "level": 5,
+    "name": "Herz aus Stein",
+    "description": "Die Durchführung dieses Rituals verwandelt das untote Herz des Thaumaturgen in Stein. Dadurch ist er immun gegen Pfählen, aber durch eine unglückliche Wirkung der Sympathiemagie wird er zugleich zu einem erbarmungslosen und hartherzigen Roboter, der völlig unempfänglich für emotionale und soziale Hinweise ist. Mehr als sonst.",
+    "ingredients": "eine Steinplatte und eine Wachskerze, die vom Blut des Thaumaturgen getränkt sind.",
+    "execution": "Der Thaumaturg legt sich mit der Kerze auf der Brust auf die Steinplatte und lässt die Kerze über Nacht brennen, bis nichts mehr übrig ist. Sobald das Feuer seine Brust erreicht, verursacht sie 1 Punkt Schweren Schaden und erzwingt einen Wurf auf Furchtraserei (Schwierigkeit 3). Schlägt der Wurf auf Raserei fehl, wird das Ritual abgebrochen. Verfällt der Vampir nicht in Raserei, legt er die Ritualprobe ab. Bei einem Triumph wird das Ritual vollendet. Bei einem kritischen Triumph wird der Schaden von der Kerzenflamme geheilt. Die Wirkung hält auf unbestimmte Zeit, und wenn der Zaubernde die Wirkung rückgängig machen will, muss er das Ritual wiederholen.",
+    "system": "Solange er unter dem Einfluss des Rituals steht, ist das Herz des Thaumaturgen wortwörtlich aus Stein. Pflöcke können es nicht durchstoßen und zerbrechen stattdessen. Der Vampir ist völlig emotionslos, wodurch er bei jeder Probe auf Reue und jedem aktiven Wurf auf gesellschaftliche Interaktionen (außer bei Widerstandswürfen) drei Würfel weniger hat, davon ausgenommen sind Einschüchtern und Beherrschung. Der Vampir kann keine Präsenz einsetzen, erhält aber drei zusätzliche Würfel bei Würfelvorräten, die eingesetzt werden, um der Wirkung dieser Disziplin zu widerstehen."
+  },
+  {
+    "id": 25,
+    "level": 5,
+    "name": "Schaft des verspäteten Zerfalls",
+    "description": "Die Blutsverwandten fürchten nur wenige Waffen so sehr wie den Pflock, der mit diesem Ritual hergestellt wird. Vermutlich der Ursprung der Legende, dass der Pflock die ultimative Waffe zur Vernichtung von Vampiren sei, sucht der Schaft des verspäteten Zerfalls nicht nur das Herz des Vampirs, gegen den er gerichtet wurde, sondern verursacht auch seinen endgültigen Tod, sobald er sein Ziel erreicht. Wenn nötig, arbeitet sich der Schaft als Splitter Zentimeter um Zentimeter durch den Leib des anvisierten Vampirs, um sein Ziel zu erreichen.",
+    "ingredients": "ein aus Ebereschenholz geschnitzter Pflock, in den unheilvolle Runen geritzt wurden.",
+    "execution": "Der Thaumaturg tränkt den Pflock in so viel von seinem Blut, wie zwei Wallungs-Checks hergeben, während er es in einem von Eichenholz genährten Feuer schwärzt und Zauberformeln darüber spricht. Es dauert fünf Stunden, das Ritual zu vollenden.",
+    "system": "Dieser Pflock gewährt einen Bonus von drei Würfeln für jeden Würfelvorrat, der genutzt wird, um einen Vampir zu pfählen, egal ob man ihn dabei einem schlafenden Opfer in die Brust hämmert oder ihn aus einer Armbrust abschießt. Der Pflock muss nicht vom Thaumaturgen selbst eingesetzt werden. Beträgt bei einem Erfolg des Angriffswurfs die Differenz 5 oder mehr, zerfällt der Vampir innerhalb einer Runde zu Staub, als würde er von unsichtbaren Flammen verbrannt. Trifft der Pflock, ohne dass die Differenz ausreicht (weniger als 5), um das Herz zu durchstoßen, zerbricht der Pflock in der Wunde und die Spitze gräbt sich langsam tiefer bis zum Herz des Opfers. Je nachdem, wo der Pflock traf, kann das Stunden oder Nächte dauern, aber wenn er nicht auf medizinische oder magische Art entfernt wird, ist dem Vampir der endgültige Tod sicher. Um den Pflock chirurgisch zu entfernen, muss jemand anderes als das Opfer eine Probe auf Geschicklichkeit + Medizin (Schwierigkeit 6) ablegen. Die Entfernung dauert bis zu vier Stunden. Ist keiner mit medizinischer Erfahrung anwesend, kann jemand den Splitter auch entfernen, indem das betroffene Glied abgetrennt wird – es sei denn, der Splitter hat bereits den Oberkörper erreicht."
+  },
+  {
+    "id": 26,
+    "level": 5,
+    "name": "Schutzkreis gegen Kainiten",
+    "description": "Dieses Schutzzeichen verwendet die Standardregeln für Schutzkreise (S. 255).",
+    "ingredients": "Der Thaumaturg zeichnet den Schutzkreis mit einem Stab aus Ebereschenholz, der in eine Mixtur aus Asche eines noch brennenden Feuers und seinem Blut getaucht wurde.",
+    "execution": "",
+    "system": ""
+  }
+]

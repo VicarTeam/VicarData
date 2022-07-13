@@ -1,0 +1,210 @@
+[
+  {
+    "id": 1,
+    "name": "Banu Haqim",
+    "slogan": "Clan der Jagd",
+    "curse": "Die Banu Haqim werden von denen angezogen, die ihre Strafe verdienen. Dies gilt insbesondere für vampirisches Blut, die Essenz der Sünde. Wenn einer der Richter das Blut eines anderen Kainiten schmeckt, fällt es ihm sehr schwer, wieder aufzuhören. Wird mindestens eine Stufe Hunger mit vampirischer Vitæ gestillt, verursacht dies eine Probe gegen Hungerraserei (siehe Grundregelwerk S. 220) gegen eine Schwierigkeit von 2 + Schwere des Fluches. Wenn die Probe fehlschlägt, versucht das Kind Haqims, sich am Vampirblut sattzutrinken, manchmal bis es sein blutsverwandtes Opfer diableriert. Dies bringt viele Probleme mit sich, da sich die Banu Haqim in die Camarilla eingegliedert haben, die den Amaranth eher als Anathema ansehen.",
+    "description": "Sie haben ihren Sitz in ihrer verborgenen Festung Alamut im Nahen Osten und werden von den westlichen Blutsverwandten traditionell als gefährliche Attentäter und Diableristen angesehen, aber in Wahrheit sind sie Wächter, Krieger und Gelehrte, die sich von den Jyhad abgrenzen wollen. Im Laufe ihrer Geschichte sind sie ein autarker und unabhängiger Clan geblieben, auch wenn sie sich kürzlich der Camarilla angeschlossen haben.",
+    "disciplines": [
+      3,
+      4,
+      10
+    ]
+  },
+  {
+    "id": 2,
+    "name": "Brujah",
+    "slogan": "Clan der Gelehrten",
+    "curse": "Das Blut der Brujah köchelt vor kaum zurückgehaltener Wut und explodiert bei der geringsten Provokation. Subtrahiere von jedem Wurf eine Anzahl von Würfeln, die der Schwere des Fluches des Brujah entsprechen, um der Zornraserei zu widerstehen. Dies kann den Vorrat niemals unter einen Würfel senken.",
+    "description": "Die Brujah sind ein Clan von Radikalen und Unruhestiftern, die bereit sind, jemanden in die Schranken zu weisen, wenn die Situation es erfordert. Die meisten sehen sich als Krieger mit einer Sache, und diese Rebellen werden von ihrer Leidenschaft, Stärke und Hingabe an ihre Ideale geleitet - was auch immer das sein mag.",
+    "disciplines": [
+      4,
+      8,
+      6
+    ]
+  },
+  {
+    "id": 3,
+    "name": "Gangrel",
+    "slogan": "Clan des Tiers",
+    "curse": "Die Beziehung der Gangrel zu ihrem Tier entspricht der Haltung, die andere Blutsverwandte gegenüber den Gangrel einnehmen: eine misstrauische Partnerschaftft. Verfallen Sie in Raserei, erhalten Gangrel ein oder mehrere tierische Merkmale: eine körperliche Eigenschaftft, einen Geruch oder einen Tick in ihrem Verhalten. Diese Merkmale halten eine weitere Nacht lang an, wie ein Kater nach einem durchzechten Gelage. Jedes dieser Merkmale senkt ein Attribut um 1 Punkt, wobei die Erzählerin entscheiden kann, dass eine gespaltene Zunge oder ein bäriger Moschusgeruch Charisma reduzieren, wohingegen flfledermausartige Ohren Entschlossenheit senken („all diese störenden Geräusche“). Wenn dir nichts sofort einfällt, senkt das Merkmal Intelligenz oder Manipulation. Die Anzahl der Merkmale, die sich bei einem Gangrel manifestieren, entspricht seiner Schwere des Fluches. Wenn dein Charakter die Welle seiner Raserei reitet (siehe S. 219), kannst du nur ein Merkmal auswählen, das sich manifestieren soll, wodurch du nur einen Abzug auf eines deiner Attribute erleidest.",
+    "description": "Sie sind Nomaden, die eine engere Bindung an die Wildnis haben als die meisten ihrer stadtgebundenen Vettern. Sie stehen auch dem tierischen Aspekt der Bestie näher und sind Meister der Protean-Disziplin. Sie waren einer der sieben Gründungsclans der Camarilla, wurden aber in den Letzten Nächten von der Sekte desillusioniert und ihre Ältesten beschlossen schließlich, ihre Bindungen zu lösen und ein unabhängiger Clan zu werden.",
+    "disciplines": [
+      9,
+      7,
+      5
+    ]
+  },
+  {
+    "id": 4,
+    "name": "Hecata",
+    "slogan": "Clan des Todes",
+    "curse": "Die Reißzähne der Hecata sind vom Tod durchdrungen und bringen keine Glückseligkeit, sondern Qualen. Opfer, die unvorbereitet erwischt werden, leisten heftigen Widerstand, wenn sie nicht zurückgehalten werden, und nur wenige Menschen unterwerfen sich freiwillig der Folter, die der Hecata-Kuss darstellt. Wenn sie direkt von einem Opfer trinken, können Hecata nur schadhaft trinken, was zu Blutverlust führt (Vampire: The Masquerade, S.212). Unwillige Sterbliche, die nicht zurückgehalten werden, versuchen zu fliehen, und selbst diejenigen, die gezwungen oder gewillt sind, müssen eine Widerstandsfähigkeit- und Entschlossenheitsprobe gegen den Schwierigkeitsgrad 2 + Fluchschwere ablegen, um nicht zurückzuweichen. Gezwungene oder willige Vampiropfer des Hecata-Bisses müssen eine Raserei-Probe gegen Schwierigkeitsgrad 3 ablegen, um nicht in einen Schreckensrausch zu verfallen.",
+    "description": "Sie sind kein vollständig organischer Clan, der sich von einem einzigen Antediluvian und einer ununterbrochenen Blutlinie ableitet, sondern bestehen aus den Giovanni und den Überresten des alten Clans Cappadocian und ihren verwandten Blutlinien sowie den Nagaraja, obwohl sie keine Verbindung zu Antediluvian haben. Zusammen stellen sie einen neuen, (größtenteils) vereinigten Clan des Todes dar, der aus Blutsverwandten besteht, die Nekromantie durch den Gebrauch von Oblivion praktizieren. Ähnlich wie die Giovanni, die er fast vollständig unter sich aufnimmt, ist auch er eine Familie, wenn auch eine weitaus größere. Da sich die Banu Haqim der Camarilla und das Ministerium den Anarchen angeschlossen haben, sind die Hecata der letzte unabhängige Clan von Bedeutung in den heutigen Nächten.",
+    "disciplines": [
+      1,
+      7,
+      11
+    ]
+  },
+  {
+    "id": 5,
+    "name": "Lasombra",
+    "slogan": "Der Nacht-Clan",
+    "curse": "Die gebrochenen Seelen von Lasombra-Vampiren werden auf halbem Weg in den Abyss gezogen. Alle Reflexionen und Aufzeichnungen verzerren, flimmern oder werden transparent (was ihre Identität allerdings nicht mit Sicherheit verschleiert). Mikrofone haben mit der Stimme der Vampire die gleichen Schwierigkeiten wie Kameras mit ihrem Bild, Berührungstechnologie reagiert bestenfalls unempfindlich, und ihre anomale Natur erschwert es, elektronische Erkennungssysteme zu umgehen. Wenn sie sich anstrengen, können sie diese Schwierigkeiten überwinden, aber es ist, als ob sie auf einer etwas anderen Frequenz als andere Wesen existieren und in das Licht hinein- und wieder herausflimmern. Viele Lasombra haben Diener, die für sie mit der Technik umgehen, aber einige wenige seltsame Biester kommen auch ohne sie aus. Dieser Fluch führt auch dazu, dass Personen, die solche Filmaufnahmen, Tonaufnahmen oder Bilder vor Gesicht bekommen, und wissen nach was Sie suchen müssen, einfach herausfinden können, was die abgebildetete Kreatur wirklich ist.",
+    "description": "Die Lasombra leben für ihren eigenen Erfolg, sie kämpfen für persönliche Siege und nicht nur für eine Krone, die sie tragen oder einen Thron, auf dem sie sitzen. Sie glauben, dass Macht Recht schafft, und sind bereit, alles zu opfern, um ihre Ziele zu erreichen. Sie sind ein Clan, der Spiritualität eher als Werkzeug einsetzt, als nach ehrlicher Erleuchtung zu streben, und ihre wankelmütige Loyalität wird derzeit dadurch unterstrichen, dass die Hälfte ihres Clans von der Sabbat abgewichen ist.",
+    "disciplines": [
+      2,
+      11,
+      8
+    ]
+  },
+  {
+    "id": 6,
+    "name": "Malkavianer",
+    "slogan": "Clan des Mondes",
+    "curse": "Alle Malkavianer sind aufgrund ihrer Abstammung mit mindestens einer Art Geistesstörung verflucht. Abhängig von ihrer Geschichte und ihrem Geisteszustand bei ihrem Tod, können sie Wahnvorstellungen, Visionen von schrecklicher Klarheit oder ganz andere Dinge erleben. Wenn der Malkavianer einen bestialischen Fehlschlag oder einen Zwang erleidet, tritt sein Fluch in den Vordergrund. Du erleidest für die gesamte Szene einen Abzug in Höhe der Schwere des Fluches deines Charakters in einer Kategorie des Würfelvorrats (körperlich, gesellschaftlich oder geistig). Dies gilt zusätzlich zu den Abzügen, die durch Zwänge anfallen. Du und die Erzählerin entscheiden über die Art des Abzugs und die detaillierte Art des Leidens des Charakters während der Charaktererstellung.",
+    "description": "Die Malkavianer sind eine rätselhafte und zutiefst gestörte Gruppe von Kainiten. Mitglieder des Clans haben die Rolle von Sehern und Orakeln unter den Blutsverwandten übernommen, unheimliche Gestalten mit seltsamen Zwängen und der Fähigkeit, wahrzunehmen, was andere nicht sehen können. Sie sind auch berüchtigte Witzbolde, deren \"Scherze\" von albern bis sadistisch reichen. Allen Widrigkeiten zum Trotz gehören die Kinder von Malkav jedoch zu den ältesten überlebenden Vampirlinien. Sie sind einer der 13 ursprünglichen Klans der Kainiten und können ihre Geschichte bis in die Zeit vor der biblischen Sintflut zurückverfolgen. Sie gehörten auch zu den Gründern der mächtigen Camarilla und sind weithin als eine ihrer Säulen in den modernen Nächten bekannt.",
+    "disciplines": [
+      1,
+      2,
+      10
+    ]
+  },
+  {
+    "id": 7,
+    "name": "Die Priesterschaft",
+    "slogan": "Clan des Glaubens",
+    "curse": "Das Blut eines Priesters verabscheut das Licht. Wenn Mitglieder des Clans direkter Beleuchtung – ob natürlich oder künstlich – ausgesetzt werden, schrecken sie zurück. Die Priester erhalten einen Abzug in Höhe der Schwere ihres Fluches auf alle Würfelvorräte, wenn sie hellem und direkt auf sie gerichtetem Licht ausgesetzt werden. Füge außerdem die Schwere des Fluches zu den durch Sonnenlicht verursachten Schweren Schaden hinzu.",
+    "description": "Der orthodoxe Glaube der Setiten besagt, dass Set eines Tages zurückkehren wird, um die Welt zu beherrschen oder zu verschlingen, und die gläubigen Setiten bereiten den Weg für seine Wiederauferstehung vor. Zu diesem Zweck bleibt der Clan unabhängig von den Sekten anderer Blutsverwandter und praktiziert mit großem Geschick die Künste der Korruption, des Betrugs und der alten Zauberei. Sie bezeichnen sich selbst als die Mesu Bedshet, die \"Kinder der Rebellion\".",
+    "disciplines": [
+      10,
+      6,
+      5
+    ]
+  },
+  {
+    "id": 8,
+    "name": "Nosferatu",
+    "slogan": "Clan der Verborgenen",
+    "curse": "Grässlich und abscheulich haben alle Nosferatu die Schwäche Abstoßend (-2) und können ihren Wert im Vorzug Erscheinungsbild nie steigern. Darüber hinaus greift bei jedem Versuch, sich als Mensch zu verkleiden, ein Abzug auf den Würfelvorrat in Höhe der Schwere des Fluches des Charakters (dazu gehören auch die Verdunkelungskräfte Maske der Tausend Gesichter und Verkleidung des Hochstaplers).",
+    "description": "Der archetypische Nosferatu ähnelt Max Shrecks Graf Orlok, obwohl der Fluch eine Vielzahl von Variationen hat. Die Nosferatu sind die Spionagemeister der Toten, die Informationen sammeln und sie teuer verkaufen. Sie sind auch die Meister des Untergrunds und leben zum Schutz in der Kanalisation.",
+    "disciplines": [
+      9,
+      10,
+      8
+    ],
+    "actions": [
+      {
+        "description": "Erhalten durch den Clanfluch.",
+        "type": "add_flaw",
+        "data": {
+          "choices": [
+            {
+              "type": "merit",
+              "id": 6,
+              "flawId": 2
+            }
+          ]
+        }
+      }
+    ]
+  },
+  {
+    "id": 9,
+    "name": "Ravnos",
+    "slogan": "Die Gejagten",
+    "curse": "Die Ravnos sind dem Untergang geweiht. Das Feuer der Sonne, das ihren Gründer verzehrt hat, brennt auch im Blut des Clans. Sollten sie sich für längere Zeit niederlassen, bricht es aus ihrem Innersten hervor. Wenn sie innerhalb von sieben Nächten mehr als einmal am selben Ort schlafen, müssen sie eine Anzahl von Würfeln werfen, die ihrer Schwere des Fluches entspricht. Jede gewürfelte 10 (kritisches Ergebnis) versengt sie von innen, was ihnen eine Stufe Schweren Schaden zufügt. Dies geschieht jedes Mal, wenn sie den Tag an einem Ort verbringen, an dem sie bereits weniger als eine Woche zuvor bereits übertagt haben. Wodurch sich ein Ort in dieser Hinsicht genau definiert, hängt von den Rahmenbedingungen der Chronik ab. Doch sofern nicht anders angegeben, müssen zwei Orte der täglichen Ruhe mindestens 1 Meile voneinander entfernt sein, um den Fluch nicht auszulösen. Eine mobile Zuflucht, wie z. B. ein Umzugswagen, gilt so lange als sicherer Ort, wie der Lkw mindestens eine Meile vom letzten Standort entfernt erneut abgestellt wird. Ravnos-Charaktere können bei ihrer Charaktererschaffung nicht den Makel „Keine Zuflucht“ auswählen.",
+    "description": "Die Ravnos sind als umherziehende Gauner, Mystiker und Vagabunden bekannt. Sie sind unverbesserliche Draufgänger, die genüsslich die Kunst des gefährlichen Nichtlebens betreiben. Niemand im Westen verstand die alten Ravnos, und jetzt ist es dafür viel zu spät, denn Zapathasura erhob sich in der Woche der Albträume aus seinem Schlummer und löschte in seinem Todeskampf fast seinen gesamten Clan aus. Die wenigen Übriggebliebenen wurden ohne jegliche Verbindung zu ihrem wahren Erbe und ihrer Geschichte zurückgelassen und sind gezwungen, diese selbst neu zu schreiben. Aber wenn sie nicht schon vorher gewandert sind, haben sie keine andere Wahl, als es zu tun, sonst wird sie das gleiche Schicksal ereilen wie ihren Stammvater.",
+    "disciplines": [
+      6,
+      9,
+      10
+    ]
+  },
+  {
+    "id": 10,
+    "name": "Salubri",
+    "slogan": "Saulots Nachkommen",
+    "curse": "Die Salubri werden gejagt: Angehörige anderer Clans sind für Vitæ von Salubri besonders ... dankbar. Nimmt ein Nicht-Salubri das Blut eines Zyklopen zu sich, fällt es ihm oft schwer, sich davon loszureißen. Ein ausreichendes Trinken, um mindestens eine Stufe Hunger zu stillen, erfordert einen Wurf auf Hungerraserei (siehe Vampire: Die Maskerade, S. 220) gegen eine Schwierigkeit von 2 + der Schwere des Fluches des Salubri (Schwierigkeit 3 + Schwere des Fluches des Salubri bei Banu Haqim). Wenn der Wurf fehlschlägt, trinkt der Blutsverwandte einfach weiter, bis zu dem Punkt, an dem er möglicherweise körperlich davon abgebracht werden muss. Gibt ein Salubri die Umarmung weiter, so wird auch das dritte Auge der Blutlinie weitergegeben, das sich Saulot auf einer seiner vielen Reisen geöffnet hat. Dieses dritte Auge ist nicht immer eindeutig menschlichen Ursprungs. Es halten sich Gerüchte über vertikale, schlangenförmige Pupillen oder sogar wurmartige Punktaugen. Dieses dritte Auge kann zwar physisch verdeckt werden, z. B. mit einem Kopftuch oder einer Kapuze, doch es ist stets vorhanden und kann von keiner übernatürlichen Kraft verschleiert werden. Jedes Mal, wenn ein Salubri die Kraft einer Disziplin aktiviert, weint das dritte Auge Vitæ aus. Die Intensität steht im Verhältnis zur Stufe der verwendeten Disziplin und reicht von tröpfelnd bis strömend. Die blutigen Tränen aus dem dritten Auge lösen bei Vampiren in der Nähe mit einem Hungerwert von 4 oder mehr eine Probe auf Hungerraserei aus.",
+    "description": "In den Letzten Nächten gilt der einst mächtige Salubri-Clan nach dem Tod seines Stammvaters Saulot kaum noch als Blutlinie. Ihre allgemein geringe Zahl verleiht den Gerüchten Glaubwürdigkeit, dass sie zu jeder Zeit nur aus sieben Vampiren bestehen und dass diese modernen Salubri sich voll und ganz der Suche nach Golconda verschrieben haben - und ein blutiges Ritual durchführen, wenn sie diesen Zustand erreichen oder daran verzweifeln, ihn jemals zu erreichen. Sie sind in drei Zweige unterteilt: die Heiler, die Krieger und die Wächter, und jeder dieser Zweige hat seine eigene spezifische vampirische Schwäche.",
+    "disciplines": [
+      1,
+      2,
+      7
+    ]
+  },
+  {
+    "id": 11,
+    "name": "Toreador",
+    "slogan": "Clan der Rose",
+    "curse": "Toreador sind das unlebende Beispiel für das alte Sprichwort, dass Kunst im Blut seltsame Formen annimmt. Sie sehnen sich so sehr nach Schönheit, dass sie in ihrer Abwesenheit leiden. Während sich dein Charakter in einer weniger schönen Umgebung befindet, verlierst du bei der Anwendung von Disziplinen das Äquivalent der Schwere deines Fluches in Würfeln aus deinem Würfelvorrat. Die Erzählerin entscheidet konkret und basierend auf der Ästhetik des Charakters, wie die Schönheit oder Hässlichkeit der Umgebung des Toreadors (einschließlich Kleidung, Blutpüppchen usw.) ihn beeinträchtigt. Allerdings empfinden selbst Anhänger der Ashcan School normale Straßen niemals als makellos schön. Diese Obsession von Ästhetik führt auch dazu, dass sich Diven in Momenten der Schönheit verlieren, und ein bestialischer Fehlschlag führt oft zu einer verzückten Trance, wie in den Regeln für Zwang (S. 208) beschrieben.",
+    "description": "Die Entarteten sind verantwortlich für die Legenden von Vampiren, die ihre Beute mit Schönheit, Liebe und Sinnlichkeit verführen und locken. Berühmt und berüchtigt als ein Clan von Künstlern und Innovatoren, sind sie eine der Bastionen der Camarilla, da ihr Überleben von der Fassade der Höflichkeit und Anmut abhängt, auf die die Sekte stolz ist.",
+    "disciplines": [
+      1,
+      4,
+      6
+    ]
+  },
+  {
+    "id": 12,
+    "name": "Tremere",
+    "slogan": "Der Zerbrochene Clan",
+    "curse": "Einst wurde der Clan durch eine starre Hierarchie von Blutsbanden definiert, die von der Spitze bis ganz nach unten in der Pyramide reichte. Aber nach dem Fall von Wien ist das Blut zurückgewichen und all diese Verbindungen sind abgebrochen. Die Vitæ von Tremere kann keine Blutsbande mehr mit anderen Blutsverwandten eingehen, obwohl sie selbst von Blutsverwandten anderer Clans gebunden werden können. Ein Tremere kann noch immer Sterbliche und Ghule binden, obwohl die korrumpierten Vitæ eine zusätzliche Anzahl von Malen getrunken werden müssen, die der Schwere des Fluches des Vampirs entspricht, damit sich das Band bildet. Einige hängen der Theorie an, dass diese Veränderung die Rache des von Tremere verschlungenen Vorsintflutlichen sei, andere führen sie auf eine einfache Mutation zurück. Ungeachtet dessen untersucht der Clan seine Vitæ aufmerksam, um herauszufinden, ob der Prozess rückgängig gemacht werden kann und tatsächlich auch, um herauszufinden, ob sie dies wirklich möchten.",
+    "description": "In der (vergleichsweise) kurzen Zeit seit ihrer Gründung haben die Hexenmeister unglaubliche Fortschritte in der vampirischen Gesellschaft gemacht und sind wohl der mächtigste Clan in den modernen Nächten. Das liegt nicht zuletzt an ihrer strengen Hierarchie, ihrer Geheimniskrämerei und ihrer Beherrschung der Thaumaturgie, die bei den anderen Kainiten Misstrauen, Furcht und Respekt hervorruft. Die Hexenmeister sind eine tragende Säule der Camarilla und einer ihrer Hauptverteidiger, obwohl sie fast wie eine Untersekte existieren. Manche gehen sogar so weit, sich selbst als die Weiterentwicklung des Vampirismus zu betrachten, da sie die Blutmagie extrem vielseitig einsetzen können und es keinen echten Clanfluch gibt. Die Letzten Nächte halten jedoch viele Dinge für die Tremere bereit, und je mächtiger sie werden, desto mehr Feinde sammeln sich an - und in ihrem Streben nach Macht haben die Tremere mehr Feinde angehäuft als die meisten anderen.",
+    "disciplines": [
+      1,
+      3,
+      2
+    ]
+  },
+  {
+    "id": 13,
+    "name": "Tzimisce",
+    "slogan": "Der Alte Clan",
+    "curse": "Die Tzimisce sind gebunden: Jeder Tzimisce muss sich für ein bestimmtes Gut entscheiden: eine physische Domäne, eine Gruppe von Menschen, eine Organisation oder sogar etwas Spirituelleres. Es muss allerdings klar definiert und abgrenzbar sein. Diese Blutsverwandten müssen ihren Tagesschlaf in der Umgebung ihres gewählten Guts verbringen. Historisch gesehen bedeutete dies oft, dass sie in der Erde ihres Landes schlummerten. Es kann sich allerdings auch dadurch äußern, dass sie sich mit dem umgeben, worüber sie in den heutigen Nächten herrschen: eine bestimmte Art von Menschen, ein Gebäude, das eine tiefe Verbindung mit ihrer Obsession hat, eine Gruppierung einer lokalen Gegenkultur oder andere, ausgefallenere Elemente. Wenn sie dies nicht tun, erleiden sie beim Aufwachen in der folgenden Nacht Schweren Schaden auf Willenskraft in Höhe ihrer Schwere des Fluches.",
+    "description": "Wenn jemand einen Tzimisce als unmenschlich und sadistisch bezeichnen würde, würden die Tzimisce ihn wahrscheinlich für seinen Scharfsinn loben und ihm dann zeigen, dass seine sterbliche Definition von Sadismus lächerlich unzureichend ist. Die Tzimisce haben das Menschsein gerne hinter sich gelassen und konzentrieren sich nun darauf, die Grenzen des vampirischen Zustands zu überwinden. Bei einem flüchtigen Blick oder einer kurzen Unterhaltung scheint ein Tzimisce einer der angenehmeren Vampire zu sein. Höflich, intelligent und wissbegierig scheinen sie im krassen Gegensatz zu den brüllenden Sabbat-Mobs oder sogar den scheinbar humaneren Brujah oder Nosferatu zu stehen. Bei näherer Betrachtung wird jedoch klar, dass dies nur eine Maske ist, hinter der sich etwas Fremdes und Monströses verbirgt.",
+    "disciplines": [
+      2,
+      5,
+      9
+    ]
+  },
+  {
+    "id": 14,
+    "name": "Ventrue",
+    "slogan": "Clan der Könige",
+    "curse": "Die Ventrue verfügen über einen sehr feinen Gaumen. Wenn ein Ventrue Blut von einem Sterblichen trinkt, der nicht seinen Präferenzen entspricht, ist eine große Willensanstrengung erforderlich, ansonsten stößt er das getrunkene Blut in Form von scharlachrotem Erbrochenem wieder aus. Die Vorzüge variieren sehr, von Ventrue, die sich nur von echten Brünetten nähren können, über Individuen schweizerischer Abstammung oder ausschließlich von Homosexuellen, bis hin zu anderen, die nur von Soldaten, Sterblichen mit PTBS oder Konsumenten von Methamphetamin trinken können. Mit einem Wurf auf Entschlossenheit + Wahrnehmung (Schwierigkeitsgrad 4 oder mehr) kann dein Charakter spüren, ob ein Sterblicher über das Blut verfügt, das du benötigst. Wenn du möchtest, dass dein Charakter sich von etwas anderem als seinem bevorzugten Opfer ernährt, musst du Willenskraftpunkte in Höhe der Schwere des Fluches des Charakters ausgeben.",
+    "description": "Die Ventrue sind seit langem eine der stolzesten Vampirlinien. Ihre Mitglieder arbeiten hart, um den Ruf von Ehre, vornehmem Verhalten und Führungsqualitäten zu wahren. Der Clan ist seit langem von einem Gefühl der Noblesse oblige durchdrungen, begleitet von dem aufrichtigen Glauben, dass die Ventrue wissen, was das Beste für alle ist. Sie halten sich nicht nur für den ältesten Clan, sondern sehen sich auch als die Hüter der Tradition und die rechtmäßigen Führer der Blutsverwandten. Sie sind seit langem aus den Reihen des Adels und der Privilegierten, seien es Könige oder Handelsfürsten, umarmt worden, aber sie waren auch als Ritter und Kriegsherren bekannt, die nach den Gesetzen der Ritterlichkeit und Pflicht zu leben versuchten. Wenn überhaupt, dann haben sich die Ventrue im Laufe der Jahrhunderte an die Führungsrolle angepasst und sind in den Letzten Nächten mehr Politiker als edle Krieger, mehr Geschäftsführer als Baron-Lord. Sie sind nach wie vor die größten Unterstützer der Camarilla und der Maskerade, da sie beide Institutionen für das sicherste Mittel halten, um die Vampire vor der wachsenden Masse der Sterblichen zu schützen und ihre eigene Macht zu bewahren.",
+    "disciplines": [
+      2,
+      7,
+      6
+    ]
+  },
+  {
+    "id": 15,
+    "name": "Caitiff",
+    "slogan": "Die Clanlosen",
+    "curse": "Unberührt von den Vorsintflutlichen teilen die Caitiff keinen gemeinsamen Fluch. Caitiff-Charaktere beginnen mit dem Nachteil Verdächtiger (*) und sie dürfen während der Charaktererstellung keinen positiven Status erwerben. Die Erzählerin kann immer einen Abzug von ein oder zwei Würfeln für gesellschaftliche Proben gegen andere Blutsverwandte aussprechen, wenn diese wissen, dass es sich um Caitiff handelt, unabhängig von ihrem tatsächlichen Status. Außerdem kostet das Steigern einer der Disziplinen eines Caitiff das Sechsfache des gegenwärtigen Werts an Erfahrungspunkten.",
+    "description": "Nicht alle Blutsverwandten erben den Fluch eines der 13. Einige kümmert ihre Abstammung nicht. Bestimmte Blutlinien von Blutsverwandten waren schon immer clanlos und manchmal werden Kinder der Clans einfach anders geboren. Sie werden oftft abgewiesen, ins Exil geschickt oder entscheiden sich, sich von den Clans zu distanzieren, von denen sie verachtet werden. Als reine Vampire gleichen Caitiffff das, was ihnen an Respekt und Abstammung verwehrt ist, durch die Flexibilität ihres Blutes und das Fehlen eines einschränkenden Fluches aus. Egal, ob stolz oder beschämt wegen ihrer clanlosen Natur, welcher Art sie auch sein mag, haben diese Kreaturen keine Familie, repräsentieren aber den Vampirismus in seiner reinsten und individualistischsten Form.",
+    "disciplines": [
+      1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11
+    ],
+    "actions": [
+      {
+        "description": "Erhalten durch den Clanfluch.",
+        "type": "add_flaw",
+        "data": {
+          "choices": [
+            {
+              "type": "background",
+              "id": 11,
+              "flawId": 1
+            }
+          ]
+        }
+      }
+    ]
+  }
+]

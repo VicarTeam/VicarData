@@ -1,0 +1,763 @@
+﻿[
+  {
+    "id": 1,
+    "name": "Räuber",
+    "description": "Du bist ein Angriffsfresser, der sich an seine Beute heranpirscht, sie überwältigt, sich von ihr ernährt und ihr dann entkommt.",
+    "actions": [
+      {
+        "description": "Zusätzliche Spezialisierung: Einschüchtern (Überfälle) oder Handgemenge (Ringen)",
+        "type": "additional_specialization",
+        "data": {
+          "choices": [
+            "int=Überfälle",
+            "bra=Ringen"
+          ]
+        }
+      },
+      {
+        "description": "Du erhälst einen zusätzlichen Punkt in Geschwindigkeit oder Stärke",
+        "type": "discipline_point",
+        "data": {
+          "choices": [
+            {
+              "id": 4
+            },
+            {
+              "id": 8
+            }
+          ]
+        }
+      },
+      {
+        "description": "Du verlierst einen Punkt in Menschlichkeit",
+        "type": "humanity_change",
+        "data": {
+          "amount": -1
+        }
+      },
+      {
+        "description": "Du erhälst drei zusätzliche Punkte in kriminelle Kontakte",
+        "type": "add_background_points",
+        "data": {
+          "amount": 3,
+          "backgroundId": 2
+        }
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "name": "Beuteltrinker",
+    "description": "Du ziehst es vor, kaltes Blut zu trinken, anstatt sich von einem lebenden Opfer zu ernähren.",
+    "restriction": {
+      "type": "exclude_clans",
+      "data": [14]
+    },
+    "actions": [
+      {
+        "description": "Zusätzliche Spezialisierung: Diebeshandwerk (Schlösserknacken) oder Szenekenntnis (Schwarzmarkt)",
+        "type": "additional_specialization",
+        "data": {
+          "choices": [
+            "lar=Schlösserknacken",
+            "stw=Schwarzmarkt"
+          ]
+        }
+      },
+      {
+        "description": "Du erhälst einen zusätzlichen Punkt in Blutmagie (nur für Tremere oder Banu Haqim), Verdunklung oder Vergessenheit",
+        "type": "discipline_point",
+        "data": {
+          "choices": [
+            {
+              "id": 3,
+              "restriction": {
+                "type": "only_clans",
+                "data": [1, 12]
+              }
+            },
+            {
+              "id": 10
+            },
+            {
+              "id": 11,
+              "restriction": {
+                "type": "book_activated",
+                "data": [3, 5]
+              }
+            }
+          ]
+        }
+      },
+      {
+        "description": "Du erhälst den Vorzug Trinken (***): Eiserner Magen",
+        "type": "add_merit",
+        "data": {
+          "meritId": 3,
+          "levelId": 2
+        }
+      },
+      {
+        "description": "Du erhälst die Schwäche Feind (***). Entweder glaubt jemand, dass du ihnen etwas schuldest, oder es gibt einen anderen Grund, warum du den Straßen fernbleibst",
+        "type": "add_flaw",
+        "data": {
+          "choices": [
+            {
+              "type": "background",
+              "id": 4,
+              "flawId": 3
+            }
+          ]
+        }
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "name": "Blutegel",
+    "description": "Dieser Blutsverwandte trinkt von anderen Blutsverwandten durch Jagd, Zwang oder indem er Blut als Bezahlung nimmt.",
+    "actions": [
+      {
+        "description": "Zusätzliche Spezialisierung: Handgemenge (Blutsverwandte) oder Heimlichkeit (gegen Blutsverwandte)",
+        "type": "additional_specialization",
+        "data": {
+          "choices": [
+            "bra=Blutsverwandte",
+            "ste=gegen Blutsverwandte"
+          ]
+        }
+      },
+      {
+        "description": "Du erhälst einen zusätzlichen Punkt in Geschwindigkeit oder Gestaltwandeln",
+        "type": "discipline_point",
+        "data": {
+          "choices": [
+            {
+              "id": 4
+            },
+            {
+              "id": 5
+            }
+          ]
+        }
+      },
+      {
+        "description": "Du verlierst einen Punkt in Menschlichkeit",
+        "type": "humanity_change",
+        "data": {
+          "amount": -1
+        }
+      },
+      {
+        "description": "Erhöhe deine Blutmacht um 1",
+        "type": "blood_potency_change",
+        "data": {
+          "amount": 1
+        }
+      },
+      {
+        "description": "Du erhälst die Schwäche Dunkles Geheimnis (**) Diablerist oder die Schwäche Verstoßen (**)",
+        "type": "add_flaw",
+        "data": {
+          "choices": [
+            {
+              "type": "background",
+              "id": 3,
+              "flawId": 1,
+              "customLevel": 2,
+              "suffix": "Diablerist"
+            },
+            {
+              "type": "background",
+              "id": 11,
+              "flawId": 2
+            }
+          ]
+        }
+      },
+      {
+        "description": "Du erhälst die Schwäche Trinken (**): Beutebeschränkung (keine Sterblichen)",
+        "type": "add_flaw",
+        "data": {
+          "choices": [
+            {
+              "type": "merit",
+              "id": 3,
+              "flawId": 2,
+              "customLevel": 2,
+              "suffix": "keine Sterblichen"
+            }
+          ]
+        }
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "name": "Metzger",
+    "description": "Dieser Blutsverwandte ernährt sich im Verborgenen von einer sterblichen Familie und Freunden, oft von der eigenen.",
+    "actions": [
+      {
+        "description": "Zusätzliche Spezialisierung: Überzeugen (Gaslighting) oder Ausflüchte (Vertuschung)",
+        "type": "additional_specialization",
+        "data": {
+          "choices": [
+            "pes=Gaslighting",
+            "sub=Vertuschung"
+          ]
+        }
+      },
+      {
+        "description": "Du erhälst einen zusätzlichen Punkt in Beherrschung oder Tierhaftigkeit",
+        "type": "discipline_point",
+        "data": {
+          "choices": [
+            {
+              "id": 2
+            },
+            {
+              "id": 9
+            }
+          ]
+        }
+      },
+      {
+        "description": "Du erhälst die Schwäche Dunkles Geheimnis (*) Metzger",
+        "type": "add_flaw",
+        "data": {
+          "choices": [
+            {
+              "type": "background",
+              "id": 3,
+              "flawId": 2,
+              "suffix": "Metzger"
+            }
+          ]
+        }
+      },
+      {
+        "description": "Du erhälst den Vorteil Herde (**)",
+        "type": "add_background",
+        "data": {
+          "backgroundId": 7,
+          "levelId": 2
+        }
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "name": "Einvernehmlicher",
+    "description": "Diese Blutsverwandten ernähren sich niemals gegen den Willen ihres Opfers. Das kann auch bedeuten, dass sie die Maskerade brechen, indem sie ihnen offenbaren, dass sie ein Vampir sind.",
+    "actions": [
+      {
+        "description": "Zusätzliche Spezialisierung: Medizin (Aderlass) oder Überzeugen (Opfer)",
+        "type": "additional_specialization",
+        "data": {
+          "choices": [
+            "med=Aderlass",
+            "pes=Opfer"
+          ]
+        }
+      },
+      {
+        "description": "Du erhälst einen zusätzlichen Punkt in Auspex oder Seelenstärke",
+        "type": "discipline_point",
+        "data": {
+          "choices": [
+            {
+              "id": 1
+            },
+            {
+              "id": 7
+            }
+          ]
+        }
+      },
+      {
+        "description": "Du erhälst einen Punkt in Menschlichkeit",
+        "type": "humanity_change",
+        "data": {
+          "amount": 1
+        }
+      },
+      {
+        "description": "Du erhälst die Schwäche Dunkles Geheimnis (*) Maskeradenbrecher",
+        "type": "add_flaw",
+        "data": {
+          "choices": [
+            {
+              "type": "background",
+              "id": 3,
+              "flawId": 1,
+              "suffix": "Maskeradenbrecher"
+            }
+          ]
+        }
+      },
+      {
+        "description": "Du erhälst die Schwäche Trinken (*): Beutebeschränkung (nur Freiwllige)",
+        "type": "add_flaw",
+        "data": {
+          "choices": [
+            {
+              "type": "merit",
+              "id": 3,
+              "flawId": 2,
+              "suffix": "nur Freiwllige"
+            }
+          ]
+        }
+      }
+    ]
+  },
+  {
+    "id": 6,
+    "name": "Erpresser",
+    "description": "Der Erpresser zwingt seine Opfer gerne, für ihn zu bluten. Angeblich erhält der Erpresser das Blut als Gegenleistung für Dienstleistungen wie Sicherheit oder Überwachung, aber so oft wie das Bedürfnis nach Schutz real ist, so oft ist es auch eine Fiktion, um das Geschäft akzeptabel zu machen.",
+    "actions": [
+      {
+        "description": "Zusätzliche Spezialisierung: Einschüchtern (Nötigung) oder Diebeshandwerk (Sicherheit)",
+        "type": "additional_specialization",
+        "data": {
+          "choices": [
+            "int=Nötigung",
+            "lar=Sicherheit"
+          ]
+        }
+      },
+      {
+        "description": "Du erhälst einen zusätzlichen Punkt in Beherrschung oder Stärke",
+        "type": "discipline_point",
+        "data": {
+          "choices": [
+            {
+              "id": 2
+            },
+            {
+              "id": 8
+            }
+          ]
+        }
+      },
+      {
+        "description": "Verteile 3 Punkte auf Hintergründe Kontakte und Ressourcen",
+        "type": "spend_background_points_between",
+        "data": {
+          "points": 3,
+          "choices": [
+            2, 10
+          ]
+        }
+      },
+      {
+        "description": "Du erhälst die Schwäche Feind (**). Die Polizei oder ein Opfer, das Ihnen entkommen ist und sich nun rächen will.",
+        "type": "add_flaw",
+        "data": {
+          "choices": [
+            {
+              "type": "background",
+              "id": 4,
+              "flawId": 3
+            }
+          ]
+        }
+      }
+    ]
+  },
+  {
+    "id": 7,
+    "name": "Bauer",
+    "description": "Diese Blutsverwandten ernähren sich nur von Tieren.",
+    "restriction": {
+      "type": "max_blood_potency",
+      "data": 2
+    },
+    "actions": [
+      {
+        "description": "Zusätzliche Spezialisierung: Tierkunde (Spezielles Tier) oder Überleben (Jagd)",
+        "type": "additional_specialization",
+        "data": {
+          "choices": [
+            "ken=$input:Spezielles Tier",
+            "sur=Jagd"
+          ]
+        }
+      },
+      {
+        "description": "Du erhälst einen zusätzlichen Punkt in Tierhaftigkeit oder Gestaltwandeln",
+        "type": "discipline_point",
+        "data": {
+          "choices": [
+            {
+              "id": 5
+            },
+            {
+              "id": 9
+            }
+          ]
+        }
+      },
+      {
+        "description": "Du erhälst einen Punkt in Menschlichkeit",
+        "type": "humanity_change",
+        "data": {
+          "amount": 1
+        }
+      },
+      {
+        "description": "Du erhälst die Schwäche Trinken (**): Vegan",
+        "type": "add_flaw",
+        "data": {
+          "choices": [
+            {
+              "type": "merit",
+              "id": 3,
+              "flawId": 3
+            }
+          ]
+        }
+      }
+    ]
+  },
+  {
+    "id": 8,
+    "name": "Grabfresser",
+    "description": "Grabfresser ernähren sich oft von frischen Leichen, obwohl sie eigentlich lieber von lebenden Trauernden auf Friedhöfen oder geistig aufgewühlten Besuchern und Patienten in Krankenhäusern fressen.",
+    "actions": [
+      {
+        "description": "Zusätzliche Spezialisierung: Okkultismus (Grab-Rituale) oder Medizin (Kadaver)",
+        "type": "additional_specialization",
+        "data": {
+          "choices": [
+            "occ=Grab-Rituale",
+            "med=Kadaver"
+          ]
+        }
+      },
+      {
+        "description": "Du erhälst einen zusätzlichen Punkt in Seelenstärke oder Vergessenheit",
+        "type": "discipline_point",
+        "data": {
+          "choices": [
+            {
+              "id": 7
+            },
+            {
+              "id": 11
+            }
+          ]
+        }
+      },
+      {
+        "description": "Du erhälst den Vorzug Trinken (***): Eiserner Magen",
+        "type": "add_merit",
+        "data": {
+          "meritId": 3,
+          "levelId": 2
+        }
+      },
+      {
+        "description": "Du erhälst den Vorteil Zuflucht (*)",
+        "type": "add_background",
+        "data": {
+          "backgroundId": 6,
+          "levelId": 1
+        }
+      },
+      {
+        "description": "Du erhälst die Schwäche Feind (**): Offensichtliches Raubtier (deine kalte Natur lässt dich bei der Jagd sehr beunruhigend handeln)",
+        "type": "add_flaw",
+        "data": {
+          "choices": [
+            {
+              "type": "background",
+              "id": 4,
+              "flawId": 2
+            }
+          ]
+        }
+      }
+    ]
+  },
+  {
+    "id": 9,
+    "name": "Osiris",
+    "description": "Dieser Blutsverwandte ist eine Berühmtheit unter den Sterblichen oder eine Art Kultfigur, die sich von Anhängern oder Verehrern ernährt.",
+    "actions": [
+      {
+        "description": "Zusätzliche Spezialisierung: Okkultismus (spezielle Tradition) oder Darbietung (spezielle Unterhaltungsform)",
+        "type": "additional_specialization",
+        "data": {
+          "choices": [
+            "occ=$input:spezielle Tradition",
+            "per=$input:spezielle Unterhaltungsform"
+          ]
+        }
+      },
+      {
+        "description": "Du erhälst einen zusätzlichen Punkt in Blutmagie (nur für Tremere oder Banu Haqim), Verdunklung oder Vergessenheit",
+        "type": "discipline_point",
+        "data": {
+          "choices": [
+            {
+              "id": 3,
+              "restriction": {
+                "type": "only_clans",
+                "data": [1, 12]
+              }
+            },
+            {
+              "id": 6
+            },
+            {
+              "id": 11,
+              "restriction": {
+                "type": "book_activated",
+                "data": [3, 5]
+              }
+            }
+          ]
+        }
+      },
+      {
+        "description": "Verteile 3 Punkte auf Hintergründe Ruhm und Herde",
+        "type": "spend_background_points_between",
+        "data": {
+          "points": 3,
+          "choices": [
+            3, 7
+          ]
+        }
+      },
+      {
+        "description": "Verteile 2 Punkte auf Schwächen Feind und Mythische Schwächen",
+        "type": "spend_flaw_points_between",
+        "data": {
+          "points": 2,
+          "choices": [
+            {
+              "type": "backgrounds",
+              "id": 4
+            },
+            {
+              "type": "merits",
+              "id": 7
+            }
+          ]
+        }
+      }
+    ]
+  },
+  {
+    "id": 10,
+    "name": "Straßenmörder",
+    "description": "Diese Blutsverwandten ernähren sich ausschließlich von der durchreisenden Bevölkerung. Von den Truckern, Touristen und Reisenden der Welt.",
+    "actions": [
+      {
+        "description": "Zusätzliche Spezialisierung: Überleben (die Straße) oder Ermitteln (Vampirkant)",
+        "type": "additional_specialization",
+        "data": {
+          "choices": [
+            "sur=die Straße",
+            "inv=Vampirkant"
+          ]
+        }
+      },
+      {
+        "description": "Du erhälst einen zusätzlichen Punkt in Gestaltwandeln oder Seelenstärke",
+        "type": "discipline_point",
+        "data": {
+          "choices": [
+            {
+              "id": 5
+            },
+            {
+              "id": 7
+            }
+          ]
+        }
+      },
+      {
+        "description": "Du erhälst den Vorteil Herde (**)",
+        "type": "add_background",
+        "data": {
+          "backgroundId": 7,
+          "levelId": 2
+        }
+      },
+      {
+        "description": "Du erhälst die Schwäche Trinken (*): Beutebeschränkung (Einheimische)",
+        "type": "add_flaw",
+        "data": {
+          "choices": [
+            {
+              "type": "merit",
+              "id": 3,
+              "flawId": 2,
+              "suffix": "Einheimische"
+            }
+          ]
+        }
+      }
+    ]
+  },
+  {
+    "id": 11,
+    "name": "Sandman",
+    "description": "Diese Blutsverwandten ernähren sich mit Vorliebe von schlafenden Opfern, die sie heimlich oder mit Hilfe von Disziplinen töten.",
+    "actions": [
+      {
+        "description": "Zusätzliche Spezialisierung: Medizin (Betäubungsmittel) oder Heimlichkeit (Einbruch)",
+        "type": "additional_specialization",
+        "data": {
+          "choices": [
+            "med=Betäubungsmittel",
+            "ste=Einbruch"
+          ]
+        }
+      },
+      {
+        "description": "Du erhälst einen zusätzlichen Punkt in Auspex oder Verdunklung",
+        "type": "discipline_point",
+        "data": {
+          "choices": [
+            {
+              "id": 1
+            },
+            {
+              "id": 10
+            }
+          ]
+        }
+      },
+      {
+        "description": "Du erhälst einen zusätzlichen Punkt in Ressourcen",
+        "type": "add_background_points",
+        "data": {
+          "amount": 1,
+          "backgroundId": 10
+        }
+      }
+    ]
+  },
+  {
+    "id": 12,
+    "name": "Szeneprinzessin",
+    "description": "Der Blutsverwandte ist ein aktives Mitglied einer Subkultur und genießt Status und Ansehen, was ihm hilft, willige Opfer zu finden.",
+    "actions": [
+      {
+        "description": "Zusätzliche Spezialisierung: Etikette (spezifische Szene) oder Anführen (spezifische Szene) oder Szenekenntnis (spezifische Szene)",
+        "type": "additional_specialization",
+        "data": {
+          "choices": [
+            "eti=$input:spezifische Szene",
+            "lea=$input:spezifische Szene",
+            "stw=$input:spezifische Szene"
+          ]
+        }
+      },
+      {
+        "description": "Du erhälst einen zusätzlichen Punkt in Beherrschung oder Stärke",
+        "type": "discipline_point",
+        "data": {
+          "choices": [
+            {
+              "id": 2
+            },
+            {
+              "id": 8
+            }
+          ]
+        }
+      },
+      {
+        "description": "Du erhälst den Vorteil Ruhm (*)",
+        "type": "add_background",
+        "data": {
+          "backgroundId": 3,
+          "levelId": 1
+        }
+      },
+      {
+        "description": "Du erhälst den Vorteil Kontakte (*)",
+        "type": "add_background",
+        "data": {
+          "backgroundId": 2,
+          "levelId": 1
+        }
+      },
+      {
+        "description": "Du erhälst die Schwäche Einfluss (*) Unbeliebt oder die Schwäche Trinken (*) Beutebeschränkung (nur eigene Subkultur)",
+        "type": "add_flaw",
+        "data": {
+          "choices": [
+            {
+              "type": "background",
+              "id": 5,
+              "flawId": 1
+            },
+            {
+              "type": "merit",
+              "id": 3,
+              "flawId": 2,
+              "suffix": "nur eigene Subkultur"
+            }
+          ]
+        }
+      }
+    ]
+  },
+  {
+    "id": 13,
+    "name": "Sirene",
+    "description": "Die Blutsverwandten ernähren sich fast ausschließlich beim (oder unter Vortäuschung von) Sex, wobei sie sich auf Disziplinen, Verführungskünste oder die Begierde anderer verlassen, um ihre Natur zu verbergen.",
+    "actions": [
+      {
+        "description": "Zusätzliche Spezialisierung: Überzeugen (Verführung) oder Ausflüchte (Verführung)",
+        "type": "additional_specialization",
+        "data": {
+          "choices": [
+            "per=Verführung",
+            "sub=Verführung"
+          ]
+        }
+      },
+      {
+        "description": "Du erhälst einen zusätzlichen Punkt in Seelenstärke oder Präsenz",
+        "type": "discipline_point",
+        "data": {
+          "choices": [
+            {
+              "id": 7
+            },
+            {
+              "id": 6
+            }
+          ]
+        }
+      },
+      {
+        "description": "Du erhälst den Vorzug Aussehen (**): Schön",
+        "type": "add_merit",
+        "data": {
+          "meritId": 6,
+          "levelId": 1
+        }
+      },
+      {
+        "description": "Du erhälst die Schwäche Feind (*). Eine verschmähte Liebschaft oder ein eifersüchtiger Partner",
+        "type": "add_flaw",
+        "data": {
+          "choices": [
+            {
+              "type": "background",
+              "id": 4,
+              "flawId": 1
+            }
+          ]
+        }
+      }
+    ]
+  }
+]

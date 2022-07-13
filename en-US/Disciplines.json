@@ -1,0 +1,1868 @@
+[
+  {
+    "id": 1,
+    "name": "Auspex",
+    "summary": "One of the greatest gifts and worst curses that haunt vampires, the discipline Auspex allows kindred to discern the truth among all the lies, to test the minds of those around them, and to perceive reality as other beings on another plane. What at first appears to be the ultimate power of foresight and vision, perhaps bestows too much knowledge upon its users. They may be able to detect an assassin's blade before it strikes or enter an enemy's mind to turn it upside down, but they also sense every emotion, good and bad, see things they would prefer not to see, and discern a future they would rather not take a closer look at. Those who use Auspex open the door to paranoia, but using it is addictive. Once you know that the truth is within your grasp, you will seize any opportunity to reveal it. Kindred use Auspex in many ways. Some vampires act as spies for their court or faction. Others act on their own, blackmailing mortals or immortals with the secrets they have gleaned from quiet conversations, subtle sentients, and telepathic intrusions. Auspex allows the user to assume the role of detective in their own domain, investigating the scene of a vampire's destruction for telltale spiritual clues or interrogating suspects with supernatural accuracy.",
+    "levels": {
+      "1": [
+        {
+          "id": 1,
+          "name": "Heightened Senses",
+          "summary": "The vampire’s senses sharpen to a preternatural degree, giving them the ability to see in pitch darkness, hear ultrasonic frequencies and smell the fear of cowering prey.",
+          "costs": "Free (but see below)",
+          "diceSupplies": "Wits + Resolve",
+          "system": "The user adds their Auspex rating to all perception rolls. If exposed to extreme sensations, such as loud bangs, flashes of intense light or overpowering smells while the power is active the user must succeed on a Wits + Resolve (Difficulty 3 or more) roll to dampen their senses in time, or the overload causes them to sustain a -3 dice penalty to all perception-based rolls for the rest of the scene.",
+          "duration": "Until deactivated. Having the power active for longer stretches of time without rest (more than a scene), especially so for high-stimulus environments, might necessitate spending Willpower, at the Storyteller’s discretion."
+        },
+        {
+          "id": 2,
+          "name": "Sense the Unseen",
+          "summary": "The senses of the vampire become attuned to dimensions beyond the mundane, allowing them to sense presences otherwise hidden from the naked eye. This can be anything from another vampire using Obfuscate to someone using Auspex to spy upon the character to a ghost in the middle of the room. Dormant Blood Sorcery spells and rituals might also be found with this power, at the Storyteller’s discretion.",
+          "costs": "Free",
+          "diceSupplies": "Wits + Auspex or Resolve + Auspex",
+          "system": "Whenever there’s something supernatural hiding in plain sight, the Storyteller makes a hidden roll of Wits + Auspex against a Difficulty they choose. Against an entity actively trying to stay hidden, the Storyteller can call for a blind roll (“Lisa, roll seven dice for me”) as a contest against the target’s relevant pool. (For example, detecting a vampire using Obfuscate would be a roll of Wits + Auspex vs Wits + Obfuscate) If the vampire actively searches for a hidden supernatural entity, they roll Resolve + Auspex similarly.",
+          "duration": "passive"
+        }
+      ],
+      "2": [
+        {
+          "id": 3,
+          "name": "Premonition",
+          "summary": "The vampire experiences flashes of insight. These may take the form of raised hackles, sudden inspiration or even vivid visions. While never too precise, these visions can nudge the vampire out of harm’s way or reveal a truth previously overlooked.",
+          "costs": "Free or one Rouse Check",
+          "diceSupplies": "Resolve + Auspex",
+          "system": "Whenever the Storyteller deems it appropriate, this power gives the character a sudden hint that aids them in some way: letting them find a clue they’ve missed or saving them from danger. Whether it gives the character a sudden vision of themselves walking into a trap, an inviting red glow over the second right turn during a chase, or the brief flash of a skeleton beneath the floorboards in the Prince’s office, this power always gives the Storyteller license to subtly speed up play or move the story onto a desired track. The suggested limit is one premonition per scene, even if more than one character has Premonition.",
+          "alternatives": [
+            "The user can also actively provoke a premonition by focusing on a subject, making a Rouse Check and rolling Resolve + Auspex. The number of successes rolled determines the level of insight on the subject, if any."
+          ],
+          "duration": "passive"
+        }
+      ],
+      "3": [
+        {
+          "id": 4,
+          "name": "Scry the Soul",
+          "summary": "By focusing on a person, the v ampire can perceive the state of that person’s psyche as a shifting aur a of colors. Auras reveal little precise information, but do provide clues regarding many subjects, e.g., emotional state, Resonance, and supernatural traits. If looking for a specific condition, the vampire can cursorily scan the crowd to detect it. Such cursory scans provide no further information.",
+          "costs": "One Rouse Check",
+          "diceSupplies": "Intelligence + Auspex vs Composure + Subterfuge",
+          "system": "Make an Intelligence + Auspex vs Composure + Subterfuge roll. On a win, the Storyteller truthfully answers a number of questions equal to the margin of the roll about the target’s aura and psyche, including:<br/>◻ The emotional state of the subject.<br/>◻ The Resonance in the subject’s blood<br/>◻ Whether the subject is a vampire, werewolf, ghoul or any other supernatural being<br/>◻ Whether the subject is under the influence of Blood Sorcery or other magic<br/>◻ Whether the subject has committed diablerie in the last year<br/>◻ A critical win allows discovery of something unexpected, as determined by the Storyteller<br/>If scanning a crowd, roll versus a Difficulty determined by the size of the crowd and external distractions, as well as the type of trait being sought. (Finding the vampire in the living room might only be a Difficulty 3, while finding the most nervous person at a crowded rave is most likely Difficulty 6 or higher.)",
+          "duration": "One turn, or Storyteller’s discretion"
+        },
+        {
+          "id": 5,
+          "name": "Share the Senses",
+          "summary": "By reaching out with their mind, the vampire can tap into the senses of another mortal or v ampire, seeing, hearing, and feeling what they do. The user still retains their own perceptions and is still aware of their own surroundings, though the effect requires some getting used to. The user decides whether to tap into only one, some, or all of the target’s senses. When used on a stranger this power requires line of sight to initiate. However, it can be used over longer distances on someone who still has some of the user’s Blood in their body.",
+          "costs": "One Rouse Check",
+          "diceSupplies": "Resolve + Auspex",
+          "system": "Roll Resolve + Auspex at Difficulty 3. This Difficulty can go up depending on distraction, distance, and other factors, such as the amount of the user’s Blood that remains in the target. The target usually remains unaware of the intrusion, but Sense the Unseen can allow the passenger to be noticed. To get rid of an unwanted rider, the victim must beat the intruder at a Wits + Resolve vs Wits + Resolve roll. An Auspex user thrown out this way cannot make another Sharing attempt until the next night.",
+          "duration": "One scene"
+        }
+      ],
+      "4": [
+        {
+          "id": 6,
+          "name": "Spirit's Touch",
+          "summary": "By touching an inanimate object or the ground at a location, the vampire can sense the emotional residue left by those who have handled that object or visited the location in the past. The user gains insight into not only that person, but also what was done and under what circumstances. While rarely crystal clear, the information often provides leads impossible to gain from regular forensics and deduction.",
+          "costs": "One Rouse Check",
+          "diceSupplies": "Intelligence + Auspex",
+          "system": "Make an Intelligence + Auspex roll versus a Difficulty depending on the information sought. Gleaning the emotional state of the user of a murder weapon used a few days before is Difficulty 3, but sensing the surroundings in which a 300-year old letter was written approaches Difficulty 6 or higher. Each point of margin on the roll allows the user to sense roughly one additional previous handler and set of circumstances, counting backwards from the most recent.",
+          "duration": "One turn"
+        }
+      ],
+      "5": [
+        {
+          "id": 7,
+          "name": "Clairvoyance",
+          "summary": "By closing their eyes and entering a light trance, the vampire becomes master of its surroundings. In a few minutes it can gather information from roughly a city-block sized area (more if outdoors or less populated) that would normally take many hours, perhaps days of legwork and investigation. Once connected in such a way to their surroundings the vampire can also receive information on anything happening out of the ordinary in the area.",
+          "costs": "One Rouse Check",
+          "diceSupplies": "Intelligence + Auspex",
+          "system": "Roll Intelligence + Auspex against a Difficulty based on the security and level of activity of the area. Using Clairvoyance on one’s own mansion would be Difficulty 3 while an unfamiliar city block in the slums of a major city would amount to 7 or more. The user adds their base Haven rating in extra dice to the pool when using Clairvoyance on their own haven. The Storyteller answers the vampire’s questions about the comings and goings in the area, what people have seen and heard, topics of local gossip, recent major shocks or impressions, and so forth. The player can ask roughly one question per point of margin; answers about deliberately concealed information might consume more than one point. A critical win reveals something major, regardless of the questions asked, assuming there is something to reveal. The vampire can also clairvoyantly monitor events in progress, though this requires them to remain in the area for as long as the effect is active.",
+          "duration": "A few minutes for information gathering, up to a night for vigilance."
+        },
+        {
+          "id": 8,
+          "name": "Possession",
+          "combination": {
+            "id": 2,
+            "level": 3
+          },
+          "summary": "With this power the vampire can strip the will of a mortal and completely possess their body, using it as their own. While the mind of the subject remains hidden to the vampire, they can do anything and go anywhere the subject could while the power remains active. Using this, a vampire can even experience the sunlight, food, and physical sexuality long denied them, their host paying the price for whatever abuse the vampire wreaks on their body while riding it.",
+          "costs": "Two Rouse Checks",
+          "diceSupplies": "Resolve + Auspex vs Resolve + Intelligence",
+          "system": "This power can only be used on mortals. If the mortal is a ghoul, they must first be Blood Bound to the user. Before possession can begin, the vampire must have eye contact with their victim (See Dominate, p. 254). The user then engages in a Resolve + Auspex vs Resolve + Intelligence conflict with the victim in order to inhabit their body. If the vampire’s player rolls a total failure, the victim becomes immune to further Possession attempts for the duration of the story. Once the vampire inhabits the body of their victim, their own body falls into a torpor-like trance, completely unaware of their surrounding and their own physical state except for Aggravated damage, which breaks the trance and ends the effects. A vampire possessing a mortal can use Auspex, Presence, and Dominate through them. If the user wishes to extend Possession into daytime, they must make a roll to stay awake (p. 219). Failure to stay awake ends the power. Any Aggravated damage to the subject also risks ending the possession – the user must succeed at a Resolve + Auspex roll (Difficulty 2 + damage taken) to stay in control. If the subject dies during Possession, the resulting spiritual trauma immediately causes the user to sustain three levels of Aggravated damage to Willpower. This power does not give the user the ability to read the mind, use the skills, or emulate the manners of the victim. Any skills employed use the possessing vampire’s rating. The user must make a Manipulation + Performance vs Wits + Insight roll to successfully impersonate the victim’s manners, expressions, and the like. Finally, Possession violates the victim even more profoundly than a Blood Bond. The Storyteller should consider awarding Stains for this action.",
+          "duration": "Until ended, voluntarily or involuntarily."
+        },
+        {
+          "id": 9,
+          "name": "Telepathy",
+          "summary": "At the highest levels of Auspex the vampire can now literally read minds, as well as project their own thoughts into the minds of others. While reading a mortal mind is relatively straightforward, undead minds requires a higher effort to penetrate.",
+          "costs": "One Rouse Check (plus one Willpower vs non-consenting vampires)",
+          "diceSupplies": "Resolve + Auspex vs Wits + Subterfuge",
+          "system": "The user is not required to roll any dice to project their thoughts to another, vampire or mortal, though they do require line of sight. To read the mind of a mortal within line of sight, roll Resolve + Auspex vs Wits + Subterfuge while looking into their eyes. (Unless the mortal consents, in which case no roll is required.) A win means that the user can discern surface thoughts as a stream of images, with higher margin allowing the user to probe for more distant or buried memories. A critical win gives a coherent picture of the subject’s current thoughts and intentions. To read the mind of a non-consenting vampire, spend one Willpower point before rolling.",
+          "duration": "Roughly one minute per Rouse Check. Increased to a full scene on consenting subjects."
+        }
+      ],
+      "6": [
+        {
+          "id": 10,
+          "name": "The Dreaming",
+          "minBloodPotency": 5,
+          "summary": "Kindred with this power transcend some of the normal limitations of torpor and daysleep. Their bodies become unresponsive like those of other Kindred, but their minds remain vibrant and alert.",
+          "costs": "None",
+          "system": "Once you have this power, you no longer fall completely unconscious while you are in torpor or daysleep. Your body is unresponsive, but your mind may reach out and touch those of the creatures around you, granting you glimpses of insight into their thoughts, feelings, and activities. The shape that this takes depends on your particular specialization within the Auspex Discipline. If you have Clairvoyance, consider yourself to be in constant use of the ability while in daysleep or torpor. If you have Telepathy, you may telepathically converse with those near your body (within a city block or two) without restriction, but may not use the Telepathy power's more invasive features. If you have Possession, you may take a point of Superficial Willpower damage in order to use the power to possess a mortal near your body. When used in this way, none of these powers require line of sight.",
+          "duration": "Passive"
+        }
+      ],
+      "7": [
+        {
+          "id": 11,
+          "name": "Spirit Link",
+          "minBloodPotency": 6,
+          "requirement": 9,
+          "summary": "This power allows the user to communicate telepathically at great distances, and with multiple targets simultaneously.",
+          "costs": "One Rouse Check (in addition to one for Telepathy)",
+          "system": "While this power is active, you may use Telepathy without line of sight and on multiple targets simultaneously, even allowing your targets to converse telepathically with each other using your mind as the medium. If you seek to use Telepathy on truly distant targets (more than a mile away), the Storyteller may require you to do a Resolve + Auspex test against a Difficulty they set based on the target's distance from you. The maximum distance this power can allow you to use Telepathy is 50 miles.",
+          "duration": "One scene"
+        }
+      ],
+      "8": [
+        {
+          "id": 12,
+          "name": "Psychic Assault",
+          "minBloodPotency": 7,
+          "summary": "The Kindred unleashes a blast of mental energy on a target, searing their mind and will.",
+          "costs": "One Rouse Check",
+          "diceSupplies": "Resolve + Auspex vs. Composure + Resolve (or Auspex if the target has dots in it)",
+          "system": "When you activate this power, you choose one target you can see and attempt to blast their mind with psychic energy. Make a Resolve + Auspex roll contested by their Composure + Resolve (or Auspex if the target possesses dots in Auspex). If you win, you deal Superficial damage to the target's Willpower equal to the margin. If this damage fills up the target's Willpower tracker with Aggravated damage, they die (if mortal), or enter torpor (if a vampire).",
+          "duration": "One attack"
+        }
+      ],
+      "9": [
+        {
+          "id": 13,
+          "name": "The Mind's Eye",
+          "minBloodPotency": 8,
+          "summary": "This power allows the user to scry on events transpiring at great distances from them.",
+          "costs": "Two Rouse Checks",
+          "diceSupplies": "Intelligence + Auspex",
+          "system": "When you activate this power, make an Intelligence + Auspex test against a Difficulty set by the Storyteller to attempt to project your consciousness out of your body and to another part of the world. The Difficulty should depend on the location's distance from you and any wards against magical intrusion that may be present. If successful, you may experience the target location as though you were present, although you cannot affect anything and you give no sign that your mind is there. While this power is active, you are unaware of all sensations from your physical body except sudden pain. Users of Auspex powers can detect your projected presence, but you may conceal it with Obfuscate powers if you possess them.",
+          "duration": "One scene"
+        }
+      ],
+      "10": [
+        {
+          "id": 14,
+          "name": "Pulse of the Canaille",
+          "minBloodPotency": 9,
+          "summary": "Kindred with this power are able to tap into the collective subconscious of the mortals in an area, learning their attitudes, concerns, trends, perspectives, and sensing the presence of any blood bonds or other supernatural chains that may be binding them.",
+          "costs": "Two Rouse Checks",
+          "diceSupplies": "Composure + Auspex",
+          "system": "Make a Composure + Auspex test when you activate this power, the result determining your success at synthesizing the massive influx of mental information you receive from the mortals around you. This power can grant understanding of social movements, modern perspectives, even new technologies to the Kindred who uses it. Additionally, if you pass a hidden Difficulty set by the Storyteller, you gain an intuitive sense for the blood bonds and other supernatural dominations that exist within the mortal population in your area. If you gain enough successes, you might immediately learn the exact identities of one or more thrall and regnant pairs or the content of a submerged directive still lying dormant in a mortal's mind. Repeated use of this power can allow elder vampires to adapt to modern perspectives and technology, potentially allowing them to remove the Archaic flaw.",
+          "duration": "One scene"
+        }
+      ]
+    }
+  },
+  {
+    "id": 2,
+    "name": "Dominate",
+    "summary": "Beherrschung verleiht dem Vampir die Fähigkeit, die Handlungen anderer zu kontrollieren, ihre Erinnerungen zu manipulieren und Lebewesen zu Taten zu zwingen, die sie aus freien Stücken nicht begehen würden. Im Wesentlichen ermöglicht Beherrschung einem Vampir, das Opfer vergessen zu lassen, dass gerade von ihm getrunken wurde. Am gefährlichsten wird es, wenn Blutsverwandte ganze Viehherden versklaven. Hier ist das Tier besonders grausam und kontrollierend. Beherrschung fungiert auch als Knüppel, um die Maskerade zu forcieren, unterwürfige Bedienstete zu erschaffen und die Selbstsicherheit des Vampirs zu stärken. Wenn Blutsverwandte diese Disziplin einsetzen, fühlen sie sich allmächtig, auch wenn die Weisesten unter ihnen wissen, dass auch das Ketten einer anderen Art sind, die ihnen vom Blut angelegt wurden.",
+    "levels": {
+      "1": [
+        {
+          "id": 1,
+          "name": "Cloud Memory",
+          "summary": "By uttering the phrase “Forget!” the user can make the Dominated victim forget the current moment as well as the last few minutes, enough to mask a superficial feeding or a chance meeting. No new memories are formed and if pressed the victim realizes they have a few minutes missing.",
+          "costs": "Free",
+          "diceSupplies": "Charisma + Dominate vs Wits + Resolve",
+          "system": "No roll is required against an unprepared mortal victim. Clouding the memory of a resisting victim or another vampire requires a Charisma + Dominate vs Wits + Resolve roll.",
+          "duration": "Indefinitely"
+        },
+        {
+          "id": 2,
+          "name": "Compel",
+          "summary": "With eye contact, the vampire can issue the victim a single-action command, no longer than a short sentence, to be obeyed to the letter. It must be possible to complete the command in a single turn. The Storyteller decides whether to interpret ambiguous commands in an unexpected or unfavorable way; alternatively, the command simply confuses the victim and fails.",
+          "costs": "Free",
+          "diceSupplies": "Charisma + Dominate vs Intelligence + Resolve",
+          "system": "No roll is required against an unprepared mortal victim. Commanding a resisting victim, a victim the vampire has previously Dominated in the same scene, or another vampire requires a contest of Charisma + Dominate vs Intelligence + Resolve. Commands that go against the victim’s nature also require such a contest.",
+          "duration": "No more than a single scene"
+        }
+      ],
+      "2": [
+        {
+          "id": 3,
+          "name": "Mesmerize",
+          "summary": "The vampire can issue complex commands to a victim, as long as they have the subject’s gaze and relative quiet in which to issue instructions. The instructions must be carried out immediately to the victim’s best ability, and must not contain any conditional actions (“...if you see Henry, give him the document”), as this would require the victim to exercise cognition.",
+          "costs": "One Rouse Check",
+          "diceSupplies": "Manipulation + Dominate vs Intelligence + Resolve",
+          "system": "No roll is required against an unprepared mortal victim. Commanding a resisting victim or another vampire requires a contest of Manipulation + Dominate vs Intelligence + Resolve. Commands that go against the victim’s nature also require such a contest.",
+          "duration": "Until the command is carried out or the scene ends, whichever comes first."
+        },
+        {
+          "id": 4,
+          "name": "Dementation",
+          "combination": {
+            "id": 10,
+            "level": 2
+          },
+          "summary": "This subtle power requires nothing more than casual conversation, as the vampire’s insidious influence hides between the lines and inflections employed. The victim finds themselves increasingly agitated as their inner demons bubble to the surface, eventually drowning out all rhyme and reason.",
+          "costs": "One Rouse Check per scene",
+          "diceSupplies": "Manipulation + Dominate vs Composure + Intelligence",
+          "system": "After engaging in conversation with a victim, the user can activate this power. For the duration of the scene, the user may attack a single individual each turn in a Manipulation + Dominate vs Composure + Intelligence conflict, causing Superficial damage to Willpower. A mortal who becomes Impaired by this power experiences a nervous breakdown or psychotic break, the shape and nature of which depends on their personality (and perhaps their blood Resonance). A vampire that becomes Impaired by this power must immediately succumb to a Compulsion, as chosen by the power’s user. If the user wants to affect multiple victims, they need to make a separate Rouse Check for each one.",
+          "duration": "One scene"
+        }
+      ],
+      "3": [
+        {
+          "id": 5,
+          "name": "The forgetful Mind",
+          "summary": "The vampire can rewrite whole swathes of the victim’s memories, as long as they can keep the victim’s gaze and full, uninterrupted attention. The vampire verbally describes the victim’s new memories, which the victim then accepts as their own. This power does not allow the user to investigate the victim’s true memories; it more resembles blindly painting over the old canvas.",
+          "costs": "One Rouse Check",
+          "diceSupplies": "Manipulation + Dominate vs Intelligence + Resolve",
+          "system": "The user rolls a contest of Manipulation + Dominate vs Intelligence + Resolve. Each point of margin allows the user to add or remove an additional memory. The victim recalls the edits vaguely, foggy ideations that can fall apart under close questioning. A critical win creates a flawless imprint, as real as any true memory.",
+          "duration": "Indefinitely"
+        },
+        {
+          "id": 6,
+          "name": "Submerged Directive",
+          "summary": "When using Mesmerize, the vampire can now implant a posthypnotic suggestion, allowing the command to remain dormant until a specific stimulus occurs. This trigger can be anything from a specific date, to a person (“When you meet Roland, tell him these words”), to hearing a specific phrase. The Submerged Directive never expires; people can conceivably walk around with an order buried in their mind for years. The user can only embed one suggestion per victim.",
+          "costs": "No additional cost",
+          "system": "As Mesmerize, though the Storyteller might want to make any rolls in secret. There’s no way of knowing if the submerged suggestion works until the conditions are met.",
+          "duration": "passive"
+        }
+      ],
+      "4": [
+        {
+          "id": 7,
+          "name": "Rationalize",
+          "summary": "The vampire’s victims now believe that anything they do under the influence of Dominate was a result of their own free will, and defend their actions, however absurd. Long-term exposure to this power can lead to severe mental trauma in the victim.",
+          "costs": "No additional cost",
+          "system": "If pressed on their belief, the victim can make a Wits+Awareness test (Difficulty 5). A win makes them question their own statement, and possibly their sanity.",
+          "duration": "Indefinitely"
+        }
+      ],
+      "5": [
+        {
+          "id": 8,
+          "name": "Mass Manipulation",
+          "summary": "The vampire can now command entire gatherings of mortals, and in some cases even groups of vampires. The vampire can use this power both to issue instructions and to manipulate memories.",
+          "costs": "One Rouse Check in addition to the cost of the power amplified",
+          "system": "The vampire can amplify any of their other powers to affect a group of people, mortal or vampire, at once. All of the victims need to see the eyes of the user. The user makes any needed roll against the strongest opponent in the group.",
+          "duration": "As per power amplified"
+        },
+        {
+          "id": 9,
+          "name": "Terminal Decree",
+          "summary": "No longer hampered by the selfpreservation instincts of their victims, the vampire can now issue commands that directly lead to the harm or death of the victim. Mortals can be made to blow their brains out, jump from rooftops, or swallow poison. Vampires can, with a bit of effort, be made to walk into fire or sunlight.",
+          "costs": "No additional Hunger cost, but the Humanity cost is potentially severe",
+          "system": "Terminal commands now must be resisted (see individual powers regarding rolls involved), rather than failing automatically.",
+          "duration": "passive"
+        }
+      ],
+      "6": [
+        {
+          "id": 10,
+          "name": "Implant Opinion",
+          "minBloodPotency": 5,
+          "summary": "This power allows the user to embed core beliefs, opinions, or personality traits into a victim, leaving them profoundly altered and without any awareness that the change is more than natural.",
+          "costs": "One Rouse Check",
+          "diceSupplies": "Manipulation + Dominate",
+          "system": "You describe to the victim the nature of the change you wish to implant within them when you use this power. Against a mortal victim, the Storyteller will set a Difficulty based on how contrary to the victim's nature the trait to be implanted is; a vampire may resist using Intelligence + Resolve against your test of Manipulation + Dominate. On a win, your described trait is incorporated into the victim's core being. You can also use this ability to remove traits from the victim using the same rules. However, when you succeed on such a check, the victim takes Aggravated Willpower damage equal to 4 the margin on the test to a minimum of 1.",
+          "duration": "Permanent"
+        }
+      ],
+      "7": [
+        {
+          "id": 11,
+          "name": "Strings of the Marionette",
+          "minBloodPotency": 6,
+          "summary": "Vampires with this power display the uncanny ability to puppeteer staked or torpid vampires.",
+          "costs": "One Rouse Check",
+          "diceSupplies": "Manipulation + Dominate",
+          "system": "Activating this power allows you to extend your use of Mesmerize to a single staked or torpid vampire, manipulating them like a puppet. Make a Manipulation + Dominate test against a Difficulty of 4. On a win, you can use Mesmerize on the target for the rest of the scene; on a critical win, you do not need to reuse this power to continue to use Mesmerize on the staked or torpid vampire in the future, provided they have not been unstaked or awakened from torpor since the critical win. The vampire victim automatically fails their test against your use of Mesmerize and carries out your commands automatically and explicitly, without giving any true signs of consciousness or moving more than is absolutely required for the task. When the command has been carried out, they return to the absolute stillness imposed by their torpidity or stake.",
+          "duration": "One scene (indefinite on a critical win)"
+        }
+      ],
+      "8": [
+        {
+          "id": 12,
+          "name": "Far Mastery",
+          "minBloodPotency": 7,
+          "summary": "This power allows a vampire to command victims without even being in the same room, much less having eye contact.",
+          "costs": "One Rouse Check (plus the cost for the power augmented)",
+          "diceSupplies": "Resolve + Dominate",
+          "system": "Activate this power when you use another Dominate ability, such as Mesmerize. You ignore the normal limitations of Dominate, including the requirement for eye contact; indeed, it is not even necessary for the victim to hear you. At most, this power can allow you to command victims in the same city not beyond that limit.",
+          "duration": "One scene"
+        }
+      ],
+      "9": [
+        {
+          "id": 13,
+          "name": "Carry the Master's Voice",
+          "minBloodPotency": 8,
+          "requirement": 6,
+          "summary": "This power allows the user to imbue a thrall with the intensity of their commands. Such thralls may issue commands with the power of their master's Dominate behind them.",
+          "costs": "As the power embedded",
+          "system": "When you use Submerged Directive, you can choose to embed the power of one of your own commands into your thrall for later use. Decide what command and power you will embed within your thrall; pay the cost and roll any test required for the power immediately (record the results). Next, specify the conditions under which your thrall should activate the command. For example, if you chose to grant them the command \"Defend me\" you could instruct them to use it only when in mortal danger. When they do use it, they use your results for the test and any augmentations to Dominate you activated when you used this power (such as Mass Manipulation), but are otherwise considered to be the one activating the power. You may embed multiple Dominate commands within a single thrall with this power.",
+          "duration": "Until used"
+        }
+      ],
+      "10": [
+        {
+          "id": 14,
+          "name": "Tyrant's Glance",
+          "minBloodPotency": 9,
+          "summary": "This power allows the user to supernaturally rend a victim's confidence in their own abilities.",
+          "costs": "Two Rouse Checks",
+          "diceSupplies": "Resolve + Dominate vs. Composure + Resolve",
+          "system": "Make a Resolve + Dominate test against the victim's Composure + Resolve and choose Physical, Social, or Mental attributes. On a win, the victim's attributes of the chosen category are reduced by a number equal to the margin on the contest (to a minimum of 1). On a critical win, this effect lasts indefinitely. The victim may restore their attributes by one dot per night by succeeding on a Composure + Resolve test of Difficulty 3. The victim may only make one such attempt per night.",
+          "duration": "One scene (indefinite on a critical win)"
+        }
+      ]
+    }
+  },
+  {
+    "id": 3,
+    "name": "Blood Sorcery",
+    "summary": "The Tremere claim that blood magic, or \"thaumaturgy\" as they call it, is their invention. In the version told by the Banu Haqim, \"Quietus\" was their blood right long before the Tremere were vampires. Other clans make similar statements. Though its origin is unclear, the gruesome nature of blood magic itself is not. Few kindred trust those who use a power that can manipulate the vitæ in their veins and turn blood into poison. Unlike other disciplines, which can be described as growing naturally in the vampire's chosen victims, blood mages require teachers. The Tremere once relied on their clan's pyramid hierarchy to arrange the training of their newborns, while the Banu Haqim insist that the sire-child relationship is the best form of mentoring. On these nights, many children of the Haqim wash up in Europe or the Americas, and as the pyramidal structure of the Tremere is broken, their newborns search desperately through the musty folios and palimpsests for fragments of true lore. Those who have truly mastered the discipline develop their own rituals, though many hide them from others, fully enjoying the fact that their unknown abilities are surrounded by such mystery. To practice blood magic, one must subdue one's own blood. Any form of this power reminds the vampire that he is far removed from humanity, as no mortal could possess such magical powers.",
+    "levels": {
+      "1": [
+        {
+          "id": 1,
+          "name": "Corrosive Vitae",
+          "summary": "Altering the properties of some of their own Blood, the user can make it highly corrosive to dead substances, able to corrode most items down to steaming sludge, given enough time and Blood shed.",
+          "costs": "One or more Rouse Checks",
+          "system": "No additional skill roll is required. The user concentrates for a turn and forces Blood through an open, usually self-inflicted, wound. The user then spills their Blood on a nonliving object (except unliving flesh such as that of the Kindred) to corrode and decompose it. Each Rouse Check corrodes approximately 35 cm of matter in all directions from the splash; this takes approximately five minutes (longer on soft metals like copper or cast iron). Harder metals such as alloys and steel merely scar and pit; whether they meaningfully weaken remains at the Storyteller’s discretion. (This power might corrode through handcuff chains given enough time and vitae.)",
+          "duration": "N/A"
+        },
+        {
+          "id": 2,
+          "name": "A Taste for Blood",
+          "summary": "By tasting a drop of blood, the user can discern certain basic traits of the one to whom it belongs.",
+          "costs": "Free",
+          "diceSupplies": "Resolve + Blood Sorcery",
+          "system": "The user dabs the blood on their tongue and makes a Resolve + Blood Sorcery roll (Difficulty 3). With a win, the user can determine the resonance and intensity of the blood if human. They can also identify whether the blood belongs to a mortal, ghoul, vampire, or other supernatural creature (it may not necessarily be able to identify the supernatural creature if not Kindred or ghoul). Tasting vitae also determines the relative Blood Potency (and thus the likely generation band) of the vampire. A critical win also reveals whether the subject has ever committed diablerie, and the generation (within one) of the vampire. If the user knows of the supernatural creature in question, they can identify the specific supernatural creature on a critical win after tasting the blood.",
+          "duration": "N/A"
+        }
+      ],
+      "2": [
+        {
+          "id": 3,
+          "name": "Extinguish Vitae",
+          "summary": "The user can intentionally remove the unlife-giving properties of some of the Blood in another vampire, stoking their Hunger as the victim’s inner reserves curdle into impotence.",
+          "costs": "One Rouse Check",
+          "diceSupplies": "Intelligence + Blood Sorcery vs Stamina + Composure",
+          "system": "The user rolls a contest of Intelligence + Blood Sorcery vs the Stamina + Composure of a target vampire in line of sight while concentrating for a turn and gesturing subtly. A win increases the target’s Hunger by one while a critical win increases it by two. The victim can discern who afflicts them if they can see the user while making an Intelligence + Occult vs Wits + Subterfuge roll.",
+          "duration": "N/A"
+        }
+      ],
+      "3": [
+        {
+          "id": 4,
+          "name": "Blood of Potency",
+          "summary": "The vampire can concentrate their Blood, increasing its potency temporarily.",
+          "costs": "One Rouse Check",
+          "diceSupplies": "Resolve + Blood Sorcery",
+          "system": "The user makes a Resolve + Blood Sorcery roll against a Difficulty of 2 + their Blood Potency. A win increases their Blood Potency by one for that scene; a critical win increases it by two. The vampire can use this power to exceed their generation limit on Blood Potency during its duration.",
+          "duration": "One scene or one night"
+        },
+        {
+          "id": 5,
+          "name": "Scorpion's Touch",
+          "summary": "The vampire can transmute some of their Blood into a paralyzing poison, capable of affecting mortals and vampires alike. They can use this ichor to coat bladed weapons, or even spit it at a target. Scorpionated Blood incapacitates affected mortals, while hampering vampires if not necessarily rendering them helpless. Specific breathing and biofeedback exercises practiced by some secret societies form the best defense against this Blood, aside from Fortitude.",
+          "costs": "One or more Rouse Checks",
+          "diceSupplies": "Strength + Blood Sorcery vs Stamina + Occult or Fortitude",
+          "system": "The user concentrates for a turn and forces Blood through an open, usually selfinflicted, wound. Each Rouse Check worth of poison made takes a turn and emits enough Blood to coat one bladed melee weapon stickily or to fill one mouthful to be spat at a foe. Spitting poison at someone involves a Dexterity + Athletics attack roll (which can be dodged like any ranged attack), although vampires have been known to French kiss a victim and transfer the poison that way. Even more subtle vampires scorpionate their Blood to poison would-be diablerists: drinking poisoned Blood from the vein guarantees a hit! Aside from such vein-to-fang transmission, however, scorpionated Blood is a contact poison that sublimes away in liquids and is too viscous to inject with a syringe. The user cannot poison beverages with it or (thanks to the pressure differential) inject it by their own bite. Arrowheads and bullets carry too little Blood to use this power with ranged weapons; the effect does not last long enough for the user to fill hollow bullets with scorpionated Blood. If the poison hits, the user rolls a contest of Strength + Blood Sorcery vs Stamina + Occult. (Vampires with Fortitude may resist with Stamina + Fortitude.) If the user wins, the poison does the margin in Aggravated Health damage to mortals and in non-halved Superficial Health damage to vampires. A mortal who takes even one point of damage collapses unconscious.",
+          "duration": "The poison remains potent for one scene"
+        }
+      ],
+      "4": [
+        {
+          "id": 6,
+          "name": "Theft of Vitae",
+          "summary": "Through mystical means the vampire opens a wound in a major artery of a mortal victim, blood shooting out through the air in a stream toward the open mouth of the user. This has the additional effect of keeping the mortal subdued as if in the throes of the Kiss, and the wound closes by itself once the effect ends, whether the victim expired or not. This power is extremely spectacular and a potential Masquerade breach while in progress, but once ended leaves no traces.",
+          "costs": "One Rouse Check",
+          "diceSupplies": "Wits + Blood Sorcery vs Wits + Occult",
+          "system": "The user makes a beckoning gesture toward a mortal target in line of sight and rolls their Wits + Blood Sorcery vs Wits + Occult. A win opens an arterial wound, and the vampire can start feeding from across the room. (A target wearing full-body protection such as a hazmat suit merely bleeds ecstatically out into the suit.) The user can do nothing else while feeding, but they can feed at twice the normal speed (at triple speed on a critical win) thanks to the sorcerous pressure of this power.",
+          "duration": "One feeding"
+        }
+      ],
+      "5": [
+        {
+          "id": 7,
+          "name": "Baal's Caress",
+          "summary": "The vampire can transmute their Blood into an extremely aggressive poison, lethal to mortal and Kindred alike.",
+          "costs": "One or more Rouse Checks",
+          "diceSupplies": "Strength + Blood Sorcery vs Stamina + Occult or Fortitude",
+          "system": "This power uses the same system (and its poison has the same restrictions) as Scorpion’s Touch (p. 273), with increased damage. If the poison hits, the user rolls a contest of Strength + Blood Sorcery vs Stamina + Occult. (Vampires with Fortitude may resist with Fortitude in lieu of the Occult Skill.) If the user wins, the poison does the margin in Aggravated Health damage to mortals and vampires alike. A mortal who takes even one point of damage dies instantly. If a vampire target takes Aggravated damage from this poison, the user rolls the contest again; on a win, the vampire enters torpor when next they go to sleep.",
+          "duration": "The poison remains potent for one scene"
+        },
+        {
+          "id": 8,
+          "name": "Cauldron of Blood",
+          "summary": "This gruesome power lets the user boil the blood of a victim in their own veins, causing massive damage and excruciating pain. While there are more efficient ways to kill, few methods approach this level of cruelty.",
+          "costs": "One Rouse Check and gain one (or more) Stains",
+          "diceSupplies": "Resolve + Blood Sorcery vs Composure + Occult or Fortitude",
+          "system": "The user pays the cost and touches the victim (Dexterity + Athletics in combat or similar situations), rolling a contest of Resolve + Blood Sorcery vs Composure + Occult. (Vampires with Fortitude may resist with Composure + Fortitude.) On a win, each point of margin causes one point of Aggravated damage in the victim. Mortals taking at least one point of damage die screaming. Vampire victims add 1 Hunger per point of damage inflicted, until Hunger is at 5.",
+          "duration": "One turn"
+        }
+      ],
+      "6": [
+        {
+          "id": 9,
+          "name": "Abated Tooth",
+          "minBloodPotency": 5,
+          "summary": "This power allows the sorcerer to force a Kindred's fangs back into their gums, preventing them from feeding with bite attacks.",
+          "costs": "One Rouse Check",
+          "diceSupplies": "Resolve + Blood Sorcery vs. Composure + Resolve",
+          "system": "If you win on the contest, the victim's fangs are forced back into their gums for the rest of the scene (for the rest of the night on a critical win). While their fangs are sheathed, the victim cannot make vampiric bite attacks, and if they feed they must do so without biting. This effect is maintained even if the victim enters a frenzy.",
+          "duration": "One scene (or one night on a critical win)"
+        }
+      ],
+      "7": [
+        {
+          "id": 10,
+          "name": "Blood Puppetry",
+          "minBloodPotency": 6,
+          "combination": {
+            "id": 2,
+            "level": 4
+          },
+          "summary": "The blood sorcerer reaches out to directly control the blood of a victim with their mind, turning them into a jerky marionette that acts according to the sorcerer's will.",
+          "costs": "One Rouse Check",
+          "diceSupplies": "Manipulation + Blood Sorcery vs. Stamina + Resolve + Fortitude (if the victim has it)",
+          "system": "If you win on the contest, you are able to control all of the victim's movements for a number of turns equal to 1 + the margin on the win. On a critical win, you control the target's movements for the rest of the scene. Mortals lose automatically. Each turn that you control their movements, you decide what they will do, but can only force them to take purely physical actions no forced use of Disciplines, speech, etc. If their action requires a dice pool, use the victim's statistics to build it, but it cannot exceed a number of dice equal to your result on the original Manipulation + Blood Sorcery test to seize control of their body. Manipulating a victim's body counts as a minor action, imposing a 2 dice penalty to other rolls on that turn unless you possess Rapid Reflexes.",
+          "duration": "Up to one scene"
+        }
+      ],
+      "8": [
+        {
+          "id": 11,
+          "name": "Corrupt Body",
+          "minBloodPotency": 7,
+          "summary": "This power allows the vampire to interfere with another vampire's vitae, causing it to corrupt their flesh instead of preserve it.",
+          "costs": "One Rouse Check",
+          "diceSupplies": "Wits + Blood Sorcery vs. Stamina + Fortitude",
+          "system": "You can only target other vampires with this power. If you win the contest, you can reduce one of their Physical attributes of your choice by a number equal to 1 + your margin on the test, to a minimum of 1. On a critical win, this lasts for the rest of the night.",
+          "duration": "One scene (one night on a critical win)"
+        }
+      ],
+      "9": [
+        {
+          "id": 12,
+          "name": "Valediction",
+          "minBloodPotency": 8,
+          "summary": "This power temporarily saps a victim of the benefits of their age and potency, forcing them to temporarily feel the weakness and vulnerability of the higher generations.",
+          "costs": "Two Rouse Checks",
+          "diceSupplies": "Resolve + Blood Sorcery vs. Stamina + Fortitude + Blood Potency",
+          "system": "If you win the contest, the victim's generation is raised to 13 for a number of turns equal to 1 + the margin on the test (one scene on a critical win). This means that the victim's blood potency is capped at 3 while the effect lasts, potentially lowering it if it was greater than 3 to begin with.",
+          "duration": "Up to one scene"
+        }
+      ],
+      "10": [
+        {
+          "id": 13,
+          "name": "Curdle Bond",
+          "minBloodPotency": 9,
+          "summary": "This power corrupts the devotion of the blood bond into hatred, turning loyal servants into deadly enemies.",
+          "costs": "One Rouse Check",
+          "diceSupplies": "Manipulation + Blood Sorcery",
+          "system": "Make a test of Manipulation + Blood Sorcery against a Difficulty equal to the bond strength + Composure of the target (the target must be a blood slave). On a win, the target's devotion to their regnant transforms into absolute hatred. A vampire victim must make a fury Frenzy test against a Difficulty equal to the bond strength each time they see their regnant for as long as the effect lasts. On a critical win, the inversion of the blood bond is permanent, lasting until the bond strength dissipates to 0 (according to normal rules for waning blood bonds). When it reaches 0, the bond is broken, and the thrall has whatever emotions toward their former regnant are natural to them and their situation.",
+          "duration": "One scene (or until the bond is broken, on a critical win)"
+        }
+      ]
+    }
+  },
+  {
+    "id": 4,
+    "name": "Celerity",
+    "summary": "The ability to strike swiftly, dodge blows, and elude pursuers makes the kindred extremely effective predators. With speed, vampires move faster than any other natural creature, though it grants them more than supernatural quickness, with which vampires seem to think as quickly as they act. While some vampires lash out at their enemies without fear of counterattack, others simply use the power to get from point A to point B faster than other people on foot.",
+    "levels": {
+      "1": [
+        {
+          "id": 1,
+          "name": "Cat's Grace",
+          "summary": "The vampire gains a balance and grace equal to and surpassing world-class trapeze artists. They can walk and even run across ledges and wires effortlessly and can keep their balance on the slimmest of supports.",
+          "costs": "Free",
+          "system": "The user automatically passes any Dexterity- or Athletics-based roll needed to keep their balance. Note that this power does not allow them to balance on support that cannot take their weight.",
+          "duration": "passive"
+        },
+        {
+          "name": "Rapid Reflexes",
+          "summary": "While their bodies still can’t defy the laws of nature, vampires with this power perceive events instantly and can react to them with superhuman alacrity. They can observe incoming projectiles to the extent that they can attempt to dodge arrows and even bullets without available cover.",
+          "costs": "Free",
+          "system": "With this power, vampires suffer no penalty to their defense pools for lack of cover against Firearms attacks. They can also take a minor action (see p. 298) worth up to two dic e per turn, such as readying or reloading a weapon, for free.",
+          "duration": "passive"
+        }
+      ],
+      "2": [
+        {
+          "id": 2,
+          "name": "Fleetness",
+          "summary": "Their mastery of Celerity now allows the vampire to move and react with dizzying speed.",
+          "costs": "One Rouse Check",
+          "system": "Add the Celerity rating to user's dice pool for non-combat Dexterity tests. Once per turn the user may also do this when defending with Dexterity + Athletics.",
+          "duration": "One scene"
+        }
+      ],
+      "3": [
+        {
+          "id": 3,
+          "name": "Blink",
+          "summary": "The vampire swiftly closes in on a foe, engaging or escaping in the blink of an eye. To an unprepared observer the user almost appears to teleport, a rush of wind the only sign of their passing.",
+          "costs": "One Rouse Check",
+          "diceSupplies": "Dexterity + Athletics, or as needed",
+          "system": "The vampire moves in a straight line toward a target, covering any distance under 50 meters while still having enough time to perform an action, such as an attack, during the turn. If the terrain is in any way hazardous, the character needs to make a Dexterity + Athletics roll to avoid stumbling and coming to a halt on the way. The Storyteller may call for other contests as desired, especially if the vampire races a distant foe to an object or an action. Vampires engaging a foe with this power act as if already engaged when the turn begins.",
+          "duration": "One turn"
+        },
+        {
+          "id": 4,
+          "name": "Traversal",
+          "summary": "With blurring speed the vampire can run or climb along any surface, including vertical and even liquid mediums. While Traversal does not grant insect-like supernatural traction, running up or along walls present little problem. Walking on water remains impossible, but the vampire can run on water for a limited distance given a run-up.",
+          "costs": "One Rouse Check",
+          "diceSupplies": "Dexterity + Athletics",
+          "system": "Make a Dexterity + Athletics roll with a Difficulty of 3 (inclined surface with traction) to 6 (slick vertical surface, open water), depending on the surface and angle. Each point of margin gets the vampire further up or out; a margin of 0 gets to a close target, a margin of 1 to one farther than that, and so forth. The Storyteller should inform the player beforehand if a target is too distant to even attempt Traversal; as a rule of thumb, anything over water farther than 60 meters (or more than 30 stories up a building) probably exceeds this power’s range.",
+          "duration": "One turn"
+        }
+      ],
+      "4": [
+        {
+          "id": 5,
+          "name": "Draught of Elegance",
+          "summary": "The Blood of the vampire becomes saturated with the power of Celerity, conveying a part of that power to anyone who drinks of it. While this is also a first step towards a Blood Bond, already bound thralls or servants have little use for such worries, and even non-bound allies might decide to brave a sip for the sake of temporary power.",
+          "costs": "One Rouse Check",
+          "system": "Drinking a Rouse Checks worth of Blood directly from the user gifts the drinker with temporary Celerity equal to half the Celerity dots (rounded down) of the donor. The drinker gains the same non-Amalgam powers as the donor’s, up to that level.",
+          "duration": "One night; for vampires, until the next feeding or the vampire reaches Hunger 5"
+        },
+        {
+          "id": 6,
+          "name": "Unerring Aim",
+          "combination": {
+            "id": 1,
+            "level": 2
+          },
+          "summary": "The world around them slowing to a crawl, the vampire can aim and throw or fire any weapon at a target as if the target were stationary.",
+          "costs": "One Rouse Check",
+          "system": "Use before making a ranged attack. The target makes no roll to dodge or defend; make the attack at Difficulty 1. An opponent possessing Celerity 5 can nullify this power by making their own Rouse Check, defending at the same speed.",
+          "duration": "A single attack"
+        }
+      ],
+      "5": [
+        {
+          "id": 7,
+          "name": "Lightning Strike",
+          "summary": "Faster than the eye can follow, the vampire can strike with fist or melee weapon at such speed that the opponent is unable to defend or take evasive action.",
+          "costs": "One Rouse Check",
+          "system": "Use before making a Brawl or Melee attack. The opponent makes no roll to dodge or defend; make the attack at Difficulty 1. An opponent possessing Celerity 5 can nullify this power by making their own Rouse Check, defending at the same speed.",
+          "duration": "A single attack"
+        },
+        {
+          "id": 8,
+          "name": "Split Second",
+          "summary": "The speed at which the vampire moves catches up with their supercharged perception, allowing them to react to events around them at a moment’s notice. Ambushers find their prey already standing behind them, and favors asked are completed before the words leave the supplicants mouth.",
+          "costs": "One Rouse Check",
+          "system": "The player can supersede the Storyteller’s narration of events, within reason. They can choose to have their character move through a door before it closes, circumvent an ambush after it has been triggered, roll out of the way of an explosion, and so forth. The action taken must be reasonable and should not take more than a few seconds in real time. The Storyteller decides what Skills, if any, need to be checked to successfully accomplish an action begun using this power.",
+          "duration": "Roughly one action, as determined by the Storyteller"
+        }
+      ],
+      "6": [
+        {
+          "id": 9,
+          "name": "Quickness of Pulse",
+          "minBloodPotency": 5,
+          "summary": "Users of advanced Celerity are simply able to do more, more quickly.",
+          "costs": "One Rouse Check",
+          "system": "When you activate this power, you can immediately take another turn in addition to your current one (activating Quickness does not count as your action for the current turn). You may only take one extra turn per round with this power, and it takes place in the same amount of time as the rest of the round.",
+          "duration": "One turn"
+        }
+      ],
+      "7": [
+        {
+          "id": 10,
+          "name": "Flower of Death",
+          "minBloodPotency": 6,
+          "summary": "This power allows you to invest your attacks with supernatural speed, bypassing defenses before they can even be brought to bear.",
+          "costs": "One Rouse Check",
+          "system": "While this power is active, you add your Celerity rating to Dexteritybased attacks (such as with archery, guns, rapiers, throwing daggers, etc.).",
+          "duration": "One scene"
+        }
+      ],
+      "8": [
+        {
+          "id": 11,
+          "name": "Stutter-Step",
+          "minBloodPotency": 7,
+          "summary": "Kindred with this power simply seem to flicker in and out of existence for a moment, avoiding attacks faster than the eye can see.",
+          "costs": "One Rouse Check",
+          "system": "While this power is active, you gain 3 automatic successes on dodge tests, and you do not suffer a penalty for dodging multiple times on your turn.",
+          "duration": "One scene"
+        }
+      ],
+      "9": [
+        {
+          "id": 12,
+          "name": "Tireless Tread",
+          "minBloodPotency": 8,
+          "requirement": 2,
+          "summary": "Users of this power are able to match the speed of modern vehicles for hours at a time.",
+          "costs": "Two Rouse Checks",
+          "diceSupplies": "Stamina + Celerity",
+          "system": "When you activate this power, you gain the ability to run at incredible speeds for a time. Make a Stamina + Celerity test to determine how long you can keep up this speed; each success grants you half an hour of sprinting at speeds that compete with slower highway vehicles (5060 mph). On a critical win, this power lasts for the rest of the night.",
+          "duration": "Variable"
+        }
+      ],
+      "10": [
+        {
+          "id": 13,
+          "name": "Between the Seconds",
+          "minBloodPotency": 9,
+          "summary": "At this level of Celerity, the user is almost impossible to contend with by anyone who does not possess a comparable rating in the Discipline.",
+          "costs": "Two Rouse Checks",
+          "system": "While this power is active, all attacks against you automatically fail, except those made using Unerring Aim or Lightning Strike against which you defend (or counter attack) normally.",
+          "duration": "One scene"
+        }
+      ]
+    }
+  },
+  {
+    "id": 5,
+    "name": "Protean",
+    "summary": "Werewolves hate vampires for possessing this ability. In their eyes, it is a mockery of their own nature when undead creatures transform into wolves or bats, extending their claws and gnashing their fangs as if they were one of them. Yet shapeshifting has been in their blood almost as long as kindreds have existed. The power to shapeshift, to change form and become even more deadly predators, is as much an integral part of the vampire as it is to the wolfling. Shapeshifters use the discipline primarily for its usefulness. The power allows the vampire to become a beast, turn their limbs into weapons, or evade capture as clouds of mist, slip through keyholes, or slip through a crack in a window.",
+    "levels": {
+      "1": [
+        {
+          "id": 1,
+          "name": "Eyes of the Beast",
+          "summary": "The vampire can will a supernatural red gleam into their eyes, giving them sight even in the total absence of light.",
+          "costs": "Free",
+          "system": "No roll is required to activate Eyes of the Beast. While active the user ignores any sight penalties imposed by darkness, including supernatural. While active, the inhuman appearance of the eyes confers two bonus dice to Intimidation pools against mortals.",
+          "duration": "As long as desired"
+        },
+        {
+          "id": 2,
+          "name": "Weight of the Feather",
+          "summary": "The vampire can reduce their effective mass and density, making themselves almost weightless. This allows them to avoid triggering pressure sensors as well as avoiding major damage from falls, collisions, or being thrown. The power cannot be used for longer leaps, as the vampire’s strength is proportionally reduced.",
+          "costs": "Free",
+          "diceSupplies": "Wits + Survival",
+          "system": "If the vampire has time to prepare, no roll is required. As a reaction, such as during a sudden fall, activating the power requires a Wits + Survival roll at Difficulty 3. As long as the power is in effect, the vampire is immune to damage from falls, collisions, and being thrown. The user also avoids triggering devices that rely on pressure, at the Storyteller’s discretion.",
+          "duration": "As long as desired"
+        }
+      ],
+      "2": [
+        {
+          "id": 3,
+          "name": "Feral Weapons",
+          "summary": "The vampire can extend their natural weapons to monstrous proportions. This usually takes the form of fingernails extending into wicked talons but can also come in other forms such as fangs elongating into veritable daggers, as from a gigantic serpent.",
+          "costs": "One Rouse Check",
+          "system": "No skill roll is needed to activate this power. When activated, the vampire adds a +2 modifier to their Brawl damage, and causes Aggravated Health damage to mortals. Superficial damage inflicted from Feral Weapons is not halved.",
+          "duration": "One scene"
+        }
+      ],
+      "3": [
+        {
+          "id": 4,
+          "name": "Earth Meld",
+          "summary": "Becoming one with the soil, the vampire sinks into the earth. Unless in torpor, the vampire rises again the following night.",
+          "costs": "One Rouse Check",
+          "system": "No test is required, but the vampire must be on a natural surface: rocks, raw earth, grass, etc. This power does not work on concrete, asphalt, or other artificial surfaces. It takes a turn for the vampire to sink into the earth, leaving carried objects behind atop the soil. While in the earth the vampire is aware of their surroundings, except during day-sleep. At those times, disturbances (e.g., digging or loud noises) awaken them or not as with all vampires (p. 219).",
+          "duration": "One day or more, or until disturbed"
+        },
+        {
+          "id": 5,
+          "name": "Shapechange",
+          "summary": "The vampire can assume the shape of an animal roughly the same size as their original mass. The vampire can only change into one type of animal (usually a wolf, sometimes a large feline or a giant snake), usually one associated with their clan or the type of prey they most commonly feed on. The animal, while usually a spectacular example of their species, shows no signs to a mundane observer of being supernatural.",
+          "costs": "One Rouse Check",
+          "system": "No test is required. The transformation takes one turn, during which the user may take no other actions. Upon transformation, the vampire gains the Physical Attributes, senses, and native Skills associated with that animal (see p. 373) and also gains that animal’s natural limits of communication, manipulation (most animals can carry one thing in their mouth), and so forth. The vampire can use other Disciplines, at the Storyteller’s discretion. (By and large, they can use Auspex, Animalism, Celerity, Fortitude, Potence, and Protean; many powers of Dominate, Obfuscate, and Presence pose problems; Blood Sorcery is completely off the table.)",
+          "duration": "One scene unless ended voluntarily before that"
+        }
+      ],
+      "4": [
+        {
+          "id": 6,
+          "name": "Metamorphosis",
+          "requirement": 5,
+          "summary": "This power grants an additional animal form to the user, this time also enabling them to change their size. Vampires most commonly metamorphose into bats, rats, unusually large insects, or snakes. (see p. 373)",
+          "costs": "One Rouse Check",
+          "system": "Same as Shapechange",
+          "duration": "One scene unless ended voluntarily before that"
+        }
+      ],
+      "5": [
+        {
+          "id": 7,
+          "name": "Mist Form",
+          "summary": "The vampire gains the legendary power to turn into a cloud of mist, perceivable to the eye but untouchable by anything save fire, sunlight, and supernatural aggression. They can fit through pipes, crevices, and cracks. While strong winds might buffet them, no natural force can disperse the cloud.",
+          "costs": "One to three Rouse Checks",
+          "system": "No roll is required. The transformation takes three turns, though it can be sped up with additional Rouse Checks on a one-for-one basis. While in mist form, the vampire moves at walking pace and perceives their surroundings through mystical means as if there as normal. A vampire in mist form cannot make eye contact or speak. They can use only those Disciplines requiring no physical form or presence, at the Storyteller’s discretion. While in mist form the vampire can only be damaged by sunlight, fire, and immaterial supernatural attacks (such as some Rituals).",
+          "duration": "One scene unless ended voluntarily before that"
+        },
+        {
+          "id": 8,
+          "name": "The unfettered Heart",
+          "summary": "Having mastered the power of Protean, the very insides of the user become malleable, almost viscous. The heart, seat of the vitae and unlife of the vampire, detaches and moves freely, if sluggishly, within the chest. This makes the vampire exceedingly hard to stake as the position of their heart changes nightly, and can even allow the user to free themselves from paralysis.",
+          "costs": "Free",
+          "system": "Increases the Difficulty on any non-combat test to stake the vampire by three. In Melee combat, only if the stake-wielder rolls a critical win does the stake penetrate the user’s heart. Even if staked, the user can make a Rouse Check and roll their Strength + Resolve (Difficulty 5) once per hour. A win means they manage to free themselves from paralysis as the stake is pushed out of their body. They cannot attempt such stake expulsion at Hunger 5.",
+          "duration": "passive"
+        }
+      ],
+      "6": [
+        {
+          "id": 9,
+          "name": "Loki's Gift",
+          "minBloodPotency": 5,
+          "summary": "Kindred with this ability have learned to master a multitude of shapes with their Protean. They can transform into any creature whose blood they have tasted.",
+          "costs": "None",
+          "diceSupplies": "Wits + Protean",
+          "system": "You gain the ability to learn a creature's form as you drink its blood. Make a Wits + Protean test against a Difficulty set by the Storyteller based on the necessity for individual specificity (ex: to master a new type of animal without replicating an individual's exact appearance, Difficulty 3; to exactly simulate an individual mortal, Difficulty 6). When you transform using Shapechange or Metamorphosis, you can assume any form you have learned using this ability.",
+          "duration": "As per power augmented"
+        }
+      ],
+      "7": [
+        {
+          "id": 10,
+          "name": "Invert the Flesh",
+          "minBloodPotency": 6,
+          "combination": {
+            "id": 9,
+            "level": 3
+          },
+          "summary": "This power allows the user to force a shapechanger back into their true form through their mastery of Protean and the Beast.",
+          "costs": "Two Rouse Checks",
+          "diceSupplies": "Resolve + Protean vs. Composure + Resolve",
+          "system": "When you activate this power, target a creature that is currently in a form other than their own (i.e., transformed via a Protean power or a lupine's innate shift) and engage in a contest of Resolve + Protean vs. Composure + Resolve. On a win, you force the target to spend their next turn transforming back into their true form. For the duration, the victim cannot leave their true form. On a critical win, this effect lasts until the end of the night.",
+          "duration": "One scene (one night on a critical win)"
+        }
+      ],
+      "8": [
+        {
+          "id": 11,
+          "name": "Blissful Slumber",
+          "minBloodPotency": 7,
+          "requirement": 7,
+          "summary": "Vampires with this ability have learned to slumber during the day in the form of mist, immune to all but fire and direct sunlight.",
+          "costs": "One Rouse Check",
+          "system": "Activate only while you are in your mist form; this power extends your mist form to last until you next awaken from daysleep. While this power is active, you only take damage from direct sunlight, fire, and immaterial supernatural attacks. For example, you could slumber as mist beneath the boughs of trees in a dense forest without being harmed, despite the small amount of sunlight filtering down through the branches. When you awaken from daysleep for any reason, you return to your true form. This power obeys the rules for Mist Form in all other respects.",
+          "duration": "Until you next awaken from daysleep"
+        }
+      ],
+      "9": [
+        {
+          "id": 12,
+          "name": "Death's Hidden Crawl",
+          "minBloodPotency": 8,
+          "requirement": 4,
+          "summary": "This ability expands on Earth Meld by allowing the user to slowly move through the earth while melded.",
+          "costs": "None",
+          "system": "While using Earth Meld, you are able to move at a walking pace through solid earth. Even in daysleep or torpor, your mind is able to propel you forward to a desired destination through pure instinct. When you choose to use this power, decide on a destination you are familiar with and could reasonably navigate yourself to if traveling above ground. Provided the destination is connected to your current location by a continuous band of natural earth (not concrete or other artificial materials) large enough to allow your body passage, you move through the earth toward it at a walking pace. When you arrive, you remain motionless at the destination until you emerge from Earth Meld. You may voluntarily end your usage of Earth Meld early when you have this power. This power can be used to emerge below floors or foundations, but it does not aid you in breaking through such barriers. Thus, you could travel below the foundation of a building to gain covert access, but you would have to make a test to break through the concrete in order to actually gain entry.",
+          "duration": "Passive"
+        }
+      ],
+      "10": [
+        {
+          "id": 13,
+          "name": "Shape of the Inner Beast",
+          "minBloodPotency": 9,
+          "summary": "Reminiscent of the hybrid Crinos warform of Lupines, this power transforms the user into a terrifying beast of a design unique to their own nature. Kindred sotransformed are capable of incredible destruction.",
+          "costs": "Two Rouse Checks",
+          "system": "No test is required, but the transformation requires an entire round to complete. Once transformed, you assume the shape of a bestial monstrosity with terrifying and deadly natural weapons. Similarly to lupines, all your Physical attributes increase by 3 while transformed, and you heal 1 point of Superficial Health damage per turn. While transformed, your Feral Weapons are automatically active and are treated as light piercing weapons with a +4 damage rating. You also suffer a 2 dice penalty to all Frenzy tests.",
+          "duration": "One scene"
+        }
+      ]
+    }
+  },
+  {
+    "id": 6,
+    "name": "Presence",
+    "summary": "Most vampires are graceful and deadly creatures. They are associated with both terrible violence and devastating beauty, embodying opposites that vacillate between nightmare and dream, depending on who is looking at them and what the vampire is in the mood for. Presence is a discipline that gives expression to this dichotomous existence. As a tool to attract or disperse victims, Presence allows you to control the masses, manipulate people emotionally, and force devotion. A mortal might face his greatest fear, which suddenly seems like the most glorious being on earth. Many who use presence use the discipline to effortlessly procure drinking vessels, while others use it to roam the night as creatures of terror, sending weak-willed cattle running in fear, unsure of what they have just glimpsed. Effective not only as a lure but also as a defense, vampires with presence enjoy an easier nightlife, happily forgetting which feelings they are given are normal and which are forced.",
+    "levels": {
+      "1": [
+        {
+          "id": 1,
+          "name": "Awe",
+          "summary": "Anyone in the presence of the vampire finds their attention inexplicably drawn to them. Those listening to the vampire speak might suddenly agree on subjects where they once held different viewpoints. While this power doesn’t cause rapt infatuation, it is still strong enough to sway the minds of most mortals.",
+          "costs": "Free",
+          "diceSupplies": "Manipulation + Presence vs Composure + Intelligence",
+          "system": "Add the Presence rating to any Skill roll involving Persuasion or Performance as well as to other Charismarelated rolls, at the Storyteller’s discretion. Anyone aware that they’re being affected can try to resist with a contest of Composure + Intelligence vs the user’s Manipulation + Presence. On a win, the target can resist the effects for one scene; a critical win makes the target immune for the entire night. Once the power wears off, victims revert to their previous opinions.",
+          "duration": "One scene or until intentionally ended"
+        },
+        {
+          "id": 2,
+          "name": "Daunt",
+          "summary": "Instead of attracting people, the vampire uses Presence to repel. With this power the user appears threatening and exudes an aura of menace powerful enough to make most mortals avoid their attention and even vampires think twice about acting against them.",
+          "costs": "Free",
+          "system": "Add the user’s Presence rating to any Intimidation rolls. Attacking the user requires a Resolve+Composure roll at Difficulty 2. Vampires cannot use Awe and Daunt simultaneously.",
+          "duration": "One scene or until intentionally ended"
+        }
+      ],
+      "2": [
+        {
+          "id": 3,
+          "name": "Lingering Kiss",
+          "summary": "The Kiss of a vampire induces near-ecstasy in mortals, but this power leaves other Kisses in the dust. Mortals fed upon by the user become addicted to the Kiss, obsessing over it and even seeking the vampire out for repeated feedings. Mortals often become anemic, self-harm, or even die from this addiction, but vampires find it a useful power for cultivating a herd.",
+          "costs": "Free",
+          "system": "The vampire can choose to use this power or not during each feeding. The user adds dice equal to their Presence to any subsequent Charisma Attribute-assisted pool against the bitten subject. A mortal fed upon with this power can make a Willpower test (Difficulty equals the user’s Presence) every week to resist the effects. Winning this test for three consecutive weeks breaks the effect, as does a single critical win.",
+          "duration": "Until successfully resisted"
+        }
+      ],
+      "3": [
+        {
+          "id": 4,
+          "name": "Dread Gaze",
+          "summary": "Briefly exposing their vampiric nature, the user instills a single subject with utter terror. Mortals are cowed, run, or freeze with fear, while other vampires either submit like whipped dogs or flee in frenzied Rötschreck.",
+          "costs": "One Rouse Check",
+          "diceSupplies": "Charisma + Presence vs Composure + Resolve",
+          "system": "Displaying their fangs, their face twisted in a predatory grimace, the user rolls a contest of Charisma + Presence against their target’s Composure + Resolve.<br/>◻ Failure: Mortals are unable to act other than in their own defense, backing off for a turn. Vampires are unaffected.<br/>◻ Win: Mortals run in fear. Vampires are unable to act other than in their own defense for a turn unless they spend Willpower equal to the users margin of win (to a minimum of one).<br/>◻ Critical Win: Mortals freeze or crumple into a fetal position. Vampires must make a terror frenzy test (Difficulty 3). If they win, they are still affected as above.",
+          "duration": "One turn"
+        },
+        {
+          "id": 5,
+          "name": "Entrancement",
+          "summary": "The vampire focuses their unnatural allure on a single person, instilling in them a rapt fascination or infatuation akin to falling head over heels in love or meeting one’s lifelong idol. The person affected does their best to r emain in the vampire’s good graces, but stops short of causing themselves or their other loved ones physical harm.",
+          "costs": "One Rouse Check",
+          "diceSupplies": "Charisma + Presence vs Composure + Wits",
+          "system": "The vampire only needs to gain the subject’s attention and win a contest of Charisma + Presence vs Composure + Wits. The effect lasts for roughly one hour plus one per point of margin on the win. The vampire can renew this effect indefinitely, but a failure ends the effect and makes the subject immune for the rest of the night. After succeeding, the user adds dice equal to their Presence rating to any Social dice pool against the entranced subject. Requests resulting in obvious harm to the subject or their loved ones, or that oppose the subject’s Tenets, fail and require an immediate power contest roll as above, or the Entrancement immediately fails.",
+          "duration": "One hour plus one per point of margin"
+        }
+      ],
+      "4": [
+        {
+          "id": 5,
+          "name": "Irresistible Voice",
+          "combination": {
+            "id": 2,
+            "level": 1
+          },
+          "summary": "The Presence of the user becomes a conduit for Dominate. The vampire now only needs their voice to be heard in order to employ Dominate powers.",
+          "costs": "No additional cost",
+          "system": "The user's voice alone is now enough to Dominate a target. This does not apply to voices transmitted through electronic media such as phones, television, or apartment door-buzzer speakers.",
+          "duration": "passive"
+        },
+        {
+          "id": 6,
+          "name": "Summon",
+          "summary": "The vampire can call to themselves any person, mortal or vampire, upon whom they’ve previously used Awe, Entrancement, or Majesty, or who has tasted their Blood at least once. The target knows who is summoning them and the user’s current location. This calling lasts for a night. After that time, the effect subsides, but the user can repeat it night after night if required to reach the target or if the target is otherwise reluctant. Anyone Summoned feels a pull toward the summoner and tries to reach them, though without endangering themselves physically or financially. They won’t sell their house to buy a ticket or miss a vital meeting, but they might skip out of normal work or social commitments.",
+          "costs": "One Rouse Check",
+          "diceSupplies": "Manipulation + Presence vs Composure + Intelligence",
+          "system": "The user needs to concentrate for five minutes and think of the person being summoned, then rolls Manipulation + Presence vs Composure + Intelligence. On a win, the target hears the summoning, but may or may not heed it. On a critical win, the target arrives as quickly as possible, barring immediate risk to their well-being.",
+          "duration": "One night"
+        }
+      ],
+      "5": [
+        {
+          "id": 7,
+          "name": "Majesty",
+          "summary": "At this pinnacle of the Discipline the vampire can amplify their countenance to supernatural levels. Whether they appear as heartrendingly beautiful, monstrously terrifying, or wielding absolute command, everyone who views them is struck by their image, unable to act or even speak against the vampire. To experience Majesty is to be in the presence of the divine - or the infernal.",
+          "costs": "Two Rouse Checks",
+          "diceSupplies": "Charisma + Presence vs Composure + Resolve",
+          "system": "People in the presence of the user can only stare, slackjawed, or avert their eyes in fear or submission. Anyone wanting to act in any way in opposition to the user, except for selfpreservation, must successfully win a contest of their Composure + Resolve vs. the vampire’s Charisma + Presence. A win allows one turn of freedom, plus one per point of margin; only a critical win resists the effect for the entire scene.",
+          "duration": "One scene"
+        },
+        {
+          "id": 8,
+          "name": "Star Magnetism",
+          "summary": "The Presence powers of the user now effect people viewing them on live feeds or hearing them over the phone. Recorded images or messages do not retain the effect, however.",
+          "costs": "One additional Rouse Check",
+          "system": "Awe, Daunt, and Entrancement can be transmitted through live feeds via screens or phones. If Entrancement is used, the victim’s name must be spoken clearly, as that power only affects one person at a time. Anyone else viewing the same transmission only finds the user charming, but not supernaturally so.",
+          "duration": "As power used"
+        }
+      ],
+      "6": [
+        {
+          "id": 9,
+          "name": "Spark Love",
+          "minBloodPotency": 5,
+          "requirement": 5,
+          "summary": "Vampires with this power are able to enflame the hearts of their victims, inciting the most passionate love or deepest devotion as they see fit. This intensity of emotion is almost indistinguishable from the blood bond.",
+          "costs": "Two Rouse Checks",
+          "diceSupplies": "Charisma + Presence vs. Wits + Composure",
+          "system": "Make a test of Charisma + Presence vs. your victim's Wits + Composure. On a win, you create a blood bond between the two of you with yourself as the regnant and the victim as the thrall, of course. The bond begins with a bond strength of 3. On a critical win, the bond strength begins at 6. You decide whether this bond manifests as love, passion, or simply devoted loyalty.",
+          "duration": "Permanent"
+        }
+      ],
+      "7": [
+        {
+          "id": 10,
+          "name": "Aphrodite's Amusement",
+          "minBloodPotency": 6,
+          "summary": "This power allows the user to directly manipulate blood bonds, stealing thralls from other Kindred at will.",
+          "costs": "One Rouse Check",
+          "diceSupplies": "Manipulation + Presence vs. Bond Strength + Blood Potency of the Regnant",
+          "system": "When you use this power, you may transfer one blood bond to or from yourself and one other individual. This could be stealing the position of regnant over another vampire's thrall, or it could be transferring your own position as regnant to one of your inferiors, allowing them to manage your blood bonds for you. Both the thrall and the regnant in question must be present when you activate this power. Make a test of Manipulation + Presence vs. Bond Strength + Blood Potency of the Regnant; the Regnant of the bond in question makes this contesting roll. If the Regnant is a willing participant they may choose to fail. On a win, you succeed in your manipulation of the bond. You cannot transfer bonds directly between other Kindred; you must first take on the bond yourself, then use this power again to hand it off to a third party.",
+          "duration": "Permanent"
+        }
+      ],
+      "8": [
+        {
+          "id": 11,
+          "name": "Unholy Penance",
+          "minBloodPotency": 7,
+          "requirement": 4,
+          "summary": "This power forces the victim to feel guilt and remorse for whatever the user commands them to regret.",
+          "costs": "One Rouse Check",
+          "diceSupplies": "Manipulation + Presence vs. Intelligence + Resolve",
+          "system": "Activate this power as you command a victim to feel sorry for something they have done. Make a test of Manipulation + Presence vs. Intelligence + Wits. On a win, they are overcome by guilt, grief, and remorse, collapsing helplessly where they stand as their negative emotions overwhelm them. The victim is unable to act save in their own defense for a number of turns equal to 1 + the margin on the roll, and they take Aggravated Willpower damage equal to the margin. Afterwards, they remove all Stains. On a critical win, the victim is unable to act save in their own defense for the rest of the scene.",
+          "duration": "Up to one scene"
+        }
+      ],
+      "9": [
+        {
+          "id": 12,
+          "name": "Suppress the Illicit Thought",
+          "minBloodPotency": 8,
+          "combination": {
+            "id": 1,
+            "level": 4
+          },
+          "summary": "This power causes the victim's mind to tie a certain memory or thought of the vampire's choice to the thought of this power's user, thereby preventing the victim from accessing that concept.",
+          "costs": "One Rouse Check",
+          "diceSupplies": "Intelligence + Presence vs. Intelligence + Composure",
+          "system": "When you use this power, you tell the victim that you would like them to think about you instead of a single memory or thought that you describe at the time of activation. For example, you could say, \",Don't think about how much you miss your dead wife think about how much you love me instead\" or, \",Don't think about planning to kill me think about planning to kiss me.\", Make a test of Intelligence + Presence vs. Intelligence + Composure. Mortal victims automatically fail. On a win, the victim's mind is filled of thoughts of you every time they would otherwise engage with the content that you have suppressed, preventing them from actually thinking about it. This effect lasts for one night, or indefinitely on a critical win.",
+          "duration": "One night (permanent on a critical win)"
+        }
+      ],
+      "10": [
+        {
+          "id": 13,
+          "name": "Undying Loyalty",
+          "minBloodPotency": 9,
+          "summary": "Vampires at this level of Presence have an inextricable hold over the minds of those they affect. Few forces, magical or mundane, are capable of breaking their grip or withstanding the influence of their presence.",
+          "costs": "None",
+          "system": "Your Presence powers override all other mindaltering effects that might be afflicting a victim even blood bonds. As long as someone is affected by one of your Presence powers, all mindaltering effects originating from someone other than you are suppressed. This effect also extends to those Blood Bonded to you as long as their Bond lasts, they are utterly immune to the Presence and Dominate of other creatures. They have but one master.",
+          "duration": "Passive"
+        }
+      ]
+    }
+  },
+  {
+    "id": 7,
+    "name": "Fortitude",
+    "summary": "Highly valued by the immortals, soul strength gives the ability to resist physical and mental attacks. Without at least a shred of Soul Strength, very few vampires live longer than a century, especially in a world where violence is commonplace and not even kindred are safe. On these nights, vampires are less likely to use Soul Strength to resist the sun than to fend off violent harm, fire, and supernatural coercion. Those who possess Soul Strength are the stalwart pillars of kindred society, able to take blows and ward off spells without stirring or showing signs of flaw. Few vampires feel as solid in their immortality as the ancestors of the blue-blooded and the savages.",
+    "levels": {
+      "1": [
+        {
+          "id": 1,
+          "name": "Resilience",
+          "summary": "Endowed with supernatural endurance, the user can strengthen their physical resolve.",
+          "costs": "Free",
+          "system": "The user adds their Fortitude rating to their Health track.",
+          "duration": "passive"
+        },
+        {
+          "id": 2,
+          "name": "Unswayable Mind",
+          "summary": "The user gains a mystical ability to resist any attempts to sway them through mundane charms, coercion, and wiles. Some exhibit Unswayable Mind as zen-like calm, others as supernatural stubbornness.",
+          "costs": "Free",
+          "system": "The user adds their dots in Fortitude as extra dice in any roll made to resist coercion, intimidation, seduction, or any other attempt to sway the user’s mind against their will. This power also works against supernatural abilities such as Dominate and Presence.",
+          "duration": "passive"
+        }
+      ],
+      "2": [
+        {
+          "id": 3,
+          "name": "Toughness",
+          "summary": "All vampires with this power exhibit an innate ability to ignore damage that would otherwise inconvenience and even disable others of their kind. While this power alone gives no protection against banes and other aggravated damage, the protection it confers adds up in the long run.",
+          "costs": "One Rouse Check",
+          "system": "Subtract the Fortitude of the defender from all Superficial damage sustained. This occurs before halving the damage, and cannot reduce the damage below one.",
+          "duration": "One scene"
+        },
+        {
+          "id": 4,
+          "name": "Enduring Beasts",
+          "combination": {
+            "id": 9,
+            "level": 1
+          },
+          "summary": "The user shares a small portion of their unnatural toughness with the animals they influence. Teeming swarms and great beasts alike exhibit a resistance to fleeting injuries almost equal to the vampire themself.",
+          "costs": "Free (for famulus); One Rouse Check (for other animals)",
+          "diceSupplies": "Stamina + Animalism (for non-famulus animals)",
+          "system": "The vampire can choose to extend some of their Fortitude powers to animals affected by their Animalism. Any animal thus imbued gains additional Health levels equal to the Fortitude dots of the vampire. Using this power on their famulus is free and automatic. To imbue other animals besides their famulus, the user must make a Rouse Check and roll a test of Stamina + Animalism (Difficulty 3). The user can fortify one animal per point of margin. When the effect ends, remove unmarked Health first; this may result in the animal expiring.",
+          "duration": "One scene"
+        }
+      ],
+      "3": [
+        {
+          "id": 5,
+          "name": "Defy Bane",
+          "summary": "By preparing themselves with an expenditure of power, the vampire can make themselves temporarily resistant to fire and sunlight as well as other grievous wounds that would threaten them with Final Death.",
+          "costs": "One Rouse Check",
+          "diceSupplies": "Wits + Survival (to activate reflexively)",
+          "system": "The user can convert a number of Aggravated damage equal to their Fortitude rating to Superficial damage when sustained. They may not heal that Superficial damage for the rest of the scene. This power converts a number of damage per scene, not per wound or per attack. The user can renew this power once expired by making another Rouse Check. If endangered unexpectedly, the user can activate this power reflexively with a Wits + Survival roll (Difficulty 3) upon receiving Aggravated damage. If the user fails the test, the power does not activate; if they win the test, they must make a Rouse Check to pay for the power.",
+          "duration": "One scene or until expired, whichever comes first"
+        },
+        {
+          "id": 6,
+          "name": "Fortify the inner Facade",
+          "summary": "Instead of hardening the vampire’s physical frame, this power allows the user to protect their thoughts and emotions from supernatural prying. Their mind appears completely blank while their aura is, for lack of better words, flat.",
+          "costs": "Free",
+          "system": "Increases the Difficulty of using Scry Soul (Auspex 3), Telepathy (Auspex 5), and similar powers on the user by half their Fortitude rating (round up). If the rules allow the user to resist these powers, they add their Fortitude rating to their dice pool instead.",
+          "duration": "One scene"
+        }
+      ],
+      "4": [
+        {
+          "id": 7,
+          "name": "Draught of Endurance",
+          "summary": "The Blood of the vampire becomes saturated with the power of Fortitude, conveying a part of that power to anyone who drinks of it. This is the Fortitude equivalent of Draught of Elegance (p. 254).",
+          "costs": "One Rouse Check",
+          "system": "Drinking a Rouse Check's worth of Blood directly from the user gifts the drinker with temporary Fortitude equal to half the Fortitude dots (rounded down) of the donor. The drinker gains the same powers as the donor’s, up to that level.",
+          "duration": "One night; for vampires, until the next feeding or the vampire reaches Hunger 5"
+        }
+      ],
+      "5": [
+        {
+          "id": 8,
+          "name": "Flesh of Marble",
+          "summary": "The power of the Blood causes the skin of the vampire to harden, taking on a marble-like sheen that is still supple but stops almost any blow before momentarily breaking and reforming. A vampire using this power is almost impossible to destroy outright, barring a lucky blow or physical restraint.",
+          "costs": "Two Rouse Checks",
+          "system": "With this power active, the vampire ignores the first source of physical damage each turn, including fire but not sunlight. If confusion arises about which source is “first,” the Storyteller either decides based on the narrative, or the vampire ignores the most damaging single source that turn. A critical win on an attack roll bypasses this power.",
+          "duration": "One scene"
+        },
+        {
+          "id": 9,
+          "name": "Prowess from Pain",
+          "summary": "Injuries and impairments now only fuel the powers of the vampire, who grows stronger and faster from each blow, rend, or tear received. Only utter destruction can stop one who calls upon this Fortitude power.",
+          "costs": "One Rouse Check",
+          "system": "Upon activating the power the vampire no longer suffers any dice penalties from Health damage sustained, such as physical Impairment. Additionally, they can increase one Physical Attribute by one dot (derived stats are unaffected) for each level of damage on their Health track, aggravated or superficial. The user’s Attributes cannot exceed a value equal to their Blood Surge + 6 through this ability.",
+          "duration": "One scene"
+        }
+      ],
+      "6": [
+        {
+          "id": 10,
+          "name": "Armor of Kings",
+          "minBloodPotency": 5,
+          "summary": "This power grants supernatural inflexibility to the user's flesh, causing blows to bounce off and weapons to shatter on impact.",
+          "costs": "One Rouse Check",
+          "system": "While active, you may roll Stamina + Athletics + Fortitude when dodging. If an attack with a weapon fails to do damage to you while this power is active, the weapon is destroyed unless supernaturally preserved against destruction; swords shatter on your iron flesh, bullets ricochet back to explode the gun they emerged from, clenched fists crunch as their bones crumble against your immovable jaw, etc. The only exception to this is damage dealt with fire.",
+          "duration": "One scene"
+        }
+      ],
+      "7": [
+        {
+          "id": 11,
+          "name": "Indomitable Mind",
+          "minBloodPotency": 6,
+          "requirement": 2,
+          "summary": "The user's mind automatically rebels against being dominated, throwing off the shackles of supernatural control with relish.",
+          "costs": "None",
+          "diceSupplies": "Resolve + Fortitude",
+          "system": "When you are subject to powers that influence your mind in any way, you automatically make a Resolve + Fortitude test each turn to attempt to throw off their influence. You make this test against a Difficulty set by the Storyteller or versus the user's test, as appropriate for the ability. This means that even if memories are removed or rewritten from your mind, or if directives are implanted in your subconscious, your mind will naturally force itself back into its unaltered state. Finally, you cannot experience the mindaltering effects of drugs of any kind, supernatural or otherwise.",
+          "duration": "Passive"
+        }
+      ],
+      "8": [
+        {
+          "id": 12,
+          "name": "Repair the Undead Flesh",
+          "minBloodPotency": 7,
+          "summary": "This power allows the vampire to mend their damaged flesh far more quickly than any other Kindred, provided they have access to sufficient blood.",
+          "costs": "None",
+          "system": "Instead of being limited to healing only one point of Aggravated Health damage per night, you may mend any amount of Aggravated damage in a single night. Each point still requires three Rouse Checks to mend, however.",
+          "duration": "None"
+        }
+      ],
+      "9": [
+        {
+          "id": 13,
+          "name": "Arm of Prometheus",
+          "minBloodPotency": 8,
+          "summary": "The Kindred concentrates the power of their vitae into a single limb, protecting it against all damage for a short time.",
+          "costs": "Two Rouse Checks",
+          "system": "No test is required to use this ability. While it is active, one limb of your choice is completely immune to damage. This can even allow you to reach into fire or sunlight and emerge unharmed assuming only the affected limb is exposed, of course.",
+          "duration": "One scene"
+        }
+      ],
+      "10": [
+        {
+          "id": 14,
+          "name": "Eternal Vigilance",
+          "minBloodPotency": 9,
+          "summary": "This nearlymythical ability permits the user to remain awake during daylight hours, suffering only minor penalties for doing so provided they stay out of sunlight, of course.",
+          "costs": "Two Rouse Checks",
+          "system": "Activate this power when you are about to enter daysleep; it allows you to remain awake for the duration of that day rather than entering slumber. Additionally, the cap on your dice pools imposed by acting during daylight hours is increased by your Resolve rating, as long as you are in dim light or darkness.",
+          "duration": "One day"
+        }
+      ]
+    }
+  },
+  {
+    "id": 8,
+    "name": "Potence",
+    "summary": "There is a saying among members of the Brujah clan, \"Our strength is underestimated only once.\" Strength is vitæ-powered strength that far exceeds other vampiric abilities. More powerful than any performance-enhancing drug, more unnatural than the stature of a swollen bodybuilder, Strength embodies the beast unleashed in the fists, feet, limbs, and raw physical strength of a vampire. Discipline isn't just used to beat things, although it's perfect for that. It is the ability of vampires to perform actions with their bodies that mortals cannot possibly imitate. In terms of disproportion, Strength surpasses all other disciplines: a frail-looking Nosferatu hits harder than a heavyweight boxer, a child embraced by the Brujah can decapitate a victim with one blow.",
+    "levels": {
+      "1": [
+        {
+          "id": 1,
+          "name": "Lethal Body",
+          "summary": "Using this power, the user is capable of causing horrendous damage to mortals, tearing skin and breaking bones with bare fingers.",
+          "costs": "Free",
+          "system": "The user’s unarmed attacks can now do Aggravated Health damage to mortals, if desired. They also ignore one level of armor per Potence level of the user.",
+          "duration": "passive"
+        },
+        {
+          "id": 2,
+          "name": "Soaring Leap",
+          "summary": "Possessing unholy strength in more than arms and fists, the user can leap far higher and further than any mortal.",
+          "costs": "Free",
+          "system": "The user can jump a number of meters equal to three times their Potence level vertically, and five times their Potence level horizontally. The user needs no run-up to make these leaps.",
+          "duration": "passive"
+        }
+      ],
+      "2": [
+        {
+          "id": 3,
+          "name": "Prowess",
+          "summary": "Vampires with Potence gain far greater strength from their Blood than those who lack it.",
+          "costs": "One Rouse Check",
+          "system": "When activated, add the Potence rating of the user to their unarmed damage value as well as to feats of Strength.",
+          "duration": "One scene"
+        }
+      ],
+      "3": [
+        {
+          "id": 4,
+          "name": "Brutal Feed",
+          "summary": "Known as the “Savage Kiss”, this power allows the user to employ an unholy inner strength when draining a victim. In mere seconds, the attacker swallows torrents of blood while mauling the victim. The result is an efficient, if messy, feeding often employed in the heat of battle where the mangled remains of the victim can be disguised.",
+          "costs": "Free",
+          "system": "The vampire can drain a human completely in seconds, usually within a single turn. Every point of Hunger slaked causes one point of Aggravated Health damage to the victim, as their blood vessels burst and organs bruise and rupture internally. Using Brutal Feed on a vampire does only Superficial Health damage to their dead and inert organs. In combat, Brutal Feed comes immediately after a successful Brawl attack using fangs. The victim first takes bite damage, then damage from this power. Armor does not protect against Brutal Feed, as the wounds are, or at least begin as, mainly internal. Storytellers may decide such mutilation-killing warrants Stains (p. 239).",
+          "duration": "One feeding"
+        },
+        {
+          "id": 5,
+          "name": "Spark of Rage",
+          "combination": {
+            "id": 6,
+            "level": 3
+          },
+          "summary": "Combining Potence and Presence, the vampire can incite anger and even frenzy in onlookers, as easily as awe or dread. The user must take care not to rile up an angry mob to turn on them rather than the target or each other.",
+          "costs": "One Rouse Check",
+          "diceSupplies": "Manipulation + Potence",
+          "system": "When active, the user can add their Potence rating to any attempt to rile or incite a person or a crowd to violence. In addition, the user can activate this power and roll a contest of Manipulation + Potence vs Composure + Intelligence of another vampire. If they win, the opposing vampire must make a fury frenzy test at Difficulty 3.",
+          "duration": "One scene"
+        },
+        {
+          "id": 6,
+          "name": "Uncanny Grip",
+          "summary": "Focusing their unnatural strength into their toes and fingers, the vampire grips and burrows their extremities into almost any surface, enabling them to climb and even hang otherwise unsupported from walls and ceilings. Close observation reveals telltale scarring or deformation on these surfaces afterward, however, as this is an application of brute force, not superhero-style adhesion.",
+          "costs": "One Rouse Check",
+          "system": "A vampire using this power automatically succeeds on any Skill test to climb a non-metallic surface. The user might also be able to climb copper or bronze cladding or other softer metal surfaces, at the Storyteller’s discretion. Thin glass surfaces (though generally not the glass curtain walls of modern office buildings) may shatter under the stress. In the same way, a vampire can hang from a wall or ceiling for up to one scene, though only barefoot vampires can hang by their feet. The climb or clinging leaves obvious tracks detectable by anyone with an Intelligence + Investigation test at Difficulty 2. Detecting Uncanny Grip tracks on glass doesn’t even require a roll.",
+          "duration": "One scene"
+        }
+      ],
+      "4": [
+        {
+          "id": 7,
+          "name": "Draught of Might",
+          "summary": "The Blood of the vampire becomes saturated with the power of Potence, conveying a part of that power to anyone who drinks of it. This is the Potence equivalent of Draught of Elegance (p. 254).",
+          "costs": "One Rouse Check",
+          "system": "Drinking a Rouse Checks worth of Blood directly from the user gifts the drinker with temporary Potence equal to half the Potence dots (rounded down) of the donor. The drinker gains the same powers as the donor’s, up to that level.",
+          "duration": "One night; for vampires, until the next feeding or the vampire reaches Hunger 5"
+        }
+      ],
+      "5": [
+        {
+          "id": 8,
+          "name": "Earthshock",
+          "summary": "Their strength an elemental force, the vampire can slam their fist or foot into the ground, creating a shockwave that throws their opponents prone. One of the more dramatic applications of Potence, this power needs to be carefully employed, lest the user literally bring the house down upon themselves.",
+          "costs": "Two Rouse Checks",
+          "system": "No additional test is needed to create the shockwave. (The ground is hard to miss.) Anyone within a fivemeter radius of the user must make a Dexterity + Athletics roll (Difficulty 3), with the results below. Anyone prepared for the Earthshock (such as the user’s companions) can shift their results up by one step.<br/>◻ Critical Win: No effect<br/>◻ Win: Knocked off balance. Lose current action.<br/>◻ Failure: Fall prone. Lose current action; must spend a turn getting up.<br/>This power causes significant collateral damage. If used on the ground, the earth cracks. If used indoors, furniture breaks and mirrors shatter. On anything but the ground floor the floor might shatter, causing everyone within the radius to plummet to the floor below. This power can only be used once per scene.",
+          "duration": "One use"
+        },
+        {
+          "id": 9,
+          "name": "Fist of Caine",
+          "summary": "The vampire’s bare hands can inflict grievous injuries, lethal to both mortals and other vampires. They can dismember, pierce, impale, decapitate, and even rip a heart out of the chest.",
+          "costs": "One Rouse Check",
+          "system": "For one scene the user can inflict Aggravated Health damage to mortals and supernaturals alike while Brawling, as they literally rend flesh and tear their opponents limb from limb with their bare hands.",
+          "duration": "One scene"
+        }
+      ],
+      "6": [
+        {
+          "id": 10,
+          "name": "Unstoppable Momentum",
+          "minBloodPotency": 5,
+          "combo": {
+            "id": 4,
+            "level": 4
+          },
+          "summary": "This power combines the benefits of both Potence and Celerity, allowing the vampire to move at impossible speeds and force their body through obstacles with their incredible momentum. It is one of the singlemost Masqueradebreaching powers available to Kindred.",
+          "costs": "One Rouse Check",
+          "system": "While this power remains active, when you move on your turn you may force your way through solid objects that are less thick than your Potence rating in meters. This power can allow you to run through walls, tear through steel bunker doors, or dig at blurring speeds to your destination, leaving a trail of absolute destruction in your wake. If you attempt to force your way through material that is too thick to be penetrated by this power (more thick than your Potence rating in meters), then you are brought to a halt having made your way only that far through the material, a roughlyvampire shaped tunnel behind you. If this occurs, the power's effects fade.",
+          "duration": "One scene"
+        }
+      ],
+      "7": [
+        {
+          "id": 11,
+          "name": "Unbreakable Grasp",
+          "minBloodPotency": 6,
+          "requirement": 6,
+          "summary": "This power allows the user to maintain their hold on a creature or object against almost any force.",
+          "costs": "One Rouse Check",
+          "diceSupplies": "Strength + Potence vs. Strength + Potence",
+          "system": "While this power is active, objects you are holding and creatures you have grappled cannot be removed from your grasp against your will. Only a creature that also has access to at least one Advanced Potence power has a chance of breaking your grip. In such a case, make a contested roll of Strength + Potence to determine the outcome.",
+          "duration": "One scene"
+        }
+      ],
+      "8": [
+        {
+          "id": 12,
+          "name": "Immovable Object",
+          "minBloodPotency": 7,
+          "combination": {
+            "id": 7,
+            "level": 5
+          },
+          "summary": "This power allows the Kindred to stand against any force that tries to move them from where they stand.",
+          "costs": "One Rouse Check",
+          "system": "Kindred who have this power cannot be moved against their will. They stand firm against all attempts to do so; even an impact by a semitruck traveling at highway speeds could not budge them unless they wished to be moved, although it might deal damage. Most Kindred with this power activate Flesh of Marble as well, allowing them to emerge unharmed from such crashes. Like Unbreakable Grasp, however, a creature with access to at least one Advanced Potence power may make a contested roll of Strength + Potence to attempt to move the user of this power.",
+          "duration": "Passive"
+        }
+      ],
+      "9": [
+        {
+          "id": 13,
+          "name": "Juggernaut",
+          "minBloodPotency": 8,
+          "combination": {
+            "id": 7,
+            "level": 5
+          },
+          "summary": "Kindred with this power are nearly impossible to kill. When they enter torpor, instead of falling unconscious and lying immobile their Beast takes over for their higher brain functions and defends itself on pure instinct, destroying mindlessly until all threats lie defeated.",
+          "costs": "None",
+          "system": "When your Health tracker is full of Aggravated damage and the last points of damage were not caused by fire, beheading, or sunlight, you immediately enter a Fury Frenzy without making a test. While this Frenzy lasts, you cannot take control by spending Willpower; your conscious mind is in torpor, and your Beast is fully unleashed. While this Frenzy lasts, additional Aggravated damage has no effect on you unless it is caused by beheading, fire, or sunlight, in which case it brings about your Final Death. Your Strength increases by 3 until the Frenzy ends, and your Beast uses any of your physical Discipline powers that it can to protect itself against damage and eliminate threats. Your Beast destroys every possible threat in the area, operating on pure instinct. Even allies, unless they flee from you, become targets for your Beast's destruction. When no more enemies are apparent, your Beast takes you somewhere safe from the sun and then ends the Frenzy. When it ends, you fall into true torpor.",
+          "duration": "Passive"
+        }
+      ],
+      "10": [
+        {
+          "id": 14,
+          "name": "Puissance",
+          "minBloodPotency": 9,
+          "summary": "At this level of Potence, the vampire's strength is of mythic proportions they can lift planes, throw tanks, pull trees out of the ground, and certainly rip Kindred to pieces with ease.",
+          "costs": "Two Rouse Checks",
+          "system": "While this power is active, you gain 5 automatic successes on every test that involves Strength or Potence, in addition to those you garner from your dice pool. For many noncombat feats of strength, this means that you do not even need to roll.",
+          "duration": "One scene"
+        }
+      ]
+    }
+  },
+  {
+    "id": 9,
+    "name": "Animalism",
+    "summary": "Perhaps vampires have more in common with animals than with humans. A dangerous mix of instincts drives them, and they have to make quite an effort not to give in to the urge to go after others. Like a wild dog on a chain, the animal in the vampire will never be tamed. Some kindred have managed to become one with their inner animal. They have mastered beastliness. Some get carried away with howling, growling and roaring when using his powers, or they communicate with the animals in their \"language\", even if this is only a preference and not necessary. The discipline of beastliness is used mainly among those vampires who find it difficult to belong, or who simply have not found a taste for living among mortals. Often classified as one of Cain's useful gifts, allowing vampires to live on lesser blood or find camaraderie among non-thinking beings, it is also a devastating weapon against vampires who cling to their towers and against Inquisitors who assume that their enemies are only among the bipeds. A swarm of blood-hungry rats invading the penthouse haven of a kindred, the vampiress skilled in beastliness intimidating the sheriff's beast in Elysium, or the sharp-eyed raven spying on the local chapter of the Leopold Society all serve to strengthen the adherents of beastliness and weaken their enemies.",
+    "levels": {
+      "1": [
+        {
+          "id": 1,
+          "name": "Bond Famulus",
+          "summary": "When applying the blood bond to an animal, a vampire can make a famulus of it to form a mental link with it, allowing the application of further powers of animalhood. The power alone is not enough for communication with the animal, but it can follow simple verbal prompts such as \"stay\" and \"come here.\" It attacks to defend itself and its master, but cannot be moved to attack something it would not normally attack.",
+          "diceSupplies": "Charisma + Animal Ken",
+          "costs": "The animal must be fed the user’s Blood on three separate nights, each of which requires a Rouse Check by the user. The amount of Blood needed to sustain the ghoulstate of the animal after this is negligible. Players starting with this power have completed this process and can chose a famulus for free.",
+          "system": "Without the use of Feral Whispers, below, giving commands to the animal requires a Charisma + Animal Ken roll (Difficulty 2); increase Difficulty for more complex orders. A vampire can only have one famulus, but can get a new one if the current one dies. A vampire can use Feral Whispers (Animalism 2) and Subsume the Spirit (Animalism 4) on their famulus for free.",
+          "duration": "Only death releases a famulus once bound. As long as it receives vampire Blood on a regular basis, the famulus does not age."
+        },
+        {
+          "id": 2,
+          "name": "Sense the Beast",
+          "summary": "The vampire can sense the Beast present in mortals, vampires, and other supernaturals, gaining a sense of their nature, hunger, and hostility.",
+          "costs": "Free",
+          "diceSupplies": "Resolve + Animalism vs Composure + Subterfuge",
+          "system": "Roll Resolve + Animalism vs Composure + Subterfuge. A win allows the user to sense the level of hostility in a target (whether the person is prepared to do harm or even determined to cause it) and determine whether they harbor a supernatural Beast, marking them as a vampire or werewolf. On a win, a critical gives the user information on the exact type of creature, as well as their Hunger or Rage level. This power can be used both actively and passively, warning the user of aggressive intent in their immediate vicinity.",
+          "duration": "Passive"
+        }
+      ],
+      "2": [
+        {
+          "id": 3,
+          "name": "Feral Whispers",
+          "summary": "The vampire can commune with the beasts of the wild and the city. Feral Whispers allows two-way communication with animals. A cat might not be interested in debating Matisse’s use of color but happily discusses the lack of prey around the brownstone building across the street. Depending on the vampire’s skill, they can even persuade animals to perform services; like humans, animals seldom agree to things that go against their nature or endanger them. Vampires can also use Feral Whispers to summon a chosen type of animal (see Animalism limitations above) but the animals must be present to answer. Nothing prevents a vampire trying to summon an orca in Central Park, but success seems unlikely. Summoned animals listen to the summoner, but scatter or attack if endangered.",
+          "diceSupplies": "Manipulation + Animalism, Charisma + Animalism",
+          "costs": "One Rouse Check per type of animal chosen for the scene. Allows one summoning and unlimited communication. Free when used on famulus.",
+          "system": "Simple communication requires no dice pool test. Persuading an animal to perform a service requires a Manipulation + Animalism roll; the Difficulty depends on the task required. Having a bird keep an eye out for anyone entering the park at night is Difficulty 3, while ordering any animal to defend a place with their lives is Difficulty 6. Summoning animals uses a Charisma + Animalism roll; Difficulty depends on the scarcity of the animals summoned. The number of animals summoned depend on the margin on the test; a critical win summons most, if not all, animals of the type in the area.",
+          "duration": "One Scene"
+        }
+      ],
+      "3": [
+        {
+          "id": 4,
+          "name": "Animal Succulence",
+          "summary": "The vampire can slake additional Hunger by feeding on animals. In addition, the vampire can consume its famulus, gaining nourishment far beyond what would be gained from an animal of similar stature and absorbing a sliver of its primary trait.",
+          "costs": "Free",
+          "system": "Feeding from animals slakes 1 additional Hunger, and the vampire counts their Blood Potency as two levels lower in regards to penalties to slaking Hunger from animal blood. Consuming one's famulus slakes 4 Hunger, regardless of animal size. This act can never remove the final Hunger die. In addition, consuming one's famulus increases the vampire’s Attribute most associated with that animal (as determined by the Storyteller) by two dots. Consuming a cat might raise Dexterity or Composure; consuming a dog might raise Charisma or Resolve. Storytellers may vary the reward from famulus consumption: draining an owl might raise the Attribute in any perception pool by two dots, or in pools involving wise decision making. The bonus lasts until the vampire’s next feeding or until their.",
+          "duration": "passive"
+        },
+        {
+          "id": 5,
+          "name": "Quell the Beast",
+          "summary": "By locking eyes with a target, the vampire cows their inner Beast into temporary slumber. Mortals affected thus become apathetic, unable to take any actions other than to stay alive, while vampires’ bestial urges temporarily abate, for better or worse.",
+          "costs": "One Rouse Check",
+          "diceSupplies": "Charisma + Animalism vs Stamina + Resolve",
+          "system": "Roll Charisma + Animalism vs Stamina + Resolve. A win against a mortal target incapacitates them for that scene, instilling severe lethargy. They act only to preserve themselves, not against the user or anyone else. A win against a vampire prevents the target from performing Blood Surges. While their Beast is quelled, vampires do not score messy criticals. Against vampires, this power lasts a turn plus a number of turns equal to the win margin on the contest. A critical win against a vampire target also ends their frenzy.",
+          "duration": "One scene, or a number of turns equal to the test margin plus one."
+        },
+        {
+          "id": 6,
+          "name": "Unliving Hive",
+          "combination": {
+            "id": 10,
+            "level": 2
+          },
+          "summary": "Most often seen amongst the Nosferatu, this unnerving power allows the user to extend their animal influence to swarms of insects such as flies or roaches. Certain vampires even go so far as to adopt swarms as famuli, giving them a permanent home within the folds and orifices of their malformed flesh.",
+          "costs": "No additional cost",
+          "system": "This power extends all powers previously restricted to vertebrates to insect swarms, treating a swarm as a single creature. The vampire can bind the swarm as a famulus, and some even give it the ability to nest inside the cavities of their body. This hides the swarm from sight while allowing it to nurse the minute amounts of Blood needed to sustain it indefinitely. While nested, the swarm is undetectable by anything less than X-rays. Swarms do little damage in combat. They have Health 5 and a pool of 8 dice to resist attacks. Swarms take Superficial damage from Brawl; flame and insecticide cause Aggravated damage. Vampires can use swarms for spying, as distractions (resulting in a two-dice penalty on any roll for a single swarmed individual), or to intimidate mortals (add between one and three dice to Intimidation pools, depending on the type of insect and the victim’s phobias). Players and Storytellers can doubtlessly come up with even more creative uses of this power.",
+          "duration": "passive"
+        }
+      ],
+      "4": [
+        {
+          "id": 7,
+          "name": "Subsume the Spirit",
+          "summary": "The vampire can completely transfer its mind into the body of an animal. They can control the animal and use its senses freely, even during the day should they manage to stay awake. While doing this, the vampire’s body lies immobile as if in torpor.",
+          "costs": "One Rouse Check. Free if used on famulus.",
+          "diceSupplies": "Manipulation + Animalism",
+          "system": "Make a Manipulation + Animalism test; Difficulty 4. On a win, the vampire can inhabit the animal’s body for one scene. On a critical win, the vampire can inhabit the animal indefinitely. Extending this possession into the daylight hours requires the vampire to stay awake (p. 219); seeing the sun requires a test for fear frenzy though the sunlight does not damage the animal being ridden. The user remains oblivious to their original body, but harm to it pulls them out of the trance and releases the animal. Death of the possessed animal also ends the trance, and the vampire takes a point of Aggravated Willpower damage from the shock.",
+          "duration": "A scene / indefinitely (see above)"
+        }
+      ],
+      "5": [
+        {
+          "id": 8,
+          "name": "Animal Dominion",
+          "summary": "The power the vampire holds over beasts is now great enough to command flocks and packs as if they were extensions of their own body. At a gesture, animals lay down their lives by the dozens, even hundreds, to appease their master.",
+          "costs": "Two Rouse Checks",
+          "diceSupplies": "Charisma + Animalism",
+          "system": "Chose a type of animal and make a Charisma + Animalism roll with a Difficulty depending on the nature of the animals and the order given. Getting a flock of crows to disperse and look for a specific individual (given some means of identifying their target) is relatively easy (Difficulty 3), but getting a pack of dogs to give their lives in a suicidal attack on another vampire is more of a challenge (Difficulty 5). The power does not allow the user to summon animals, but compels those already present to obey. The vampire can command the animals to return after completing their task, if they have means to do so.",
+          "duration": "A single scene or until the directive is fulfilled, whichever is shortest."
+        },
+        {
+          "id": 9,
+          "name": "Drawing out the Beast",
+          "summary": "The vampire can project their Beast at the moment of terror or fury frenzy, transferring it into a nearby subject, either mortal or vampire. That person immediately experiences the frenzy instead, going on a merciless rampage or fleeing in terror depending on the trigger.",
+          "costs": "One Rouse Check",
+          "diceSupplies": "Wits + Animalism vs Composure + Resolve",
+          "system": "Instead of the Willpower roll to resist a terror or fury frenzy, roll Wits + Animalism vs Composure + Resolve of the target. If the user fails, they enter frenzy as though they had failed the Willpower roll. On a win, the target experiences that frenzy instead of the user. Later stimuli can still provoke frenzy in the user, but they can use this power as long as they can make Rouse Checks and further targets remain available. This power cannot transfer a hunger frenzy.",
+          "duration": "Frenzy duration (see p. 220)"
+        }
+      ],
+      "6": [
+        {
+          "id": 10,
+          "name": "Blood Echo",
+          "minBloodPotency": 5,
+          "summary": "The user extends their senses through the minds and bodies of the creatures that bear their blood. This power can allow the user to observe at incredible distances using the senses of their ghouled animals.",
+          "costs": "One Rouse Check",
+          "diceSupplies": "Composure + Animalism",
+          "system": "Merely possessing this power greatly magnifies the range of the user's Feral Whispers, allowing them to communicate with animals they are familiar with who are up to 10 miles away. Additionally, the user can make a Rouse Check to attune their senses to the whispering echoes of their Blood as it beats through the bodies of animals they have ghouled, no matter where they are in the world. The user makes a Composure + Animalism test against a Difficulty set by the storyteller (generally, a difficulty of 4 for a separation less than 50 miles, 5 for 50500 miles, 7 for 5001000 miles, 10 for 1000 or more) to connect with an individual creature that has tasted their vitae. If they succeed, they can communicate with that animal using their Feral Whispers and may target it with Subsume the Spirit. While this power lasts, the user can contact as many animals that have tasted their vitae as they wish, but must make a new test for each one.",
+          "duration": "One scene"
+        }
+      ],
+      "7": [
+        {
+          "id": 11,
+          "name": "Conquer the Beast",
+          "minBloodPotency": 6,
+          "summary": "Kindred with this power have achieved a remarkable mastery over their Beast, allowing them to enter or leave a Frenzy at will.",
+          "costs": "One Rouse Check",
+          "system": "When you activate this ability, you can choose to either enter a Frenzy of a type of your choice, or to end a current Frenzy. If you fail the Rouse Check while in a Hunger Frenzy at 5 Hunger, you immediately fall into torpor. Additionally, you may activate this ability to negate the effects of Bestial Failures and Messy Criticals for a scene.",
+          "duration": "One scene"
+        }
+      ],
+      "8": [
+        {
+          "id": 12,
+          "name": "Taunt the Caged Beast",
+          "minBloodPotency": 7,
+          "summary": "This power allows Kindred to stoke the rage and hunger of the Beast in the blood of other Kindred, provoking them to frenzy without ordinary provocation.",
+          "costs": "Two Rouse Checks",
+          "diceSupplies": "Manipulation + Animalism vs. Composure + Resolve",
+          "system": "You can use this ability on a Kindred that you can see, making a Manipulation + Animalism test against the target's Composure + Resolve. If you win this contest, you force the target to enter a Frenzy of a type you choose.",
+          "duration": "Until the Frenzy ends"
+        }
+      ],
+      "9": [
+        {
+          "id": 13,
+          "name": "Free the Beast within",
+          "minBloodPotency": 8,
+          "summary": "Kindred with this power are able to exert a measure of control over themselves while in a Frenzy, capitalizing on their Beast's natural ferocity.",
+          "costs": "One Rouse Check",
+          "system": "You may activate this power only while in a Frenzy. While it is active, you do not suffer the normal restrictions against spending Willpower or mental Disciplines while in a Frenzy, and if you take Willpower damage to control yourself during that Frenzy, you heal that damage when the Frenzy ends.",
+          "duration": "Until the Frenzy ends"
+        }
+      ],
+      "10": [
+        {
+          "id": 14,
+          "name": "Eyes of the Forest",
+          "minBloodPotency": 9,
+          "summary": "At this level of Animalism, the user is able to make their mind one with the minds of all animals within several miles, seeing through their eyes and hearing with their ears.",
+          "costs": "Two Rouse Checks",
+          "diceSupplies": "Composure + Animalism",
+          "system": "While this power is active, you may make a Composure + Animalism test to detect creatures, search for objects or locations, or otherwise perceive goingson within 10 miles of you. The information you can gain from this ability is restricted to that which you could gain from the senses of the animals in the area; it is limited by their natural senses (for instance, a worm or a spider cannot eavesdrop on a conversation for you), and by the distribution of the animals in the area. Additionally, while you are in your Haven, creatures moving through the territory immediately around your Haven and not shielded by Obfuscate must succeed on a Difficulty 4 Dexterity + Stealth test or cause you to be automatically alerted to their movements. This effect functions passively, active at all times after your purchase this power.",
+          "duration": "One scene"
+        }
+      ]
+    }
+  },
+  {
+    "id": 10,
+    "name": "Obfuscate",
+    "summary": "For all hunters, the ability to conceal themselves, move unseen, and camouflage themselves is essential. For kindred who use obscuration, the Discipline provides the perfect cover to sneak up on a victim, disguise themselves as something harmless, and escape when things get too dangerous. Experts in obscuration can use the discipline to lurk in the shadows while spying, change appearance in a crowd, or even transfer the gift to a group of vampires trying to hide.",
+    "levels": {
+      "1": [
+        {
+          "id": 1,
+          "name": "Cloak of Shadows",
+          "summary": "Standing perfectly still, the user blends into the surroundings. As long as they have some kind of cover, make no sound, and don’t move, only mechanical or supernatural means can detect them.",
+          "costs": "Free",
+          "system": "Follow the general rules for Obfuscate. The effect lasts until the user moves or they are detected by other means.",
+          "duration": "One scene"
+        },
+        {
+          "id": 2,
+          "name": "Silence of Death",
+          "summary": "Popular among the Banu Haqim, this power completely silences the user, nullifying all sound made by them. As with other Obfuscate powers, this only works on people within earshot and does not fool microphones or other electronic sound detectors. Unlike Obfuscate in general, this power works only on the sense of hearing, but in exchange operates more robustly. A vampire needs to make a whole lot of noise to break this silence.",
+          "costs": "Free",
+          "system": "The user silences their footsteps, clothing, minor collisions, and other sounds of their person. This makes the vampire undetectable if an observer could only notice them by sound, such as when on a different floor of a house. This power does not eliminate sounds the user makes outside their personal space (throwing or dropping objects, or slamming doors, for example). Failing that, only Sense of the Unseen (Auspex 1) can detect the user.",
+          "duration": "One scene"
+        }
+      ],
+      "2": [
+        {
+          "id": 3,
+          "name": "Unseen Passage",
+          "summary": "With this power, the vampire can now move around while staying hidden. The user is functionally invisible, per the usual Obfuscate limitations.",
+          "costs": "One Rouse Check",
+          "system": "As long as the user emits no overpowering odors and no sound louder than a whisper, this power automatically works. Only if the observer has their attention drawn to the user can they make a detection roll. Sense the Unseen (Auspex 1) can also detect the hidden vampire, as per the general Obfuscate rules. Note that the user cannot use this power to disappear while being actively observed; it automatically fails in such a case.",
+          "duration": "One scene or until detection"
+        }
+      ],
+      "3": [
+        {
+          "id": 4,
+          "name": "Ghost in the Machine",
+          "summary": "The user can now transmit the effects of Obfuscate through electronic media, allowing the vampire to appear invisible or masked when viewed live on screen. If an observer views the image later, as in a photograph or recording, the effect lessens: the image seems slightly blurred, making identification hard. In addition, automated surveillance has a tendency to glitch in the presence of the vampire, lessening their chance of being caught by automated systems.",
+          "costs": "No additional cost",
+          "system": "No additional roll is required when being viewed on a live feed. Treat observers as present with the vampire, with regard to the Discipline. The observer adds +3 to their Difficulty on tests to identify the user on film, video, in photographs, or the like taken during active Obfuscation. The user also gains three additional dice to pools they use when trying to circumvent automated electronic surveillance and countermeasures.",
+          "duration": "As power used"
+        },
+        {
+          "id": 5,
+          "name": "Mask of a Thousand Faces",
+          "summary": "Instead of disappearing, the vampire using this power can make themselves appear as a nondescript stranger, someone expected to be present in the area. Unlike other Obfuscate powers, this allows the user to interact and communicate with those they might run into. They arouse little suspicion as long as their presence is at all plausible (meaning that it will not fool people who do not expect anyone or would be hostile against anyone they didn’t know). The power also does not provide any personal identification or other ways of misleading an identity check.",
+          "costs": "One Rouse Check",
+          "system": "No test is required. Anyone viewing the vampire sees a forgettable face of the same gender and approximate build and height as the user. Clothes take on the same kind of blandness, depending on the environment. At an office the user might appear as a nightwatchman, while they may seem to wear overalls at an assembly plant. Sense the Unseen (Auspex 1) can pierce the power as usual.",
+          "duration": "One scene"
+        }
+      ],
+      "4": [
+        {
+          "id": 6,
+          "name": "Conceal",
+          "combination": {
+            "id": 1,
+            "level": 3
+          },
+          "summary": "This ability allows the user to cloak an inanimate object such as a door, a car, or a small house. As with other Obfuscate powers, this does not actually make the object invisible, but creates a lingering hypnotic effect that causes most people to simply ignore it. In this case the power is especially effective, given that the object is unlikely to call attention to itself. Unless something causes passersby to collide with it or someone points it out, people behave as if the object wasn’t there, moving around larger objects if need be.",
+          "costs": "One Rouse Check",
+          "diceSupplies": "Intelligence + Obfuscate",
+          "system": "The vampire touches the object and rolls a test of Intelligence + Obfuscate against a Difficulty from 2 (Concealing a ring in a drawer filled with other memorabilia) to 6 (Concealing a house in the middle of an open square), depending on the target’s size and location. The power lasts for one night. Each point of margin on the win conceals the object for an additional night. This power conceals anyone and anything inside the object (e.g., people in a car or shed), as long as the viewer remains outside. This power cannot affect anything larger than a two-story house or any object moving under its own power (such as a moving car). Someone with the Auspex power Sense the Unseen (or equivalent) can notice the object by winning a contest of Wits + Auspex vs the Intelligence + Obfuscate of the user.",
+          "duration": "One night, with an additional night per point of margin on the win"
+        },
+        {
+          "id": 7,
+          "name": "Vanish",
+          "requirement": 1,
+          "summary": "The vampire can activate Cloak of Shadows and Unseen Passage even while under direct observation. The vampire appears to vanish in the blink of an eye; even the memory of them becomes foggy and indistinct.",
+          "costs": "As per power augmented",
+          "diceSupplies": "Wits + Obfuscate vs Wits + Awareness",
+          "system": "When vanishing in front of a mortal, roll a contest of Wits + Obfuscate vs Wits + Awareness. On a win, the observer questions whether the vampire was ever there to begin with; their memory clouds on the topic. With a critical win, the vampire vanishes entirely from the observer’s memory. This power does not affect vampires’ memories, but any win by the user hides them as if they initiated their power unobserved. This power can only be used once per scene.",
+          "duration": "As per power augmented"
+        }
+      ],
+      "5": [
+        {
+          "id": 8,
+          "name": "Cloak the Gathering",
+          "summary": "The vampire can shelter their companions under the cloak of Obfuscate.",
+          "costs": "One Rouse Check in addition to the cost of the power extended",
+          "system": "The vampire can extend their power of Obfuscation to a number of additional willing subjects equal to their Wits, plus one for each additional Rouse Check made. The Obfuscate power used on the group can be any known to the user, and every member of the group count as having used it on themselves, using the Obfuscating vampire’s rating as their own when needed for a roll. Members of the group can still perceive each other while under the effects of the power. If anyone besides the user is revealed, either through their own doing or an astute observer, the rest of the group remains hidden. If the user is revealed, so is everyone else.",
+          "duration": "As power extended"
+        },
+        {
+          "id": 9,
+          "name": "Imposter's Guise",
+          "requirement": 5,
+          "summary": "With some preparation the vampire can make themselves appear as a specific individual of any build and gender. The user must carefully study the subject, otherwise the charade fails when meeting anyone with more than a casual familiarity with the person being mimicked.",
+          "costs": "One Rouse Check",
+          "diceSupplies": "Wits + Obfuscate, Manipulation + Performance",
+          "system": "The user must study the face to be copied for at least five minutes, from different angles. The user requires another ten minutes of observation to mimic the subject’s voice and mannerisms. The user can only copy human appearance, not animal form. The Storyteller then makes a hidden test of Wits + Obfuscate (Difficulty 4). A failure means that the resemblance is less than convincing, and anyone close to the person copied notices something amiss automatically. A win creates a convincing illusion, but the user must make a Manipulation + Performance roll to impersonate speech and mannerisms. A critical win creates a perfect illusion with no further roll necessary. Sense the Unseen (Auspex 1) can pierce the mask as per General Rules.",
+          "duration": "One scene"
+        }
+      ],
+      "6": [
+        {
+          "id": 10,
+          "name": "Blithe Acceptance",
+          "minBloodPotency": 5,
+          "summary": "This power allows the user to interact with objects while Obfuscated without attracting attention.",
+          "costs": "One Rouse Check",
+          "system": "You may activate this power while concealed by an Obfuscate power such as Unseen Passage. While this power is active, you can interact with objects freely without breaking your Obfuscation, provided you do not take any violent actions, such as attacking a creature or destroying an object. You can, however, open doors, pick locks, rifle through drawers, steal jewelry, and take other actions that do not involve violence without attracting attention.",
+          "duration": "One scene"
+        }
+      ],
+      "7": [
+        {
+          "id": 11,
+          "name": "Gemini's Mirror",
+          "minBloodPotency": 6,
+          "requirement": 7,
+          "summary": "This power causes observers to believe that the user is engaged in mundane activities at the place they last observed them before its activation.",
+          "costs": "One Rouse Check",
+          "diceSupplies": "Wits + Obfuscate vs. Wits + Awareness",
+          "system": "You may activate this power when you activate another Obfuscate ability, such as Unseen Passage, paying the additional cost to augment that ability. Observers perceive you to have remained where you were when you activated this ability, performing some mundane action such as reading a paper, scrolling through your phone, or listening to music on your earbuds. The power discourages observers from attempting to interact with you; make a Wits + Obfuscate vs. the Wits + Awareness test of all vampires observing you when you activate the power; mortals automatically fail. If an observing vampire wins this contest, they notice that you have disappeared from your previous location, although they still may not be able to detect you (they must make a separate test against you for Vanish, if you choose to apply that augmentation as well).",
+          "duration": "As per power augmented"
+        }
+      ],
+      "8": [
+        {
+          "id": 12,
+          "name": "Fortress of Silence",
+          "minBloodPotency": 7,
+          "summary": "This power eliminates all sound in the user's vicinity, blanketing the area in pristine silence and smothering the noise of gunshots or teeth ripping into mortal throats.",
+          "costs": "One Rouse Check",
+          "diceSupplies": "Resolve + Obfuscate vs. Wits + Awareness",
+          "system": "When you activate this power, all sound in your immediate vicinity (i.e., a 5meter radius, a single room, an alleyway, etc.) is suppressed. Even gunshots or explosions can be silenced with this power. Mortals cannot hear any noise coming from within the affected area, but vampires with Heightened Senses may make a Wits + Awareness test (adding their Auspex for Heightened Senses only if they currently have it active) to attempt to hear sounds from within the area. They are contested by your Resolve + Obfuscate; if you win, they are unable to hear anything at all. If they win, they can make out some of the sound from the affected area, although it is still extremely muffled. The Storyteller might choose to allow vampires with Heightened Senses to make a passive Wits + Awareness test against this ability.",
+          "duration": "One scene (or until ended early)"
+        }
+      ],
+      "9": [
+        {
+          "id": 13,
+          "name": "Veil of Wrathful Ignorance",
+          "minBloodPotency": 8,
+          "combination": {
+            "id": 2,
+            "level": 4
+          },
+          "summary": "This power traps a victim in their own personal hell of nonexistence, unable to make themselves heard or seen by those around them no matter what they do.",
+          "costs": "Two Rouse Checks",
+          "diceSupplies": "Intelligence + Obfuscate vs. Wits + Resolve",
+          "system": "The vampire must be able to communicate with their victim in some way, causing them to read or hear words to the effect of, \"no one will hear you scream\" or something similar. The vampire must be present for the power to take effect. If the vampire is successful on the test, the victim cannot be perceived by creatures other than the vampire or a creature with at least Auspex 4 and Sense the Unseen. The victim is considered Obfuscated with the benefits of Blithe Acceptance, but cannot truly break their Obfuscation. If they take violent actions, those nearby do notice them and react accordingly, but they cannot recognize the victim no matter the intimacy of their connection, and once the violence is concluded they immediately become unaware of the victim once more. Those with Auspex (as described above) may pierce this mesmerism for themselves if their roll beats the user's original test of Intelligence + Obfuscate. If such an individual uses Scry the Soul on the victim and obtains a critical win, the victim is released from the cursed mesmerism that binds them.",
+          "duration": "One night (permanent on a critical win)"
+        }
+      ],
+      "10": [
+        {
+          "id": 14,
+          "name": "Memory's Fading Glimpse",
+          "minBloodPotency": 9,
+          "summary": "Kindred with a true mastery of Obfuscate need not concern themselves with breaching the Masquerade by their feeding, for when they drain a mortal's last drop, they also consume the memory of the victim from the minds of those who knew them.",
+          "costs": "None, or Two Rouse Checks",
+          "diceSupplies": "Manipulation + Obfuscate",
+          "system": "When you take the last drop from a mortal victim, killing them, the power of your Obfuscate infuses their blood as it pulses in your veins and spreads supernaturally to the minds of those who knew the victim in life. The victim slowly vanishes from the memories of mortals until nothing is left but an inexplicable sense of absence. Even hard evidence of the victim's existence, such as birth records and video recordings, only trigger a momentary recall that quickly recedes into blissful forgetfulness. The initial fade occurs over the course of one week after the victim's death. The user can also attempt to extend this power to affect vampires. To do so, you must make two Rouse Checks and a Manipulation + Obfuscate roll. The result of this roll sets the Difficulty for a vampire's Intelligence + Resolve test to recall information about the victim, which they may only do after being reminded of the victim's existence by hard evidence. On a critical win on one of these tests, the vampire regains their memories of the victim and is not further affected by memory loss for that victim. A vampire that has Fortify the Inner Façade or Indomitable Mind remains unaffected by this power unless the user makes a critical win on the initial Manipulation + Obfuscate test.",
+          "duration": "Passive, Permanent"
+        }
+      ]
+    }
+  },
+  {
+    "id": 11,
+    "name": "Oblivion",
+    "summary": "Those who practice Bblivion flirt with something unnatural; the realm where ghosts are destroyed forever. This danger is not without power, however, as the masters of this discipline use it to cloak themselves in the night, enslaving ghosts and strangling their victims with their own shadow. With a result of 1 or 10 on a rouse check for the discipline, the vampire suffers a taint as Oblivion seeps into their soul. This can be avoided by those with strong blood who can repeat certain rouse checks associated with the Discipline. The supernatural projections of darkness and emptiness of oblivion are susceptible to bright, directional light, fire, sunlight, and True Faith. A lack of shadows to draw from can make this discipline difficult to apply, although ultraviolet and infrared light have no effect. Oblivion is resonant to a total lack of resonance, like psychopaths and people without emotional connection.",
+    "levels": {
+      "1": [
+        {
+          "id": 1,
+          "name": "Shadow Cloak (Lasombra)",
+          "summary": "Subtly applying the influence of Oblivion on ambient shadows, the user masks their appearance or seems more sinister and threatening.",
+          "costs": "Free",
+          "system": "The vampire gains a two-dice bonus to Stealth rolls, as well as on Intimidation versus mortals",
+          "duration": "passive"
+        },
+        {
+          "id": 2,
+          "name": "Oblivion's Sight (Lasombra)",
+          "summary": "The vampire closes their eyes. Upon opening them, the irises of their eyes are black against the white of their sclera, and they can now see clearly within pitch blackness, and can perceive ghosts who are not actively hiding their presence.",
+          "costs": "Free",
+          "system": "On activation, the user’s eyes become supernaturally attuned to darkness, allowing them to ignore all low-light penalties, including those of supernatural origin. They still need their eyes to see and are affected by blindfolds and the like as usual. If a ghost is present and not attempting stealth or using a power to conceal its presence, the spirit becomes visible to the vampire using Oblivion’s Sight. In such cases, ghosts appear as they wish to appear, whether as humans bearing the wounds that caused their death, as spectral monstrosities, or as perfectly immaculate corpses. Ghosts do not automatically realize when a vampire spots them, but if they do, many react with fear or anger rather than passivity. This power does not grant the ability to make physical contact with ghosts.",
+          "duration": "One scene"
+        },
+        {
+          "id": 10,
+          "name": "Ashes to Ashes (Hecata)",
+          "summary": "Destroying evidence of feeding is a common necessity among vampires who leave screaming, resisting vessels, especially when those same vessels end up dead. This power enables a vampire to destroy a corpse — fresh or long dead — by introducing their vitae to its body. This power does not work on vampires, but does work on animated cadavers.",
+          "costs": "One Rouse Check",
+          "diceSupplies": "Stamina + Oblivion vs. Stamina + Medicine or Fortitude",
+          "system": "The vampire makes a Rouse Check to expend vitae, and introduces the vitae to the corpse. Unless the corpse is animated, the body disintegrates over three turns with no test necessary. If it is, the user rolls a contest of Stamina + Oblivion vs Stamina + Medicine (Corpses with Fortitude may resist with Stamina + Fortitude). If the user wins, the animated corpse dissolves in five turns, minus the margin (minimum one, and disintegrating corpses suffer physical Impairment). On a critical win, the corpse disintegrates immediately. On a total failure, the corpse putrefies but does not disintegrate, and is subsequently immune to this power from any user.",
+          "duration": "Variable (see Difficulty effects)"
+        },
+        {
+          "id": 11,
+          "name": "The Binding Fetter (Hecata)",
+          "summary": "The vampire closes their eyes. Upon opening them, the irises of their eyes display a dull reflection of their surroundings and they can identify objects or locations important to ghosts. These “fetters” act as icons that bind the dead to their existence. Knowing if an object is a fetter allows a necromancer to better manipulate the ghost. Fetters emanate variable auras, some bursting with vitality and glowing gold light, others radiating decay, or odors important to the bound wraith, such as the smell of freshly baked bread, gasoline, or cigarette smoke.",
+          "costs": "Free",
+          "diceSupplies": "Wits + Oblivion",
+          "system": "On activation, the user’s senses become supernaturally attuned to the energies of fetters, and they may identify these auras by sight, smell, and their other senses. While this power is in use, the necromancer is distracted from other activity around them, conveying a −2 penalty to Dexterity and Wits rolls.",
+          "duration": "Variable (see Difficulty effects)"
+        }
+      ],
+      "2": [
+        {
+          "id": 3,
+          "name": "Shadow Cast (Lasombra)",
+          "summary": "Oblivion is powerful but can often be foiled by the simple lack of appropriate shadows from which to summon it. This power draws upon the darkness within the user to project a supernatural shadow from which to manifest other powers, no matter the ambient lightning. This shadow usually mimics the movement and shape of the user but can sometimes grow distorted and even monstrous, resonating with the current temperament of its owner.",
+          "costs": "One Rouse Check",
+          "system": "Activating the power conjures a supernatural shadow from the vampire’s body. As long as the power is active, the user casts this shadow, which cannot be removed except by direct sunlight. Anyone witnessing the practitioner notices the shadow cast from no visible light source on a Wits + Awareness roll (Difficulty 3). The vampire can direct their shadow, elongating or distorting (but not detaching) it at will, though it can sometimes act on its own accord, at the Storyteller’s discretion. For the purposes of other powers such as Shadow Perspective, the shadow can be lengthened to up to twice the practitioner’s Oblivion rating in yards/meters. For anyone standing within the shadow’s reach, the Willpower damage from social conflict increases by 1 after halving for Superficial harm. Standing in Oblivion’s shadow is a terrifying prospect.",
+          "duration": "One scene"
+        },
+        {
+          "id": 4,
+          "name": "Arms of Ahriman (Lasombra)",
+          "combination": {
+            "id": 8,
+            "level": 2
+          },
+          "summary": "The vampire summons abyssal appendages from unlit spots in the area, within line of sight. Local shadows distort as murky tentacles snake out from them and converge on one or more hapless victims. Whether by gliding up the body of the victim or engaging in a mystic grapple with the victim’s own shadow, the arms are able to hold them in place or smother them.",
+          "costs": "One Rouse Check",
+          "diceSupplies": "Wits + Oblivion",
+          "system": "The user takes one turn and pays the cost, summoning the shadow appendages. Using these, the vampire can perform bludgeoning and grappling attacks against distant targets every subsequent turn. Additional arms can be created by splitting the dice pool, enabling the user to engage multiple opponents. (see Vampire: The Masquerade p. 125). The arms use the vampire’s Wits + Oblivion to attack and deal Superficial damage or grapple, adding half the user’s Potence rating (round up) as a damage bonus. The vampire can do nothing else except control the arms while this power is active. They can also be used to perform simple actions (such as opening doors and pulling levers) but nothing as advanced as typing or controlling vehicles. The arms have a length (in yards/meters) equal to twice the Oblivion dots of the user. (Note that the arms, being shadows, move across surfaces, not air, and any distances must take this into account.) The arms have three health levels and use their owner’s Wits + Oblivion to avoid and endure attacks. As two-dimensional shadows, they can only be harmed by bright light, such as from a powerful torch or daylight. The Wits + Oblivion roll allows the tendrils to attempt to snake into the dark corners of a room or overpower the light for a turn, taking a health level of damage but continuing the assault. As the shadow tendrils constrict and assault victims via magical means, it takes an act of will to escape them. A constricted victim may roll Resolve + Composure and achieve more successes than the attacker to simply pass through the tendrils incurring no harm. This action does not dissipate the Arms of Ahriman, which can attack again on a subsequent turn if the wielder wishes it and the target is still within reach.",
+          "duration": "One scene or until ended or destroyed"
+        },
+        {
+          "id": 12,
+          "name": "Fatal Precognition (Hecata)",
+          "combination": {
+            "id": 1,
+            "level": 2
+          },
+          "summary": "It is said by many necromancers that the Lady of Fate rules the Underworld through her Stygian servants, and through communion with her certain death-dealers have learned this power. Fatal precognition allows a vampire to scry any non-vampire and experience a vision of their impending death, whether it’s due a minute from now or several decades away. The Kindred’s eyes turn black and they stand, sit, or lie completely still as the fate plays out in their mind. Fate can of course be cheated, though there’s a cost for doing so.",
+          "costs": "One Rouse Check",
+          "diceSupplies": "Resolve + Oblivion",
+          "system": "The vampire must be able to see or hear their target when they use this power. After rolling Resolve + Oblivion (Difficulty 3 or more at the Storyteller’s discretion), the vampire becomes paralyzed in place as the vision plays out, preventing them from any form of physical or social interaction for that turn. The higher the margin, the clearer the vision. A win grants sight of the corpse, and with each point of margin an additional clue is provided, such as the manner of death, time and place of death, or the name and face of the first living person to find the corpse. A critical win on this roll grants the vampire a vision of crystal clarity, along with a sense of the renders the vampire blind for the remainder of the scene, and unable to use this power on the same target again. If anyone attempts to subvert the fate observed in this way, they find everything working against their hubristic ambition. Add one to all Difficulties while working to directly circumvent the precognition as cars break down, storms erupt from nowhere, and people become hostile for no reason. This penalty applies until the prophecy is fulfilled or avoided, or the current story ends.",
+          "duration": "Until fulfilled, avoided, or the story ends"
+        },
+        {
+          "id": 13,
+          "name": "Where the Shroud Thins (Hecata)",
+          "summary": "Vampires with an affinity for Oblivion can sense locations where the Shroud between the world of the living and the Shadowlands thins. Though this Discipline doesn’t directly tell a vampire why the Shroud between worlds is thin in a certain place, it may be due to a grisly murder that took place there many years before, or because necromancers have frequently used the location to summon spirits, or it might be a location of holy or unholy resonance, among other reasons. In locations where the Shroud is thinnest, mortal health suffers and use of the Oblivion Discipline becomes easier, if the vampire knows how to harness the gap in the Shroud.",
+          "costs": "One Rouse Check",
+          "diceSupplies": "Wits + Oblivion",
+          "system": "Following a Rouse Check, the player rolls Wits + Oblivion (Difficulty 3) and on a win may determine the density of the Shroud in their nearby area, as large as an entire building or landmark. On a critical win, this roll reveals whether the Shroud’s density recently changed. On a total failure, the power backfires and gives a false reading. Without use of this power, Oblivion users cannot benefit from a thinning of the Shroud. The following table expresses the different degrees of Shroud density, and the effects they have: see Cult of the Blood Gods p. 205",
+          "duration": "One turn"
+        }
+      ],
+      "3": [
+        {
+          "id": 5,
+          "name": "Shadow Perspective (Lasombra)",
+          "summary": "The vampire can project their senses into any shadow within line of sight, seeing and hearing as if they were hiding within any part of it. This includes their own shadow, as manipulated by Shadow Cast (see p. 293).",
+          "costs": "One Rouse Check",
+          "system": "Following a Rouse Check, the presence of the vampire in the shadow is undetectable by anything but supernatural means. (Sense the Unseen, for example). While this power is active the vampire perceives both their surroundings as well as what can be gleaned from the Shadow Perspective, as if looking through a screen or hole.",
+          "duration": "Up to one scene"
+        },
+        {
+          "id": 6,
+          "name": "Touch of Oblivion (Lasombra)",
+          "summary": "The vampire using Touch of Oblivion channels the power through their vitae. When they make physical contact with a victim, the annihilating element runs through the vampire and into their prey like an electric current, except the effect is to physically wither the target area. Effective on any part of the body, the touch shrinks and shortens muscles, snaps tendons, and makes bones brittle, effectively aging the affected part catastrophically. Its main use is in withering a limb, choking a throat, or blinding a pair of eyes.",
+          "costs": "One Rouse Check",
+          "system": "Following a Rouse Check, the vampire grips their victim (requiring a Strength + Brawl roll if the victim is trying to avoid the vampire), with the victim suffering two levels of Aggravated damage as well as a crippling injury. If this injury is inflicted to an arm or leg, the targeted limb is rendered crippled and will in the case of mortals require lengthy rehabilitation, while vampires can mend the damage as regular Aggravated damage. Likewise, Touch of Oblivion may render a target mute, deaf, or blind. See crippling injuries in Vampire: The Masquerade (p. 303) for details on the mechanical effects of crippled limbs. Storytellers may decide that such mutilation warrents Stains.",
+          "duration": "One turn"
+        },
+        {
+          "id": 14,
+          "name": "Aura of Decay (Hecata)",
+          "summary": "Kindred with a strong connection to Oblivion find the Discipline affecting the world around them, making plants wilt, animals and humans grow sick, and food go bad. Some harness this aura as a power, polluting vitality with rot, and speeding up the erosion of life. This power does not speed up the decay of dead bodies.",
+          "costs": "One Rouse Check",
+          "diceSupplies": "Stamina + Oblivion vs. Stamina + Medicine or Fortitude",
+          "system": "The vampire makes a Rouse Check. Following a Stamina + Oblivion roll (Difficulty 3), unintelligent organic and inorganic material within 5 yards/ meters of them suffers — plants turn black and die, food rots in its packaging, and even bricks start crumbling. Material affected in this way can become toxic to ingest, if for instance this power is used in a kitchen or a water supply. Such toxic food and drink, if consumed, can be expected to inflict two Superficial Health damage in the following scene to the individual who eats it, and for each scene thereafter until treated with an Intelligence + Medicine roll (Difficulty 3). If anything living is caught in the aura, it makes a Stamina + Medicine (Those with Fortitude may resist with Stamina + Fortitude) contest against the vampire’s activation roll. For every point of margin the vampire has, the victim suffers one point of unhalved Superficial Health damage. This damage is slowly applied throughout the scene. Repeated applications of the power in the same scene have no effect on the Health of mortals already affected. The power is an aura that lasts for an entire scene before it fades away. Anyone with a sense of smell can detect a rotting odor emanating from the vampire during the time the power is active, inflicting a two-dice penalty to any Social rolls the vampire makes in a positive or diplomatic context, if doing so in person.",
+          "duration": "One scene"
+        },
+        {
+          "id": 15,
+          "name": "Passion Feast (Hecata)",
+          "combination": {
+            "id": 7,
+            "level": 2
+          },
+          "summary": "The relationship between vampires and their need for blood as sustenance is well known, but when a vampire needs to spend an extended period in the Shadowlands, or wishes to torment a spirit, this Oblivion power allows them to subsist on the passions of wraiths. Wraiths have no bodies, nor do they have blood. Instead, their raw emotions drive them. Love, hatred, greed, or even a need for vengeance might keep a wraith around after their former body’s death. An accomplished necromancer can feed on these passions for a time, enabling them to survive without blood for longer than their fellow Kindred. The feeding manifests as a swirling vortex of power between the wraith and the vampire’s maw, as the vampire doesn’t need to actually bite down on anything to consume passions.",
+          "costs": "Free",
+          "diceSupplies": "Resolve + Oblivion vs. Resolve + Composure",
+          "system": "A vampire with this power can drain a wraith of their passion. While in close proximity (three yards/meters or closer) to the wraith, they may roll a contest of Resolve + Oblivion vs. the wraith’s Resolve + Composure. A win for the vampire inflicts one Aggravated Willpower damage to the wraith and reduces the vampire’s Hunger by one for the remainder of the night. That Hunger returns on the following night regardless of Rouse Checks, as the feeding is only a nepenthe to dull the vampire’s hungry urges. Feeding from a wraith may merit a Stain at the Storyteller’s discretion, as the consumed passion dulls the wraith’s reason for being, likely sending them down a path to self-destructive acts. The Storyteller determines the number of passions a wraith possesses (though five or more is rare), and may deem that the wraith becomes an uncontrollable, murderous spectre once all passions have been consumed.",
+          "duration": "Passive"
+        }
+      ],
+      "4": [
+        {
+          "id": 7,
+          "name": "Stygian Shroud (Lasombra)",
+          "summary": "Darkness spews out of a nearby shadow as the vampire blankets the area around them in gloom equivalent to a moonless night, while sounds are muffled and indistinct. Anyone viewing the effect from without see it as a shadow expanding over every surface, including the bodies of any victims, in the area. Those apart from the invoker caught in the effects find themselves struggling to see and hear their surroundings, and mortals are drained of their very life by the suffocating power.",
+          "costs": "One Rouse Check",
+          "system": "The user makes a Rouse Check and spends a turn concentrating, spreading the shadow over the desired surfaces. The effect covers a circular area with a radius equal to twice the user’s Oblivion rating in yards/ meters. The area is centered on the user or a spot in their line of sight. Anyone caught in the Stygian Shroud receives a three-dice penalty to all rolls, unless they possess the ability to see through supernatural darkness. Any mortals caught in the Stygian Shroud suffer one level of Superficial damage for every turn they remain within it, due to the power’s suffocating effects.",
+          "duration": "One scene"
+        },
+        {
+          "id": 16,
+          "name": "Necrotic Plague (Hecata)",
+          "summary": "Kindred scholars claim Oblivion pollutes everything it touches, with this power as a prime example. Through touch alone, a vampire might poison a mortal victim’s blood, imbuing them with a disease that wracks and ravages their body. Most dangerously of all, this disease runs the risk of being contagious, and might inflict the same harm to other mortals. Necromancers schooled in medicine have enough talent to make this power appear in the form of specific illnesses, sometimes including those that died out in decades or centuries past. Regardless of how it manifests, the symptoms will eventually disappear even without medical treatment, whether or not the victim survives.",
+          "costs": "One Rouse Check, Two Stains",
+          "diceSupplies": "Intelligence + Oblivion vs. Stamina + Medicine or Fortitude",
+          "system": "The user makes a Rouse Check and then rolls Intelligence + Oblivion while touching their victim. If the victim is weak (a baby, elderly, unwell, recovering from an illness, dying, or with 3 unmarked Health boxes or less), they are automatically infected. If the victim is healthy, they roll Stamina + Medicine (those with Fortitude may use it in place of Medicine), resisting the disease if they roll more successes than the vampire. This power cannot be used on vampires. Storytellers may decide spreading such a horrific disease warrants Stains. Victims of the disease take one Aggravated Health damage at the start of every scene following their infection. The victim suffers from the disease for a number of scenes equal to the user’s Oblivion rating. The sickness cannot be medically treated, as it is supernatural in origin, but it is healed through drinking vitae. If the player rolls a critical win when activating this power, they can choose to make the disease communicable via touch, with subsequent recipients suffering the disease for one turn fewer than the victim by whom they were infected. If the player rolls a total failure, the vampire’s own vitae convulses as if poisoned. They suffer three Aggravated Health damage as the infected blood pours out of them and must make a Rouse Check.",
+          "duration": "One turn to activate, variable length of condition"
+        }
+      ],
+      "5": [
+        {
+          "id": 8,
+          "name": "Shadow Step (Lasombra)",
+          "summary": "Stepping into a nearby shadow, the user disappears only to reappear from the same or another shadow further away. Whether they enter the Labyrinth or merely pass along its surface is a source of conjecture among many Lasombra and Hecata, but the spiritual damage with which they can emerge implies they are touching something foul as they use this power.",
+          "costs": "One Rouse Check",
+          "system": "The vampire must enter a shadow large enough to cover them, and emerge from another one turn later. The target shadow must be within sight, though it can be perceived by mystical means, such as Shadow Perspective, if desired. It is possible to bring another through the passage, but unless that person is willing, they must be held by a successful grapple. If a Stain is incurred as a result of using this power, the passenger also receives one.",
+          "duration": "One turn"
+        },
+        {
+          "id": 9,
+          "name": "Tenebrous Avatar (Lasombra)",
+          "summary": "The vampire gains the ability to change their very substance into that of a shadow, becoming a two-dimensional patch of darkness able to slither over any surface and through miniscule gaps and cracks. While in this form the vampire is only harmed by fire and sunlight.",
+          "costs": "One Rouse Check",
+          "system": "The transformation takes one turn, during which the vampire is unable to do anything else. Once the transformation is complete the vampire can move at walking pace across the ground or along walls, hampered only by hermetically sealed barriers. Vampires using Tenebrous Avatar can envelop victims, causing the victim to reduce all their dice pools by three and suffocating mortals as with Stygian Shroud, above. If surrounding a mortal, the vampire can feed from them without penetrating the skin with fangs. Practitioners of this power take no damage from physical sources but can be harmed by fire and sunlight as normal. Mental Disciplines can still be used at the Storyteller’s discretion.",
+          "duration": "One scene or until ended"
+        },
+        {
+          "id": 17,
+          "name": "Skuld Fulfilled (Hecata)",
+          "summary": "Necromancers can be described as fate’s greatest meddlers, as they have a way of interfering with the destined paths of lives and spirits. Occasionally, however, necromancers may seek to serve fate by punishing those who cheat it. This power enables a vampire to reintroduce illnesses to victims who recovered from them, break bones long-since healed, and eliminate the immunity to aging ghouls experience. While this power doesn’t work on vampires, it is an effective way of cutting through their servants and ensuring debts to fate are repaid, without having to come into contact with the recipient.",
+          "costs": "Two Rouse Checks",
+          "diceSupplies": "Stamina + Oblivion vs. Stamina + Medicine or Fortitude",
+          "system": "The vampire makes two Rouse Checks as they expend sufficient vitae to coat both their palms and their face with blood as they recall the faces of their victims. If the user succeeds in a contest of Stamina + Oblivion vs. the victim’s Stamina + Medicine (Those with Fortitude may resist with Stamina + Fortitude), the targeted individual is affected by a serious condition they’ve historically suffered and recovered from, such as treated cancer, a broken bone, or a disease — including one gained through Necrotic Plague (p. XX) — with any debilitating effects from this condition occurring immediately. The condition’s effects are for the Storyteller to determine, but they should be severe (See the Crippling Injuries table for inspiration, Vampire: the Masquerade p.303). If the victim is a ghoul, this power removes their immunity to aging and eliminates any vitae in their system, potentially resulting in older ghouls dying or even disintegrating where they stand. On a critical win, this power may kill the victim by stopping their heart completely if the user wishes. On a total failure, the vampire cannot use this power against that individual again.",
+          "duration": "Variable, dependent on whether the condition is treatable"
+        },
+        {
+          "id": 18,
+          "name": "Withering Spirit (Hecata)",
+          "summary": "This power channels raw entropy via rapid spiritual decay, affecting vampires as well as kine by targeting the victim’s spirit. A vampire using this power risks Stains, as it can completely obliterate the victim’s spirit, preventing return as a wraith.",
+          "costs": "Two Rouse Checks, Stains (variable amount)",
+          "diceSupplies": "Resolve + Oblivion vs. Resolve + Occult or Fortitude",
+          "system": "The vampire makes two Rouse Checks to expend sufficient vitae to coat both hands, and touches the victim. After rolling Resolve + Oblivion vs. the victim’s Resolve + Occult (Those with Fortitude may use it in place of Occult), the victim suffers two Aggravated Willpower damage for each point of the vampire’s margin. The attack erodes the victim’s spirit until they’re a broken husk, and if Impaired by this power they will not return as a wraith after death. Storytellers may decide that the spirit-destroying nature of this power warrants Stains, though as always, an appropriate Conviction may mitigate these.",
+          "duration": "One turn"
+        }
+      ],
+      "6": [
+        {
+          "id": 19,
+          "name": "Shadow Haven (Lasombra)",
+          "minBloodPotency": 5,
+          "requirement": 8,
+          "summary": "This power allows the user to maintain a shadowy echo of their own haven in the Labyrinth. The vampire can spend the day here, safe from the sun.",
+          "costs": "One Rouse Check",
+          "system": "You must be in absolute darkness to activate this power. When you do, you step into the darkness itself and emerge into the Labyrinth, where you have cultivated a shadowy echo of one of your havens in the real world. Everything that is actually in that haven in the normal world (other than living creatures) is present as a shadowy replica, although it cannot be brought out of the Labyrinth or provide any sustenance or magical effect. Functions that require outside interaction, such as the internet or phone calls, do not work in your shadow haven. While in your shadow haven, you do not enter daysleep even if it is day in the real world. You do, however, need to make a Rouse Check each night to see if you become more hungry. You can make a Rouse Check to reenter the real world where you left it.",
+          "duration": "Up to 24 hours"
+        },
+        {
+          "id": 20,
+          "name": "Death Knell (Hecata)",
+          "minBloodPotency": 5,
+          "summary": "The necromancer's senses are so in tune with the Shadowlands that they can sense the passage of souls from life to death around them.",
+          "costs": "None",
+          "diceSupplies": "Wits + Oblivion",
+          "system": "You are aware of all deaths that take place around you (roughly a city block). You constantly feel the passage of souls from the tiniest insects to the mortals you drain and leave behind. For each individual death, you can distinguish the type of creature that died, whether it was an insect, a small animal, large animal, or human. When you sense a human's death, you can also make a test of Wits + Oblivion against a Difficulty of 4 to learn the mortal's name. Thereafter, when you sense a fetter that belongs to that mortal's spirit, you automatically recognize its ownership.",
+          "duration": "Passive"
+        }
+      ],
+      "7": [
+        {
+          "id": 21,
+          "name": "Darksight (Lasombra)",
+          "minBloodPotency": 6,
+          "requirement": 5,
+          "summary": "This power expands on Shadow Perspective to allow you to send your senses from shadow to shadow, traveling through the darkness in your realm.",
+          "costs": "None",
+          "diceSupplies": "Wits + Oblivion",
+          "system": "While using Shadow Perspective, you gain the ability to send your senses from the shadow you are perceiving from to any other shadow that you can see from that point. This allows you to hop from patch of darkness to patch of darkness, traveling far from your body's actual location while remaining almost totally undetectable.",
+          "duration": "Passive"
+        },
+        {
+          "id": 22,
+          "name": "Consilium Mortuus (Hecata)",
+          "minBloodPotency": 6,
+          "summary": "This power allows the vampire to devour memories from the mind of creatures they drain. It is a powerful method of interrogation, despite leaving the informant unfortunately deceased.",
+          "diceSupplies": "Intelligence + Oblivion",
+          "costs": "One Rouse Check",
+          "system": "Activate this power when you drain a creature's last drop. Make a test of Intelligence + Oblivion against a Difficulty of 4. On a win, you acquire a number of memories from the victim equal to 1 + the margin. Each memory serves as the victim's most direct answer to a question that you pose to the Storyteller when you use this power. The Storyteller may decide that more than one memory is required to fully answer your first question, but if you are able to devour enough memories you may be able to ask 2 or even more questions. The memories you receive are incorporated into your own mind and can be reviewed like any other memory. If you get a messy critical on this test, you accidentally attempt to diablerize the victim (if Kindred).",
+          "duration": "Permanent"
+        }
+      ],
+      "8": [
+        {
+          "id": 23,
+          "name": "The Darkness Within (Lasombra)",
+          "minBloodPotency": 7,
+          "requirement": 9,
+          "combination": {
+            "id": 2,
+            "level": 4
+          },
+          "summary": "This power causes multiple shades to extend from the user's shadow, splitting off to serve them as darkness incarnate.",
+          "costs": "One Rouse Check",
+          "diceSupplies": "Manipulation + Oblivion",
+          "system": "Make a Manipulation + Oblivion test at Difficulty 5 when you activate this power. On a win, a number of shadows split off from your own equal to 1 + the margin on the test. These shadows have the game statistics of Spectres save that they take Aggravated damage from extremely bright light (5000 lumens or more; for reference, a typical LED flashlight puts out about 100 lumens). They serve you implicitly, and you can command them telepathically. On a critical win, these shades remain for an entire night instead of a single scene.",
+          "duration": "One scene (one night on a critical win)"
+        },
+        {
+          "id": 24,
+          "name": "True Death (Hecata)",
+          "minBloodPotency": 7,
+          "summary": "The necromancer causes their blood to go temporarily silent, allowing their undead body to become simply dead without suffering the rapid decay that accompanies Final Death.",
+          "costs": "One Rouse Check",
+          "system": "When you activate this power, your body goes limp and you fall unconscious as though in daysleep. You cannot awaken from this form of daysleep early; it ends only when the next night falls. While active, your body is indistinguishable from a normal, fresh human corpse. It does not take damage from sunlight, and although it can take damage from fire, it does not have a vampire's especial vulnerability to it. If the corpse takes enough damage from fire to fully destroy it, or if the head is severed, you suffer the Final Death immediately. The corpse does not seem remarkable at any level of inspection, provided you do not suffer Masqueradebreaching banes such as the Nosferatu's appearance or a Gangrel's postfrenzy bestial features. Even on dissection, the corpse seems to be a mundane human body unless such banes are present.",
+          "duration": "Until the next night"
+        }
+      ],
+      "9": [
+        {
+          "id": 25,
+          "name": "Oubliette (Lasombra)",
+          "minBloodPotency": 8,
+          "summary": "This ominous ability permits the user to pull a victim into their own personal prison in the Labyrinth, to remain trapped in shadow until the vampire releases them.",
+          "costs": "Two Rouse Checks",
+          "diceSupplies": "Manipulation + Oblivion vs. Wits + Resolve",
+          "system": "The vampire makes a Manipulation + Oblivion test vs. the victim's Wits + Resolve. On a win, shadows snake out from the user and pursue the victim, eventually dragging them down into darkness. The pursuit takes a number of turns equal to 4 the vampire's margin on the win; at the end, the shadows wrap around the victim and pull them down into the vampire's own little pocket of the Labyrinth. The shadows defy all but the brightest light; if used at night, there is very little hope of escape once the vampire has won the contest. Once pulled into the Labyrinth, the victim finds themselves in a small, utterly black room, of a design unique to the vampire who used this ability but always with no ceiling and a single, tiny pinprick of light indicating the oubliette's egress far above. Kindred with Oblivion's Sight, Heightened Senses, or Eyes of the Beast may activate that ability to allow themselves to see while in the oubliette. The victim can attempt to escape by climbing the walls of the oubliette, although this requires a Resolve + Occult (or Oblivion, or Blood Sorcery) test at Difficulty 8 rather than any test of physical merits. If they win, they emerge out of the shadows where they entered; the same happens when the power ends, potentially jettisoning the victim into direct sunlight.While in the oubliette, the victim does not age or require sleep or sustenance, but may suffer mental trauma (Storyteller discretion).",
+          "duration": "One night (permanent on a critical win)"
+        },
+        {
+          "id": 26,
+          "name": "Resume this Undead Coil (Hecata)",
+          "minBloodPotency": 8,
+          "summary": "Vampires with this power wield mastery over their own undead condition, allowing them to rise from torpor and resurrect others from torpor freely.",
+          "costs": "1 point of Aggravated Willpower damage if used on yourself; One Rouse Check if used on another",
+          "diceSupplies": "Resolve + Oblivion",
+          "system": "While you are in torpor, you gain an opportunity each night to voluntarily awaken yourself before your time. This occurs at sundown, when you would awaken from daysleep if not in torpor. If you choose to avail yourself of this opportunity, you take 1 point of Aggravated Willpower damage and immediately awaken from torpor. You can also activate this power to awaken another vampire from torpor prematurely. When you do, spend one Rouse Check. Make a Resolve + Oblivion test against a Difficulty equal to the target's Blood Potency. On a win, you pull the target out of torpor although you should be cautious of their likely hunger frenzy.",
+          "duration": "Instantaneous"
+        }
+      ],
+      "10": [
+        {
+          "id": 27,
+          "name": "Tchernabog (Lasombra)",
+          "minBloodPotency": 9,
+          "summary": "This power is among the most unholy, eerie, and impressive of all Discipline abilities. It allows the vampire to blot out the very sun for a limited time, letting themselves and other Kindred roam as though under the veil of night.",
+          "costs": "Two Rouse Checks",
+          "diceSupplies": "Resolve + Oblivion",
+          "system": "Make a Resolve + Oblivion test against a Difficulty of 8 when you activate this power, which can only be done when the sun is in the sky. On a win, shadows snake across the face of the sun, darkening the skies and cloaking the area around you in the gloom of night for a time. This area might be a single building, a city block, or just a 50meter radius around you; the Storyteller decides the scope of this power depending on what is narratively appropriate. Within the affected area, Kindred awake from daysleep and suffer no ill effects from being awake during daylight hours, nor do they take damage from sunlight (as there is none). If they leave the area, they follow the normal rules for operating in daylight. The affected area does not move with you. However, on a critical win, the area not only moves with you (remaining centered on you), but also lasts for the rest of the day.",
+          "duration": "One scene, one day on a critical win"
+        },
+        {
+          "id": 28,
+          "name": "Inurement (Hecata)",
+          "minBloodPotency": 9,
+          "summary": "The pinnacle of necromancy is the assurance of both one's own death and one's return to unlife. This power allows the necromancer to immediately arise as a specter following their Final Death.",
+          "costs": "None",
+          "system": "When you suffer the Final Death, make a test of Resolve + Oblivion against a Difficulty equal to 15 your Blood Potency. On a win, you immediately arise from your body as a specter. You have the same game statistics as a specter, but you are immaterial (although you can telekinetically manipulate objects as though you were moving them with your body), you are invisible except to those using Sense the Unseen or equivalent, you can only use mental Disciplines, and you gain the specter's special strengths and abilities (see p. 377). You can remain in the Skinlands as a specter a number of days equal to 1 + your margin on the original test. If you possess the Passion Feast power, you can use it to feed on other specters in this form, extending your time in the Skinlands by 1 day for each point of \"hunger\" you slake. This ability offers you a slim chance to return to your undead existence. If, while possessing a mortal, you are able to cause them to consume all of the ashes left behind by your Final Death and blood sufficient to slake 10 Hunger, you may supplant their spirit from their body and infuse the blood they consumed with your essence, transforming the host into a vampire with your spirit, your mind, and all your vampiric abilities. If successful, you return to the world as you were, merely housed in a new physical shell.",
+          "duration": "Permanent"
+        }
+      ]
+    }
+  }
+]

@@ -1,0 +1,756 @@
+﻿[
+  {
+    "id": 1,
+    "name": "Alleycat",
+    "description": "You are an attack eater that stalks your prey, overpowers it, feeds on it, and then escapes.",
+    "actions": [
+      {
+        "description": "Add specialty: Intimidation (Stickups) or Brawl (Grappling)",
+        "type": "additional_specialization",
+        "data": {
+          "choices": [
+            "int=Stickups",
+            "bra=Grappling"
+          ]
+        }
+      },
+      {
+        "description": "Gain one dot of Celerity or Potence",
+        "type": "discipline_point",
+        "data": {
+          "choices": [
+            {
+              "id": 4
+            },
+            {
+              "id": 8
+            }
+          ]
+        }
+      },
+      {
+        "description": "Lose one dot of Humanity",
+        "type": "humanity_change",
+        "data": {
+          "amount": -1
+        }
+      },
+      {
+        "description": "Gain three dots of criminal Contacts",
+        "type": "add_background_points",
+        "data": {
+          "amount": 3,
+          "backgroundId": 2
+        }
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "name": "Bagger",
+    "description": "You prefer to drink cold blood rather than feed on a living victim.",
+    "restriction": {
+      "type": "exclude_clans",
+      "data": [14]
+    },
+    "actions": [
+      {
+        "description": "Add specialty: Larceny (Lockpicking) or Streetwise (Black Market)",
+        "type": "additional_specialization",
+        "data": {
+          "choices": [
+            "lar=Lockpicking",
+            "stw=Black Market"
+          ]
+        }
+      },
+      {
+        "description": "Gain one dot of Blood Sorcery (Tremere or Banu Haqim only), Obfuscate, or Oblivion",
+        "type": "discipline_point",
+        "data": {
+          "choices": [
+            {
+              "id": 3,
+              "restriction": {
+                "type": "only_clans",
+                "data": [1, 12]
+              }
+            },
+            {
+              "id": 10
+            },
+            {
+              "id": 11,
+              "restriction": {
+                "type": "book_activated",
+                "data": [3, 5]
+              }
+            }
+          ]
+        }
+      },
+      {
+        "description": "Gain the Feeding Merit: Iron Gullet (***)",
+        "type": "add_merit",
+        "data": {
+          "meritId": 3,
+          "levelId": 2
+        }
+      },
+      {
+        "description": "Gain the Enemy Flaw (***).  Either someone believes you owe them, or there is another reason you keep off the streets.",
+        "type": "add_flaw",
+        "data": {
+          "choices": [
+            {
+              "type": "background",
+              "id": 4,
+              "flawId": 3
+            }
+          ]
+        }
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "name": "Blood Leech",
+    "description": "This Kindred drinks from other Kindred by hunting, coercion, or by taking blood as payment.",
+    "actions": [
+      {
+        "description": "Add a specialty: Brawl (Kindred) or Stealth (against Kindred)",
+        "type": "additional_specialization",
+        "data": {
+          "choices": [
+            "bra=Kindred",
+            "ste=against Kindred"
+          ]
+        }
+      },
+      {
+        "description": "Gain one dot of Celerity or Protean",
+        "type": "discipline_point",
+        "data": {
+          "choices": [
+            {
+              "id": 4
+            },
+            {
+              "id": 5
+            }
+          ]
+        }
+      },
+      {
+        "description": "Lose one dot of Humanity",
+        "type": "humanity_change",
+        "data": {
+          "amount": -1
+        }
+      },
+      {
+        "description": "Increase Blood Potency by one",
+        "type": "blood_potency_change",
+        "data": {
+          "amount": 1
+        }
+      },
+      {
+        "description": "Gain the Dark Secret Flaw (**) Diablerist or the Shunned Flaw (**)",
+        "type": "add_flaw",
+        "data": {
+          "choices": [
+            {
+              "type": "background",
+              "id": 3,
+              "flawId": 1,
+              "customLevel": 2,
+              "suffix": "Diablerist"
+            },
+            {
+              "type": "background",
+              "id": 11,
+              "flawId": 2
+            }
+          ]
+        }
+      },
+      {
+        "description": "Gain the Feeding Flaw (**): Prey Exclusion (no mortals)",
+        "type": "add_flaw",
+        "data": {
+          "choices": [
+            {
+              "type": "merit",
+              "id": 3,
+              "flawId": 2,
+              "customLevel": 2,
+              "suffix": "no mortals"
+            }
+          ]
+        }
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "name": "Cleaver",
+    "description": "This Kindred feeds covertly from a mortal family and friends, often their own.",
+    "actions": [
+      {
+        "description": "Add a specialty: Persuasion (Gaslighting) or Subterfuge (Cover-ups)",
+        "type": "additional_specialization",
+        "data": {
+          "choices": [
+            "pes=Gaslighting",
+            "sub=Cover-ups"
+          ]
+        }
+      },
+      {
+        "description": "Gain one dot of Dominate or Animalism",
+        "type": "discipline_point",
+        "data": {
+          "choices": [
+            {
+              "id": 2
+            },
+            {
+              "id": 9
+            }
+          ]
+        }
+      },
+      {
+        "description": "Gain the Dark Secret Flaw (*) Cleaver",
+        "type": "add_flaw",
+        "data": {
+          "choices": [
+            {
+              "type": "background",
+              "id": 3,
+              "flawId": 2,
+              "suffix": "Cleaver"
+            }
+          ]
+        }
+      },
+      {
+        "description": "Gain the Herd Advantage (**)",
+        "type": "add_background",
+        "data": {
+          "backgroundId": 7,
+          "levelId": 2
+        }
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "name": "Consensualist",
+    "description": "This Kindred never feeds against their victim's will. This may or may not include breaking the Masquerade by disclosing to them that they are a vampire.",
+    "actions": [
+      {
+        "description": "Add specialty: Medicine (Phlebotomy) or Persuasion (Vessels)",
+        "type": "additional_specialization",
+        "data": {
+          "choices": [
+            "med=Phlebotomy",
+            "pes=Vessels"
+          ]
+        }
+      },
+      {
+        "description": "Gain one dot of Auspex or Fortitude",
+        "type": "discipline_point",
+        "data": {
+          "choices": [
+            {
+              "id": 1
+            },
+            {
+              "id": 7
+            }
+          ]
+        }
+      },
+      {
+        "description": "Gain one dot of Humanity",
+        "type": "humanity_change",
+        "data": {
+          "amount": 1
+        }
+      },
+      {
+        "description": "Gain the Dark Secret Flaw (*) Masquerade Breacher",
+        "type": "add_flaw",
+        "data": {
+          "choices": [
+            {
+              "type": "background",
+              "id": 3,
+              "flawId": 1,
+              "suffix": "Masquerade Breacher"
+            }
+          ]
+        }
+      },
+      {
+        "description": "Gain the Feeding Flaw (*): Prey Exclusion (only consenting)",
+        "type": "add_flaw",
+        "data": {
+          "choices": [
+            {
+              "type": "merit",
+              "id": 3,
+              "flawId": 2,
+              "suffix": "only consenting"
+            }
+          ]
+        }
+      }
+    ]
+  },
+  {
+    "id": 6,
+    "name": "Extortionist",
+    "description": "This Kindred acquires blood in exchange for services rendered.",
+    "actions": [
+      {
+        "description": "Add a specialty: Intimidation (Coercion) or Larceny (Security)",
+        "type": "additional_specialization",
+        "data": {
+          "choices": [
+            "int=Coercion",
+            "lar=Security"
+          ]
+        }
+      },
+      {
+        "description": "Gain one dot of Dominate or Potence",
+        "type": "discipline_point",
+        "data": {
+          "choices": [
+            {
+              "id": 2
+            },
+            {
+              "id": 8
+            }
+          ]
+        }
+      },
+      {
+        "description": "Spend three dots between Contacts and Resources Backgrounds",
+        "type": "spend_background_points_between",
+        "data": {
+          "points": 3,
+          "choices": [
+            2, 10
+          ]
+        }
+      },
+      {
+        "description": "Gain the Enemy Flaw (**). The police, or a victim who escaped you and now wants revenge.",
+        "type": "add_flaw",
+        "data": {
+          "choices": [
+            {
+              "type": "background",
+              "id": 4,
+              "flawId": 3
+            }
+          ]
+        }
+      }
+    ]
+  },
+  {
+    "id": 7,
+    "name": "Farmer",
+    "description": "This Kindred only feeds from animals. Those of Blood Potency of 3 or more cannot pick this type.",
+    "restriction": {
+      "type": "max_blood_potency",
+      "data": 2
+    },
+    "actions": [
+      {
+        "description": "Add specialty: Animal Ken (Specific Animal) or Survival (Hunting)",
+        "type": "additional_specialization",
+        "data": {
+          "choices": [
+            "ken=$input:Specific Animal",
+            "sur=Hunting"
+          ]
+        }
+      },
+      {
+        "description": "Gain one dot of Animalism or Protean",
+        "type": "discipline_point",
+        "data": {
+          "choices": [
+            {
+              "id": 5
+            },
+            {
+              "id": 9
+            }
+          ]
+        }
+      },
+      {
+        "description": "Gain one dot of Humanity",
+        "type": "humanity_change",
+        "data": {
+          "amount": 1
+        }
+      },
+      {
+        "description": "Gain the Feeding Flaw (**): Vegan",
+        "type": "add_flaw",
+        "data": {
+          "choices": [
+            {
+              "type": "merit",
+              "id": 3,
+              "flawId": 3
+            }
+          ]
+        }
+      }
+    ]
+  },
+  {
+    "id": 8,
+    "name": "Graverobber",
+    "description": "Graverobbers often feed from fresh corpses, though they actually prefer feeding from living mourners in cemeteries or mentally agitated visitors and patients in hospitals.",
+    "actions": [
+      {
+        "description": "Add specialty: Occult (Grave Rituals) or Medicine (Cadavers)",
+        "type": "additional_specialization",
+        "data": {
+          "choices": [
+            "occ=Grave Rituals",
+            "med=Cadavers"
+          ]
+        }
+      },
+      {
+        "description": "Gain one dot of Fortitude or Oblivion",
+        "type": "discipline_point",
+        "data": {
+          "choices": [
+            {
+              "id": 7
+            },
+            {
+              "id": 11
+            }
+          ]
+        }
+      },
+      {
+        "description": "Gain the Feeding Merit: Iron Gullet (***)",
+        "type": "add_merit",
+        "data": {
+          "meritId": 3,
+          "levelId": 2
+        }
+      },
+      {
+        "description": "Gain the Haven Advantage (*)",
+        "type": "add_background",
+        "data": {
+          "backgroundId": 6,
+          "levelId": 1
+        }
+      },
+      {
+        "description": "Gain the Herd Flaw (**): Obvious Predator (your cold nature makes you act in a deeply unsettling matter when hunting)",
+        "type": "add_flaw",
+        "data": {
+          "choices": [
+            {
+              "type": "background",
+              "id": 4,
+              "flawId": 2
+            }
+          ]
+        }
+      }
+    ]
+  },
+  {
+    "id": 9,
+    "name": "Osiris",
+    "description": "This Kindred is a celebrity among mortals, or a cult figure of some type, feeding from fans or worshippers.",
+    "actions": [
+      {
+        "description": "Add specialty: Occult (specific tradition) or Performance (specific entertainment field)",
+        "type": "additional_specialization",
+        "data": {
+          "choices": [
+            "occ=$input:specific tradition",
+            "per=$input:specific entertainment field"
+          ]
+        }
+      },
+      {
+        "description": "Gain one dot of Blood Sorcery (Tremere or Banu Haqim only) or Presence",
+        "type": "discipline_point",
+        "data": {
+          "choices": [
+            {
+              "id": 3,
+              "restriction": {
+                "type": "only_clans",
+                "data": [1, 12]
+              }
+            },
+            {
+              "id": 6
+            }
+          ]
+        }
+      },
+      {
+        "description": "Spend three dots between Fame and Herd Backgrounds",
+        "type": "spend_background_points_between",
+        "data": {
+          "points": 3,
+          "choices": [
+            3, 7
+          ]
+        }
+      },
+      {
+        "description": "Spend two dots between Enemies and Mythic Flaws",
+        "type": "spend_flaw_points_between",
+        "data": {
+          "points": 2,
+          "choices": [
+            {
+              "type": "backgrounds",
+              "id": 4
+            },
+            {
+              "type": "merits",
+              "id": 7
+            }
+          ]
+        }
+      }
+    ]
+  },
+  {
+    "id": 10,
+    "name": "Roadside Killer",
+    "description": "This Kindred feeds exclusively from the transient population. From the Truckers, Tourists and Travelers of the world.",
+    "actions": [
+      {
+        "description": "Add specialty: Survival (The Road) or Investigation (Vampire Cant)",
+        "type": "additional_specialization",
+        "data": {
+          "choices": [
+            "sur=The Road",
+            "inv=Vampire Cant"
+          ]
+        }
+      },
+      {
+        "description": "Gain one dot of Fortitude or Protean",
+        "type": "discipline_point",
+        "data": {
+          "choices": [
+            {
+              "id": 5
+            },
+            {
+              "id": 7
+            }
+          ]
+        }
+      },
+      {
+        "description": "Gain the Herd Advantage (**)",
+        "type": "add_background",
+        "data": {
+          "backgroundId": 7,
+          "levelId": 2
+        }
+      },
+      {
+        "description": "Gain the Feeding Flaw (*): Prey Exclusion (Locals)",
+        "type": "add_flaw",
+        "data": {
+          "choices": [
+            {
+              "type": "merit",
+              "id": 3,
+              "flawId": 2,
+              "suffix": "Locals"
+            }
+          ]
+        }
+      }
+    ]
+  },
+  {
+    "id": 11,
+    "name": "Sandman",
+    "description": "This Kindred prefers to feed from sleeping victims using stealth or Disciplines.",
+    "actions": [
+      {
+        "description": "Add specialty: Medicine (Anesthetics) or Stealth (Break-in)",
+        "type": "additional_specialization",
+        "data": {
+          "choices": [
+            "med=Anesthetics",
+            "ste=Break-in"
+          ]
+        }
+      },
+      {
+        "description": "Gain one dot of Auspex or Obfuscate",
+        "type": "discipline_point",
+        "data": {
+          "choices": [
+            {
+              "id": 1
+            },
+            {
+              "id": 10
+            }
+          ]
+        }
+      },
+      {
+        "description": "Gain one dot of Resources",
+        "type": "add_background_points",
+        "data": {
+          "amount": 1,
+          "backgroundId": 10
+        }
+      }
+    ]
+  },
+  {
+    "id": 12,
+    "name": "Scene Queen",
+    "description": "The Kindred is an active member of a subculture, maintaining status and respect that assists them in finding willing victims.",
+    "actions": [
+      {
+        "description": "Add specialty Etiquette (specific scene), Leadership (specific scene), or Streetwise (specific scene)",
+        "type": "additional_specialization",
+        "data": {
+          "choices": [
+            "eti=$input:specific scene",
+            "lea=$input:specific scene",
+            "stw=$input:specific scene"
+          ]
+        }
+      },
+      {
+        "description": "Gain one dot of Dominate or Potence",
+        "type": "discipline_point",
+        "data": {
+          "choices": [
+            {
+              "id": 2
+            },
+            {
+              "id": 8
+            }
+          ]
+        }
+      },
+      {
+        "description": "Gain the Fame Advantage (*)",
+        "type": "add_background",
+        "data": {
+          "backgroundId": 3,
+          "levelId": 1
+        }
+      },
+      {
+        "description": "Gain the Contact Advantage (*)",
+        "type": "add_background",
+        "data": {
+          "backgroundId": 2,
+          "levelId": 1
+        }
+      },
+      {
+        "description": "Gain either the Influence Flaw (*)  Disliked (outside your subculture) or the Feeding Flaw (*) Prey Exclusion (your subculture)",
+        "type": "add_flaw",
+        "data": {
+          "choices": [
+            {
+              "type": "background",
+              "id": 5,
+              "flawId": 1
+            },
+            {
+              "type": "merit",
+              "id": 3,
+              "flawId": 2,
+              "suffix": "your subculture"
+            }
+          ]
+        }
+      }
+    ]
+  },
+  {
+    "id": 13,
+    "name": "Siren",
+    "description": "The Kindred feeds almost exclusively during (or while feigning) sex, relying on Disciplines, seduction skills, or the appetites of others to conceal their nature.",
+    "actions": [
+      {
+        "description": "Add specialty: Persuasion (Seduction) or Subterfuge (Seduction)",
+        "type": "additional_specialization",
+        "data": {
+          "choices": [
+            "per=Seduction",
+            "sub=Seduction"
+          ]
+        }
+      },
+      {
+        "description": "Gain one dot of Fortitude or Presence",
+        "type": "discipline_point",
+        "data": {
+          "choices": [
+            {
+              "id": 7
+            },
+            {
+              "id": 6
+            }
+          ]
+        }
+      },
+      {
+        "description": "Gain the Looks Merit (**): Beautiful",
+        "type": "add_merit",
+        "data": {
+          "meritId": 6,
+          "levelId": 1
+        }
+      },
+      {
+        "description": "Gain the Enemy Flaw (*) A spurned lover or jealous partner",
+        "type": "add_flaw",
+        "data": {
+          "choices": [
+            {
+              "type": "background",
+              "id": 4,
+              "flawId": 1
+            }
+          ]
+        }
+      }
+    ]
+  }
+]

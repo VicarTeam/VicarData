@@ -1,0 +1,661 @@
+﻿[
+  {
+    "id": 1,
+    "name": "Retainers",
+    "description": "You have one or more loyal and steadfast servants or assistants. However, the entourage does not consist of puppets but independent characters",
+    "isCombinable": true,
+    "advantages": [
+      {
+        "id": 1,
+        "level": 1,
+        "name": "Retainers 1",
+        "description": "Weak mortals such as children, petty criminals or horror fans who fulfill minor wishes even without blood ties"
+      },
+      {
+        "id": 2,
+        "level": 2,
+        "name": "Retainers 2",
+        "description": "Common mortals or ghouls with no advantages such as ghouls, family servants, or human lovers"
+      },
+      {
+        "id": 3,
+        "level": 3,
+        "name": "Retainers 3",
+        "description": "Ghouls with characteristics like a mortal. Minions who can act of their own free will"
+      }
+    ],
+    "disadvantages": [
+      {
+        "id": 1,
+        "level": 1,
+        "name": "Stalker",
+        "description": "Mortals who have fallen in love with you, keep memories of you and desire to return to you."
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "name": "Contacts",
+    "description": "Someone who provides you with information, services or goods in a particular field.",
+    "isCombinable": true,
+    "advantages": [
+      {
+        "id": 1,
+        "level": 1,
+        "name": "Contacts 1",
+        "description": "Contact who can do something common (resource 1) (e.g., weed dealer or car salesman)"
+      },
+      {
+        "id": 2,
+        "level": 2,
+        "name": "Contacts 2",
+        "description": "Contact who can do something useful (resources 2) (e.g., insignificant arms dealer or veterinarian"
+      },
+      {
+        "id": 3,
+        "level": 3,
+        "name": "Contacts 3",
+        "description": "Contact who can do something expensive (resources 4) (e.g., police lieutenant in homicide or surveillance system expert)"
+      }
+    ],
+    "disadvantages": []
+  },
+  {
+    "id": 3,
+    "name": "Fame",
+    "description": "How well known you are, usually among mortals, but it can also be true among blood relatives.",
+    "isCombinable": true,
+    "advantages": [
+      {
+        "id": 1,
+        "level": 1,
+        "name": "Fame 1",
+        "description": "A subculture knows and admires you"
+      },
+      {
+        "id": 2,
+        "level": 2,
+        "name": "Fame 2",
+        "description": "You're a local celebrity and much of the city recognizes you"
+      },
+      {
+        "id": 3,
+        "level": 3,
+        "name": "Fame 3",
+        "description": "Most inhabitants of the country know at least your name"
+      },
+      {
+        "id": 4,
+        "level": 4,
+        "name": "Fame 4",
+        "description": "Those on the fringe interested in social trends or your field of expertise know something about you"
+      },
+      {
+        "id": 5,
+        "level": 5,
+        "name": "Fame 5",
+        "description": "You have national or even international fame, such as a rock star"
+      }
+    ],
+    "disadvantages": [
+      {
+        "id": 1,
+        "level": 1,
+        "name": "Dark Secret",
+        "description": "You have a dark secret that you need to keep. For example, a debt that you have not yet paid. Or your spouse or lover has infamy."
+      },
+      {
+        "id": 2,
+        "level": 2,
+        "name": "Infamy",
+        "description": "You are famous because you did something terrible or reprehensible in the eyes of mortals or kindred society"
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "name": "Allies",
+    "description": "Ein Sterblicher oder eine Gruppe von Sterblichen, die dir gegenüber loyal und vertrauenswürdig sind und dir bei Bedarf helfen.",
+    "isCombinable": true,
+    "specialRules": "allies",
+    "advantages": [
+      {
+        "id": 1,
+        "level": 1,
+        "name": "Effectivness 1",
+        "description": "Weak mortal, which is probably useless in violent situations"
+      },
+      {
+        "id": 2,
+        "level": 2,
+        "name": "Effectivness 2",
+        "description": "Common mortal or close-knit group of weak mortals (e.g., neighborhood kids solving puzzles)"
+      },
+      {
+        "id": 3,
+        "level": 3,
+        "name": "Effectivness 3",
+        "description": "Gifted mortal or dangerous group of ordinary mortals (e.g., street gang)."
+      },
+      {
+        "id": 4,
+        "level": 4,
+        "name": "Effectivness 4",
+        "description": "Dangerous mortal, gifted mortal with magic or other supernatural talents (e.g., Russian Mafia)."
+      },
+      {
+        "id": 5,
+        "level": 1,
+        "name": "Reliability 1",
+        "description": "50% chance that they will appear when called"
+      },
+      {
+        "id": 6,
+        "level": 2,
+        "name": "Reliability 2",
+        "description": "They appear within 1-10 hours (roll the dice) when you call them"
+      },
+      {
+        "id": 7,
+        "level": 3,
+        "name": "Reliability 3",
+        "description": "They appear as soon as possible when you call them"
+      }
+    ],
+    "disadvantages": [
+      {
+        "id": 1,
+        "level": 1,
+        "name": "Enemy 1",
+        "description": "Weak mortal, which is probably useless in violent situations"
+      },
+      {
+        "id": 2,
+        "level": 2,
+        "name": "Enemy 2",
+        "description": "Common mortal or close-knit group of weak mortals (e.g., neighborhood kids solving puzzles)"
+      },
+      {
+        "id": 3,
+        "level": 3,
+        "name": "Enemy 3",
+        "description": "Gifted mortal or dangerous group of ordinary mortals (e.g., street gang)."
+      },
+      {
+        "id": 4,
+        "level": 4,
+        "name": "Enemy 4",
+        "description": "Dangerous mortal, gifted mortal with magic or other supernatural talents (e.g., Russian Mafia)."
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "name": "Influence",
+    "description": "You have influence in the mortal community, whether through wealth, prestige, political office, blackmail, or supernatural manipulation. The narrator may allow this influence as an optional dice supply during social rehearsals.",
+    "isCombinable": true,
+    "advantages": [
+      {
+        "id": 1,
+        "level": 1,
+        "name": "Well-connected",
+        "description": "You will be heard respectfully"
+      },
+      {
+        "id": 2,
+        "level": 2,
+        "name": "Revelant",
+        "description": "People like to do you a favor"
+      },
+      {
+        "id": 3,
+        "level": 3,
+        "name": "Etabliert",
+        "description": "Mortal string pullers and factions hesitate to oppose you"
+      },
+      {
+        "id": 4,
+        "level": 4,
+        "name": "Einflussreich",
+        "description": "Officials and river soldiers will obey you unless they have a good reason not to do so"
+      },
+      {
+        "id": 5,
+        "level": 5,
+        "name": "Herrschend",
+        "description": "People who are under you read your every wish from your lips"
+      }
+    ],
+    "disadvantages": [
+      {
+        "id": 1,
+        "level": 1,
+        "name": "Disliked",
+        "description": "For dice supplies for social interactions in your city other than with your contacts or allies, you have a penalty of 1"
+      },
+      {
+        "id": 2,
+        "level": 2,
+        "name": "Despised",
+        "description": "A group or territory wants to act against you. You have a penalty of 2 to convince neutral players of your political position."
+      }
+    ]
+  },
+  {
+    "id": 6,
+    "name": "Haven",
+    "description": "Ein Platz zum Schlafen, der nicht von anderen Hintergründen abhängig ist.",
+    "isCombinable": true,
+    "specialRules": "haven",
+    "advantages": [
+      {
+        "id": 1,
+        "level": 1,
+        "name": "Havensize 1",
+        "description": "Small haven, but safer and more private than the standard (e.g., basement apartments or crypts)."
+      },
+      {
+        "id": 2,
+        "level": 2,
+        "name": "Havensize 2",
+        "description": "Decent size, security, and/or privacy (e.g., single-family or townhomes)"
+      },
+      {
+        "id": 3,
+        "level": 3,
+        "name": "Havensize 3",
+        "description": "Very large, secure, or private (e.g., out-of-town properties or banking)."
+      },
+      {
+        "id": 4,
+        "level": 1,
+        "name": "Hidden Armory",
+        "requirement": {
+          "type": "or",
+          "values":  [1, 2, 3]
+        },
+        "description": "Each point in this preference adds more weapons to the supply (e.g. short guns, long guns or ammunition)"
+      },
+      {
+        "id": 5,
+        "level": 1,
+        "name": "Cell",
+        "requirement": {
+          "type": "or",
+          "values":  [2, 3]
+        },
+        "description": "You can lock up 2 prisoners in this cell. With each point you can lock up twice as many prisoners (max. 32 with Havensize 3; does not work with Havensize 1)"
+      },
+      {
+        "id": 6,
+        "level": 1,
+        "name": "Watchmen",
+        "requirement": {
+          "type": "or",
+          "values":  [1, 2, 3]
+        },
+        "description": "Either professional security guards or thugs. Each point grants you 4 guards and a talented boss"
+      },
+      {
+        "id": 7,
+        "level": 1,
+        "name": "Laboratory",
+        "requirement": {
+          "type": "or",
+          "values":  [2, 3]
+        },
+        "description": "Your haven has a fully equipped laboratory. When using the laboratory in conjunction with a science or technology specialization, you gain one more cube in your supply per point (not for Havensize 1)"
+      },
+      {
+        "id": 8,
+        "level": 1,
+        "name": "Library",
+        "requirement": {
+          "type": "or",
+          "values":  [1, 2, 3]
+        },
+        "restrictRepeats": {
+          "size": 1,
+          "amount": 1
+        },
+        "description": "Your haven has a library of occultism and vampire lore. You gain one more die per point on Humanities, Occultism, or Investigate specializations when investigating (limited to 1 for Havensize 1)."
+      },
+      {
+        "id": 9,
+        "level": 1,
+        "name": "Location",
+        "requirement": {
+          "type": "or",
+          "values":  [1, 2, 3]
+        },
+        "description": "Your haven is located in an exclusive area. You get 2 dice bonus on values that match your location (e.g. haven next to the Elysium: picking up rumors)."
+      },
+      {
+        "id": 10,
+        "level": 1,
+        "name": "Luxury",
+        "requirement": {
+          "type": "or",
+          "values":  [1, 2, 3]
+        },
+        "description": "You get luxurious goods like designer furniture. For mortal guests in the haven, you get a bonus of 2 on social interactions (if you don't have at least resources 3, the goods are acquired illegally)."
+      },
+      {
+        "id": 11,
+        "level": 1,
+        "name": "Postern",
+        "requirement": {
+          "type": "or",
+          "values":  [1, 2, 3]
+        },
+        "description": "Your haven gets a back entrance like a secret tunnel for escape. Each point grants you 2 dice bonus if you want to dodge surveillance near the haven"
+      },
+      {
+        "id": 12,
+        "level": 1,
+        "name": "Security System",
+        "requirement": {
+          "type": "or",
+          "values":  [1, 2, 3]
+        },
+        "description": "The security system of your haven is better than the standard. Each point grants you 2 dice bonus to prevent unauthorized access to your haven or to warn you."
+      },
+      {
+        "id": 13,
+        "level": 1,
+        "name": "Surgery",
+        "requirement": {
+          "type": "or",
+          "values":  [2, 3]
+        },
+        "description": "Your haven is equipped for wound care or more. Each point grants you 2 dice bonus for the matching sample for medicine (does not work for Havensize 1)"
+      },
+      {
+        "id": 14,
+        "level": 1,
+        "name": "Warding",
+        "requirement": {
+          "type": "or",
+          "values":  [1, 2, 3]
+        },
+        "description": "Your spell is magically protected against supernatural forces. Each point grants you 1 dice bonus to defend against supernatural divination arts or similar (narrator can limit this by a minimum value on occultism or similar)."
+      }
+    ],
+    "disadvantages": [
+      {
+        "id": 1,
+        "level": 1,
+        "name": "No haven",
+        "description": "You must strive every morning to find a new resting place"
+      },
+      {
+        "id": 2,
+        "level": 1,
+        "name": "Creepy",
+        "description": "For example, your haven looks like it is from a serial killer which people can stumble upon and call the police or just chat. You get a malus of 2 on social dice supplies when you want to reassure someone or invite them to your haven."
+      },
+      {
+        "id": 3,
+        "level": 1,
+        "name": "Haunted",
+        "description": "In your haven, a supernatural being manifests itself, such as: a ghost, which you can neither understand nor control. The effects are decided by the narrator"
+      },
+      {
+        "id": 4,
+        "level": 2,
+        "name": "Compromised",
+        "description": "The haven is already known (has been invaded by burglars, for example). Intruders get a bonus of 2 when they try to enter the sanctuary"
+      }
+    ]
+  },
+  {
+    "id": 7,
+    "name": "Herd",
+    "description": "A group of mortals that you can feed off of without any problems.",
+    "isCombinable": true,
+    "advantages": [
+      {
+        "id": 1,
+        "level": 1,
+        "name": "Herd 1",
+        "description": "1 to 3 vessels with random resonance and without dyscrasia"
+      },
+      {
+        "id": 2,
+        "level": 2,
+        "name": "Herd 2",
+        "description": "4 to 7 vessels with half of them having the same resonance (you can decide if you want to choose)"
+      },
+      {
+        "id": 3,
+        "level": 3,
+        "name": "Herd 3",
+        "description": "7 to 15 vessels with two different resonances that you can choose per week"
+      },
+      {
+        "id": 4,
+        "level": 4,
+        "name": "Herd 4",
+        "description": "16 to 30 vessels. You choose 2 resonances every week"
+      },
+      {
+        "id": 5,
+        "level": 5,
+        "name": "Herd 5",
+        "description": "31 to 60 vessels. You choose 3 resonances every week"
+      }
+    ],
+    "disadvantages": [
+      {
+        "id": 1,
+        "level": 2,
+        "name": "Obvious Predator",
+        "description": "You exhibit predatory behavior and people instinctively fear or distrust you. In the dice supply for hunting, you have two fewer dice, except for purely physical hunting behavior such as stalking, hunting, and killing. You have one less die in the dice supply for any social interaction designed to reassure people. You cannot keep a herd."
+      }
+    ]
+  },
+  {
+    "id": 8,
+    "name": "Mask",
+    "description": "The strength of your fake identity, if you have one.",
+    "isCombinable": true,
+    "specialRules": "mask",
+    "advantages": [
+      {
+        "id": 1,
+        "level": 1,
+        "name": "Mask 1",
+        "description": "Du besitzt einen gut gefälschten Ausweis; deine Kreditkarte, Bankkonto, Bonität, Geburtsurkunde laufen unter deinem Alias. Einer Überprüfung auf Bundesstaats- oder Provinzebene hältst du stand"
+      },
+      {
+        "id": 2,
+        "level": 2,
+        "name": "Mask 2",
+        "description": "Dein Alias hält einer Überprüfung durch die Polizei aug Landesebene Stadt (FBI, Scotland Yard oder Äquivalente). Wenn du eine Akte beim Militär oder dem Geheimdienst hast, steht sie unter Verschluss"
+      },
+      {
+        "id": 3,
+        "level": 1,
+        "name": "Zeroed",
+        "description": "Someone in high places has deleted your real data. Officially you do not exist"
+      },
+      {
+        "id": 4,
+        "level": 1,
+        "name": "Cobbler",
+        "description": "You can create or obtain an alias. Making an alias takes 3 days per point and may expose you online. Obtaining an alias takes one day per point and costs something. How much depends on how much influence you have, how big the difference is in the social interaction sample, or what the narrator decides."
+      }
+    ],
+    "disadvantages": [
+      {
+        "id": 1,
+        "level": 1,
+        "name": "Known Corpse",
+        "description": "People know that you have recently stumbled and would react in shock and horror if you appeared among them. This weakness also appears when checking your identity in databases."
+      },
+      {
+        "id": 2,
+        "level": 2,
+        "name": "Known Blankbody",
+        "description": "Your biometric data, name, past, known associates and alias show up in the databases of various intelligence agencies; there you are marked as a potential terrorist. Inquisitors can read between the lines and recognize you as a vampire."
+      }
+    ]
+  },
+  {
+    "id": 9,
+    "name": "Mawla",
+    "description": "An individual or group of vampires will help you and provide information, advice or assistance.",
+    "isCombinable": true,
+    "advantages": [
+      {
+        "id": 1,
+        "level": 1,
+        "name": "Mawla 1",
+        "description": "Newborn"
+      },
+      {
+        "id": 2,
+        "level": 2,
+        "name": "Mawla 2",
+        "description": "Ancilla"
+      },
+      {
+        "id": 3,
+        "level": 3,
+        "name": "Mawla 3",
+        "description": "Elder"
+      },
+      {
+        "id": 4,
+        "level": 4,
+        "name": "Mawla 4",
+        "description": "Primogen or Anarch Revolutionary Council member"
+      },
+      {
+        "id": 5,
+        "level": 5,
+        "name": "Mawla 5",
+        "description": "Prince or Baron"
+      }
+    ],
+    "disadvantages": [
+      {
+        "id": 1,
+        "level": 1,
+        "name": "Adversary 1",
+        "description": "Elder"
+      },
+      {
+        "id": 2,
+        "level": 2,
+        "name": "Adversary 2",
+        "description": "Primogen or Anarch Revolutionary Council member"
+      },
+      {
+        "id": 3,
+        "level": 3,
+        "name": "Adversary 3",
+        "description": "Prince or powerful intriguers"
+      }
+    ]
+  },
+  {
+    "id": 10,
+    "name": "Resources",
+    "description": "These benefits are not necessarily financial and rarely fully liquid, but you can often sell them to gain cash.",
+    "isCombinable": true,
+    "advantages": [
+      {
+        "id": 1,
+        "level": 1,
+        "name": "Portfolio Proletariat",
+        "description": "You live paycheck to paycheck: apartment, car, camping gear"
+      },
+      {
+        "id": 2,
+        "level": 2,
+        "name": "Middle Class",
+        "description": "Nice apartment or small house, several cars, quality equipment"
+      },
+      {
+        "id": 3,
+        "level": 3,
+        "name": "Rich",
+        "description": "Great condo or nice house, luxury items, quality equipment for several people"
+      },
+      {
+        "id": 4,
+        "level": 4,
+        "name": "Wealthy",
+        "description": "Estate, helicopter or private jet, highly specialized equipment"
+      },
+      {
+        "id": 5,
+        "level": 5,
+        "name": "Ultra Rich",
+        "description": "Several estates, \"all you can get for money\"."
+      }
+    ],
+    "disadvantages": [
+      {
+        "id": 1,
+        "level": 1,
+        "name": "Destitute",
+        "description": "You have no money or home"
+      }
+    ]
+  },
+  {
+    "id": 11,
+    "name": "Status",
+    "description": "You have a certain reputation and standing (earned or undeserved) within a certain local kindred community, probably Camarilla or Anarch.",
+    "isCombinable": true,
+    "advantages": [
+      {
+        "id": 1,
+        "level": 1,
+        "name": "Known",
+        "description": "Neatly introduced newborns in which potential is seen"
+      },
+      {
+        "id": 2,
+        "level": 2,
+        "name": "Respected",
+        "description": "You have obligations and belong to the Ancilla"
+      },
+      {
+        "id": 3,
+        "level": 3,
+        "name": "Influential",
+        "description": "You have power over a part of the group and belong to an average elder"
+      },
+      {
+        "id": 4,
+        "level": 4,
+        "name": "Powerful",
+        "description": "You hold an office, like sheriff, harpy or scourge"
+      },
+      {
+        "id": 5,
+        "level": 5,
+        "name": "Luminary",
+        "description": "You sit at the table of those in power and are a respected member of the Primogen"
+      }
+
+    ],
+    "disadvantages": [
+      {
+        "id": 1,
+        "level": 1,
+        "name": "Suspect",
+        "description": "You do not have a good position in this sect. If you don't somehow make amends for your actions, you will have two fewer dice available for all social interactions with the offended faction."
+      },
+      {
+        "id": 2,
+        "level": 2,
+        "name": "Shunned",
+        "description": "You will be hated by this sect. Members of this group will actively act against you if they can"
+      }
+    ]
+  }
+]
