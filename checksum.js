@@ -3,7 +3,7 @@ const fs = require("fs");
 
 const { createHash } = require("crypto");
 
-const IGNORED_FILES = ["LICENSE", "README.md", "scripts", ".git", "dist", ".gitignore", ".github"];
+const IGNORED_FILES = ["LICENSE", "README.md", "scripts", ".git", "dist", ".gitignore"];
 
 const hash = createHash("sha256");
 const files = fs.readdirSync(path.join(__dirname, ".."));
@@ -18,7 +18,6 @@ function generateHash() {
     if (fs.lstatSync(fullPath).isDirectory()) {
       const dirFiles = fs.readdirSync(fullPath);
       dirFiles.forEach((dirFile) => {
-        console.log(dirFile);
         hash.update(fs.readFileSync(path.join(fullPath, dirFile)));
       });
     } else {
@@ -29,4 +28,4 @@ function generateHash() {
   return hash.digest("hex");
 }
 
-module.exports = {generateHash};
+fs.writeFileSync(path.join(__dirname, "checksum.sha256"), generateHash());
