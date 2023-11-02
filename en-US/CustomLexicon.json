@@ -1,0 +1,32 @@
+{
+    "prepend": [
+        {
+            "type": "title",
+            "text": "Rules"
+        },
+        {
+            "type": "subtitle",
+            "text": "General"
+        },
+        {
+            "type": "paragraph",
+            "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed vitae nisl euismod, aliquam nisl quis, ultricies nisl."
+        },
+        {
+            "type": "subtitle",
+            "text": "Rule 1"
+        },
+        {
+            "type": "list",
+            "items": [
+                "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+                "Sed vitae nisl euismod, aliquam nisl quis, ultricies nisl.",
+                "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+                "Sed vitae nisl euismod, aliquam nisl quis, ultricies nisl."
+            ]
+        }
+    ],
+    "append": [
+        
+    ]
+}
