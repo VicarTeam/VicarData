@@ -711,7 +711,7 @@
         "type": "additional_specialization",
         "data": {
           "choices": [
-            "per=Seduction",
+            "pes=Seduction",
             "sub=Seduction"
           ]
         }

@@ -718,7 +718,7 @@
         "type": "additional_specialization",
         "data": {
           "choices": [
-            "per=Verführung",
+            "pes=Verführung",
             "sub=Verführung"
           ]
         }

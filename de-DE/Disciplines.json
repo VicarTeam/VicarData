@@ -363,7 +363,7 @@
           "summary": "Der Vampir kann sich auf sein Blut konzentrieren und seine Macht vorübergehend steigern.",
           "costs": "ein Wallungs-Check",
           "diceSupplies": "Entschlossenheit + Blutmagie",
-          "system": "Der Anwender würfelt auf Entschlossenheit + Blutmagie bei einer Schwierigkeit von 2 + den Wert seiner Blutmagie. Bei einem Triumph erhöht sich seine Blutmacht eine Szene lang um 1, bei einem kritischen Triumph um 2. Mit dieser Kraft kann der Vampir auch den maximalen Blutmachtwert seiner Generation übertreten, solange sie wirkt.",
+          "system": "Der Anwender würfelt auf Entschlossenheit + Blutmagie bei einer Schwierigkeit von 2 + seine Blutmacht. Bei einem Triumph erhöht sich seine Blutmacht eine Szene lang um 1, bei einem kritischen Triumph um 2. Mit dieser Kraft kann der Vampir auch den maximalen Blutmachtwert seiner Generation übertreten, solange sie wirkt.",
           "duration": "eine Szene oder eine Nacht"
         },
         {
