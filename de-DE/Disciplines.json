@@ -36,6 +36,19 @@
             "Der Anwender kann aber auch aktiv eine Vorahnung heraufbeschwören, indem er sich auf ein Subjekt konzentriert und eine Probe auf Entschlossenheit + Auspex ablegt. Die Anzahl der Erfolge bestimmt die Stufe der Erkenntnisse über das Subjekt, falls überhaupt welche errungen werden."
           ],
           "duration": "passiv"
+        },
+        {
+          "id": 15,
+          "name": "Obeah",
+          "combination": {
+            "id": 7,
+            "level": 1
+          },
+          "summary": "Der Vampir beruhigt den geistig oder emotional aufgewühlten Zustand seines Gegenübers und gibt ihm ein gewisses Maß an Standhaftigkeit zurück. Die Kraft ist besonders effektiv, wenn sie bei Sterblichen eingesetzt wird, sei es, um ihnen über momentane Unruhe hinwegzuhelfen oder um sie zu beruhigen, bevor man von ihnen trinkt.",
+          "costs": "ein Wallungs-Check und je nach Umständen zusätzliche Willenskraft",
+          "diceSupplies": "Fassung + Auspex",
+          "system": "Der Vampir würfelt Fassung + Auspex gegen Schwierigkeit 2 und stellt so viele Stufen Leichten Schaden auf Willenskraft wieder her, wie die Differenz der Probe beträgt. Alternativ kann der Anwender für jeweils drei Erfolge Differenz eine Stufe Schweren Schaden auf Willenskraft wiederherstellen. Sollte sich ein Sterblicher in einem emotional aufgewühlten Zustand befinden, beruhigt ihn eine erfolgreiche Anwendung von Obeah ebenfalls oder bringt ihn anderweitig zur Ruhe. Die Anwendung dieser Kraft dauert eine ganze Runde. Wenn der Vampir stattdessen eine ganze Szene damit verbringt, reduziert er die Schwierigkeit auf 0. Obeah kann nicht den wirkenden Vampir zum Ziel haben. Die Kraft kann nur einmal pro Nacht auf ein Ziel angewandt werden. Wenn der Anwender mehr als ein Ziel pro Nacht beruhigen möchte, erleidet er für jedes weitere Ziel Leichten Schaden auf Willenskraft, der der halben Anzahl der Erfolge der Differenz entspricht. Dies entspricht der Belastung, die er mit mehreren Anwendungen auf sich nimmt.",
+          "duration": "k.A."
         }
       ],
       "3": [
@@ -100,6 +113,19 @@
           "diceSupplies": "Entschlossen + Auspex vs. Geistesschärfe + Ausflüchte",
           "system": "Der Anwender muss keine Proben ablegen, um seine Gedanken in den Verstand einer anderen Person, sei es Vampir oder Sterblicher, zu projizieren, er muss sie aber im Sichtfeld haben. Um den Verstand eines Sterblichen in Sichtweite zu lesen, muss er eine Probe auf Entschlossenheit + Auspex vs. Geistesschärfe + Ausflüchte ablegen, während er ihnen in die Augen sieht. (Außer der Sterbliche lässt es zu, dann muss nicht gewürfelt werden.) Ein Triumph bedeutet, dass der Vampir oberflächliche Gedanken als Bilderflut wahrnimmt. Bei höherer Differenz kann der Anwender nach älteren oder tiefer verborgenen Erinnerungen stöbern. Ein kritischer Triumph gewährt ihm einen Blick auf ein verständlicheres Bild der aktuellen Gedanken und Intentionen des Opfers. Um den Verstand eines unfreiwilligen Vampirs zu lesen, muss er vor dem Wurf einen Punkt Willenskraft investieren.",
           "duration": "Etwa 1 Minute pro Wallungs-Check. Bei freiwilligen Opfern lässt sich das auf eine Szene erweitern."
+        },
+        {
+          "id": 16,
+          "name": "Die Seele vom Tier entlasten",
+          "combination": {
+            "id": 2,
+            "level": 3
+          },
+          "requirement": 15,
+          "summary": "Als Suchende auf den Pfaden Golcondas erforschen einige Vampire Mittel und Wege, um die geplagten Seelen ihrer Mitverdammten zu heilen. Diese Kraft teilt etwas von der moralischen Ruhe des Vampirs mit einem reumütigen Blutsverwandten und bietet so die Möglichkeit, eine gewisse Art von Reue wiederherzustellen und gleichzeitig das Tier in Schach zu halten. Dazu muss der Anwender einen Teil des Verstandes und des Geistes des Ziels in sich aufnehmen und den Geist des Ziels an den des Anwenders binden. (Am häufigsten ist diese Kraft bei den Salubri zu beobachten, was zweifellos zu ihrem Ruf als monströse Seelenräuber beigetragen hat ...)",
+          "costs": "zwei Wallungs-Checks, ein Makel",
+          "system": "Der Vampir zieht sich eine Szene lang zusammen mit dem Ziel zurück und würfelt anschließend Fassung + Auspex gegen dessen Menschlichkeit. Für jeden Erfolg bei der Differenz kann der Anwender einen Makel des Ziels entfernen oder einen psychologischen „Schild“ errichten, der das Ziel vor künftigen Makeln eins zu eins schützt. Eine Differenz von drei würde so z. B. bei einem Ziel ohne Makel bis zu drei spätere Makel aus der Spielsitzung „aufheben“. Bei einem kritischen Triumph kann der Anwender entscheiden, auf die oben genannten Vorteile zu verzichten und stattdessen einen einzelnen Punkt Menschlichkeit des Ziels wiederherzustellen, doch kein Vampir kann mehr als einmal in den Genuss dieses Vorteils kommen, niemals. Die Seele vom Tier entlasten funktioniert nur bei Vampiren und nur bei Zielen, deren Menschlichkeit niedriger ist als die des Anwenders. Unabhängig von den erhaltenen Vorteilen ist das Ziel für den Rest der Spielsitzung benommen, da ein Teil seines Verstandes mit dem des Anwenders verschmolzen ist, und alle Beherrschungskräfte, die vom Anwender dieser Kraft auf das Ziel eingesetzt werden, haben automatisch Erfolg, ohne dass Blickkontakt notwendig wäre. Wenn die Kraft abklingt, geht der nicht verbrauchte psychologische „Schutz“ verloren, entfernte Makel oder bei der Anwendung wiederhergestellte Menschlichkeit verbleiben.",
+          "duration": "eine Spielsitzung"
         }
       ],
       "6": [
@@ -210,6 +236,26 @@
           "diceSupplies": "Manipulation + Beherrschung vs. Fassung + Intelligenz",
           "system": "Nachdem er mit dem Opfer ein Gespräch begonnen hat, kann der Anwender diese Kraft aktivieren. Bis zum Ende der Szene kann der Anwender eine einzelne Person mit einem Wettbewerb auf Manipulation + Beherrschung vs. Intelligenz + Entschlossenheit ins Visier nehmen und Leichten Schaden auf Willenskraft verursachen. Ein Sterblicher, der durch diese Kraft beeinträchtigt wird, erleidet einen Nervenzusammenbruch oder eine Psychose, deren Auswirkung von seinem Naturell abhängt (und vermutlich seiner Blutresonanz). Ein Vampir, der davon beeinträchtigt wird, unterliegt sofort einem Zwang, der von dem Anwender der Kraft bestimmt wird. Wenn der Anwender mehrere Opfer beeinflussen will, muss er für jedes einen gesonderten Wallungs- Check ablegen.",
           "duration": "eine Szene"
+        },
+        {
+          "id": 15,
+          "name": "Sklavische Hingabe",
+          "combination": {
+            "id": 6,
+            "level": 1
+          },
+          "summary": "Diejenigen, die sich bereits unter der geistigen Herrschaft des Vampirs befinden, finden ihren Geist gegen Einmischung von anderen Vampiren gestärkt.",
+          "costs": "keine zusätzlichen Kosten",
+          "system": "Jeder Versuch, einen Charakter mental zu zwingen, der bereits unter dem Einfluss von des Vampirs Beherrschung steht, erhöht seine Schwierigkeit um zwei oder erleidet eine Vier-Würfel-Strafe in Wettbewerben. Die Schwierigkeit kann nicht über 7 steigen.",
+          "duration": "passiv"
+        },
+        {
+          "id": 17,
+          "name": "Gunst des Domitors",
+          "summary": "Blutsverwandte sind Kreaturen voll grausamer Ironie. Der Name dieser Disziplinskraft ist ein Beispiel dafür. Wurde ein blutgebundener Sklave mit Gunst des Domitors konditioniert, fällt es ihm noch schwerer, gegen den Willen seines Meisters zu handeln. Despotische Tzimisce haben an dieser Macht besondere Freude und nutzen sie, um sich die Loyalität ihrer Diener zu sichern.",
+          "costs": "ein Wallungs-Check",
+          "system": "Proben auf die Trotzhaltung willensstarker Sklaven, die unter der Wirkung von Gunst des Domitors stehen, werden mit einem Malus von drei Würfeln abgelegt, und die Sklaven dürfen für diese Proben keine Willenskraft aufwenden. Zudem bedeutet ein Totaler Fehlschlag bei einem Trotzwurf, dass das Blutband in diesem Monat nicht schwächer wird. Siehe S. 233-241 von Vampire: Die Maskerade für weitere Informationen zu Blutsband und Proben, die abgelegt werden müssen, um diesem zu trotzen.",
+          "duration": "ein Monat"
         }
       ],
       "3": [
@@ -239,6 +285,19 @@
           "costs": "keine zusätzlichen Kosten",
           "system": "Wenn jemand seinen Glauben nachdrücklich anzweifelt, kann das Opfer auf Geistesschärfe + Wahrnehmung würfeln (Schwierigkeit 5). Bei einem Triumph stellt es seine eigene Aussage infrage, vermutlich auch seinen eigenen Verstand.",
           "duration": "unbegrenzt"
+        },
+        {
+          "id": 16,
+          "name": "Ahnendominanz",
+          "summary": "Vampire von großem Alter und Potenz finden es möglich, ihren Willen über das Blut auszuüben, ohne die traditionelle Notwendigkeit von Augenkontakt und verbaler Kommunikation mit ihrem Ziel. Diese Macht ermöglicht es einem Vampir, einen Nachkommen zu zwingen, in seinem Auftrag zu handeln, auch wenn es eine Handlung ist, der sich das Ziel normalerweise widersetzen würde. Vampire wissen instinktiv, dass ein Vorfahre sie manipuliert, wenn sie dieser Macht unterliegen.",
+          "combination": {
+            "id": 3,
+            "level": 3
+          },
+          "costs": "Ein Wallungs-Check",
+          "diceSupplies": "Manipulation + Beherrschung vs. Intelligenz + Entschlossenheit",
+          "system": "Bei einem erfolgreichen Wurf von Manipulation + Beherrschung handelt das Opfer, um den Wunsch des dominierenden Vampirs zu erfüllen, vorausgesetzt, es beinhaltet nicht, sich selbst zu schaden. Für jede Generation über die erste hinaus, die den Benutzer dieser Macht von seinem Ziel trennt, erhält der widerstehende Vampir einen zusätzlichen Würfel für seinen Wurf. Zum Beispiel, wenn ein Vampir der fünften Generation versucht, diese Macht auf einen Nachkommen der siebten Generation anzuwenden, erhält der Nachkomme der siebten Generation einen Würfel zur Verteidigung. Ein Nachkomme der achten Generation würde zwei Würfel erhalten. Wenn die Anzahl der Würfel im Pool des widerstehenden Vampirs zehn übersteigt, scheitert die Macht automatisch. Bei einem totalen Misserfolg kann der Vampir diese Macht für den Rest des Kapitels nicht auf dieses Ziel anwenden.",
+          "duration": "Was auch immer zuerst eintritt: bis die erzwungene Handlung durchgeführt wird oder die Szene endet."
         }
       ],
       "5": [
@@ -488,6 +547,7 @@
           "duration": "passiv"
         },
         {
+          "id": 0,
           "name": "Schnelle Reflexe",
           "summary": "Auch wenn ihre Körper noch immer den Naturgesetzen gehorchen müssen, nehmen Vampire mit dieser Kraft Ereignisse sofort war und können mit übermenschlicher Geschwindigkeit darauf reagieren. Heranfliegende Geschosse erkennen sie so gut, dass sie versuchen können, Pfeilen oder gar Kugeln auszuweichen, wenn keine Deckung vorhanden ist.",
           "costs": "keine",
@@ -656,6 +716,19 @@
           "costs": "ein Wallungs-Check",
           "system": "Zur Aktivierung dieser Kraft ist keine Probe erforderlich. Sobald sie aktiviert wurde, fügt der Vampir seinem Schaden aus Handgemenge einen Modifikator von +2 hinzu und verursacht bei Sterblichen Schweren Schaden. Leichte Schäden, die von tierischen Waffen verursacht werden, werden nicht halbiert.",
           "duration": "eine Szene"
+        },
+        {
+          "id": 15,
+          "name": "Fleischformen",
+          "combination": {
+            "id": 2,
+            "level": 2
+          },
+          "summary": "Außerhalb des Clans der Tzimisce ist diese Kombination nur selten zu finden. Sie gestattet es dem Vampir, über sein eigenes Fleisch zu gebieten. Haut, Muskeln und sogar Knochen können geformt oder verzerrt werden, wodurch das Endergebnis manchmal beunruhigend schön wird, doch genauso häufig auch monströs. Geübte Anwender können bizarre Merkmale erschaffen oder ihren gesamten Körper umgestalten, wobei größere Transformationen einen hohen Tribut vom Körper fordern. Blutsverwandte, die Fleischformen anwenden, erschaffen alles Mögliche: von nützlichen Werkzeugen am Körper bis hin zu ... ausdrucksstarken Verzierungen.",
+          "costs": "ein Wallungs-Check",
+          "diceSupplies": "Entschlossenheit + Gestaltwandeln",
+          "system": "System: Würfle Entschlossenheit + Gestaltwandeln. Jeder Erfolg bei der Probe erlaubt dem Anwender, eine einzige Veränderung mithilfe von Fleischformen vorzunehmen. Die maximale Anzahl der Veränderungen darf allerdings nicht den Gesamtwert des Anwenders in Gestaltwandeln übersteigen, unabhängig von der Anzahl der Anwendungen oder Erfolge. Jede Veränderung bewirkt den Verlust eines einzelnen Punktes eines körperlichen Attributes des Anwenders. Dies stellt den Aufwand an Körpermasse dar, die schließlich irgendwo herkommen muss. (Kein Attribut kann unter 1 gesenkt werden.) Jede Anwendung der Kraft dauert eine volle Runde. Mögliche Änderungen durch Fleischformen sind hier aufgeführt: Umverteilen: Füge einem beliebigen körperlichen Attribut des Anwenders einen Punkt hinzu. Kein Attribut kann damit über 5 Punkte gesteigert werden. Diese Veränderungen sind sichtbar, bedrohen aber nicht die Maskerade. Waffen (Nur einmal pro Ziel): Je nachdem, ob der Anwender sich Dornen aus Knochen oder Knüppel aus dichtem Knorpel wachsen lässt, erhält er ein entsprechendes Äquivalent an leichtem Durchschlag oder schwerer Schlagkraft (+2 Schaden). (Im Gegensatz zu Tierische Waffen ist der von diesen Waffen verursachte Schaden banal, doch setzt ein in Fleischformen begabter Vampir darüber hinaus noch Tierische Waffen ein, haben auch diese häufig die Form von Knochensplittern oder -klingen). Rüstung: Ein Punkt eines Attributes kann in zwei Punkte Rüstung (S. 304) umgewandelt werden, wobei hier die Grenze bei sechs Punkten Rüstung liegt. Dies geschieht oft in Form von verstärktem, subkutanem Knochen oder Fett- und Knorpelschichten, was dem Anwender mit zunehmender Punktzahl ein immer unmenschlicheres Äußeres verleiht. Erscheinungsbild: Der Benutzer kann sein Äußeres verändern, entweder um seine Identität zu verschleiern, sein Aussehen zu verbessern oder um eine andere Person zu imitieren. Hierbei handelt es sich um eine zeitaufwendige Angelegenheit, die eine ganze Szene in Anspruch nimmt und eine Probe auf Geschicklichkeit + Handwerk erfordert, um zum Erfolg zu führen. Um die eigene Identität zu verschleiern, liegt die Schwierigkeit bei 3, um den Vorteil „Aussehen“ zu verbessern (jede Stufe zählt als eine Veränderung) bei 4 und um eine bestimmte Person zu imitieren bei 5. Ein Fehlschlag bei der Probe führt zu keinem Ergebnis (der Attributspunkt geht dennoch verloren), während ein totaler Fehlschlag dazu führt, dass der Vorteil \"Aussehen\" um eine Stufe sinkt und sich möglicherweise in einen Makel verwandelt, wenn der Wert auf der Kippe steht. Nosferatu können diesen Aspekt der Kraft nur dazu verwenden, um ihre eigene Identität zu verbergen. Andere Veränderungen: Kreativere Anwendungen dieser Kraft, wie z. B. die Erschaffung eines geheimen Beutels irgendwo am Körper oder das Verschieben von Augen, liegen außerhalb der Möglichkeiten dieser Mechanik, und die Erzählerin muss über die Anzahl der erforderlichen Veränderungen (und verlorenen Attributspunkte) sowie die Schwierigkeit und die für die Operation erforderliche Zeit entscheiden. Geschicklichkeit + Handwerk und Intelligenz + Medizin sind in diesen Fällen die wichtigsten Proben. Veränderungen können wie Schwerer Schaden geheilt werden, wobei jede Veränderung einer Stufe Schaden entspricht (verlorene Attributspunkte werden entsprechend wiederhergestellt).",
+          "duration": "permanent"
         }
       ],
       "3": [
@@ -674,6 +747,20 @@
           "costs": "ein Wallungs-Check",
           "system": "Eine Probe ist nicht erforderlich. Die Verwandlung dauert eine Runde, in der der Anwender keine anderen Handlungen ausführen kann. Nach der Verwandlung erhält der Vampir die körperlichen Attribute, Sinne und ihm innewohnenden Fähigkeiten des Tieres (siehe S. 373), außerdem die natürlichen Einschränkungen des Tieres in der Kommunikation, Handhabung (die meisten Tiere können eine Sache im Maul tragen) und so weiter. Der Vampir kann andere Disziplinen einsetzen, nach Ermessen der Erzählerin. (Im Großen und Ganzen kann er Auspex, Tierhaftigkeit, Geschwindigkeit, Seelenstärke, Stärke und Gestaltwandeln einsetzen. Viele Kräfte aus Beherrschung, Verdunkelung und Präsenz bereiten ihm Probleme. Blutmagie ist gänzlich unmöglich.)",
           "duration": "eine Szene, es sei denn, sie wird davor freiwillig beendet"
+        },
+        {
+          "id": 16,
+          "name": "Fleischkunst",
+          "combination": {
+            "id": 2,
+            "level": 2
+          },
+          "requirement": 15,
+          "summary": "Der Vampir erweitert seine Herrschaft über das Fleisch so weit, dass er seine Dienste nun auch an den Körpern anderer verrichten kann. Diese Kraft wird zurecht gefürchtet, da viele ihrer Anwender im Ruf stehen, sich unmenschlicher Folter hinzugeben. Einige hingegen setzen sie mit großer Wirkung ein, um ihre Diener und Verbündeten zu verbessern und anzupassen.",
+          "diceSupplies": "Entschlossenheit + Gestaltwandeln vs. Widerstandsfähigkeit + Entschlossenheit",
+          "costs": "ein Wallungs-Check",
+          "system": "Um diese Kraft einzusetzen, muss der Anwender ungestört am Ziel arbeiten können. Es muss sich also entweder freiwillig der Prozedur ergeben oder fixiert sein. Bei einem freiwilligen Ziel entspricht der Ablauf dem von Fleischformen (siehe oben). Ein unfreiwilliges Ziel kann sich mit Widerstandsfähigkeit + Entschlossenheit widersetzen, wobei die Differenz des Wurfes des Anwenders als Erfolge für Fleischformen gelten. Jede Anwendung dieser Kraft nimmt eine ganze Szene in Anspruch. Auch hier gilt, dass die Gesamtzahl der Veränderungen den Gesamtwert des Anwenders in Gestaltwandeln nicht übersteigen darf, unabhängig von der Anzahl der Anwendungen oder der Erfolge. Wenn mehrere Anwender an einem Ziel arbeiten, zählt hierfür lediglich der höchste Wert in Gestaltwandeln. Veränderungen können wie Schwerer Schaden geheilt werden, wobei jede Veränderung einer Stufe Schaden entspricht. (Bei Sterblichen ist daher eine umfassende Operation notwendig.)",
+          "duration": "permanent"
         }
       ],
       "4": [
@@ -685,6 +772,20 @@
           "costs": "ein Wallungs-Check",
           "system": "wie bei Tiergestalt",
           "duration": "eine Szene, es sei denn, es wird davor freiwillig beendet"
+        },
+        {
+          "id": 17,
+          "name": "Schreckliche Gestalt",
+          "combination": {
+            "id": 2,
+            "level": 2
+          },
+          "requirement": 15,
+          "summary": "Die Macht über den Körper geht so weit, dass sie die natürlichen Grenzen hinter sich lassen kann. Der Vampir kann eine wahrlich monströse Gestalt annehmen, einschließlich bösartiger Klauen, herausragender Reißzähne, entstellter Züge und gestählter Muskeln. Obwohl die genauen Eigenschaften von Fall zu Fall variieren können, hat die Form oft ein individuelles, spezifisches Aussehen, das sich bei jeder Anwendung der Kraft manifestiert; eine Vision des fleischgewordenen Tiers des Anwenders. Einige sehen aus wie infernalische, missgebildete Tiere, andere nehmen ein dämonisches oder atavistisches Aussehen an, und wieder andere entziehen sich jeglichem Sinn von Vertrautheit mit unserer Welt. Viele nehmen Züge anderer Blutsauger aus der Natur an, wie Blutegel, Fledermäuse, Zecken oder Moskitos, vergrößern sie allerdings zu grotesken Proportionen.",
+          "diceSupplies": "keine",
+          "costs": "ein Wallungs-Check",
+          "system": "Die Aktivierung von Schreckliche Gestalt nimmt eine volle Runde in Anspruch. Während dieser Zeit kann der Vampir sich nur mit den Würfelvorräten seiner normalen Gestalt verteidigen. Der Vampir erhält daraufhin eine Anzahl kostenloser Veränderungen durch Fleischformen (dabei gehen keine Attributspunkte verloren), die seinem Wert in Gestaltwandeln entspricht. Diese können für Umverteilungen, Waffen und Rüstung eingesetzt werden. Großzügige Erzählerinnen können auch andere Veränderungen zulassen, beispielsweise flügelartige Membranen, mit denen der Vampir gleiten kann, verlängerte Gliedmaßen, die seine Reichweite erhöhen, oder andere kreative (aber faire) Anwendungen. Da bei Anwendung dieser Fähigkeit allerdings das Tier dicht unter der Oberfläche lauert, werden alle kritischen Erfolge, die während einer aus welchem Grund auch immer stattfindenden Anwendung von Schreckliche Gestalt gewürfelt werden, als Schmutzige Triumphe behandelt, und die Schwierigkeit jeder Probe auf Raserei erhöht sich um +2. Der Vampir nimmt zudem ein unverkennbar unmenschliches Aussehen an und kann sich nur durch Grunzen, Zischen und Brüllen verständigen.",
+          "duration": "Sie dauert eine Szene lang an, falls sie nicht freiwillig früher aufgegeben wird."
         }
       ],
       "5": [
@@ -703,6 +804,31 @@
           "costs": "keine",
           "system": "Erhöht außerhalb des Kampfes die Schwierigkeit für Proben, um einen Vampir zu pfählen, um 3. Im Nahkampf durchdringt der Pflock nur bei einem kritischen Triumph das Herz des Anwenders. Selbst wenn er gepfählt wurde, kann der Anwender einmal pro Stunde einen Wallungs-Check ablegen und auf Körperkraft + Entschlossenheit (Schwierigkeit 5) würfeln. Bei einem Triumph löst er sich aus der Lähmung, während der Pflock aus seinem Körper gedrängt wird. Bei Hunger 5 kann er nicht versuchen, den Pflock zu entfernen.",
           "duration": "passiv"
+        },
+        {
+          "id": 14,
+          "name": "Das Herz der Dunkelheit",
+          "summary": "Fast ausschließlich von Vampiren in den höheren Rängen der Kirche des Set praktiziert, ermöglicht diese Macht einem Vampir, sein eigenes Herz zu entfernen und außerhalb seines Körpers aufzubewahren. Das Fleisch und die Knochen des Vampirs verformen sich, während er seine Hand ohne die Notwendigkeit eines Schnittes in seine bloße Brust steckt, woraufhin er das Herz entfernt. Diese Macht ist nicht ohne Risiko für den Anwender und kann nur von einem Vampir an sich selbst angewendet werden. Der Vampir platziert das Herz typischerweise in einem zeremoniellen Kanopenkrug oder einer Urne, obwohl es keine Einschränkung gibt, wo das Herz hingehen kann. Viele kultorientierte Vampire nutzen die Tatsache, dass das Organ Vitae speichern und sogar ihren Hunger aus der Ferne stillen kann, indem sie rituelle Blutspenden erhalten. Solange es entfernt ist, ist der Vampir gegen Pfählungsversuche immun, es sei denn, ein Pfahl wird durch das entfernte Herz getrieben. Die Emotionen des Vampirs sind losgelöst – metaphysisch und biologisch, wenn das Herz als Quelle der Emotionen betrachtet werden kann –, was ihnen eine Widerstandsfähigkeit gegen die Triebe ihres Biests verleiht, aber eine Entfernung von Mitgefühl und Wärme.",
+          "combination": {
+            "id": 7,
+            "level": 2
+          },
+          "costs": "keine",
+          "system": "Diese Macht erfordert keinen Wurf, fügt dem Vampir jedoch zwei schweren Gesundheitsschaden zu, wenn er sein Herz entfernt. Keine Mächte können verwendet werden, um diesen Schaden zu mildern, und das Wiederanbringen des Herzens erfordert zwei Rouse Checks. Einmal entfernt, erhält der Vampir einen Bonus von zwei Würfeln, um Raserei zu widerstehen, erleidet aber eine Strafe von zwei Würfeln bei Reue-Würfen. Wenn das Herz schweren Gesundheitsschaden in Höhe von oder größer als die Gesundheit des Vampirs erleidet, fällt er in Starre. Wenn ein entnommenes Herz zerstört wird – nur möglich mit Feuer oder Sonnenlicht –, erfährt der Vampir den endgültigen Tod. Während das Herz entfernt ist, kann der Körper des Vampirs nicht gepfählt werden, es sei denn, das Herz wird gefunden und separat durchbohrt, in welchem Fall der Vampir gelähmt fällt. Wenn dem Herzen Blut zugeführt wird, stillt es den Hunger des Vampirs wie üblich (sogar Blutsbande, wenn ihm Kindred-Vitae aus der Vene gefüttert wird), und das Herz kann auf die gleiche Weise gefüttert werden – möglicherweise führt dies zu Diablerie. Der Vampir ist immer noch anfällig für den Tod durch Feuer oder Sonnenlicht, auch ohne Herz.",
+          "duration": "Permanent (oder bis das Herz zerstört/zurückgegeben wird)"
+        },
+        {
+          "id": 18,
+          "name": "Eins mit dem Land",
+          "combination": {
+            "id": 9,
+            "level": 2
+          },
+          "requirement": 4,
+          "summary": "Der Blutsverwandte hat so viel Kontrolle über seine eigene Gestalt erlangt, dass er sich selbst sogar über seine gesamte Domäne ausdehnen kann. Der Vampir kann nicht nur in der Erde versinken, er verfügt auch über ein übernatürliches Bewusstsein für die Ereignisse innerhalb der Domäne.",
+          "costs": "zwei Wallungs-Checks",
+          "system": "Wie bei Verschmelzung mit der Erde (siehe Vampire: Die Maskerade, S. 272), nur dass der Vampir nicht durch die Beschaffenheit der Oberfläche eingeschränkt wird, auf der er sich zur Ruhe legt. Einige Vampire sind dafür bekannt, dass sie sich in den Wänden ihrer Herrenhäuser einnisten, während andere sich unter den verzogenen Dielen eines besetzten Hauses verstecken oder sich sogar in einem flachen Becken mit „totem Wasser“ verstecken. Außerdem kann der Vampir in einem Umkreis von bis zu einer Meile von dem Ort, an dem er mit dem Land verschmolzen ist, alle sensorischen Reize wahrnehmen. Dazu gehört das Belauschen von Gesprächen, der körperliche Genuss einer Liebelei oder der Geruch eines Feuers, das ein außer Kontrolle geratener Mob gerade entfacht. Der Vampir erlebt diese Sinne über am Ort der Ereignisse anwesende Tiere, egal, wie klein sie sind. Handelt es sich um diskrete oder absichtlich verheimlichte Ereignisse, muss ein Wettbewerb zwischen Geistesschärfe + Tierhaftigkeit des Anwenders vs. den entsprechenden Würfelvorrat des Gegners ausgewürfelt werden. Um sich vor Einbruch der Dunkelheit des folgenden Tages nach Eintritt in diesem Zustand zu erheben, ist eine Probe auf Entschlossenheit + Gestaltwandeln gegen eine Schwierigkeit von 4 erforderlich, und selbst dann kann es bis zu einer Stunde dauern, bis der Vampir sich wieder vollständig erhoben hat. Ein kritischer Triumph ermöglicht ein sofortiges Aufstehen.",
+          "duration": "einen Tag oder länger oder bis zu einer körperlichen Störung"
         }
       ],
       "6": [
@@ -822,6 +948,19 @@
           "diceSupplies": "Charisma + Präsenz vs. Fassung + Geistesschärfe",
           "system": "Der Vampir muss das Opfer nur auf sich aufmerksam machen und einen Wettbewerb auf Charisma + Präsenz vs. Fassung + Geistesschärfe gewinnen. Die Wirkung hält etwa eine Stunde plus eine weitere für jeden Differenzpunkt an. Der Vampir kann die Wirkung beliebig oft erneuern, aber bei einem Fehlschlag lässt die Wirkung nach und das Opfer ist für den Rest der Nacht immun. Bei einem Erfolg fügt der Anwender den Würfelvorräten für Proben auf gesellschaftliche Interaktionen gegen das entzückte Opfer so viele Würfel hinzu, wie sein Wert in Präsenz beträgt. Aufforderungen, die dem Opfer oder geliebten Personen offensichtlich Schaden zufügen würden oder gegen die Grundsätze des Opfer verstoßen, schlagen fehl und erfordern sofort eine Wettbewerbsprobe wie oben beschrieben, sonst schlägt das Entzücken augenblicklich fehl.",
           "duration": "eine Stunde plus eine weitere Stunde pro Differenzpunkt"
+        },
+        {
+          "id": 14,
+          "name": "Antlitz der Wahren Liebe",
+          "summary": "Mittels eines starken Cocktails aus konzentrierter Emotion und Illusionen kann der Vampir die Blutresonanz eines Sterblichen verändern oder sogar die Verbindung eines Vampirs zur Menschlichkeit riskieren. Das Opfer (und nur das Opfer) nimmt den Vampir als einen Sterblichen wahr, zu dem es starke emotionale Bindungen hat (wie Hass auf einen Rivalen, Leidenschaft für einen neuen Liebhaber oder die komplizierten Gefühle, die ein Vampir für seinen Ankerpunkt hegt).",
+          "combination": {
+            "id": 10,
+            "level": 3
+          },
+          "costs": "Ein Wallungs-Check",
+          "diceSupplies": "Manipulation + Präsenz vs. Fassung + Geistesschärfe",
+          "system": "Um jemanden zu imitieren, zu dem das Opfer starke Emotionen hat, muss der Vampir dessen Aussehen und die Gefühle des Opfers für diese Person kennen. Wie sie das herausfinden, variiert zwischen den Vampiren. Wird es aktiviert, würfelt der Spielleiter verdeckt einen Wettbewerb zwischen der Manipulation + Präsenz des Benutzers und der Fassung + Geistesschärfe des Opfers, wobei ein Misserfolg bedeutet, dass das Antlitz keine emotionale Ladung besitzt, was tief beunruhigend ist und jede soziale Interaktion mit dem Opfer verdirbt. Es verhindert auch, dass sie für den Rest der Geschichte Opfer dieser Macht werden.  Bei einem Gewinn fügt der Vampir seinem Präsenzwert zu jeglichen Würfen hinzu, die die Resonanz eines Sterblichen oder den emotionalen Zustand eines Vampirs beeinflussen. Als Ankerpunkt eines Vampirs aufzutreten, ist ein gefährliches Spiel, besonders wenn das Opfer 'Das Unsichtbare Wahrnehmen' besitzt (siehe Vampire: Die Maskerade, S. 249), aber richtig gespielt, kann es zu Flecken für das Opfer führen, da ihr Ankerpunkt durch Verhaltensänderungen, Idealwechsel oder sogar scheinbaren Tod beschädigt oder ganz abgetrennt erscheint.",
+          "duration": "Eine Szene"
         }
       ],
       "4": [
@@ -977,6 +1116,19 @@
           "diceSupplies": "Widerstandsfähigkeit + Tierhaftigkeit (bei Tieren, die keine Famuli sind)",
           "system": "Der Vampir kann einen Teil seiner Zähigkeitskräfte auf Tiere ausweiten, die von seiner Tierhaftigkeit beeinflusst werden. Jedes somit gestärkte Tier erhält so viele Gesundheitsstufen dazu wie der Vampir Punkte in Seelenstärke hat. Diese Kraft kann kostenlos und automatisch auf einen Famulus angewendet werden. Will der Anwender andere Tiere außer dem Famulus stärken, muss er einen Wallungs-Check und eine Probe auf Widerstandsfähigkeit + Tierhaftigkeit (Schwierigkeit 3) ablegen. Der Anwender kann ein Tier pro Differenzpunkt stärken. Sobald die Wirkung endet, wird zunächst die nicht markierte Gesundheit entfernt, was dazu führen kann, dass das Tier stirbt.",
           "duration": "eine Szene"
+        },
+        {
+          "id": 16,
+          "name": "Valeren",
+          "combination": {
+            "id": 1,
+            "level": 1
+          },
+          "summary": "Der Vampir projiziert seine Seelenstärke nach außen und nutzt die Kraft seines Blutes dazu, den verletzten Körper eines anderen Vampirs zu heilen.",
+          "costs": "ein Wallungs-Check und je nach Umständen zusätzliche Gesundheit",
+          "diceSupplies": "Intelligenz + Seelenstärke",
+          "system": "Der Vampir würfelt Intelligenz + Seelenstärke gegen Schwierigkeit 2 und heilt so eine Anzahl Stufen Leichten Schadens auf Gesundheit, die der Differenz der Probe entspricht. Alternativ heilt der Anwender pro je drei Erfolgen der Differenz eine Stufe Schweren Schaden auf Gesundheit. Die Anwendung dieser Kraft dauert eine ganze Runde. Wenn der Vampir stattdessen eine ganze Szene damit verbringt, reduziert er die Schwierigkeit auf 0. Valeren kann nicht den wirkenden Vampir zum Ziel haben und wirkt ausschließlich bei Vampiren. Die Kraft kann nur einmal pro Nacht auf ein Ziel angewandt werden. Wenn der Anwender mehr als ein Ziel pro Nacht heilen möchte, erleidet er für jedes weitere Ziel Leichten Schaden auf Gesundheit, der der halben Anzahl der Erfolge der Differenz entspricht. Dies entspricht der Belastung, die er mit mehreren Anwendungen auf sich nimmt.",
+          "duration": "k.A."
         }
       ],
       "3": [
@@ -1006,6 +1158,16 @@
           "costs": "ein Wallungs-Check",
           "system": "Wer direkt von dem Anwender genügend Blut für einen Wallungs-Check trinkt, erhält vorübergehend Seelenstärke, wobei der Seelenstärkewert des Spenders halbiert (abgerundet) wird. Der Trinkende erhält dieselben Kräfte auf der gleichen Stufe wie der Spender.",
           "duration": "eine Nacht; bei Vampiren: bis zum nächsten Trinken oder bis der Hunger des Vampirs auf 5 steigt"
+        },
+        {
+          "id": 15,
+          "name": "Zerschmettern",
+          "requirement": 3,
+          "summary": "Wenn eine Faust auf Beton trifft, ist es normalerweise die Faust, die bricht. So ist es auch mit dieser Macht, bei der ein Vampir einen Schlag gegen denjenigen wendet, der ihn ausführt. Diese Macht ist dafür bekannt, Waffen zu zerbrechen und Knochen zu zersplittern.",
+          "costs": "Ein Wallungs-Check",
+          "diceSupplies": "Widerstandsfähigkeit + Seelenstärke vs. Ausdauer (+ Seelenstärke, wenn der Angreifer unbewaffnet angreift und Seelenstärke besitzt)",
+          "system": "Jeder, der einen erfolgreichen Nahkampf-Angriff gegen den Benutzer macht, erleidet den Schaden, den Zähigkeit subtrahiert (siehe Vampire: Die Maskerade S. 258), als oberflächlichen Gesundheitsschaden. Nahkampfwaffen erleiden ebenfalls reflektierten Schaden und brechen, sobald sie Schaden in Höhe ihres Schadensmodifikators erlitten haben (es sei denn, sie sind heilig, magisch oder anderweitig unzerbrechlich). Diese Macht kann nur verwendet werden, während Zähigkeit aktiv ist, und kann als Reaktion auf einen Angriff eingesetzt werden, solange der Vampir in der aktuellen Runde noch keine Disziplin eingesetzt hat.",
+          "duration": "Eine Szene (oder bis getroffen)"
         }
       ],
       "5": [
@@ -1182,7 +1344,7 @@
           "id": 10,
           "name": "Unaufhaltsames Momentum",
           "minBloodPotency": 5,
-          "combo": {
+          "combination": {
             "id": 4,
             "level": 4
           },
@@ -1437,6 +1599,19 @@
           "costs": "ein Wallungs-Check",
           "system": "Solange der Anwender keinen starken Geruch verströmt oder Geräusche verursacht, die lauter als ein Flüstern sind, funktioniert diese Kraft automatisch. Nur wenn die Aufmerksamkeit der Beobachtenden auf den Anwender gelenkt wird, dürfen sie eine Probe auf Entdecken ablegen. Auch mit Das Unsichtbare spüren (Auspex 1) kann der verborgene Vampir entdeckt werden, nach den üblichen Regeln der Verdunkelung. Bedenke, dass die Kraft nicht eingesetzt werden kann, um zu verschwinden, während man aktiv beobachtet wird, in dem Fall schlägt sie automatisch fehl.",
           "duration": "eine Szene oder bis zur Entdeckung"
+        },
+        {
+          "id": 16,
+          "name": "Schimären",
+          "combination": {
+            "id": 6,
+            "level": 1
+          },
+          "summary": "Der Vampir ist in der Lage, kurze, aber lebendig wirkende Halluzinationen hervorzurufen, die betroffene Ziele ablenken und ihre Aufmerksamkeit auf sich ziehen. Eine Halluzination kann jeden einzelnen Sinn betreffen: sie kann optisch, auditiv, taktil usw. sein. Außerdem hält sie lange genug an, um einen Eindruck zu hinterlassen, ehe sie wieder verblasst. Der Anwender benennt die Details der Halluzination, auch wenn sie aufgrund ihrer Dauer nicht mehr als ein Eindruck im Augenwinkel oder eine geflüstert wahrgenommene Stimme darstellen kann (sie kann z. B. nicht zur Erstellung eines gefälschten Ausweises verwendet werden).",
+          "diceSupplies": "Manipulation + Verdunkelung vs. Fassung + Geistesschärfe",
+          "costs": "ein Wallungs-Check",
+          "system": "Der Vampir würfelt Manipulation + Verdunkelung. Jede unvorbereitete Person sowie alle, die sich in Sichtweite des Vampirs befinden und die Halluzination wahrnehmen können (weil sich die projizierte Erscheinung in ihrem Sichtfeld befindet oder indem sie das Ziel einer taktilen Empfindung werden), werden abgelenkt und erleiden einen Abzug von zwei Würfeln auf ihre nächste Handlung. Ziele, die beim Versuch scheitern, sich mit Fassung + Geistesschärfe zu widersetzen, verlieren ihre nächste aktive Handlung. (Sie können sich jedoch weiterhin normal widersetzen und versuchen, zu widerstehen, allerdings mit einem Abzug von zwei Würfeln.) Weitere Auswirkungen der Halluzination liegen im Ermessen der Erzählerin, doch es ist ratsam, hierbei Vorsicht walten zu lassen. Diese Art der Halluzination kann weder aufgezeichnet, noch übertragen werden (z. B. durch die Anwendung von Geist in der Maschine).",
+          "duration": "eine Runde"
         }
       ],
       "3": [
@@ -1455,6 +1630,32 @@
           "costs": "ein Wallungs-Check",
           "system": "Es ist keine Probe erforderlich. Alle, die den Vampir wahrnehmen, erkennen nur eine Person vom gleichen Geschlecht, ähnlicher Statur und Größe wie der Anwender, die sie aber schnell wieder vergessen. Auch die Kleidung wirkt nichtssagend, abhängig von der Umgebung. In einem Büro erscheint der Anwender vielleicht als Nachtwächter, während er in einem Montagewerk einen Overall zu tragen scheint. Das Unsichtbare spüren (Auspex 1) kann wie üblich die Kraft durchschauen.",
           "duration": "eine Szene"
+        },
+        {
+          "id": 15,
+          "name": "Geistiges Labyrinth",
+          "summary": "Schlangen behaupten, dass Verdunkelung weniger mit Illusion als vielmehr mit Wahrnehmung zu tun hat. Geistiges Labyrinth ist die Fähigkeit, einem Opfer jeglichen Sinn für Richtung und Ort zu nehmen. Dies ermöglicht dem Vampir, sein Ziel in seiner aktuellen Umgebung gefangen zu halten, sei es ein Zuhause, ein Nachtclub oder schlimmer – ein Vampirkeller. Das Opfer findet, dass sich sein Standort auf sich selbst zurückfaltet, wobei seine Wahrnehmung von bereits besuchten Räumen subtil verändert wird, überzeugt, dass ein tatsächlicher Ausgang nur tiefer in das Labyrinth führt, und letztendlich in einen Zustand von Panik und Zerbrechlichkeit mündet.",
+          "combination": {
+            "id": 2,
+            "level": 1
+          },
+          "costs": "Ein oder Drei Wallungs-Checks",
+          "diceSupplies": "Charisma + Verdunkelung vs. Geistesschärfe + Entschlossenheit",
+          "system": "Der Vampir spricht persönlich die Worte \"Du kannst nicht entkommen\" zu seinem Opfer und würfelt Charisma + Verdunkelung gegen das Ziel's Geistesschärfe + Entschlossenheit, wobei Vampire niedrigerer Generation den Wurf mit einem Willenskraftpunkt gemäß den Charakteristika von Beherrschung aufheben können (siehe Vampire: Die Maskerade S. 255). Bei einem Gewinn hat das Opfer Schwierigkeiten, den Weg aus dem Gebäude zu finden. Zwei zusätzliche Rouse Checks erlauben es, diese Macht in einem einzelnen Raum oder einer dicht gedrängten Außenumgebung (wie einer Baustelle oder einem Wald) einzusetzen. Sterbliche können nicht versuchen zu entkommen, aber übernatürliche Kreaturen können in jeder Szene einen Entschlossenheit + Aufmerksamkeitstest durchführen, wobei die anfänglichen Erfolge des Vampirs als Schwierigkeit dienen, und erleiden einen Punkt oberflächlichen Willenskraftschaden für jeden fehlenden Erfolg, wenn sie scheitern. Dieser Wurf kann nicht von Teamarbeit profitieren, da jegliche Anleitung nicht mit dem übereinstimmt, was das Opfer sieht. Diese Macht endet, wenn die Umgebung gefährlich wird (z. B. wenn das Gebäude Feuer fängt), es sei denn, der Vampir hat Terminal Decree (siehe Vampire: Die Maskerade, S. 257).",
+          "duration": "Eine Nacht"
+        },
+        {
+          "id": 17,
+          "name": "Fata Morgana",
+          "combination": {
+            "id": 6,
+            "level": 2
+          },
+          "summary": "Der Vampir kann raffinierte Halluzinationen erzeugen, wodurch alle Personen in seiner Nähe sehen, hören und fühlen, was auch immer der Anwender sich ausdenkt. Eine mit Maden und Reis gefüllte Snackbox zu sehen und zu schmecken oder gar einen reißenden Strom stinkenden, ranzigen Blutes aus der Kanalisation: Fata Morgana gaukelt Zeugen Dinge vor, die einfach nicht real sind. Es gibt keine Eingrenzung, wie viele Opfer gleichzeitig betroffen sein können, doch damit Fata Morgana wirkt, muss ein Ziel den Anwender sehen oder von ihm gesehen werden können. Das Opfer muss sich dessen aber nicht aktiv bewusst sein. Sobald ein Opfer von der Kraft betroffen ist, ist die Anwesenheit des Vampirs nicht mehr notwendig. Visuelle Effekte erzeugen immer gesonderte Objekte. Sie können nicht dazu verwendet werden, Gegenstände oder Personen zu „kaschieren“ oder anderweitig zu verbergen, und sie können niemals vollständig die Sichtlinie verdecken. Halluzinationen der Fata Morgana können die sie umgebende Realität nicht beeinflussen: Der Strom aus Blut reißt keine auf der Straße geparkten Autos oder Fußgänger mit sich, und eine mit der Fata Morgana erzeugte Explosion verursacht keine Schäden, weder geistige noch andere. Niemand, der eine scheinbar einstürzende Treppe hinabgeht, stürzt tatsächlich in die Tiefe. Durch Fata Morgana erzeugte sensorische Effekte können Ziele nicht erblinden oder taub werden lassen oder auf andere Weise deren Sinne überlasten; nicht einmal im Falle von übernatürlich verstärkten Sinnen. Ebenso wenig werden Halluzinationen von Kameras oder anderen Arten von Aufnahmegeräten aufgezeichnet.",
+          "costs": "ein Wallungs-Check",
+          "diceSupplies": "Manipulation + Verdunkelung",
+          "system": "Der Anwender legt eine Probe auf Manipulation + Verdunkelung ab. Die Schwierigkeit setzt sich zusammen aus der Summe der Sinne, die von der Halluzination beeinflusst werden sollen, plus eins. (Eine audiovisuelle Halluzination hätte demnach die Schwierigkeit 3, während ein Eindruck auf alle 5 Sinne die Schwierigkeit 6 hätte.) Am einfachsten lassen sich recht kleine oder unauffällige visuelle Halluzinationen erzeugen. Erhöht die Schwierigkeit um eins, wenn die Halluzination die Größe eines Raumes einnehmen soll, um zwei bei der Größe eines Hauses und so weiter. Weitere Komplikationen könnten sich ebenfalls auf die Schwierigkeit auswirken, doch das liegt im Ermessen der Erzählerin. Jeder Versuch, das Aussehen einer bestimmten Person nachzuahmen oder auf andere Art zu täuschen, kann je nach Ansinnen zusätzliche Proben auf Darbietung oder Ausflüchte erfordern. Vampire und andere übernatürliche Wesen haben die Möglichkeit, die Halluzination zu durchschauen, doch Sterbliche können dies nur, wenn sie einen triftigen Grund haben, die Halluzination anzuzweifeln. In beiden Fällen erfolgt eine Probe auf Intelligenz + Wahrnehmung gegen Manipulation + Präsenz des Anwenders. Ein Erfolg bedeutet, dass die betreffende Person nicht mehr von der Halluzination betroffen ist und diese daraufhin effektiv für sie verschwindet. Jeder Versuch, mit der Halluzination zu interagieren, führt ebenfalls dazu, dass sie vollständig in sich zusammenfällt, da sich alle Anwesenden bewusst werden, dass es sich um eine irreale Erscheinung handelt (wie bei dem Beispiel der einstürzenden Treppe, während jemand die Treppe hinabsteigt). Beachte, dass die Anwendung dieser Kraft nicht offensichtlich ist, sodass selbst eine Enttarnung der Halluzination nicht offenbart, von wem sie stammt. Diese Art der Halluzination kann weder aufgezeichnet noch übertragen werden (z. B. durch die Anwendung von Geist in der Maschine).",
+          "duration": "Sie dauert eine Szene lang an, es sei denn, der Vampir entscheidet sich, sie vorher zu beenden."
         }
       ],
       "4": [

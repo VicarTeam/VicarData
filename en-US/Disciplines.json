@@ -488,6 +488,7 @@
           "duration": "passive"
         },
         {
+          "id": 0,
           "name": "Rapid Reflexes",
           "summary": "While their bodies still can’t defy the laws of nature, vampires with this power perceive events instantly and can react to them with superhuman alacrity. They can observe incoming projectiles to the extent that they can attempt to dodge arrows and even bullets without available cover.",
           "costs": "Free",
@@ -1182,7 +1183,7 @@
           "id": 10,
           "name": "Unstoppable Momentum",
           "minBloodPotency": 5,
-          "combo": {
+          "combination": {
             "id": 4,
             "level": 4
           },

@@ -1,0 +1,91 @@
+{
+    "$schema": "http://json-schema.org/draft-07/schema#",
+    "type": "array",
+    "items": {
+      "type": "object",
+      "properties": {
+        "id": {
+          "type": "number"
+        },
+        "name": {
+          "type": "string"
+        },
+        "summary": {
+          "type": "string"
+        },
+        "levels": {
+          "type": "object",
+          "patternProperties": {
+            "^[0-9]+$": {
+              "type": "array",
+              "items": { "$ref": "#/definitions/IDisciplineAbility" }
+            }
+          },
+          "additionalProperties": false
+        },
+        "note": {
+          "type": "string"
+        }
+      },
+      "required": ["id", "name", "levels"],
+      "additionalProperties": false
+    },
+    "definitions": {
+      "IDisciplineAbility": {
+        "type": "object",
+        "properties": {
+          "id": {
+            "type": "number"
+          },
+          "name": {
+            "type": "string"
+          },
+          "combination": {
+            "$ref": "#/definitions/IDisciplineCombo"
+          },
+          "requirement": {
+            "type": "number"
+          },
+          "minBloodPotency": {
+            "type": "number"
+          },
+          "summary": {
+            "type": "string"
+          },
+          "costs": {
+            "type": "string"
+          },
+          "diceSupplies": {
+            "type": "string"
+          },
+          "system": {
+            "type": "string"
+          },
+          "alternatives": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            }
+          },
+          "duration": {
+            "type": "string"
+          }
+        },
+        "required": ["id", "name", "summary", "costs", "system", "duration"],
+        "additionalProperties": false
+      },
+      "IDisciplineCombo": {
+        "type": "object",
+        "properties": {
+          "id": {
+            "type": "number"
+          },
+          "level": {
+            "type": "number"
+          }
+        },
+        "required": ["id", "level"],
+        "additionalProperties": false
+      }
+    }
+  }

@@ -1,0 +1,23 @@
+{
+    "json.schemas": [
+        {
+            "fileMatch": [
+                "/**/CustomLexicon.json"
+            ],
+            "url": "/$schemas/CustomLexicon.json"
+        },
+        {
+            "fileMatch": [
+                "/**/Disciplines.json"
+            ],
+            "url": "/$schemas/Disciplines.json"
+        },
+        {
+            "fileMatch": [
+                "/**/BloodRituals.json"
+            ],
+            "url": "/$schemas/BloodRituals.json"
+        }
+    ],
+    "editor.tabSize": 2
+}

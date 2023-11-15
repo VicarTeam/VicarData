@@ -99,6 +99,15 @@
     "system": ""
   },
   {
+    "id": 27,
+    "level": 2,
+    "name": "Ruf der Aurenreste",
+    "description": "Dieses Ritual ermöglicht es dem Ausführenden, mit der verbleibenden psychischen Aura einer verstorbenen Person zu sprechen.",
+    "ingredients": "Eine menschliche Leiche oder die Leiche eines zerstörten Vampirs.",
+    "execution": "Das Ritual muss innerhalb von zehn Fuß von einer menschlichen Leiche oder der Leiche eines zerstörten Vampirs durchgeführt werden.",
+    "system": "Ein erfolgreicher Ritualtest ermöglicht es dem Ausführenden, für eine Szene mit der belebten Reflexion des Verstorbenen zu sprechen, als ob sie noch am Leben wären. Diese Kommunikation findet nicht mit dem Geist des Verstorbenen statt und hat nur Zugang zu den Erinnerungen des Verstorbenen bis zum Zeitpunkt seines Todes. Ein Kritischer Erfolg verlängert die Dauer des Gesprächs auf einen ganzen Abend."
+  },
+  {
     "id": 12,
     "level": 3,
     "name": "Dagons Ruf",
@@ -151,6 +160,105 @@
     "ingredients": "Der Zaubernde zeichnet den Schutzkreis mit einem Eisenmesser, das in Salz und sein Blut getaucht wurde.",
     "execution": "",
     "system": ""
+  },
+  {
+    "id": 28,
+    "level": 3,
+    "name": "Augen der Vergangenheit",
+    "description": "Dieses Ritual zeigt, was am gegenwärtigen Standort des Ausführenden zu einem bestimmten Zeitpunkt in der Vergangenheit bis zu fünf Jahren zurück passiert ist.",
+    "ingredients": "Ein Tropfen Blut für jedes Jahr, das der Ausführende in der Zeit zurückblicken möchte (drei oder mehr Tropfen erfordern einen Rouse Check).",
+    "execution": "Der Ausführende wählt den Ort für sein Ritual, schneidet sich in die Hand und lässt die Blutstropfen auf die Erde fallen.",
+    "system": "Ein erfolgreicher Ritualtest ermöglicht es dem Ausführenden, zu sehen, was an seinem gegenwärtigen Standort zu einem bestimmten von ihm gewählten Zeitpunkt bis zu fünf Jahren zurück geschehen ist. Der Ausführende kann sehen, was in der Vergangenheit passiert ist, als ob er dort gestanden hätte, wo er jetzt steht. Die Dauer beträgt eine Szene, wobei die Klarheit der Vision von der Anzahl der erzielten Erfolge abhängt. Der Vampir kann sich nach Ablauf der Szene nicht mehr klar an die Vision erinnern, was bedeutet, dass der Spielleiter nicht verpflichtet ist, Fragen zur Vision nach dieser Zeit zu beantworten. Ein Kritischer Erfolg fixiert die Szene dauerhaft in ihrem Gedächtnis."
+  },
+  {
+    "id": 29,
+    "level": 3,
+    "name": "Illusion des Friedlichen Todes",
+    "description": "Dieses Ritual heilt offensichtliche Wunden an einer Leiche und lässt den Körper so aussehen, als wäre er eines natürlichen Todes gestorben.",
+    "ingredients": "Eine weiße Feder",
+    "execution": "Der Ausführende muss symbolisch den Körper mit einer weißen Feder \"bestäuben\".",
+    "system": "Ein erfolgreicher Ritualtest verursacht, dass eine Leiche so aussieht, als wäre sie eines natürlichen Todes gestorben. Dieses Ritual fügt dem Körper kein Blut hinzu, reduziert aber die Chance, dass dieser Blutverlust entdeckt wird (erhöht die Schwierigkeit aller Würfe, um die Todesursache zu bestimmen, um drei). Der Körper muss mindestens die Hälfte seines ursprünglichen Blutes haben, damit dieses Ritual erfolgreich ist. Ein Kritischer Erfolg erhöht die Schwierigkeit aller Würfe zur Bestimmung der Todesursache um fünf."
+  },
+  {
+    "id": 30,
+    "level": 3,
+    "name": "Sanfter Geist",
+    "description": "Dieses Ritual stärkt den Geist des Ziels gegen Raserei.",
+    "ingredients": "Kristallglas, Kindred-Vitae",
+    "execution": "Der Ausführende teilt das Blut mit dem Ziel des Rituals, während er dem Ziel leise ins Ohr flüstert und einen temporären Käfig um das Biest des Ziels webt.",
+    "system": "Der Ausführende muss ein Glas Blut mit seinem Ziel teilen. Ein erfolgreicher Ritualtest gewährt dem Ziel einen Bonus von vier Würfeln, um Raserei für eine Szene zu widerstehen. Ein Kritischer Erfolg verlängert diese Dauer auf einen Abend. Der Ausführende muss Blut mit einem anderen teilen und kann dieses Ritual nicht auf sich selbst anwenden."
+  },
+  {
+    "id": 31,
+    "level": 3,
+    "name": "Die Unsichtbare Verwandlung",
+    "description": "Dieses Ritual zwingt Lupinen dazu, ihre Wolfsform anzunehmen.",
+    "ingredients": "Wolfsblut, Kindred-Vitae, ein silberner Krug",
+    "execution": "Der Ausführende mischt Kindred-Vitae mit Wolfsblut und gießt die Mischung aus einem silbernen Krug um einen bestimmten Bereich. Dies kann so klein wie ein Meter oder groß genug sein, um ein Haus zu umkreisen.",
+    "system": "Der Ausführende macht drei Rouse Checks, um das für das Ritual notwendige Blut zu beschwören, und markiert einen geschlossenen Bereich mit einer Mischung aus Kindred-Vitae und Wolfsblut. Ein erfolgreicher Ritualtest zwingt alle Lupinen, die die vom Ausführenden definierte Schwelle überqueren, automatisch in ihre Lupusform zu verwandeln, es sei denn, sie bestehen einen kontestierten Willenskrafttest gegen die Intelligenz + Blutmagie des Ausführenden oder die Anzahl der Erfolge, die beim anfänglichen Ritualwurf erzielt wurden (falls jahrelang). Das Ritual löst sich bei Sonnenaufgang auf, es sei denn, der anfängliche Ritualwurf wird mit +2 zur Schwierigkeit durchgeführt. Ist er erfolgreich, hält das Ritual ein Jahr und einen Tag an. Ein Kritischer Erfolg verdoppelt die Anzahl der Erfolge, die der Lupine auf seinem Wurf benötigt, um das Ritual zu besiegen. Die Unsichtbare Verwandlung zwingt die betroffene Lupine in ihre Form als normaler Wolf, beraubt sie der rohen Kraft ihrer gefürchteten Halbwolfsform."
+  },
+  {
+    "id": 35,
+    "level": 3,
+    "name": "Sanguiner Wächter",
+    "description": "Dieses Ritual bildet eine kleine Ratte aus Kindred-Vitae, die überall hingeht, wohin der Ausführende sie anweist, und beobachtet, was immer der Ausführende wünscht.",
+    "ingredients": "Kindred-Vitae, kleine Mengen Alkohol, silberne Schale",
+    "execution": "Das Ritual wird über einen Zeitraum von 20 Minuten durchgeführt, während der Ausführende eine silberne Schale mit Vitae und abgemessenen Dosen Alkohol füllt. Eine aus Blut gemachte Ratte formt sich langsam, während der Ausführende die Mischung rührt, wird immer solider, bis sie aus der Schale kriecht, um ihrem Meister zu dienen.",
+    "system": "Ein erfolgreicher Ritualtest beschwört ein Nagetier aus Kindred-Blut aus der Schale, das an den Ausführenden gebunden ist und es ihm ermöglicht, durch seine Augen zu sehen. Die Ratte geht überall hin, wohin der Ausführende sie anweist, und beobachtet alles, was der Ausführende ihr sagt. Die Ratte kann angewiesen werden, kleine Gegenstände zu stehlen, aber der Ausführende muss sehr explizit sein, was gestohlen werden soll und wo es sich befindet. Die Ratte bleibt bis zum Sonnenaufgang im Dienst. Ein Kritischer Erfolg erlaubt es dem Ausführenden, dem Geschöpf extrem präzise Anweisungen zu geben."
+  },
+  {
+    "id": 36,
+    "level": 3,
+    "name": "Klingenhände",
+    "description": "Dieses Ritual schärft die Hände des Ausführenden zu einer Rasierklingenschärfe.",
+    "ingredients": "Ein Paar Rasierklingen, zwei Tropfen Kindred-Vitae",
+    "execution": "Der Ausführende legt eine Rasierklinge in jede Handfläche und hält sie fest, während das Ritual gewirkt wird. Am Ende des Rituals verschwinden sie in die Person des Ausführenden, wobei ein Paar übernatürlich scharfer Hände zurückbleiben.",
+    "system": "Der Ausführende muss einen erfolgreichen Ritualtest und zwei Rouse Checks durchführen. Bei Erfolg verwandeln sich die Hände des Ausführenden in leichte stechende Nahkampfwaffen mit einem +2-Schadensmodifikator. Der Ausführende muss sehr vorsichtig sein, was er berührt, während er Klingenhände verwendet (+1 Schwierigkeit für alle Würfe, um empfindliche Gegenstände zu handhaben). Ein Kritischer Erfolg erhöht den Schaden auf +3. Das Ritual dauert einen einzigen Abend."
+  },
+  {
+    "id": 37,
+    "level": 3,
+    "name": "Illusion der Vollkommenheit",
+    "description": "Dieses Ritual umhüllt den Ausführenden mit der Illusion einer unauffälligen Person, die sich leicht in Menschenmengen einfügt.",
+    "ingredients": "Eine schlichte weiße Maske, Vitae von einem Kindred mit der Disziplin Verdunkelung und die Haut eines Chamäleons",
+    "execution": "Der Ausführende führt ein einstündiges Ritual durch, das mit dem Anlegen einer gesichtslosen weißen Maske und dem Verzehr einer Mischung aus Vitae und Eidechsenhaut endet. Ein Schweiß aus Blut bildet sich unter der Maske und breitet sich über den Körper des Ausführenden aus, bis er in einer rubinroten Kruste bedeckt ist, die seine wahre Identität mystisch verbirgt. Die Maske selbst wird langsam karmesinrot, bis das Ritual abklingt.",
+    "system": "Ein erfolgreicher Ritualtest ist erforderlich, um dieses Ritual zu aktivieren. Bei Erfolg wird der Ausführende in die Illusion gehüllt, dass er eine gewöhnliche Person Mitte 20 ist, mit einem unauffälligen Gesicht und einem durchschnittlichen Körper ähnlich der Verdunkelungsfähigkeit Maske der Tausend Gesichter. Das unauffällige Aussehen dieses Vampirs wechselt zwischen verschiedenen Gesichtern, die von verschiedenen Personen, die den Ausführenden sehen, unterschiedlich wahrgenommen werden. Dies kann natürlich zu Verwirrung und Alarm führen. Der Ausführende kann nur sein eigenes Spiegelbild in Spiegeln und Fotografien sehen. Die Illusion der Vollkommenheit kann von der Auspex-Fähigkeit Das Unsichtbare Wahrnehmen durchbrochen werden, mit einem kontestierten Geistesschärfe + Auspex vs. die Erfolge des Ritualwurfs. Die Illusion der Vollkommenheit dauert eine Szene, aber ein Kritischer Erfolg verlängert ihre Dauer auf einen ganzen Abend."
+  },
+  {
+    "id": 38,
+    "level": 3,
+    "name": "Verwunschene Villa",
+    "description": "Dieses Ritual erzeugt die Illusion, dass das Versteck eines Vampirs heimgesucht ist.",
+    "ingredients": "Vitae von einem Kindred, der die Disziplin Verdunkelung besaß",
+    "execution": "Der Ausführende platziert einen Tropfen Kindred-Blut an allen Eingängen und Ausgängen des Verstecks sowie an allen Außenwänden und dem Dach im Laufe eines dreistündigen Rituals.",
+    "system": "Der Ausführende macht drei Rouse Checks zusätzlich zu einem Ritualtest. Bei Erfolg nimmt das Versteck einen unheilvollen Charakter an und Gerüchte beginnen zu kursieren, dass das Haus heimgesucht wird. Zufällige Passanten meiden das Haus um jeden Preis, und selbst die mutigsten Sterblichen überlegen es sich zweimal, bevor sie eintreten. Sterbliche, die versuchen, das Versteck zu betreten, müssen einen erfolgreichen Fassung + Entschlossenheitstest gegen die Anzahl der Erfolge des Ritualwurfs des Ausführenden bestehen. Erfolg bedeutet, dass sie eintreten können, während ein Scheitern ihren Eintritt verhindert (obwohl sie Willenskraft ausgeben können, um einen Zug lang einzutreten). Die Wirkungen der Verwunschenen Villa dauern 10 Jahre, danach erscheint das Versteck seltsam und heruntergekommen, aber nicht mehr \"heimgesucht\". Dr. Mortius verbrachte Jahrzehnte mit der Ausarbeitung dieses Rituals zusammen mit Vampiren des Clan Ravnos, was den Clan Tremere dazu veranlasste, seine Verwendung als Bedrohung für die Maskerade (und ihre Macht) zu verbieten, aber wissende Kindred könnten bereit sein, es mit anderen für einen Preis zu teilen."
+  },
+  {
+    "id": 32,
+    "level": 4,
+    "name": "Unschuld des Kinderherzens",
+    "description": "Entwickelt von Nicolai selbst, ermöglicht dieses Ritual dem Ausführenden, ihre vampirische Aura vor Benutzern von Auspex zu verbergen.",
+    "ingredients": "Ein Spielzeug, das einem sterblichen Kind gehör",
+    "execution": "Der Ausführende muss das Spielzeug eines unschuldigen sterblichen Kindes erwerben und das Ritual nutzen, um es mystisch mit der Kraft ihres vampirischen Vitae zu infundieren, wodurch die Unschuld des Kindes in ihre Aura gezogen wird. Der Ausführende muss dann das Spielzeug bei sich tragen, um sich vor den Kräften von Auspex zu tarnen.",
+    "system": "Der Ausführende macht einen Rouse Check und führt seinen Ritualtest durch. Bei Erfolg wird die Aura des Ausführenden so verändert, dass sie sterblich erscheint, wobei jegliche Spuren von Diablerie unsichtbar gemacht werden. Auspex-Benutzer, die Seele erspähen auf den Ausführenden anwenden, nehmen dessen Aura als sterblich wahr, bis die Wirkung des Rituals nachlässt, es sei denn, sie machen einen kontestierten Wurf zwischen ihrer Intelligenz + Auspex gegen die Intelligenz + Blutmagie des Ausführenden + vier Würfel. Das Ritual dauert eine Nacht, es sei denn, der Ritualtest wird mit +2 zur Schwierigkeit durchgeführt, was es bis zum Ende der Geschichte verlängert. Ein Kritischer Erfolg verdoppelt die Dauer des Rituals. Zu beachten ist, dass es keine dokumentierten Fälle gibt, in denen Nicolai dieses Ritual mit seinen Tremere-Gefährten geteilt hat, und es kann nur erlernt werden, indem Nicolai's Notizen erobert werden oder durch eine andere Methode, die der Spielleiter bestimmt."
+  },
+  {
+    "id": 33,
+    "level": 4,
+    "name": "Zerreißen der Süßen Erde",
+    "description": "Dieses Ritual reißt die Erde auf, um einen Vampir zu enthüllen, der sich durch Protean verborgen hat.",
+    "ingredients": "Eine Lederpeitsche, Kindred-Vitae",
+    "execution": "Der Ausführende lokalisiert den genauen Punkt, an dem ein Benutzer von Protean mithilfe von Erdverschmelzung in die Erde gesunken ist. Dann schlitzen sie ihre Handfläche auf, schmieren Vitae auf den Einstiegspunkt und schlagen wiederholt mit einer Lederpeitsche auf den Boden.",
+    "system": "Der Ausführende macht einen Rouse Check und einen Ritualtest. Bei Erfolg öffnet sich ein 10 Fuß mal 10 Fuß großer Abgrund, der zum unterirdischen Ruheplatz eines Vampirs in einem Erdverschmelzungs-Zustand führt. Das Ritual weckt den Zielvampir automatisch auf, wenn er schläft, tut dies jedoch nicht, wenn er in Starre ist. Ein Kritischer Erfolg öffnet den Abgrund, ohne das Ziel aufzuwecken."
+  },
+  {
+    "id": 34,
+    "level": 4,
+    "name": "Fluch des Gestaltwandeln",
+    "description": "Dieses Ritual verwandelt das Ziel in eine Fledermaus, ähnlich der Gestaltwandeln-Fähigkeit der vierten Stufe, Metamorphose.",
+    "ingredients": "Ein Fläschchen Blut einer tollwütigen Vampirfledermaus, Kindred-Vitae von einem Vampir mit der Gestaltwandeln-Disziplin und eine Marionette aus Fledermausknochen, die an Fäden aufgehängt ist",
+    "execution": "Das Ziel muss ein Fläschchen Blut einer tollwütigen Vampirfledermaus trinken, gemischt mit Kindred-Vitae, während der Ausführende die Knochenmarionette führt.",
+    "system": "Der Ausführende produziert zwei Rouse Checks wert seines Blutes (mit den erforderlichen Würfen), mit dem Blut einer tollwütigen Vampirfledermaus und gibt es dem Ziel zu trinken. Das Ritual wird gewirkt, und bei einem erfolgreichen Ritualwurf wird das Ziel in eine Fledermaus verwandelt, wie es die Metamorphose-Fähigkeit der Gestaltwandeln-Disziplin ermöglicht. Das Ziel kann sich gegen diese Verwandlung mit einem Widerstandsfähigkeit + Okkultismus Wurf wehren. Wenn das Ziel mehr Erfolge als der Praktizierende des Rituals erzielt, verhindert es die Verwandlung, während sein Totaler Misserfolg es in einem schrecklich entstellten, halb menschlichen, halb fledermausähnlichen Zustand zurücklassen kann. Das halb-Fledermauswesen erhält +2 Stärke, +1 Geschicklichkeit, +1 Ausdauer und +1 Ausstrahlung bis zu einem Maximum von 5, kann aber nicht verbal kommunizieren, reduziert seine Manipulation auf 0 und nimmt 1 schweren Gesundheitsschaden pro Runde bei Exposition gegenüber hellem Licht, künstlich oder anderweitig. Das Ritual kann sowohl auf Kindred als auch auf Menschen gewirkt werden und dauert einen ganzen Abend oder bis der Ausführende das Ritual durch einen erfolgreichen Ritualtest aufhebt. Die Dauer des Gestaltwandeln-Fluchs kann verlängert werden, indem zu Beginn jeder Nacht, in der der Ausführende das Ritual aufrechterhalten möchte, ein Rouse Check und ein erfolgreicher Ritualwurf durchgeführt werden. Ein Kritischer Erfolg für den Praktizierenden verdoppelt die Dauer des Gestaltwandeln-Fluchs. Der Ausführende kann dieses Ritual nicht auf sich selbst anwenden."
   },
   {
     "id": 18,

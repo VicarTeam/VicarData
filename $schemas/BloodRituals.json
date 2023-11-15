@@ -1,0 +1,40 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "type": "array",
+  "items": {
+    "type": "object",
+    "properties": {
+      "id": {
+        "type": "number"
+      },
+      "level": {
+        "type": "number"
+      },
+      "name": {
+        "type": "string"
+      },
+      "description": {
+        "type": "string"
+      },
+      "ingredients": {
+        "type": "string"
+      },
+      "execution": {
+        "type": "string"
+      },
+      "system": {
+        "type": "string"
+      }
+    },
+    "required": [
+      "id",
+      "level",
+      "name",
+      "description",
+      "ingredients",
+      "execution",
+      "system"
+    ],
+    "additionalProperties": false
+  }
+}
