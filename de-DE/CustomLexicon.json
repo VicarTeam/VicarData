@@ -27,6 +27,22 @@
         }
     ],
     "append": [
-
+        {
+            "type": "title",
+            "text": "Hotkeys"
+        },
+        {
+            "type": "list",
+            "items": [
+                "ESC, ALT+(1, P) - Zum Charakter-Profil gehen",
+                "ALT+(2, I) - Zum Inventar gehen",
+                "ALT+(3, A) - Zu den Attributen gehen",
+                "ALT+(4, F) - Zu den Fähigkeiten gehen",
+                "ALT+(5, D) - Zu den Disziplinen gehen",
+                "ALT+R - Zu den Ritualen gehen",
+                "ALT+(6, V) - Zu den Vorteilen und Schwächen gehen",
+                "STRG+Space - Würfelpool-Rechner öffnen"
+            ]
+        }
     ]
 }
