@@ -1,4 +1,6 @@
 {
+    "$schema": "../$schemas/CustomLexicon.json",
+
     "prepend": [
         {
             "type": "title",
@@ -6,24 +8,363 @@
         },
         {
             "type": "subtitle",
-            "text": "Allgemein"
+            "text": "Zeit"
         },
         {
             "type": "paragraph",
-            "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed vitae nisl euismod, aliquam nisl quis, ultricies nisl."
+            "text": "Die folgenden Zeitabschnitte sind flexibel und sollen das narrative Erlebnis unterstützen. Sie dienen als Richtlinien, um die Struktur und das Tempo des Spiels zu lenken, aber letztendlich hängt ihre genaue Anwendung von der Erzählung und den Entscheidungen der Spieler ab."
         },
         {
             "type": "subtitle",
-            "text": "Regel 1"
+            "text": "1. Zug (Turn)"
+        },
+        {
+            "type": "paragraph",
+            "text": "Ein Zug entspricht der Zeit, die benötigt wird, um eine relativ einfache Aktion durchzuführen, wie z.B. einen Polizisten anzugreifen, einen Rucksack zu durchsuchen oder jemandem ein Getränk zu kaufen. Die Dauer eines Zuges bleibt abstrakt und hängt von der jeweiligen Aktion ab. In Action-Szenen sind Züge in der Regel kürzer, in sozialen Szenen länger. Ein Getränk zu kaufen dauert länger als eine Waffe abzufeuern – in manchen Bars sogar viel länger."
+        },
+        {
+            "type": "subtitle",
+            "text": "2. Szene (Scene)"
+        },
+        {
+            "type": "paragraph",
+            "text": "Eine Szene umfasst eine Reihe von Aktionen und Interaktionen, die an einem einzigen Ort oder zwischen einer festen Gruppe von Charakteren stattfinden. Eine Szene kann beispielsweise aus einer Verfolgungsjagd einer Vampirgruppe über die Dächer bestehen oder aus einer Serie von Telefonaten zwischen einem Vampir und seinen Kontakten in verschiedenen Städten. Eine Szene kann so viele Züge enthalten, wie es das Tempo erfordert; eine reine Dialogszene könnte sogar ganz ohne Züge auskommen."
+        },
+        {
+            "type": "subtitle",
+            "text": "3. Spielsitzung (Session)"
+        },
+        {
+            "type": "paragraph",
+            "text": "Eine Spielsitzung, manchmal auch Kapitel genannt. V5 verlässt sich nicht so stark auf diese Zeiteinteilung wie manche anderen Spiele, aber sie kann einigen Regeln Regelmäßigkeit und Ausgewogenheit verleihen. Zudem ist sie unmissverständlich; es ist immer klar, wann eine Spielsitzung für den Abend beendet ist."
+        },
+        {
+            "type": "subtitle",
+            "text": "4. Geschichte (Story)"
+        },
+        {
+            "type": "paragraph",
+            "text": "Eine vollständige Erzählung, inklusive Einleitung, Spannungsaufbau und Höhepunkt. Manche Geschichten erstrecken sich über mehrere Sitzungen, andere können in einer einzigen abgeschlossen werden. Kurzgeschichten sind manchmal nur Vignetten, die aus einer einzigen Szene bestehen."
+        },
+        {
+            "type": "subtitle",
+            "text": "5. Chronik (Chronicle)"
+        },
+        {
+            "type": "paragraph",
+            "text": "Eine Reihe von Geschichten, die durch die Charaktere selbst und ihre fortlaufende Erzählung miteinander verbunden sind. Einige Chroniken haben ein einigendes Thema oder eine übergreifende Handlung; andere sind eine bunte Reihe von Ereignissen. Die meisten Chroniken halten einen gemeinsamen Ton bei, sei es gotischer Horror, Straßenrealität, opernhafte Tragödie oder filmreife Action. Allerdings können sich die Töne einzelner Geschichten oder Kapitel ändern, um Abwechslung zu bieten oder Veränderungen im Setting hervorzuheben."
+        },
+        {
+            "type": "subtitle",
+            "text": "Gesundheit & Willsenskraft"
+        },
+        {
+            "type": "paragraph",
+            "text": "In Vampire sind die Gesundheit und Willenskraft zentrale Aspekte, die das Überleben und die Handlungsfähigkeit der Charaktere beeinflussen. Hier eine ausführlichere und verständlichere Erläuterung der Mechaniken:"
+        },
+        {
+            "type": "subtitle",
+            "text": "Tracker"
+        },
+        {
+            "type": "paragraph",
+            "text": "Jeder Charakter besitzt einen Tracker für Gesundheit und Willenskraft, dessen Maximum durch spezifische Charakterstatistiken bestimmt wird. Die verfügbare Gesundheit/Willenskraft wird im Tracker voll sichtbar dargestellt, während die darüber hinausgehenden Punkte leicht ausgegraut erscheinen, um den Unterschied zu verdeutlichen."
+        },
+        {
+            "type": "subtitle",
+            "text": "Schadensarten"
         },
         {
             "type": "list",
             "items": [
-                "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
-                "Sed vitae nisl euismod, aliquam nisl quis, ultricies nisl.",
-                "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
-                "Sed vitae nisl euismod, aliquam nisl quis, ultricies nisl."
+                "Leichter Schaden: Umfasst kleinere Verletzungen wie Kratzer oder Prellungen (bei Gesundheit) & Stress oder leichte Erschöpfung (bei Willenskraft). Interessant ist hierbei die Regel, dass solcher Schaden vor der Markierung im Tracker halbiert wird. Dies symbolisiert die Widerstandsfähigkeit der Charaktere gegenüber kleineren Verletzungen. Im Tracker wird leichter Schaden mit einem Schrägstrich „/“ gekennzeichnet.",
+                "Schwerer Schande: Betrifft ernsthaftere Verletzungen wie Knochenbrüche oder innere Blutungen (bei Gesundheit) & Starke Panikattacken oder langfristigere Erschöpfung (bei Willenskraft). Schwerer Schaden wird im Tracker mit einem „X“ markiert und ist weitaus gravierender als leichter Schaden."
             ]
+        },
+        {
+            "type": "subtitle",
+            "text": "Beeinträchtigung"
+        },
+        {
+            "type": "paragraph",
+            "text": "Sobald ein Tracker eines Charakters vollständig mit Schaden gefüllt ist – unabhängig davon, ob es sich um leichten oder schweren Schaden oder gemischten Schaden handelt –, gilt der Charakter als beeinträchtigt. Dies führt zu einem Verlust von zwei Würfeln bei relevanten Würfelwürfen. Sollte ein beeinträchtigter Charakter weiteren Schaden erleiden, wandelt sich bereits vorhandener leichter Schaden in schweren Schaden um."
+        },
+        {
+            "type": "subtitle",
+            "text": "Ende des Trackers"
+        },
+        {
+            "type": "paragraph",
+            "text": "Wenn ein Charakter den Endpunkt seines Gesundheits- oder Willenskrafttrackers erreicht, hat dies ernsthafte Konsequenzen:"
+        },
+        {
+            "type": "list",
+            "items": [
+                "Gesundheitstracker voll: Ein Charakter, dessen Gesundheitstracker komplett mit schwerem Schaden gefüllt ist, erleidet gravierende physische Folgen. Im Falle menschlicher Charaktere kann dies den Tod oder ein Koma bedeuten. Bei Vampiren resultiert dies typischerweise in einer Starre, einem Zustand der Bewegungs- und Reaktionsunfähigkeit. Dieser Zustand signalisiert einen kritischen Punkt, an dem der Charakter nicht mehr handlungsfähig ist und möglicherweise dauerhaft aus dem Spielgeschehen ausscheidet, es sei denn, es gibt Mechanismen oder Handlungen innerhalb der Spielwelt, die eine Wiederherstellung ermöglichen.",
+                "Willenskrafttracker voll: Die vollständige Erschöpfung der Willenskraft zeigt einen Zustand extremer psychischer Belastung an. Ein Charakter, dessen Willenskrafttracker komplett mit schwerem Schaden gefüllt ist, erleidet einen mentalen Zusammenbruch. Dies kann sich in einem Verlust des Ansehens, des sozialen Status oder der Fähigkeit, effektiv zu agieren, äußern. In sozialen Konflikten kann dies zu einem symbolischen „Tod“ des Charakters führen, indem er aus seinem sozialen Umfeld verbannt wird oder sein Einfluss und Status stark gemindert werden."
+            ]
+        },
+        {
+            "type": "subtitle",
+            "text": "Einsatz von Willenskraft"
+        },
+        {
+            "type": "paragraph",
+            "text": "Willenskraft ist ein Schlüsselelement und repräsentiert die mentale Stärke eines Charakters. Spieler können Willenskraftpunkte ausgeben, um bis zu vier Würfel in ihrem Würfelpool neu zu würfeln. Dies bietet eine zweite Chance bei kritischen Aktionen, spiegelt jedoch auch die psychologische Anstrengung wider, indem ausgegebene Willenskraft als leichter Schaden im Tracker markiert wird. Dieser leichte Schaden wird nicht halbiert!"
+        },
+        {
+            "type": "subtitle",
+            "text": "Starre"
+        },
+        {
+            "type": "paragraph",
+            "text": "Vampire befinden sich in einem Zustand zwischen Leben und Tod. Die Starre ist ein untoter Winterschlaf, in dem ein Vampir für seine Umgebung tot erscheint und keine Disziplinen anwenden oder auf Reize reagieren kann. Die Dauer der Starre hängt von der Menschlichkeit des Vampirs ab. Gepfählte Vampire bleiben in Starre, bis der Pflock entfernt wird, woraufhin sie sofort oder in der folgenden Nacht erwachen, allerdings mit einem Hunger von 5.  Vampire können auf drei Arten in Starre fallen: durch Hunger, Schaden oder freiwillig. Wenn ein Vampir durch Hunger in Starre fällt, geschieht dies, wenn ein Wallungs-Check bei einem Hungerwert von 5 nicht gelingt. Bei schwerem Schaden tritt Starre ein, wenn der Gesundheitszähler komplett gefüllt ist. Der Vampir versucht dann unbewusst, den Schaden zu heilen, um sich wieder zu erheben. Bei freiwilliger Starre steigt der Hunger weiter an, bis der Vampir wie beschrieben in Starre fällt.  Um aus der Starre zu erwachen, kann ein Vampir, der nicht gepfählt ist, eine Probe auf Entschlossenheit + Wahrnehmung ablegen, wenn ein potentielles Opfer in der Nähe ist. Bei Erfolg kann der Vampir lange genug erwachen, um zu trinken, oft mit der Konsequenz der Hungerraserei. Ist der Hunger auf 4 oder weniger gesunken, erwacht der Vampir vollständig von den Auswirkungen der Starre."
+        },
+        {
+            "type": "subtitle",
+            "text": "Endgültiger Tod"
+        },
+        {
+            "type": "paragraph",
+            "text": "Obwohl Vampire unsterblich sind, können sie den endgültigen Tod erleiden, was bedeutet, dass sie nicht mehr zum Unleben erweckt werden können. Der endgültige Tod kann durch Feuer, Sonnenlicht, Enthauptung, Säure, extreme Explosionen oder den Druck der Tiefsee eintreten. Auch vampirische Krankheiten können den endgültigen Tod herbeiführen.  Vampire können im Kampf gegen Werwölfe, andere Vampire oder menschliche Inquisitoren den endgültigen Tod erleiden. In Starre verfallen, werden Vampire zu hilflosen Zielen. Verschiedene Methoden des endgültigen Todes lassen den Vampir entweder als Asche, verrottende Leiche, Skelett oder Staub zurück, abhängig von seinem Alter.  Spielmechanisch tritt Starre ein, wenn der gesamte Gesundheitszähler mit schwerem Schaden gefüllt ist. Jeder zusätzliche Schaden durch Feuer oder Sonnenlicht in diesem Zustand, ebenso wie Enthauptung oder vollständige Zerstörung des Körpers, führt zum endgültigen Tod des Vampirs."
+        },
+        {
+            "type": "subtitle",
+            "text": "Konflikte"
+        },
+        {
+            "type": "list",
+            "items": [
+                "Konflikte beinhalten Situationen, die von einfachen Wettbewerben bis zu Szenarien reichen, die körperlichen oder geistigen Schaden verursachen können. Sie umfassen jegliche Art feindlicher Interaktion, vom Straßenkampf bis zu hitzigen Debatten am Hofe.",
+                "Spieler und Spielleiter werden ermutigt, Konflikte mit narrativen Details zu bereichern, um die Würfelwürfe lebendig und bedeutungsvoll zu gestalten."
+            ]
+        },
+        {
+            "type": "subtitle",
+            "text": "Konfliktrunden"
+        },
+        {
+            "type": "list",
+            "items": [
+                "Eine Konfliktrunde besteht aus den Aktionen aller Teilnehmenden. Die Dauer einer Runde ist flexibel und wird durch den erzählenden Kontext bestimmt.",
+                "Zu Beginn jeder Runde legen die Spieler ihre Absichten fest, was sie erreichen wollen, sei es eine physische Aktion oder eine soziale Manöver.",
+                "Nachdem die Spieler ihre Aktionen gewählt haben, entscheidet der Spielleiter über die Aktionen der Nicht-Spieler-Charaktere (NPCs) und gibt an, welche Würfelvorräte zusammengestellt werden sollen.",
+                "Eine Alternative zu diesem Parallelrunden, können Runden nach Entscheidung des Spielleiters auch sequenziell ablaufen."
+            ]
+        },
+        {
+            "type": "subtitle",
+            "text": "Konfliktvorräte"
+        },
+        {
+            "type": "list",
+            "items": [
+                "Der Würfelvorrat, der in einer Konfliktrunde verwendet wird, hängt von der Art des Konflikts ab. In einem Kampf kann dies eine Kombination aus Körperkraft und Handgemenge sein, in einer Debatte möglicherweise Charisma und Überzeugung.",
+                "Sowohl Angreifer als auch Verteidiger würfeln gleichzeitig oder nacheinander mit ihren jeweiligen Vorräten.",
+                "Der Gewinner eines Konflikts fügt den verbleibenden Erfolgen nach Abzug der Erfolge des Verlierers Schaden am Gesundheits- oder Willenskraftzähler des Verlierers zu. Gleichstand gilt zugunsten des Verteidigers."
+            ]
+        },
+        {
+            "type": "subtitle",
+            "text": "Spezielle Konfliktsituationen"
+        },
+        {
+            "type": "list",
+            "items": [
+                "Fernkampfwaffen: Fernkämpfe werden typischerweise gegen die Geschicklichkeit und Sportlichkeit des Verteidigers ausgetragen (Ausweichen).",
+                "Ausweichen: Verteidiger können sich entscheiden, ihre Geschicklichkeit und Sportlichkeit für die Verteidigung einzusetzen, wobei sie jedoch keinen Schaden am Angreifer verursachen.",
+                "Mehrere Gegner: Ein Charakter, der sich gegen mehrere Gegner verteidigt, verliert nach jedem weiteren Angriff einen Würfel aus seinem Verteidigungsvorrat. Um mehrere Feinde anzugreifen, muss ein Charakter seinen Würfelvorrat aufteilen."
+            ]
+        },
+        {
+            "type": "subtitle",
+            "text": "Wer beginnt?"
+        },
+        {
+            "type": "list",
+            "items": [
+                "In Debatten ist es oft vorteilhafter, das letzte Wort zu haben, während in körperlichen Konflikten die Reihenfolge der Aktionen entscheidend sein kann.",
+                "Wenn eine Seite das Überraschungsmoment hat, normalerweise das Ergebnis einer erfolgreichen Probe in Taktik oder Schleichen für einen Hinterhalt, beginnt diese Seite.",
+                "Ohne Überraschungsmoment handeln Charaktere in einer festgelegten Reihenfolge: Nahkampfaktionen finden zuerst statt, gefolgt von Fernkampfhandlungen, dann von neu initiierten körperlichen Kämpfen und zuletzt allen anderen Aktionen.",
+                "Bei Gleichstand in der Handlungsreihenfolge wird dieser durch einen Vergleich von Geschicklichkeit und Geistesschärfe aufgelöst. Besteht weiterhin ein Gleichstand, wird er durch den Vergleich der Punkte in der eingesetzten Fähigkeit entschieden."
+            ]
+        },
+        {
+            "type": "subtitle",
+            "text": "Menschlichkeit"
+        },
+        {
+            "type": "paragraph",
+            "text": "Menschlichkeit misst, wie nah ein Vampir seinem menschlichen Leben und seinen menschlichen Verbindungen steht. Diese Verbindungen können symbolische Anker zum Leben und zum Licht darstellen. Allerdings neigen Vampire dazu, mit zunehmendem Alter an Menschlichkeit zu verlieren, da das Tier in ihnen an ihren Gefühlen und Erinnerungen nagt. Ein Vampir als Spielercharakter startet normalerweise mit einer Menschlichkeit von 7 oder 8, abhängig vom Alter und Hintergrund."
+        },
+        {
+            "type": "paragraph",
+            "text": "Mit der Abnahme der Menschlichkeit verhalten sich Vampire zunehmend verwerflicher und gehen diesem Verhalten auch aktiver nach. Es liegt in ihrer Natur zu jagen und zu töten, was oft zu Konflikten mit ihrer Menschlichkeit führt. Der Verlust der Menschlichkeit führt zu einer Veränderung im Verhalten des Vampirs, wobei dieses immer entfremdeter und verderbter wird."
+        },
+        {
+            "type": "list",
+            "items": [
+                "Menschlichkeit 0: Ein Vampir auf dieser Stufe wird zur Bestie, verliert jegliches menschliche Empfinden und geht in die Kontrolle der Spielleitung über. Dies ist das Ergebnis eines finalen Rötschrecks, des sogenannten „Wasail“.",
+                "Menschlichkeit 1: Der Vampir ist nur noch nominell empfindungsfähig und steht am Rand des Vergessens. Alles, einschließlich des eigenen Verlangens nach Nahrung und Ruhe, wird gleichgültig. Die Interaktion mit Menschen erleidet acht Würfel Abzug.",
+                "Menschlichkeit 2: Auf dieser Stufe zählen nur die eigenen Bedürfnisse. Menschen sind nur Diener oder Nahrung. Der Vampir verfolgt dunkle Hobbies und Perversionen. Die Interaktion mit Menschen erleidet sechs Würfel Abzug.",
+                "Menschlichkeit 3: Auf der Stufe 3 der Menschlichkeit gelten Vampire als zynisch und abgestumpft. Charakterisiert durch Gefühllosigkeit und eine Neigung zu Grausamkeit, überschreiten sie moralische Grenzen ohne Zögern. Sie verfolgen einen pragmatischen und sicheren Ansatz, was häufig das Töten von Zeugen und ein Misstrauen gegenüber anderen beinhaltet, es sei denn, sie haben diese fest unter Kontrolle. Ihr Aussehen ist zunehmend monströs, was sich selbst unter vorteilhaften Umständen zeigt. Vampire auf dieser Stufe erleiden vier Würfel Abzug bei Proben zur Interaktion mit Menschen und sind nicht mehr in der Lage, selbst mit Erblühen des Lebens Geschlechtsverkehr vorzutäuschen. Diese Stufe spiegelt einen Vampir wider, der weit entfernt von seiner Menschlichkeit ist und hebt die dunklen Aspekte des Vampirdaseins hervor, was sowohl eine Herausforderung als auch eine reiche Quelle für tiefgründige Charakterentwicklungen darstellt.",
+                "Menschlichkeit 4: Der Vampir beginnt, moralische Trägheit zu akzeptieren. Töten und andere Formen der Gewalt werden als Werkzeuge gesehen, nicht als Tabus. Es treten körperliche Veränderungen auf, wie eine leichenartige Blässe. Zwei Würfel Abzug bei der Interaktion mit Menschen.",
+                "Menschlichkeit 5: Auf dieser Stufe ist der Vampir zunehmend egoistisch und lügt ohne Bedenken. Sterbliche sind nicht mehr wichtig, außer als Anker oder Haustiere. Es kann zu körperlichen Seltsamkeiten kommen. Ein Würfel Abzug bei der Interaktion mit Menschen.",
+                "Menschlichkeit 6: Vampire auf dieser Stufe haben wenig Bedenken bezüglich der Notwendigkeit, Blut zu trinken. Sie sind nicht grausam, aber auch nicht übermäßig sympathisch. Sie können keinen Geschlechtsverkehr haben, können es jedoch vortäuschen, und müssen Fassung+Widerstandsfähigkeit gegen 3 schaffen um Essen und Trinken bei Einsatz von Erblühen des Lebens einzubehalten.",
+                "Menschlichkeit 7: Auf dieser Stufe können Vampire weitgehend als Sterbliche durchgehen. Sie halten sich an gesellschaftliche Konventionen und fühlen eine gewisse Verbindung zu anderen, auch wenn Egoismus durchscheint. Sie können keinen Geschlechtsverkehr haben, können es aber vortäuschen, und müssen Essen und Trinken erbrechen.",
+                "Menschlichkeit 8: Vampire mit Menschlichkeit 8 fühlen noch Schmerz für das Leid, das sie verursachen. Ihr menschlicher Deckmantel ist noch intakt, und sie können bei Erblühen des Lebens wählen, welche Würfelergebnisse sie nutzen. Sie können Geschlechtsverkehr haben und genießen sowie Wein schmecken und verdauen.",
+                "Menschlichkeit 9: Diese Vampire handeln menschlicher als die meisten Menschen und können natürlich agieren. Sie leiden unter dem Töten und dem Hunger. Sie können wie Sterbliche Leichten Schaden heilen, blutiges Fleisch und Flüssigkeiten essen und verdauen und bis zu einer Stunde nach Sonnenaufgang wach bleiben.",
+                "Menschlichkeit 10: Auf dieser Stufe leben Vampire ein heiliges, asketisches Leben, streng nach Ethik und Prinzipien. Sie sehen wie blassere, gesunde Sterbliche aus und können Essen und Trinken wie Menschen. Sie können tagsüber wach bleiben, erleiden aber halbierten Schaden bei Sonnenlicht."
+            ]
+        },
+        {
+            "type": "subtitle",
+            "text": "Markel"
+        },
+        {
+            "type": "paragraph",
+            "text": "Makel sind Beeinträchtigungen der Menschlichkeit eines Vampirs, die sich aus alltäglichen Korruptionen und Handlungen ergeben, die der Menschlichkeit entgegenstehen. Sie werden auf dem Menschlichkeitszähler von rechts nach links markiert. Sammelt ein Charakter zu viele Makel, ohne Reue zu zeigen oder Wiedergutmachung zu leisten, kann seine Menschlichkeit sinken."
+        },
+        {
+            "type": "paragraph",
+            "text": "Die Schwere eines Verstoßes gegen die Grundsätze einer Chronik bestimmt die Anzahl der Makel, die ein Charakter erhält. Wenn ein Charakter gegen einen Grundsatz zugunsten einer Überzeugung verstößt, können die Makel reduziert werden. Makel, die nicht in freie Kästchen des Menschlichkeitszählers passen, verursachen Schweren Schaden an der Willenskraft und führen zu einer Beeinträchtigung des Charakters."
+        },
+        {
+            "type": "paragraph",
+            "text": "Markel können in Vicar via Shift+Links Klick auf den Menschlichkeitszähler gesetzt werden."
+        },
+        {
+            "type": "subtitle",
+            "text": "Reue und Degeneration"
+        },
+        {
+            "type": "paragraph",
+            "text": "Am Ende jeder Spielsitzung muss ein Charakter mit Makeln eine Reueprobe ablegen. Gelingt die Probe, werden alle Makel entfernt und die Menschlichkeit bleibt erhalten. Misslingt die Probe, verliert der Charakter einen Punkt Menschlichkeit und alle Makel werden entfernt. Bei Degeneration, verursacht durch zu viele Makel, erleidet der Charakter Schweren Schaden an der Willenskraft und wird beeinträchtigt. Der Charakter kann sich durch das freiwillige Ausgeben eines Punktes Menschlichkeit von der Degeneration befreien."
+        },
+        {
+            "type": "subtitle",
+            "text": "Schaden an und Vernichtung von Ankern"
+        },
+        {
+            "type": "paragraph",
+            "text": "Schaden an einem Anker oder dessen Vernichtung kann ebenfalls Makel verursachen. Dies geschieht, wenn dem Anker etwas Schlimmes zustößt oder er sich auf eine unerwünschte Weise verändert. Wenn ein Vampir direkt den Schaden oder die Vernichtung seines eigenen Ankers verursacht, erhöht sich die Anzahl der erlittenen Makel."
+        },
+        {
+            "type": "subtitle",
+            "text": "Verlust der Menschlichkeit"
+        },
+        {
+            "type": "paragraph",
+            "text": "Ein Vampir, der seinen letzten Punkt Menschlichkeit verliert, verfällt in eine spektakuläre Raserei und wird zu einer Bestie, einem Sklaven des Willens des Blutes. Er ist dann nicht mehr als Spielercharakter spielbar."
+        },
+        {
+            "type": "subtitle",
+            "text": "Steigerung der Menschlichkeitrkel"
+        },
+        {
+            "type": "paragraph",
+            "text": "Das Steigern der Menschlichkeit erfordert selbstloses Engagement in menschlichen Belangen und ist Teil einer größeren persönlichen Geschichte. Menschlichkeit kann mit Erfahrungspunkten gesteigert werden. Allerdings liegt dies alles im Ermessen der Spielleitung."
+        },
+        {
+            "type": "subtitle",
+            "text": "Hunger"
+        },
+        {
+            "type": "paragraph",
+            "text": "Der Hunger eines Vampirs wird in Proben durch sogenannte \"Hungerwürfel\" dargestellt. Diese Würfel ersetzen normale Würfel im Würfelpool, wobei die Anzahl der Hungerwürfel dem aktuellen Hungerlevel des Vampirs entspricht. Bei bestialischen Fehlschlägen, die auftreten, wenn auf einem Hungerwürfel ein Misserfolg gewürfelt wird, können \"Zwänge\" entstehen oder andere ernste Konsequenzen eintreten. Diese Zwänge sind unterschwellige Handlungsimpulse, die der Vampir vom Blut und manchmal sogar von seinem Clan-Gründer erbt. Die Spielleitung wählt oder bestimmt einen Zwang zufällig und der Spieler entscheidet, wie er diesen ausspielt. Spieler, die ihre Zwänge besonders gut darstellen, können zur Belohnung einen Punkt in Willenskraft wiederherstellen. Die Spieler dürfen keine Willenskraft ausgeben, um die Auswirkungen eines Zwanges zu ignorieren. Weitere Informationen zu Zwängen finden sich auf Seite 208 des Regelbuchs."
+        },
+        {
+            "type": "subtitle",
+            "text": "Hunger stillen"
+        },
+        {
+            "type": "paragraph",
+            "text": "Das Trinken von Blut ist der primäre Weg für Vampire, ihren Hunger zu senken. Der Hunger eines Vampirs kann nur durch das komplette Entleeren eines menschlichen Opfers auf 0 gesenkt werden. Jüngere Vampire können ihren Hunger auf 1 reduzieren, ohne ein menschliches Opfer zu töten. Mit steigender Blutmacht eines Vampirs erhöht sich jedoch der Basiswert seines Hungers. Blut zu trinken braucht Zeit, und der Biss eines Vampirs erzeugt beim Opfer oft euphorische Zustände."
+        },
+        {
+            "type": "paragraph",
+            "text": "Verschiedene Blutquellen haben unterschiedliche Auswirkungen auf den Hunger eines Vampirs:"
+        },
+        {
+            "type": "list",
+            "items": [
+                "Mehrere kleine Tiere: Das Trinken von mehreren kleinen Tieren, wie drei bis vier Katzen oder ein Dutzend Ratten, stillt 1 Punkt Hunger und dauert eine ganze Szene. Dies ist für Vampire mit einer Blutmacht über 2 in der Regel nicht effektiv.",
+                "Mittelgroßes Tier: Das Trinken von einem mittelgroßen Tier, wie einem Waschbär, Hund oder Kojoten, stillt ebenfalls 1 Punkt Hunger und dauert nur eine Runde.",
+                "Großes Tier: Das Trinken von einem großen Tier, wie einem Pferd, kann 2 Punkte Hunger stillen und dauert ebenfalls eine ganze Szene.",
+                "Blutkonserve: Das Trinken einer Blutkonserve stillt 1 Punkt Hunger und dauert eine Runde, ist aber bei Vampiren mit einer Blutmacht über 2 meist nicht effektiv.",
+                "Ein Schluck von einem Menschen: Ein Schluck menschlichen Blutes stillt 1 Punkt Hunger und dauert drei Runden, einschließlich des Leckens der Wunde, um sie zu schließen.",
+                "Maximales, nicht schädliches Trinken von einem Menschen: Dieser Vorgang stillt 2 Punkte Hunger und dauert eine ganze Szene.",
+                "Schädliches Trinken von einem Menschen: Dies kann 1-4 Punkte Hunger stillen und dauert eine Runde pro gestilltem Hungerpunkt. Dieser Vorgang kann für das menschliche Opfer tödlich sein.",
+                "Menschen leer trinken und töten: Dies ist die einzige Möglichkeit, den Hunger auf 0 zu senken, und dauert 5 Runden."
+            ]
+        },
+        {
+            "type": "subtitle",
+            "text": "Trinken von Tieren und anderen Vampiren"
+        },
+        {
+            "type": "list",
+            "items": [
+                "Tiere: Mit Ausnahme von großen Tieren können Vampire ihren Hunger nicht effektiv mit Tierblut stillen.",
+                "Blutkonserven: Für Vampire ohne den Vorteil des Eisernen Magens sind Blutkonserven nahezu nutzlos.",
+                "Andere Vampire: Beim Trinken von anderen Vampiren stillt ein Vampir 1 Punkt Hunger für jeden zugefügten Punkt Hunger. Dies birgt jedoch das Risiko eines Blutsbandes. Hier wird zudem auf die Diablerie verwiesn."
+            ]
+        },
+        {
+            "type": "subtitle",
+            "text": "Bissattacken"
+        },
+        {
+            "type": "paragraph",
+            "text": "Vampire können ihre Fänge als Waffe im Nahkampf einsetzen. Ein erfolgreicher Biss verursacht zwei Punkte Schaden und ermöglicht es dem Vampir, sich vom Ziel zu ernähren. Das Trinken fügt Sterblichen Schaden zu und stillt beim Vampir Hunger. Bei einem Vampir als Ziel steigert das Trinken dessen Hunger anstatt zusätzlichen Schaden zu verursachen. Nach der Bissattacke, muss der Vampir eine Runde warten, bis er beginnen kann, das Blut auszusaugen."
+        },
+        {
+            "type": "subtitle",
+            "text": "Das Tier und die Raserei"
+        },
+        {
+            "type": "paragraph",
+            "text": "Die Raserei ist ein zentrales Element, das die ständige Bedrohung durch das innere Tier, die Bestialität eines Vampirs, darstellt. Raserei tritt auf, wenn äußere Umstände das innere Gleichgewicht eines Vampirs stören, und lässt das Tier ohne Verstand oder Reue zum Vorschein kommen. In diesem Zustand verliert ein Vampir jegliche Fähigkeit zum rationalen Denken und handelt ausschließlich aus Wut, Hunger oder Panik. Er wird alles tun, um den Grund seiner Provokation zu zerstören, seinen Hunger zu stillen oder der Bedrohung zu entfliehen, meist durch Gewalt."
+        },
+        {
+            "type": "paragraph",
+            "text": "Um der Raserei zu widerstehen, würfelt ein Vampir mit seiner Willenskraft gegen eine von der Spielleitung festgelegte Schwierigkeit. Zu seinem Willenskraftvorrat fügt der Vampir ein Drittel seines Menschlichkeitswerts (abgerundet) hinzu. Bei Erfolg unterdrückt der Vampir den Impuls für eine ganze Runde, bei einem kritischen Triumph sogar ohne Zeitverlust."
+        },
+        {
+            "type": "paragraph",
+            "text": "Ein Vampir kann sich auch dazu entscheiden, \"die Welle zu reiten\", also sich absichtlich der Raserei hinzugeben. In diesem Fall folgt er den üblichen Regeln für Raserei, behält jedoch mehr Kontrolle über seine Handlungen. Wählt der Spieler diese Option nicht, übernimmt die Spielleitung die Kontrolle über den Charakter."
+        },
+        {
+            "type": "paragraph",
+            "text": "Während einer Raserei sind Vampire immun gegen Abzüge durch Gesundheit, außer bei Verstümmelungen. Sie können nur körperliche Disziplinen anwenden und erhalten zusätzliche Würfel, um geistigen Disziplinen zu widerstehen. Der Spieler kann einen Willenskraftpunkt ausgeben, um für eine Runde die Kontrolle über den Charakter zu übernehmen, kann aber die Willenskraft nicht einsetzen, um Würfe zu wiederholen."
+        },
+        {
+            "type": "paragraph",
+            "text": "Die Raserei bleibt bestehen, bis das Ziel erreicht ist oder die Szene endet. Es gibt drei Arten der Raserei: Zorn, Hunger und Furcht. Zornraserei wird durch Provokationen ausgelöst und treibt den Vampir dazu, die Ursache des Zorns zu zerstören. Hungerraserei tritt auf, wenn der Vampir bei einem Wallungs-Check mit einem Hunger von 5 scheitert, und treibt ihn zur Suche nach Blut. Furchtraserei, auch Rötschreck genannt, wird durch Bedrohungen wie Sonnenlicht oder Feuer ausgelöst und führt dazu, dass der Vampir vor der Gefahr flieht."
+        },
+        {
+            "type": "paragraph",
+            "text": "Raserei ist ein dramatisches und gefährliches Merkmal der vampirischen Existenz, das die Bestialität und den Verlust der Kontrolle über das eigene Monster in den Vordergrund stellt. Sie ist ein wesentliches Element des Spiels, das die innere Spannung und das Risiko des Vampirlebens betont."
+        },
+        {
+            "type": "subtitle",
+            "text": "Spezialregeln beim Würfeln/Contests"
+        },
+        {
+            "type": "list",
+            "items": [
+                "Automatisches Gewinnen: Wenn der Würfelvorrat eines Charakters doppelt so hoch ist wie die Schwierigkeit der Aufgabe, kann der Spielleiter entscheiden, dass der Charakter automatisch gewinnt, ohne zu würfeln. Diese Regel beschleunigt das Spiel und reduziert Unterbrechungen durch Regeldiskussionen. Automatische Gewinne sind besonders außerhalb des Kampfes oder bei Tests sinnvoll, bei denen ein Misserfolg des Charakters uninteressant wäre, wie etwa bei Informationsbeschaffung, Gesprächseröffnungen oder Aktionen, die eine Szene dramatisch vorantreiben. Automatische Gewinne sind selten in Kampfsituationen oder anderen stressigen Situationen anwendbar. Ein Spielleiter kann sie jedoch in den Eröffnungsrunden zulassen oder bei unwichtigen Gegnern (z.B. Sicherheitspersonal in einer Lobby, nicht aber echte Polizisten auf der Straße).",
+                "Gewinnen mit Kosten: Wenn ein Wurf einige Erfolge hat, aber dennoch scheitert, kann der Spielleiter anbieten, dass der Charakter sein Ziel erreicht, aber zu einem Preis. Dieser Preis könnte darin bestehen, dass der Charakter Schaden nimmt, unerwünschte Aufmerksamkeit auf sich zieht, etwas Wertvolles verliert usw. Jeder Spieler, einschließlich des aktiven Spielers, oder der Spielleiter kann den Preis vorschlagen. Die Kosten sollten sich nach der Anzahl der fehlenden Erfolge richten. Wenn der Preis zu hoch erscheint, kann der Spieler sich immer noch für ein Scheitern entscheiden.",
+                "Erneutes Versuchen: Wenn ein Charakter bei einer Aktion scheitert, kann er manchmal einen erneuten Versuch unternehmen. Ein Fehlschlag bedeutet nicht, dass der Charakter nie wieder einen Versuch in dieser Richtung starten kann. Um einen erneuten Versuch zu rechtfertigen, müssen die Umstände dies zulassen – beispielsweise erhält der Charakter einen besseren Dietrich oder hat seine Fähigkeiten seit dem letzten Versuch verbessert. Die meisten Aktionen können in Konflikten wie Kämpfen, Verfolgungsjagden oder anderen stressigen Situationen wiederholt werden. Konflikte sind von Natur aus stressig, und ein Scheitern bringt oft eigene Kosten mit sich."
+            ]
+        },
+        {
+            "type": "subtitle",
+            "text": "Die goldene Regel"
+        },
+        {
+            "type": "paragraph",
+            "text": "Die Goldene Regel besagt, dass es letztendlich keine festen Regeln gibt. Das Spiel sollte genau das sein, was die Spieler und der Spielleiter sich wünschen. Ob es sich um ein Spiel handelt, das fast ohne Würfel auskommt und sich auf die Interaktion der Charaktere konzentriert, oder um eine strategisch ausgeklügelte Kampagne, in der jeder Spieler eine Gruppe von Vampiren kontrolliert, steht den Spielern frei. Das Kernprinzip dieser Regel ist, dass die Spieler das Recht und die Freiheit haben, die Regeln des Spiels nach Bedarf zu ändern, um ihren Spielspaß zu maximieren. Die Welt von \"Vampire: The Masquerade\" ist zu umfangreich und vielschichtig, um durch eine starre Regelsammlung vollständig erfasst zu werden. Daher sollten die im Regelbuch vorgestellten Richtlinien als Vorschläge und nicht als verbindliche Anweisungen betrachtet werden. Die Goldene Regel ermutigt Spieler und Spielleiter, kreativ zu sein und das Spiel so zu gestalten, dass es am besten zu ihrer Gruppe und ihrem Erzählstil passt. Sie dürfen die Regel nach Belieben anwenden, anpassen, missbrauchen oder ignorieren, um das optimale Spielerlebnis zu schaffen."
         }
     ],
     "append": [
@@ -41,7 +382,8 @@
                 "ALT+(5, D) - Zu den Disziplinen gehen",
                 "ALT+R - Zu den Ritualen gehen",
                 "ALT+(6, V) - Zu den Vorteilen und Schwächen gehen",
-                "STRG+Space - Würfelpool-Rechner öffnen"
+                "STRG+Space - Würfelpool-Rechner öffnen",
+                "Shift+Links Klick - Markel setzen bei Menschlichkeit"
             ]
         }
     ]
