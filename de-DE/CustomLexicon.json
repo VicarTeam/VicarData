@@ -363,6 +363,68 @@
         {
             "type": "paragraph",
             "text": "Die Goldene Regel besagt, dass es letztendlich keine festen Regeln gibt. Das Spiel sollte genau das sein, was die Spieler und der Spielleiter sich wünschen. Ob es sich um ein Spiel handelt, das fast ohne Würfel auskommt und sich auf die Interaktion der Charaktere konzentriert, oder um eine strategisch ausgeklügelte Kampagne, in der jeder Spieler eine Gruppe von Vampiren kontrolliert, steht den Spielern frei. Das Kernprinzip dieser Regel ist, dass die Spieler das Recht und die Freiheit haben, die Regeln des Spiels nach Bedarf zu ändern, um ihren Spielspaß zu maximieren. Die Welt von \"Vampire: The Masquerade\" ist zu umfangreich und vielschichtig, um durch eine starre Regelsammlung vollständig erfasst zu werden. Daher sollten die im Regelbuch vorgestellten Richtlinien als Vorschläge und nicht als verbindliche Anweisungen betrachtet werden. Die Goldene Regel ermutigt Spieler und Spielleiter, kreativ zu sein und das Spiel so zu gestalten, dass es am besten zu ihrer Gruppe und ihrem Erzählstil passt. Sie dürfen die Regel nach Belieben anwenden, anpassen, missbrauchen oder ignorieren, um das optimale Spielerlebnis zu schaffen."
+        },
+        {
+          "type": "title",
+          "text": "Resonanz"
+        },
+        {
+          "type": "paragraph",
+          "text": "Resonanz beschreibt die emotionale Signatur des Blutes eines Menschen – ein zentraler Aspekt des Jagderlebnisses in Vampire: Die Maskerade V5. Sie beeinflusst die Wirksamkeit bestimmter Disziplinen, kann Vorteile beim Trinken verleihen und wird bei intensiven Ausprägungen als Dyskrasie bezeichnet."
+        },
+        {
+          "type": "subtitle",
+          "text": "Arten der Resonanz"
+        },
+        {
+          "type": "list",
+          "items": [
+            "Cholerisch (Wut, Aggression) – unterstützt Geschwindigkeit, Stärke.",
+            "Melancholisch (Trauer, Selbstzweifel) – unterstützt Seelenstärke, Verdunkelung.",
+            "Phlegmatisch (Ruhe, Kontrolle) – unterstützt Auspex, Beherrschung.",
+            "Sanguinisch (Lebensfreude, Lust) – unterstützt Blutmagie, Präsenz.",
+            "Tierische Resonanz – flüchtig, meist nicht für Dyskrasien geeignet."
+          ]
+        },
+        {
+          "type": "subtitle",
+          "text": "Intensität der Resonanz"
+        },
+        {
+          "type": "list",
+          "items": [
+            "Flüchtig: kurzfristig, z.B. nach Streit oder Drogenkonsum.",
+            "Intensiv: stabiler emotionaler Zustand, z.B. durch Trauma oder Obsession.",
+            "Akut (Dyskrasie): einzigartige, stark ausgeprägte Resonanz mit besonderen Effekten."
+          ]
+        },
+        {
+          "type": "subtitle",
+          "text": "Mechanischer Nutzen"
+        },
+        {
+          "type": "list",
+          "items": [
+            "Intensive Resonanz: +1 Würfel auf Disziplinen der passenden Kategorie.",
+            "Dyskrasie: besondere Einmaleffekte, z.B. Hungerheilung, erhöhte Wahrnehmung.",
+            "Notwendig für das Erlernen höherstufiger Disziplinen bestimmter Arten."
+          ]
+        },
+        {
+          "type": "subtitle",
+          "text": "Resonanz entdecken und manipulieren"
+        },
+        {
+          "type": "paragraph",
+          "text": "Vampire können mit Entschlossenheit + Menschenkenntnis die Resonanz eines potenziellen Opfers feststellen. Die Spielleitung kann Tabellen oder Umweltbeschreibung nutzen, um Resonanz zu bestimmen. Durch gezielte emotionale Manipulation kann man eine gewünschte Resonanz hervorrufen oder verstärken."
+        },
+        {
+          "type": "subtitle",
+          "text": "Resonanz in der Jagd"
+        },
+        {
+          "type": "paragraph",
+          "text": "Resonanz gibt der Jagd zusätzliche Tiefe. Bestimmte Orte fördern bestimmte Resonanzen (z.B. Clubs für sanguinisch, Krankenhäuser für melancholisch). Dyskrasien können gezielt durch 'Zucht' emotionaler Zustände bei Opferpersonen erzeugt werden – eine moralisch verwerfliche, aber mächtige Taktik."
         }
     ],
     "append": [
