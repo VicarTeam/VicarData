@@ -69,6 +69,10 @@
           },
           "duration": {
             "type": "string"
+          },
+          "multiple": {
+            "type": "boolean",
+            "default": false
           }
         },
         "required": ["id", "name", "summary", "costs", "system", "duration"],

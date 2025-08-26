@@ -232,5 +232,221 @@
     "ingredients": "The thaumaturge draws the circle of protection with a staff of rowan wood dipped in a mixture of ashes from a still-burning fire and its blood.",
     "execution": "",
     "system": ""
+  },
+  {
+    "id": 27,
+    "level": 1,
+    "name": "Astromancy",
+    "description": "The stars write the natures of those on earth below them, or perhaps they reflect them. Combining astrology and hematomancy, the sorcerer draws out true information about allies, enemies, and mortals that catch their interest.",
+    "ingredients": "The night sky; a silver mirror or platter; the blood, hair, spit, or ßesh of the target",
+    "execution": "In the middle of the night, the caster goes to an area with a clear view of the stars in the sky and places their target's biological material on the silver surface and spreads a Rouse Check's worth ofblood over the surface. The caster spends up to a halfhour watching their blood shape itself into patterns and images regarding the answers they seek about the subject.",
+    "system": "A win on the Ritual roll reveals the target's greatest aptitudes (i.e., any Attribute or Skill 4 or higher) and their current Ambition. A critical win also reveals their current Desire and at least one of their Convictions. If the sorcerer knows the correct birth date or Embrace date of the target, they can add one die to the Ritual pool. Knowing both still only adds one die."
+  },
+  {
+    "id": 28,
+    "level": 1,
+    "name": "Bind the Accusing Tongue",
+    "description": "The Tremere developed this ritual early in their ascent to power, which may help explain that ascent. Bind the Accusing Tongue prevents the target from speaking ill of the caster, ensuring the sorcerer's unspeakable acts remain that way.",
+    "ingredients": "A picture, effigy, or image of the target, a lock of the target's hair, a black silken cord.",
+    "execution": "The caster winds the cord around the hair and image while intoning the ritual charm.",
+    "system": "A win on the Ritual roll prevents the target from saying, writing, or otherwise directly communicating anything negative or harmful - even, or rather especially, if it's true - about the caster without a Composure + Resolve test (Difficulty equals the caster's Blood Sorcery rating +2). On a critical win, the Difficulty of the test equals the caster's Blood Sorcery rating + 3. The ritual lasts until the target succeeds on their test, or until the cord unwinds, at which point the hair and image crumble into dust."
+  },
+  {
+    "id": 29,
+    "level": 2,
+    "name": "Craftmaster",
+    "description": "Some Blood sorcerers seek to gain skill through their sorcerous art, rather than pursuing mastery with the slow, difficult path of practice. The sorcerer drinks a skill specialty possessed by a gifted subject.",
+    "ingredients": "Blood of a gifted subject, representative craft object such as a needle, page of a book, playing card, chisel, etc., vulture bones.",
+    "execution": "The caster chars the vulture bones in a fire and places the representative object in a bowl over the flames. They pour the blood of the subject into the bowl, completely covering the object. As the last of the bones crack and burn, the vampire drinks the blood from the bowl, letting the object touch their lips as they drink.",
+    "system": "On a win, the caster gains the subject's dots and specialty in Academics, Craft, Performance, or Science until sunrise. The dots replace, not add to, any already possessed by the caster. If the caster already has that specialty, they gain one extra die on top of the specialty die. On a critical win, the Ritual lasts for a week. On a total failure, the caster accidentally swallows the craft object and takes 2 Aggravated Health damage from it traveling through their body, the object spiritually furious at its skill being stolen."
+  },
+  {
+    "id": 30,
+    "level": 2,
+    "name": "Depths of Nightmare",
+    "description": "This ritual gives targets the worst nightmares they've ever experienced. Developed by the cult of Set to punish recalcitrant followers with nightmares of Duat, the ritual has caught on outside since it's very good at wearing down a target's will.",
+    "ingredients": "Target's hair; melted wax; natron (soda ash)",
+    "execution": "The caster mixes a Rouse Check's worth ofblood into the melted wax, then rolls their target's hair in the mixture. The vampire shapes the bloody wax into a humanoid shape, as close to their target's body shape as possible. After writing glyphs or curses in their native language, the sorcerer soaks the figurine in a bowl of water mixed with natron.",
+    "system": "On a win, the target receives a number of nightmare-filled days ( or nights, for mortal targets) equal to the number of successes rolled. When they first awaken after each sleep, the target receives 1 Superficial Willpower damage. On a critical win, the damage is Aggravated instead. This damage cannot be healed normally until the spell has run its course: only magic or the like can remove the shock and horror of these dreams. On a total failure, the target not only has pleasant dreams, but dreams of an ibis-headed man who points the target in the caster's direction. T his occurs even if the caster used no Kemetic imagery on the figurine."
+  },
+  {
+    "id": 31,
+    "level": 2,
+    "name": "Elemental Grasp",
+    "description": "[Requires Koldunic Sorcery] This koldunic ritual commands the sorcerer's chosen element to slow or otherwise interfere with a target: sticky mud or sudden rockslide, flash flood or stinging hail, icy wind or choking fog, a wave of enervating heat or a brush fire across the path. So far, it remains exclusive to the kolduny, although rituals have a way of twisting themselves into another tradition's grasp eventually.",
+    "ingredients": "A handful of the koldun's element or a ritual representation of it, such as a wooden staff for earth, a knife or bunch of feathers for air, etc.",
+    "execution": "The koldun scratches open their initiation scar and makes a Rouse Check while commanding the element to hinder a target the koldun perceives. Magical perception counts for this purpose.",
+    "system": "On a win, the element rises against the target. If the element is already awake during the casting ( commanding air during a thunderstorm, for instance), the koldun adds one die to their Ritual pool. The target takes one point of Superficial Health darnage per success, and must make an appropriate skill roll ( e.g., Toughness + Athletics, or Composure + Drive) to continue against the element against a Difficulty equal to 1 + the total successes on the Ritual roll. On a critical win, the element rises against every suitable target within sight of the main target. The effect continues until the koldun does anything else besides command the elements: fight, move, make any other skill roll, etc."
+  },
+  {
+    "id": 32,
+    "level": 2,
+    "name": "Le Sang de l'Amour",
+    "description": "T his ritual allows the caster to create a connection between themselves and a lover that's more than just their mutual attraction.",
+    "ingredients": "Blood of the caster and their lover, two glass vials on chains ( or leather thongs ).",
+    "execution": "The caster collects their own blood and their lover's at the sarne time, careful to keep the two separate. They don't need much blood-only a teaspoonful. The only requirement: both must desire the other at the time of the casting. The caster seals the two blood samples inside the vials, hanging each from a chain. As the lovers exchange vials and hang them around their necks, the caster sings a song in praise of their lover to Aphrodite, Ishtar or another love or lust deity.",
+    "system": "With a win on the Ritual test, le Sang de l'Amour allows both participants to concentrate (Resolve + Awareness) and know approximately where the other is on a success. They don't get an exact location, but have a rough sense of distance-in the same city, the same state, across the ocean from each other. With more successes, they get more information, small details of the sensation of being in the other's location: they feel a deck pitching up and down, the strain of climbing harsh terrain, or the vibration ofloud noise. With a critical win, the ritual provides one automatic success on the lover's perception roll. Any other successes let them actually see brief glimpses of their lover and their surroundings, and even hear snatches of conversation. On a total failure, the blood accidentally mixes in the vials and both participants get disoriented and confused if they try to concentrate on the other. T heir Composure suffers, reducing by 1 until the end of the next scene even if they break both vials and end the ritual. The ritual only remains effective as long as both wear their partner's vial and as long as the vials remain unbroken. If one of the participants does not actually desire the other during the ritual (if a player, they should state as much privately to the Storyteller}, their vial dries and clots the first time they use it, becoming useless muck. T his has no adverse effect on the two participants beyond the personal fallout."
+  },
+  {
+    "id": 33,
+    "level": 2,
+    "name": "Silentia Mortis",
+    "description": "Replicating Discipline powers didn't begin with T hin-Blood Alchemy. The Banu Haqim initially developed this ritual for those of their assassins who didn't possess the Silence ofDeath (Obfuscate 1) power. lt has since spread into general use. The ritual enchants a talisman ( usually the paw of a cat, weasel, or other silent desert animal} to generate a sort of white noise or counter-resonance by roiling the holder's Blood. The effect: a magical silence emanating from the holder, muting all sounds within its radius of effect. Sounds originating outside that radius can be heard inside, dimly.",
+    "ingredients": "Paw of a cat or other silent desert predator, blood from caster (and from holder, if different), corpse-wax candle, a white rose.",
+    "execution": "The caster whispers the words of this 64 ritual, cuts their palm, and clenches the paw in their fist, soaking it in a Rouse Check worth of their blood. If intended for a holder besides the caster, the holder also cuts their palm and holds the paw, making their own Rouse Check and mingling their blood. The holder remains completely silent during this ritual. After burning the rose in the candle, the caster quenches the candle flame with the bloody paw.",
+    "system": "A win on the Ritual roll creates a 6-meter radius of magical silence around the holder once they activate the talisman by making a second Rouse Check. The talisman must touch the holder's flesh, but they need not keep it in their hand. The silence ends when the holder loses the talisman or after one hour, and the talisman shrivels into nothingness. A critical win increases the radius to 12 meters."
+  },
+  {
+    "id": 34,
+    "level": 2,
+    "name": "Tiamat Glistens",
+    "description": "Blood sorcerers know that places of power, like mortals, just need tobe tapped. This ritual prepares the place of power, increases its true potential, and perhaps most importantly attunes it personally to the vampire. This Ritual is a common element in many Chained Rituals. Sorcerers seek means of permanently attuning a site to themselves, possibly through a Blood Bond similar to the koldunic initiation ritual, or through the sacrifice of a rival sorcerer on the site, but so far nobody has found one. Nobody who's talking, anyway.",
+    "ingredients": "A place of power such as a furcus, dust of a precious metal ( which one depends on the magical valence of the site).",
+    "execution": "The caster mixes a Rouse Check's worth of blood with the precious metal dust. At the site of a place of power, they shout praises to T iamat, scattering the bloody metal dust mixture into the air and on the ground for at least fifteen minutes.",
+    "system": "On a win, the sorcerer primes the place of power for any ritual taking place there for a number of nights equal to the number of successes on the Ritual test. During this time, any ritual performed by the caster on this place of power gains the bonuses or other advantages associated wich it-usually a dice bonus to Ritual pools. On a critical win, the sorcerer also autornatically succeeds on one die of their Ritual roll. Only one caster receives the benefits ofTiarnat Glistens per place of power. If another caster successfully perforrns the Ritual during the time of another caster's successful casting, the first caster irnrnediately loses the dice bonus."
+  },
+  {
+    "id": 35,
+    "level": 2,
+    "name": "Viscera Garden",
+    "description": "Blood sorcerers can grow Blood-addicted plants in special fields, using the crops as rnagical cornponents or for enjoyrnent. lt's also a great way to get rid of a body, if the Blood sorcerer has the space.",
+    "ingredients": "A plot ofland, a day-old human or anirnal corpse, the caster' s Blood (for upkeep).",
+    "execution": "The caster clears out a plot ofland and digs a hole. They tear open their wrist and pour a Rouse Check's worth ofBlood into the human or anirnal corpse. The corpse being a day old is essential in the human corpse's case; accidental Ernbraces have occurred when a human corpse is too fresh. T he corpse is eviscerated, and its rnass thrown into the hole. The caster plants or transfers their preferred planes to the plot, then covers ehern in the corpse's viscera.",
+    "system": "A win instantly disintegrates the buried body and viscera into blood-scented smoke. In addition, planes grown in the plot are unusually hardy and varnpires can ingest thern ( consurning these planes as food slakes no Hunger, but it stays down). Varnpiric influence Discipline tests against a rnortal who ingested a viscerated plant take - 1 to Difficulty ( or the target loses two dice frorn their resistance pool, for contests). The planes rnust receive a Rouse Check's worth ofBlood every rnonth, or else they wither and die within a week. A critical win extends the length of time between waterings to two rnonths. An anirnal corpse can fertilize a Viscera Garden of about 1 x 1 rneters, or about 3 x 3 feet. A human corpse doubles these dirnensions."
+  },
+  {
+    "id": 36,
+    "level": 3,
+    "name": "Blood Sigil",
+    "description": "This ritual stores important records and documents in one of the most resilient mediums available: the unliving flesh of another Kindred.",
+    "ingredients": "Tattoo ink or other substances that can stain skin, a written message on paper, a photograph, or a painting, a sharp object with a tip heated by candle flame.",
+    "execution": "The vampire to be tattooed opens a vein in their wrist with the sharp object-usually a scalpel, a knife, or the needle in a tattoo gun-and bleeds into containers with their chosen painting material. Then, the caster tears the paper or picture, mixing the remains into the paints while chanting for fifteen minutes. The caster applies the Blood Sigil on another vampire by heating the sharp object's tip, dipping the sharp object into the paints, and carefully carving an image into the vampire's skin. This image need not be relevant to its hidden information.",
+    "system": "Make no Ritual roll until after applying the Blood Sigil. A win permanently seals the tattooed image into the vampire's skin and perfectly preserves the message within. A failure creates a tattoo and preserved message that fades away upon the vampire's next rising. Read the message within a Blood Sigil by viewing or touching the sigil for fifteen minutes and either winning a Resolve + Occult Testat Difficulty 5 (Difficulty 4 if touching the tattoo) or using Sense the Unseen (Auspex 1). T he sorcerer who applied the Blood Sigil can erase the tattoo (and the message) by spending one Willpower and touching the tattoo for fifteen minutes."
+  },
+  {
+    "id": 37,
+    "level": 3,
+    "name": "Elemental Shelter",
+    "description": "[Requires Koldunic Sorcery] This ritual allows the koldun to melt into and shelter within their chosen element, as with Earth Meld (Protean 3). A fire-bonded koldun does not check for Rötschreck against any fire they ignite for the 66 purpose of this ritual, but must resist terror frenzy before casting this Ritual to meld with the flames in a suddenly-burning Haven, for example.",
+    "ingredients": "At least enough of the element in question to envelop the koldun's body.",
+    "execution": "The koldun scratches open their initiatory scar, bleeds into the element, commands it to receive them, and falls or dives into it.",
+    "system": "On a win, the koldun melds into the element. No physical attack can injure them, nor can sunlight or fire. While in the element, the koldun remains aware of their surroundings, except during day-sleep. At those times, disturbances such as digging or loud noises awaken ehern or not, as with all vampires. The koldun's form remains waveringly visible to Sense the Unseen (Auspex 1) or to normal sight (Wits + Awareness) with a Difficulty equal to the margin of the Ritual roll. On a critical win, the koldun completely merges with the element, becoming entirely invisible. The koldun can emerge from the element at will by night at the spot they entered it. lf a fire-bonded koldun's fire goes out ( or less likely, if someone drains a water-bonded koldun's aqueous shelter), the koldun enters torpor within or beneath the ashes and coals. They can make a Resolve + Awareness test (Difficulty 2) to awaken in the presence of potential prey just as if they had fallen into torpor from hunger."
+  },
+  {
+    "id": 38,
+    "level": 3,
+    "name": "Nepenthe",
+    "description": "Nepenthe offers \"quiet of all pain and strife, forgetfulness of every ill\" -but just a taste. The ritual's draught temporarily clouds the mind and makes the drinker's terrible deeds seem pale and distant, like a story they heard long ago. But the mixture has its dangers: use it too often, and one's ability to feel remorse withers and fades.",
+    "ingredients": "Poppy seeds, starflower, honey, the subject's tears, the caster's Blood.",
+    "execution": "The caster pulverizes the solid ingredients together in a bowl and mixes in the Blood and honey. The last ingredient added should be the tears of the ritual's subject. The potion gives off a strong, sickly sweet smell. The subject must drink the entire draught in one go.",
+    "system": "With a win on the Ritual roll, Nepenthe removes 1 Stain from the drinker's tracker before a Remorse roll. On a critical win, Nepenthe removes 2 Stains before a Remorse roll at the end of the session. However, on a Total Failure, 1 Stain carries over to the next session, regardless of whether the Remorse roll succeeded or not. If a vampire uses Nepenthe more than two sessions in a row, their mind becomes dependent on it and one of their Stains becomes permanent. This is a cumulative effect-four sessions in a row results in two permanent Stains, etc."
+  },
+  {
+    "id": 39,
+    "level": 3,
+    "name": "Seeing with the Sky's Eyes",
+    "description": "The watcher's eye sees best when the target cannot see the watcher. The Banu Haqim know this and use a special ritual to observe targets from the one place they cannot possibly detect: Heaven itself. The Tremere scoff at the idea that the caster travels to a higher realm and observes targets from above, but they can't deny the results, and have brought this ritual into their practice.",
+    "ingredients": "Euphorie mortal blood (usually from someone high on cannabis), incense, brazier, an effigy or photo of a target.",
+    "execution": "The caster drinks the euphoric blood, lights a mixture of their own Blood (one Rouse Check worth) and incense in a brazier, inhales it and falls into an ecstatic trance while studying the target image.",
+    "system": "After a half-hour of the trance, make the Ritual roll. On a win, the caster may ask the Storyteller one question about the target's location and surroundings for every success rolled. On a critical win, the caster receives an additional three questions, and may ask about the target's Ambition, Desire, Convictions, and Humanity in addition to any questions about the target's location and whereabouts."
+  },
+  {
+    "id": 40,
+    "level": 3,
+    "name": "Seeking Tiamat",
+    "description": "This ritual helps Blood sorcerers seek out the veins of the Earth, bringing the flow of their Blood into harmony with the blood of Tiamat.",
+    "ingredients": "A foot-long, sharpened piece of witch hazel or magnetized iron.",
+    "execution": "The caster jams the wood or iron into their forearm along the ulnar vein, causing themselves 1 point of Aggravated damage, and makes a Rouse Check. Then they must walk around the city or region for at least fifteen minutes.",
+    "system": "On a win, their arm begins twitching and pointing toward the closest furcus in the area; by changing their direction, intelligent casters can triangulate a location within a few minutes. On a critical win, the tool discovers the closest vein of the Earth, and points toward two furcae on that vein."
+  },
+  {
+    "id": 41,
+    "level": 3,
+    "name": "Soul of the Hemonculus",
+    "description": "This enchantment forms a shriveled, impaired, quarter-weight duplicate of its caster's mortal self. This squat, restricted, and often bitter creature must obey any command by its maker, sometimes willingly, sometimes not. They are not harmed by sunlight. You can make one as a lab assistant, flunky, or substitute child if you like.",
+    "ingredients": "Glass bottle blown on the night before the new moon, semen, chalk, graveyard dirt, the caster's Blood, a dead man's thumb, and a dead pig.",
+    "execution": "The caster puts the Blood and other ingredients in the glass bottle, corks it with the thumb, shakes well, and lets it sit in total darkness until the full moon. The bottle is then bathed in moonlight while the caster recites a short chant, before sewing it into the pig's stomach. The caster buries the pig in consecrated ground, at least three feet deep, and makes the Ritual roll. If it succeeds, on the next new moon when the caster digs it up, the pig looks like a miniature version of them. The caster commands it to arise, and it must obey.",
+    "system": "Make the Ritual roll against the higher of 3 or the user's Stamina: their very flesh resists this blasphemy. If the roll succeeds, the hemonculus quickens and births in a month. A hemonculus has its maker's Attributes and the Skills from their mortal life, but each at one dot lower, to a minimum of 1, half the maker's Health and one dot of Willpower. Hemonculi can't become ghouls, be Embraced, or be Blood Bound, and any vampire who feeds on one gains no nourishment and finds the process repellent."
+  },
+  {
+    "id": 42,
+    "level": 3,
+    "name": "Stone of the True Form",
+    "description": "With a special stone and an excellent throwing arm, a Blood sorcerer can dispel hallucinations and deceptions of the night. It's even rumored to work on lupines.",
+    "ingredients": "A hunk of metamorphic rock, such as slate or marble.",
+    "execution": "The caster must smooth, carve, or turnble the rock into a sphere somewhere between the size of a marble and a baseball. If they have a relevant Craft specialty, or access to a geology lab, they can make a test to do it in an hour; otherwise it takes six hours. The caster then coats the sphere in a Rouse Check worth of their boiling Blood and commands it to reveal in the oldest language they know.",
+    "system": "When the vampire throws the stone (Dexterity + Athletics) and hits something that is either an illusion, a being created by a D iscipline or ritual (such as a Tzimisce's vozhd or a hemonculus), or a shapeshifted being ( either by Protean or by inherent means ), the sorcerer rolls the Ritual roll versus the target's Resolve + Occult. On a win, the illusion dispels in a spray of blood, the created being tears apart into its individual components, or the shapeshifter painfully shifts into its original form. This unveiling effect lasts for one round. Any margin equals the dice penalty to the illusion resuming, creation repair, or next shapeshifting attempt. On a failure, the caster may try again until sunrise, assuming they can recover the stone without being slaughtered. Once the ritual succeeds, the stone breaks in half and cannot be reused."
+  },
+  {
+    "id": 43,
+    "level": 3,
+    "name": "Trespass",
+    "description": "This old Ministry ritual resembles various Obfuscate powers, with a few important limitations. lt only applies to the structure used as an ingredient, and its user can still be perceived by supernatural beings or entities. To nonsupernatural entities, they seem tobe a statue, pillar, decorative piece of molding, tapestry, or other part of the structure. The vampire can also flow themselves through any crevice or other passage in the structure that blood could flow through: not through a sealed vault door, but through most door frames and air ducts. U nlike Incorporeal Passage, they can be attacked and damaged. Trespass does not hide one from a location's genius loci (p. 133).",
+    "ingredients": "Fragment of the desired location's cornerstone or doorstep, the blood of a thief, thread.",
+    "execution": "The caster ties one end of the thread around the fragment of cornerstone and soaks both in the blood. They then chant an efficacious prayer to Hermes or Set-the traditional patrons of the Trespass ritual - or any other spirit or deity associated with trespass. The caster wraps the thread about the trespasser's body, starting at the heel and ending around the forehead.",
+    "system": "The ritual lasts for as long as the thread remains wet with blood (one scene, or about 30 minutes). When the vampire attempts to actually enter the building, make the Ritual roll. On a win, the caster enters without problem. With a Will power spend, they can flow through air vents, cracks under doors, or anywhere else liquid blood could flow. On a critical win, they don't need to spend Willpower to flow through such cracks, and gain an intuitive knowledge of the structure's layout. On a total failure, the building itself rejects the caster. Everyone passing by gains two dice to their pools to notice and suspect the trespasser, who takes Superficial Health damage equal to the number of failed dice in that pool every turn they remain in the building."
+  },
+  {
+    "id": 44,
+    "level": 3,
+    "name": "Viral Haruspex",
+    "description": "Unique to the plague oracles (p. 114), this ritual focuses on the common cold-specifically the rhinovirus subvariant, the most common version. As with all plague oracle Rituals, the caster must be hosting the virus. To host a virus, the vampire must drink from a mortal carrier of the disease within 24 hours before casting the ritual: after that, the germs die in the Kindred Blood. Viral Haruspex aggregates sensory data or factual recollection from every mortal in a twenty-kilometer radius carrying the rhinovirus. If you're looking for someone, you can know if any mortal with a cold has seen them. If you want to know a particular fact and don't trust Wikipedia, you can consult the memories of everyone in the range who's all snotted up.",
+    "ingredients": "Live rhinoviruses in caster's Blood, a rat, a bowl or dish. Plague oracles love to use stainless steel surgical bowls for their rituals, but that's not a hard requirement.",
+    "execution": "The caster mingles a Rouse Check worth of their Blood in the bowl with the brains of the rat and stirs it up widdershins. The vampire then drinks the blood while staring into the dish.",
+    "system": "A win on the Ritual roll produces a vague impression of the sought data, overlapping or echoey if more than one sick mortal is looking at or listening to the target. For factual knowledge, the information flows into the caster's head: \"That store was on 19th Street but it closed in 2009 when the owner got divorced.\" More successes over the Difficulty provide more complete vision, knowledge, or other results."
+  },
+  {
+    "id": 45,
+    "level": 4,
+    "name": "Compel the Inanimate",
+    "description": "This ritual allows a vampire to take control of an object for a single moment, with just enough time to step away and deny plausibility.",
+    "ingredients": "Any inanimate object.",
+    "execution": "The caster smears a glyph on an inanimate object with one Rouse Check's worth of their Blood and gives the object a quick order. After the caster's Blood dries on its surface (about five minutes), the object carries out the order to its best ability.",
+    "system": "A win on the Ritual roll allows the object to understand their order as the caster intended it. A critical win allows for one additional order, which does not have to be carried out at the exact same time as the first order but must be carried out before the night's end. Orders must be simple commands, not complex sentences:fall over, crash, or erase your databanks. Objects do not have concepts of time and cannot easily recognize individual people, so orders concerning a specific time or person cannot be carried out perfectly. The caster must be in the same relative environment as the object when the order is carried out, such as a caster ordering a lamppost in a park to shut off must still be in the park, a caster who commands a museum suit of armor to tumble must be in that museum, etc. Sense the Unseen (Auspex 1) can detect the caster with a contest ofWits + Auspex vs. the caster's Composure + Blood Sorcery."
+  },
+  {
+    "id": 46,
+    "level": 4,
+    "name": "Egregore Consulation",
+    "description": "This proprietary plague oracle (p. 108) ritual focuses on the influenza virus, so its caster must be hosting influenza to use it. Mystics use the term egregore for a sort of unified oversoul of a region, people, or spiritual category. In this case, it means the combined knowledge and instincts of everyone within twenty kilometers who has the flu. In addition to drawing on their own training, the plague oracle can access - at least in part - the wide and relevant experiences of every sick person in range.",
+    "ingredients": "Live influenza viruses in caster's Blood, worms, flukes, or other parasites, a knife, a magnet.",
+    "execution": "The caster chops up the worms with the knife and smears them on the magnet. Holding the magnet in their left hand and facing north, they intone the ritual chant.",
+    "system": "The sorcerer picks a Skill they wish to enhance before making the Ritual roll. On a win, the next three times the plague oracle uses that Skill in a pool, they get a dice bonus equal to one plus their margin on the Ritual test. lf the Storyteller decides the Skill is only somewhat uncommon, add a die to that bonus; if the skill is very common, add two dice. On a critical win, add a free Specialty or another bonus die if the caster already has the desired Specialty. For example, a Tremere in Cairo hunted by an lslamic anti-vampire society could use this to speed her research in this ancien t cen ter of learning. She rolls six successes: a margin of 1 plus 1 die, plus 1 more die for the numerous fluey scholars in the area. She gets three dice to add to her next three Academics rolls. She could similarly play the stock market with Finance in New York or Shanghai, or get off a crack shot or three in Dallas."
+  },
+  {
+    "id": 47,
+    "level": 4,
+    "name": "Land's Sustenance",
+    "description": "This ritual allows a Blood sorcerer to \"feed\" from a place of power. They transform it into a place of suffering, from which they stave off their own Hunger for a small while. The kolduny call their version of this ritual Mouth of the Land.",
+    "ingredients": "A place of power such as a furcus, anything that demarcates a territory such as police tape, a sign post, an enclosed space, etc., a dagger.",
+    "execution": "Over four nights, the caster uses a dagger to carve occult symbols into the corner of a plot ofland or the corners of a wall within a place of power, one corner for each night. On the fifth night, the caster must stain all these symbols with half of a Rouse Check's worth ofblood, circumventing the entire location and staining them before the night ends. With the other half, the vampire stains something that demarcates the territory they've carved out and places it either around the area (if it's something like police tape) or in a corner of the area (if it's something like a sign).",
+    "system": "On a win, the land the vampire marked off hungers. A simple cut turns into a laceration. An otherwise harmless fall breaks necks. In general, injuries and accidents become bloodier. As the land sups on the blood of innocents, the benefits mystically pass on to the caster. Once per session, the caster may choose to automatically pass a nurnber of Rouse Checks equal to their margin on the Ritual test. This ritual lasts until the end of the story. After that, the caster must recoat the symbols with a Rouse Check and a Ritual roll."
+  },
+  {
+    "id": 48,
+    "level": 4,
+    "name": "Riding the Earth's Veins",
+    "description": "If a Blood sorcerer has access to a furcus, this ancient Banu Haqim ritual serves as a last resort when escaping enemies. There's a catch: the caster has no control where they end up. Riding the planet's secret rails means casting your fate to the wind, literally.",
+    "ingredients": "A furcus, a physical sign of entrance such as a ticket, key, or doorknob.",
+    "execution": "At the furcus, the caster bathes the sign of entrance in a Rouse Check's worth ofBlood while singing praises to a deity or farnous figure representing escape, travel, or the wind. Traditionally, this ritual calls upon the Mesopotamian god Enlil. After ten minutes, pour the Blood on the ground.",
+    "system": "Make no Ritual roll until the vampire touches the soil ( or floor) of their chosen furcus with their physical sign of entrance. On a win, the caster dissolves into a bloody mist, drawn into the Earth's veins and reincorporated twenty minutes later at a furcus of the Storyteller's choosing. On a critical win, they arrive at the nearest furcus to their Haven or to a place of power attuned to the caster by Tiamat Glistens (p. 64). This ritual is one-way, and only activates at the specific furcus where the sorcerer first cast it."
+  },
+  {
+    "id": 49,
+    "level": 5,
+    "name": "Elemental Attack",
+    "description": "[Requires Koldunic Sorcery] This koldunic ritual commands their element to attack a target: avalanche or sudden subsidence or falling tree, flash flood or waterspout, lightning bolt or stifling suffocation, gas main explosion or sudden electrical fire.",
+    "ingredients": "A weapon representing or made from the element, such as a wooden club, an icicle, a meteoric iron knife, a torch, etc.",
+    "execution": "Wielding the weapon, the koldun opens their initiation scar and rnakes a Rouse Check while cornrnanding the elernent to attack a target the koldun perceives. Magical perception counts for this purpose.",
+    "system": "On a win, the elernent attacks the target. If the elernent is already awake during the casting ( cornrnanding air during a thunderstorrn, for instance), the koldun adds one die to their Ritual pool. The target takes one point of Aggravated Health darnage per success, and the sarne darnage again every round afterward until they win an appropriate escape contest ( e.g., Dexterity + Athletics) vs. the koldun's Resolve + Blood Sorcery. Excepting fire, the elernents only do Superficial darnage to varnpires, but they rnay still bury thern, carry thern away in a flood or tornado, etc. On a critical win, the elernent attacks every suitable target at the caster's discretion within sight of the rnain target. The effect continues until the koldun does anything else besides cornrnand the elernents: fight, rnove, rnake any other skill roll, etc. Chain: When chained with Elernental Grasp (p. 62) and Tiarnat Glistens (p. 64), this ritual unleashes a nigh-apocalyptic elernental effect: earthquake, tsunarni, tornado, rnagrna flow, etc. Darnage doubles to the targets, but collateral darnage gets wildly out of hand, and continues until the kolduny stop casting."
+  },
+  {
+    "id": 50,
+    "level": 5,
+    "name": "Fisher King",
+    "description": "This Ritual rnakes a Blood sorcerer one with their chosen land, reading its secrets like a book. The chosen land size varies with the sorcerer's power, but generally roughly equals the size of their coterie's dornain. The koldun version is called Lozov Kral.",
+    "ingredients": "A landrnark representing a region, dirt frorn the region, a horse-hair paintbrush",
+    "execution": "The varnpire blends a Rouse Check's worth of blood with dirt frorn the region they wish to observe. With the blend, the sorcerer paints magical symbols on a landmark important to the land's inhabitants.",
+    "system": "On a win, the caster develops a mental connection to the land. Once per session, the sorcerer may make a Wits + Streetwise (if urban or suburban) or Wits + Survival (if rural) test. For each success, the Storyteller truthfully answers one question the player has about the land: its greatest threat, does an enemy reside there, the Resonance of its inhabitants' blood, etc. This ritual lasts until the end of the story, during which the caster may ask one more question per session. After that, the caster must replenish their symbols, making another Rouse Check and Ritual roll to renew it. Chain: When chained with Land's Sustenance (p. 64) and Compel the lnanimate (p. 69), the coterie has almost total control over the place of power and its surrounding area. They have near-omniscience over the land, with three free questions about it per session, per caster. The land's structures or trees watch and warn the casters ofhostile approach, unless magically disguised or shielded. While on the land, the casters can mend up to S points of Aggravated damage per night, total (split between the casters on a first-come, first-serve basis)."
   }
 ]

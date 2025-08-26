@@ -425,6 +425,18 @@
         {
           "type": "paragraph",
           "text": "Resonanz gibt der Jagd zusätzliche Tiefe. Bestimmte Orte fördern bestimmte Resonanzen (z.B. Clubs für sanguinisch, Krankenhäuser für melancholisch). Dyskrasien können gezielt durch 'Zucht' emotionaler Zustände bei Opferpersonen erzeugt werden – eine moralisch verwerfliche, aber mächtige Taktik."
+        },
+        {
+          "type": "title",
+          "text": "Spezielle Regelen über Disziplinen"
+        },
+        {
+          "type": "subtitle",
+          "text": "Verkettete Blutrituale"
+        },
+        {
+          "type": "paragraph",
+          "text": "Alle Rituale sind für sich nützlich, doch manche entfalten in Kombination größere Wirkung. Blutmagier können Wirkungen erschaffen, die über gewöhnliche Rituale der Stufe 5 hinausgehen, indem sie mehrere kompatible Rituale miteinander verweben und ihre Kräfte zu einer größeren Macht verschmelzen lassen. Diese Wirkungen, verkettete Rituale genannt, waren einst streng gehütete Geheimnisse eifersüchtiger Blutmagier, besonders der Tremere und Banu Haqim.\n\nEin verkettetes Ritual besteht aus mindestens drei Ritualen beliebiger Stufe, wobei ein Ritual der Stufe 5 als Angelpunkt dient. Jedes Ritual des Verbunds, auch das Angelpunkt-Ritual, besitzt für sich genommen seine normalen Effekte. Wirken die Zaubernden jedoch alle Rituale eines Verbunds innerhalb von 10 Metern zueinander, tritt anstelle der individuellen Effekte die verkettete Wirkung des Angelpunkt-Rituals ein.\n\nDamit ein verkettetes Ritual gelingt, müssen alle beteiligten Rituale erfolgreich abgeschlossen werden: Schon ein einzelner Fehlschlag bricht die Kette."
         }
     ],
     "append": [

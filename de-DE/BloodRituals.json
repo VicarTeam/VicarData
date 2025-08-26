@@ -340,5 +340,221 @@
     "ingredients": "Der Thaumaturg zeichnet den Schutzkreis mit einem Stab aus Ebereschenholz, der in eine Mixtur aus Asche eines noch brennenden Feuers und seinem Blut getaucht wurde.",
     "execution": "",
     "system": ""
+  },
+    {
+    "id": 27,
+    "level": 1,
+    "name": "Astromantie",
+    "description": "Die Sterne schreiben die Naturen derer auf der Erde unter ihnen – oder spiegeln sie vielleicht wider. Durch die Verbindung von Astrologie und Hämatomantie zieht der Zauberer wahre Informationen über Verbündete, Feinde und Sterbliche, die sein Interesse wecken.",
+    "ingredients": "Der Nachthimmel; ein silberner Spiegel oder eine Platte; Blut, Haare, Speichel oder Fleisch des Ziels",
+    "execution": "Mitten in der Nacht geht der Zaubernde an einen Ort mit freier Sicht auf die Sterne. Dort legt er das biologische Material des Ziels auf die silberne Oberfläche und vergießt eine Hungerprobe Blut darüber. Bis zu einer halben Stunde beobachtet er, wie sich das Blut zu Mustern und Bildern formt, die Antworten über das Ziel offenbaren.",
+    "system": "Ein Erfolg beim Ritualwurf offenbart die größten Begabungen des Ziels (also jedes Attribut oder jede Fertigkeit mit 4 oder mehr Punkten) sowie seine aktuelle Ambition. Ein kritischer Erfolg offenbart zusätzlich sein aktuelles Verlangen und mindestens eine seiner Überzeugungen. Kennt der Zaubernde das genaue Geburts- oder Umarmungsdatum des Ziels, erhält er einen zusätzlichen Würfel für den Ritualpool (kennt er beides, bleibt es dennoch bei +1)."
+  },
+  {
+    "id": 28,
+    "level": 1,
+    "name": "Die Anklage binden",
+    "description": "Die Tremere entwickelten dieses Ritual früh in ihrem Aufstieg zur Macht – was diesen Aufstieg vielleicht erklärt. Das Ritual hindert das Ziel daran, schlecht über den Zaubernden zu sprechen, und stellt sicher, dass dessen unaussprechliche Taten unausgesprochen bleiben.",
+    "ingredients": "Ein Bild oder Abbild des Ziels, eine Locke des Haares des Ziels, eine schwarze Seidenschnur.",
+    "execution": "Der Zaubernde wickelt die Schnur um Haar und Bild, während er den Ritualzauber rezitiert.",
+    "system": "Ein Erfolg beim Ritualwurf verhindert, dass das Ziel etwas Negatives oder Schädliches über den Zaubernden sagen, schreiben oder anderweitig direkt kommunizieren kann – selbst, oder vielmehr besonders dann, wenn es wahr ist. Will es dies doch, muss es einen Wurf auf Selbstbeherrschung + Entschlossenheit (Schwierigkeit = Wert der Blutszauberei des Zaubernden + 2) bestehen. Bei einem kritischen Erfolg erhöht sich die Schwierigkeit auf +3. Das Ritual hält an, bis das Ziel den Wurf besteht oder bis die Schnur sich löst; in diesem Moment zerfallen Haar und Bild zu Staub."
+  },
+  {
+    "id": 29,
+    "level": 2,
+    "name": "Meisterschaft der Hand",
+    "description": "Manche Blutzauberer suchen nach Fertigkeit durch ihre Magie, anstatt den mühsamen Weg des Lernens zu gehen. Der Zauberer trinkt eine Fertigkeitsspezialisierung von einem begabten Subjekt.",
+    "ingredients": "Blut eines begabten Subjekts, ein repräsentatives Handwerksobjekt (z. B. Nadel, Buchseite, Spielkarte, Meißel), Geierknochen.",
+    "execution": "Der Zaubernde verkohlt die Geierknochen im Feuer und legt das repräsentative Objekt in eine Schale über die Flammen. Er gießt das Blut des Subjekts hinein, bis das Objekt bedeckt ist. Während die letzten Knochen verbrennen, trinkt der Vampir das Blut aus der Schale und berührt dabei mit den Lippen das Objekt.",
+    "system": "Bei Erfolg erhält der Zaubernde die Punkte und die Spezialisierung des Subjekts in Gelehrsamkeit, Handwerk, Auftritt oder Naturwissenschaften bis Sonnenaufgang. Die Werte ersetzen seine eigenen. Besitzt er diese Spezialisierung bereits, erhält er zusätzlich einen Bonuswürfel. Ein kritischer Erfolg verlängert die Wirkung auf eine Woche. Ein Patzer führt dazu, dass der Zaubernde das Objekt verschluckt und 2 Punkte schweren Gesundheitsschaden erleidet."
+  },
+  {
+    "id": 30,
+    "level": 2,
+    "name": "Tiefen des Alptraums",
+    "description": "Dieses Ritual verleiht dem Ziel die schlimmsten Albträume seines Lebens. Vom Kult des Set entwickelt, um widerspenstige Anhänger zu strafen, hat es auch außerhalb Verbreitung gefunden, da es den Willen eines Ziels effektiv zermürbt.",
+    "ingredients": "Haar des Ziels; geschmolzenes Wachs; Natron (Soda).",
+    "execution": "Der Zaubernde mischt eine Hungerprobe Blut in das geschmolzene Wachs und rollt das Haar des Ziels darin. Er formt daraus eine menschenähnliche Figur und ritzt Glyphen oder Flüche in seiner Sprache hinein. Anschließend tränkt er die Figur in einer Schale Wasser mit Natron.",
+    "system": "Bei Erfolg leidet das Ziel eine Anzahl Tage oder Nächte voller Albträume in Höhe der erzielten Erfolge. Nach jedem Schlaf erleidet es 1 Punkt oberflächlichen Willenskraftschaden. Ein kritischer Erfolg verursacht stattdessen schweren Willenskraftschaden. Dieser kann nicht auf normale Weise geheilt werden, solange das Ritual anhält. Ein Patzer führt dazu, dass das Ziel angenehme Träume von einem ibis-köpfigen Mann hat, der es in Richtung des Zaubernden weist – selbst wenn keine ägyptische Symbolik verwendet wurde."
+  },
+  {
+    "id": 31,
+    "level": 2,
+    "name": "Elementarer Griff",
+    "description": "[Erfordert koldunische Zauberei] Dieses koldunische Ritual befiehlt dem gewählten Element des Zaubernden, ein Ziel aufzuhalten oder zu behindern: klebriger Schlamm, Erdrutsch, Flut, Hagel, eisiger Wind, Nebel, Hitze oder Feuer.",
+    "ingredients": "Eine Handvoll des Elements oder eine rituelle Repräsentation (z. B. Holzstab für Erde, Messer oder Federn für Luft).",
+    "execution": "Der Koldun ritzt seine Initiationsnarbe auf, führt eine Hungerprobe durch und befiehlt dem Element, das Ziel zu behindern.",
+    "system": "Bei Erfolg erhebt sich das Element gegen das Ziel. Ist das Element bereits aktiv (z. B. ein Sturm), erhält der Zaubernde einen Bonuswürfel. Das Ziel erleidet pro Erfolg 1 Punkt oberflächlichen Gesundheitsschaden und muss eine passende Probe ablegen (z. B. Zähigkeit + Athletik oder Selbstbeherrschung + Fahren), gegen Schwierigkeit 1 + Gesamterfolge des Ritualwurfs. Ein kritischer Erfolg lässt das Element gegen alle geeigneten Ziele in Sichtweite wirken. Die Wirkung hält an, bis der Koldun eine andere Handlung ausführt."
+  },
+  {
+    "id": 32,
+    "level": 2,
+    "name": "Le Sang de l’Amour",
+    "description": "Dieses Ritual schafft eine magische Verbindung zwischen dem Zaubernden und einem Liebhaber, die über gegenseitige Anziehung hinausgeht.",
+    "ingredients": "Blut des Zaubernden und seines Liebhabers; zwei Glasphiolen an Ketten oder Lederbändern.",
+    "execution": "Der Zaubernde sammelt sein eigenes Blut und das seines Liebhabers gleichzeitig, sorgfältig getrennt. Beide müssen sich im Moment des Zaubers zueinander hingezogen fühlen. Je ein Tropfen Blut wird in eine Phiole gefüllt und diese versiegelt. Die Liebenden tauschen die Phiolen und hängen sie sich um den Hals, während der Zaubernde ein Lied zu Ehren einer Liebesgöttin singt.",
+    "system": "Ein Erfolg beim Ritual erlaubt beiden Teilnehmern durch Konzentration (Entschlossenheit + Aufmerksamkeit) die ungefähre Position des anderen zu spüren. Mehr Erfolge gewähren detailliertere Eindrücke (z. B. schwankendes Schiff, laute Umgebung). Ein kritischer Erfolg ermöglicht sogar kurze Eindrücke von Aussehen und Stimme des Partners. Ein Patzer führt dazu, dass die Blute sich in den Phiolen vermischen und die Teilnehmer verwirrt und benommen werden (Selbstbeherrschung –1 bis zum Ende der Szene). Das Ritual wirkt nur, solange beide die Phiole ihres Partners tragen und sie intakt ist."
+  },
+  {
+    "id": 33,
+    "level": 2,
+    "name": "Silentia Mortis",
+    "description": "Ursprünglich von den Banu Haqim entwickelt, um Attentätern ohne Verdunkelung Zugriff auf magische Stille zu geben. Das Ritual verzaubert einen Talisman (oft die Pfote eines leisen Tieres), sodass er durch das Blut des Trägers magische Stille ausstrahlt.",
+    "ingredients": "Pfote einer Katze oder eines leisen Raubtiers, Blut des Zaubernden (und des Trägers, falls verschieden), Kerze aus Leichenwachs, weiße Rose.",
+    "execution": "Der Zaubernde flüstert die Worte, schneidet seine Handfläche auf und tränkt die Pfote in einer Hungerprobe Blut. Wenn jemand anderes der Träger sein soll, muss auch dieser Blut vergießen. Die Rose wird in der Kerze verbrannt, deren Flamme mit der blutigen Pfote gelöscht wird.",
+    "system": "Bei Erfolg erzeugt der Talisman nach einer zweiten Hungerprobe einen 6-Meter-Radius magischer Stille. Er muss Hautkontakt haben, aber nicht in der Hand gehalten werden. Die Wirkung endet nach einer Stunde oder wenn der Talisman verloren geht. Bei kritischem Erfolg beträgt der Radius 12 Meter."
+  },
+    {
+    "id": 34,
+    "level": 2,
+    "name": "Tiamat glänzt",
+    "description": "Blutmagier wissen, dass Orte der Macht – wie Sterbliche – nur angezapft werden müssen. Dieses Ritual bereitet einen solchen Ort vor, steigert sein wahres Potenzial und stimmt ihn vor allem persönlich auf den Zaubernden ab. Es ist ein häufig genutztes Kettenglied für andere Rituale.",
+    "ingredients": "Ein Ort der Macht wie ein Furcus, Staub eines Edelmetalls (abhängig von der magischen Eigenschaft des Ortes).",
+    "execution": "Der Zaubernde mischt eine Hungerprobe Blut mit dem Metallstaub. Am Ort der Macht ruft er mindestens fünfzehn Minuten lang Lobpreisungen an Tiamat, während er das blutige Metallgemisch in Luft und Erde verstreut.",
+    "system": "Ein Erfolg bereitet den Ort der Macht für Rituale des Zaubernden für eine Anzahl Nächte entsprechend den Erfolgen vor. In dieser Zeit erhalten seine Rituale dort die Boni des Ortes (meist Bonuswürfel). Ein kritischer Erfolg gewährt zusätzlich einen automatischen Erfolg auf einem Würfel des Ritualwurfs. Nur ein Zaubernder kann von „Tiamat glänzt“ pro Ort profitieren. Führt ein anderer das Ritual erfolgreich aus, verliert der erste sofort den Bonus."
+  },
+  {
+    "id": 35,
+    "level": 2,
+    "name": "Garten der Eingeweide",
+    "description": "Blutmagier können blutsüchtige Pflanzen in speziellen Beeten züchten, die sie als magische Komponenten oder auch zum Vergnügen nutzen. Zudem ist es ein ausgezeichneter Weg, eine Leiche verschwinden zu lassen.",
+    "ingredients": "Ein Stück Land, eine einen Tag alte menschliche oder tierische Leiche, Blut des Zaubernden (zur Pflege).",
+    "execution": "Der Zaubernde bereitet das Beet vor, öffnet sein Handgelenk und gießt eine Hungerprobe Blut in die Leiche. Danach wird sie ausgeweidet und ihre Masse ins Loch geworfen. Anschließend pflanzt der Zaubernde seine Pflanzen hinein und bedeckt sie mit den Eingeweiden.",
+    "system": "Ein Erfolg lässt die vergrabene Leiche sofort in blutigen Rauch zerfallen. Pflanzen in diesem Beet sind besonders robust und können sogar von Vampiren verzehrt werden (stillen aber keinen Hunger). Versuchen Vampire, Menschen zu beeinflussen, die solche Pflanzen gegessen haben, erschwert dies deren Widerstand (–2 Würfel). Das Beet muss monatlich mit einer Hungerprobe Blut versorgt werden, sonst sterben die Pflanzen innerhalb einer Woche. Ein kritischer Erfolg verdoppelt die Zeitspanne. Ein Tierkörper düngt etwa 1×1 m, ein Menschenkörper verdoppelt diese Fläche."
+  },
+  {
+    "id": 36,
+    "level": 3,
+    "name": "Blutsiegel",
+    "description": "Dieses Ritual speichert wichtige Aufzeichnungen und Dokumente in einem der widerstandsfähigsten Medien: der untoten Haut eines anderen Vampirs.",
+    "ingredients": "Tattoo-Tinte oder andere färbende Substanz, eine geschriebene Nachricht oder ein Bild, ein scharfes Objekt erhitzt in einer Kerzenflamme.",
+    "execution": "Der zu Tätowierende öffnet eine Ader und mischt sein Blut mit der Farbe. Der Zaubernde zerreißt die Nachricht und fügt sie den Farben bei, während er fünfzehn Minuten lang rezitiert. Anschließend ritzt er das Bild mit dem erhitzten Objekt in die Haut.",
+    "system": "Erst nach dem Auftragen wird gewürfelt. Ein Erfolg versiegelt Bild und Nachricht dauerhaft. Ein Fehlschlag lässt sie beim nächsten Erwachen verschwinden. Um die Botschaft zu lesen, muss man fünfzehn Minuten das Siegel betrachten oder berühren und einen Wurf auf Entschlossenheit + Okkultismus (Schwierigkeit 5, bei Berührung 4) bestehen, oder „Das Unsichtbare sehen“ (Auspex 1) nutzen. Der ursprüngliche Zaubernde kann das Siegel durch Willenskraftaufwand löschen."
+  },
+  {
+    "id": 37,
+    "level": 3,
+    "name": "Elementares Obdach",
+    "description": "[Erfordert koldunische Zauberei] Dieses Ritual erlaubt es dem Koldun, in sein gewähltes Element zu schmelzen, ähnlich wie „Verschmelzen mit der Erde“ (Gestaltwandel 3).",
+    "ingredients": "Genug des Elements, um den Körper des Koldun vollständig zu umhüllen.",
+    "execution": "Der Koldun ritzt seine Initiationsnarbe auf, blutet ins Element, befiehlt ihm, ihn aufzunehmen, und sinkt hinein.",
+    "system": "Ein Erfolg lässt den Koldun in das Element schmelzen. Er ist vor körperlichen Angriffen, Sonne und Feuer geschützt, bleibt aber bei Nacht bewusst. Mit „Das Unsichtbare sehen“ (Auspex 1) oder Geistesschärfe + Aufmerksamkeit (gegen den Ritualwurf) kann er bemerkt werden. Ein kritischer Erfolg macht ihn völlig unsichtbar. Er kann nachts jederzeit wieder austreten. Erlischt z. B. ein Feuer, verfällt er in Starre. Mit einem Wurf auf Entschlossenheit + Aufmerksamkeit (Schwierigkeit 2) kann er in Gegenwart von Beute wieder erwachen."
+  },
+  {
+    "id": 38,
+    "level": 3,
+    "name": "Nepenthe",
+    "description": "Dieses Ritual braut einen Trank, der Schmerz und Schuld kurzzeitig vergessen lässt – jedoch auf Kosten der Reuefähigkeit, wenn es zu oft genutzt wird.",
+    "ingredients": "Mohnsamen, Sternblume, Honig, die Tränen des Subjekts, Blut des Zaubernden.",
+    "execution": "Die festen Zutaten werden zerrieben, mit Blut und Honig vermischt, zuletzt werden die Tränen des Subjekts hinzugefügt. Der Trank riecht stark süßlich und muss vollständig getrunken werden.",
+    "system": "Ein Erfolg entfernt 1 Makel vor einem Reuewurf. Ein kritischer Erfolg entfernt 2. Ein Patzer sorgt dafür, dass 1 Makel in die nächste Sitzung übernommen wird. Wird Nepenthe mehr als zwei Sitzungen in Folge genutzt, wird 1 Makel permanent (kumulativ)."
+  },
+  {
+    "id": 39,
+    "level": 3,
+    "name": "Mit den Augen des Himmels sehen",
+    "description": "Die Banu Haqim entwickelten dieses Ritual, um Ziele aus der Höhe zu beobachten – unsichtbar und unerreichbar. Die Tremere bezweifeln zwar, dass man wirklich in den Himmel reist, können die Ergebnisse jedoch nicht leugnen.",
+    "ingredients": "Euphorisches Blut eines Sterblichen (z. B. unter Cannabis), Weihrauch, Kohlenbecken, Abbild des Ziels.",
+    "execution": "Der Zaubernde trinkt das Blut, entzündet Weihrauch und eine Hungerprobe Blut im Becken, inhaliert den Rauch und verfällt in Trance, während er das Abbild des Ziels betrachtet.",
+    "system": "Nach einer halben Stunde wird der Ritualwurf abgelegt. Jeder Erfolg erlaubt eine Frage über Standort oder Umgebung des Ziels. Ein kritischer Erfolg erlaubt drei zusätzliche Fragen, darunter zu Ambition, Verlangen, Überzeugungen und Menschlichkeit."
+  },
+  {
+    "id": 40,
+    "level": 3,
+    "name": "Tiamat suchen",
+    "description": "Dieses Ritual hilft Blutmagiern, Erdadern aufzuspüren und ihr Blut mit dem Fluss Tiamats in Einklang zu bringen.",
+    "ingredients": "Ein etwa 30 cm langes Stück Zaubernuss oder magnetisiertes Eisen.",
+    "execution": "Der Zaubernde rammt es in seine Armvene, erleidet 1 Punkt schweren Schaden und führt eine Hungerprobe durch. Danach wandert er mindestens 15 Minuten umher.",
+    "system": "Bei Erfolg beginnt sein Arm, in Richtung des nächsten Furcus zu zucken und zu weisen. Ein kritischer Erfolg zeigt gleich zwei Furcae auf derselben Ader."
+  },
+  {
+    "id": 41,
+    "level": 3,
+    "name": "Seele des Homunkulus",
+    "description": "Dieses Ritual erschafft eine verkümmerte, schwache, viertelgroße Kopie des sterblichen Selbst des Zaubernden. Dieses bittere Wesen muss ihm gehorchen und ist immun gegen Sonnenlicht.",
+    "ingredients": "Glasflasche (geblasen in der Nacht vor Neumond), Samenflüssigkeit, Kreide, Friedhofserde, Blut des Zaubernden, Daumen eines Toten, Schweinekadaver.",
+    "execution": "Die Zutaten werden in die Flasche gefüllt, mit dem Daumen verkorkt und im Dunkeln bis zum Vollmond gelagert. Dann wird die Flasche im Mondlicht besprochen, in den Schweinemagen eingenäht und in geweihter Erde vergraben. Bei Erfolg gräbt der Zaubernde sie im nächsten Neumond aus: Ein kleiner Doppelgänger entsteht und gehorcht.",
+    "system": "Ritualwurf gegen 3 oder die Zähigkeit des Zaubernden (je höher). Bei Erfolg erwacht der Homunkulus nach einem Monat. Er besitzt Attribute und Fertigkeiten seines Schöpfers, jedoch jeweils –1 (min. 1), halbe Gesundheit und 1 Willenskraft. Er kann weder Ghoul noch Vampir werden. Blut nährt ihn nicht."
+  },
+  {
+    "id": 42,
+    "level": 3,
+    "name": "Stein der wahren Gestalt",
+    "description": "Mit einem besonderen Stein und einem guten Wurf kann der Zaubernde Illusionen und Gestaltwandlungen auflösen – sogar die von Werwölfen, heißt es.",
+    "ingredients": "Ein Stück metamorphes Gestein (z. B. Schiefer oder Marmor).",
+    "execution": "Der Stein wird zu einer Kugel geschliffen (Größe Murmel–Baseball), mit einer Hungerprobe kochenden Bluts überzogen und in der ältesten bekannten Sprache geweiht.",
+    "system": "Trifft der geworfene Stein (Geschick + Athletik) eine Illusion, ein erschaffenes Wesen oder einen Gestaltwandler, wird ein Ritualwurf gegen Entschlossenheit + Okkultismus des Ziels abgelegt. Erfolg zerstört die Illusion oder zwingt zur Rückverwandlung. Wirkung hält 1 Runde. Patzer erlaubt Wiederholung bis Sonnenaufgang. Nach Erfolg zerbricht der Stein."
+  },
+  {
+    "id": 43,
+    "level": 3,
+    "name": "Frevel",
+    "description": "Ein altes Ritual des Ministeriums, das an Verdunkelung erinnert. Es erlaubt, sich in einer Struktur zu verbergen, als Teil derselben. Übernatürliche Wesen können den Anwender jedoch wahrnehmen.",
+    "ingredients": "Fragment des Fundaments oder Türschwelle des Ortes, Blut eines Diebes, Faden.",
+    "execution": "Der Zaubernde wickelt den Faden um das Fragment und tränkt beides im Blut. Dann ruft er Hermes, Set oder einen anderen Gott des Frevels an und wickelt den Faden um den Körper des Eindringlings.",
+    "system": "Das Ritual wirkt, solange der Faden blutig bleibt (etwa 30 Minuten). Beim Betreten des Gebäudes wird gewürfelt. Erfolg erlaubt den Eintritt. Mit Willenskrafteinsatz kann man sich wie Blut durch Ritzen und Schächte bewegen. Kritischer Erfolg erspart den Willenskrafteinsatz und gewährt intuitives Wissen über den Bau. Patzer: Das Gebäude weist den Zaubernden ab, Passanten bemerken ihn leichter, und er erleidet oberflächlichen Schaden pro misslungenem Würfel."
+  },
+  {
+    "id": 44,
+    "level": 3,
+    "name": "Virale Haruspizie",
+    "description": "Einzigartig für die Seuchenorakel. Dieses Ritual nutzt den Rhinovirus (Erkältung). Der Zaubernde muss ihn zuvor durch Trinken von infiziertem Blut aufgenommen haben. Danach kann er die Erinnerungen aller Infizierten im Umkreis von 20 km anzapfen.",
+    "ingredients": "Lebende Rhinoviren im Blut des Zaubernden, eine Ratte, eine Schale.",
+    "execution": "Der Zaubernde mischt eine Hungerprobe Blut mit den Gehirnen der Ratte in der Schale, rührt gegen den Uhrzeigersinn und trinkt.",
+    "system": "Ein Erfolg liefert Eindrücke oder Erinnerungen aller Infizierten über das Ziel. Mehr Erfolge liefern klarere Informationen. Beispiel: „Der Laden war in der 19th Street, schloss aber 2009.“"
+  },
+  {
+    "id": 45,
+    "level": 4,
+    "name": "Das Unbelebte zwingen",
+    "description": "Dieses Ritual erlaubt es, einem Gegenstand für einen kurzen Moment einen Befehl zu erteilen.",
+    "ingredients": "Beliebiger unbelebter Gegenstand.",
+    "execution": "Der Zaubernde malt ein Glyph mit einer Hungerprobe Blut auf den Gegenstand und erteilt ihm einen Befehl. Nach fünf Minuten führt der Gegenstand ihn aus.",
+    "system": "Ein Erfolg lässt den Gegenstand den Befehl wie gewünscht ausführen. Ein kritischer Erfolg erlaubt einen zusätzlichen Befehl (bis Ende der Nacht). Befehle müssen einfach sein: „Umfallen“, „Zerspringen“. Zeit- oder personenspezifische Befehle sind unscharf. Der Zaubernde muss am selben Ort sein. „Das Unsichtbare sehen“ (Auspex 1) kann ihn mit einem vergleichenden Wurf entdecken."
+  },
+  {
+    "id": 46,
+    "level": 4,
+    "name": "Egregor-Befragung",
+    "description": "Ein Ritual der Seuchenorakel mit dem Influenzavirus. Der Zaubernde greift auf die kollektive Erfahrung aller Infizierten im Umkreis von 20 km zu.",
+    "ingredients": "Lebende Influenzaviren im Blut des Zaubernden, Würmer oder Parasiten, Messer, Magnet.",
+    "execution": "Die Würmer werden zerhackt und auf den Magneten gestrichen. Der Zaubernde hält den Magneten in der linken Hand, blickt nach Norden und rezitiert.",
+    "system": "Vor dem Wurf wählt er eine Fertigkeit. Ein Erfolg gewährt für die nächsten drei Proben dieser Fertigkeit Bonuswürfel in Höhe von 1 + Erfolgsüberschuss. Bei häufigen Fertigkeiten sogar +2. Kritischer Erfolg gewährt zusätzlich eine Spezialisierung oder einen weiteren Würfel."
+  },
+  {
+    "id": 47,
+    "level": 4,
+    "name": "Nahrung des Landes",
+    "description": "Dieses Ritual erlaubt es, von einem Ort der Macht zu „zehren“. Der Koldun nennt es „Mund des Landes“. Der Ort wird zu einem Platz des Leidens, das den Hunger des Zaubernden stillt.",
+    "ingredients": "Ein Ort der Macht (Furcus), eine Abgrenzung des Gebiets (z. B. Polizeiband, Schild, Wand), ein Dolch.",
+    "execution": "Vier Nächte lang ritzt der Zaubernde Symbole in die Ecken. In der fünften Nacht färbt er sie mit einer halben Hungerprobe Blut und färbt auch die Abgrenzung ein.",
+    "system": "Bei Erfolg „hungert“ das Land. Verletzungen und Unfälle werden schlimmer. Der Zaubernde darf pro Sitzung eine Anzahl Hungerproben automatisch bestehen, entsprechend seinem Erfolgsüberschuss. Das Ritual hält bis zum Ende der Geschichte. Danach muss es erneuert werden."
+  },
+  {
+    "id": 48,
+    "level": 4,
+    "name": "Auf den Adern der Erde reiten",
+    "description": "Ein altes Banu-Haqim-Ritual zur Flucht. Es nutzt einen Furcus, um den Zaubernden durch die Erdadern fortzutragen – jedoch ohne Kontrolle über das Ziel.",
+    "ingredients": "Ein Furcus, ein Symbol des Eintritts (z. B. Ticket, Schlüssel, Türknauf).",
+    "execution": "Am Furcus badet der Zaubernde das Symbol in einer Hungerprobe Blut und singt zehn Minuten lang Loblieder auf eine Gottheit der Flucht. Dann gießt er das Blut auf den Boden.",
+    "system": "Der Ritualwurf erfolgt erst, wenn das Symbol den Furcus berührt. Erfolg: Der Zaubernde löst sich in Blutnebel auf und erscheint nach 20 Minuten an einem vom Erzähler gewählten Furcus. Kritischer Erfolg: beim nächsten Furcus am eigenen Unterschlupf oder einem durch „Tiamat glänzt“ geweihten Ort."
+  },
+  {
+    "id": 49,
+    "level": 5,
+    "name": "Elementarer Angriff",
+    "description": "[Erfordert koldunische Zauberei] Dieses Ritual befiehlt dem Element, das Ziel direkt anzugreifen – Lawine, Flut, Blitzschlag, Feuer etc.",
+    "ingredients": "Eine Waffe, die das Element repräsentiert (z. B. Holzkeule, Eiszapfen, Meteoreisenmesser, Fackel).",
+    "execution": "Der Koldun schneidet seine Narbe auf, führt eine Hungerprobe durch und befiehlt dem Element, das Ziel anzugreifen.",
+    "system": "Bei Erfolg greift das Element das Ziel an. Ist es bereits aktiv, gibt es einen Bonuswürfel. Das Ziel erleidet pro Erfolg 1 Punkt schweren Schaden, plus denselben Schaden jede Runde, bis es einem passenden Ausweichwurf entkommt (z. B. Geschick + Athletik gegen Entschlossenheit + Blutszauberei). Feuer verursacht bei Vampiren schweren Schaden, andere Elemente meist oberflächlichen. Kritischer Erfolg: Alle sichtbaren Ziele werden betroffen. In Kette mit „Elementarer Griff“ und „Tiamat glänzt“: apokalyptische Katastrophen (Erdbeben, Tsunami usw.), Schaden verdoppelt, Nebeneffekte unkontrollierbar."
+  },
+  {
+    "id": 50,
+    "level": 5,
+    "name": "Fischer-König",
+    "description": "Dieses Ritual verbindet den Zaubernden mit einem Gebiet, sodass er dessen Geheimnisse wie ein Buch lesen kann. Die Größe hängt von seiner Macht ab, meist etwa so groß wie das Domänegebiet seiner Gruppe.",
+    "ingredients": "Ein Wahrzeichen des Gebiets, Erde von dort, ein Pferdehaarpinsel.",
+    "execution": "Der Zaubernde mischt eine Hungerprobe Blut mit der Erde und malt damit Symbole auf das Wahrzeichen.",
+    "system": "Bei Erfolg erhält er eine mentale Verbindung. Pro Sitzung darf er einen Wurf auf Geistesschärfe + Straßenkunde (urban) oder Überleben (ländlich) machen. Jeder Erfolg erlaubt eine wahre Antwort auf eine Frage über das Gebiet. Dauer: bis zum Ende der Geschichte, dann erneuern. Kette: Mit „Nahrung des Landes“ und „Das Unbelebte zwingen“ erhält die Gruppe nahezu totale Kontrolle über das Gebiet: drei freie Fragen pro Sitzung, Warnungen durch Gebäude oder Bäume, und bis zu 5 Punkte schweren Schadens pro Nacht können geheilt werden."
   }
 ]
