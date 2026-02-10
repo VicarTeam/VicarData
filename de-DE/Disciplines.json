@@ -551,7 +551,7 @@
           "summary": "Der Vampir öffnet seine Pulsader und zwingt das austretende Blut, Form und Zweck anzunehmen. Die Klinge ist Teil seines Körpers, geboren aus Schmerz und Wille.",
           "costs": "Ein Wallungs-Check und 1 oberflächlicher Gesundheitsschaden",
           "diceSupplies": "Körperkraft + Blutmagie",
-          "system": "Aus der geöffneten Pulsader formt sich eine scharfkantige Blutklinge, die als Teil des Körpers gilt. Angriffe erfolgen mit Handgemenge statt Nahkampf und verursachen +1 Schaden. Die Klinge kann zum Pflocken eingesetzt werden: Bei einem erfolgreichen Pflockangriff verfestigt sie sich, löst sich vom Körper und wird unbrauchbar. Verfällt das Ziel in Starre oder endet eine Stunde, zerfällt die Klinge zu Staub.",
+          "system": "Aus der geöffneten Pulsader formt sich eine scharfkantige Blutklinge, die als Teil des Körpers gilt. Angriffe erfolgen mit Handgemenge statt Nahkampf und verursachen +1 Schaden. Die Klinge kann zum Pflocken eingesetzt werden: Bei einem erfolgreichen Pflockangriff verfestigt sie sich, löst sich vom Körper und wird unbrauchbar. Verfällt der Anwender in Starre oder endet eine Stunde, zerfällt die Klinge zu Staub.",
           "duration": "Eine Stunde"
         },
         {
