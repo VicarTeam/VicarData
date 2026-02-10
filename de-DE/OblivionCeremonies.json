@@ -184,7 +184,7 @@
         "ingredients": "Sterbliche, die abjekter Angst und Qual ausgesetzt sind. Je mehr, desto besser.",
         "execution": "Es beginnt mit einer „Party“. Eine Reihe von Sterblichen wird an den Ort gebracht und mit Angst und Folter gequält, die mit ihrem Tod endet. Aber das ist keine Gnade. Die zerbrochenen Überreste ihrer Seelen, kaum mehr als Angstimpulse und erhabene Abscheu, werden an den Ort gebunden, ihre Knochen werden im Boden vergraben und sie werden dazu gezwungen, ihre Qualen mit jedem zu teilen, der unaufgefordert eintritt.",
         "system": "Sterbliche, die sich in die Nähe begeben (alles bis zu einem zweistöckigen Gebäude), werden von einer irrationalen Angst heimgesucht, die einen Fassung + Entschlossenheit-Probe pro Runde erfordert, um zu bleiben. Wenn sie versagen, werden sie jede Ausrede nutzen, um zu gehen, oder bei einem totalen Misserfolg kreischend davonlaufen. Vampire sind weniger betroffen, aber jede Szene, die an dem Ort verbracht wird, erfordert einen Test auf Angstfrenzy."
-    },      
+    },
     {
         "id": 16,
         "level": 4,
@@ -233,5 +233,69 @@
         "ingredients": "Eine Fessel des Gespenstes, ein persönlicher Gegenstand des vorgesehenen Ziels (lebend oder untot, aber kein anderes Gespenst), die Vitae des Zaubernden, hochprozentiger Rum, eine schwarze Kerze, eine Tonschale, die groß genug ist, um die Fessel und den persönlichen Gegenstand des Ziels zu halten.",
         "execution": "Der Zaubernde muss sich in unmittelbarer Nähe des gewünschten Gespenstes befinden, um die Zeremonie erfolgreich durchzuführen, typischerweise durch die Verwendung von 'Geist herbeirufen'. Die Fessel und der Besitz des Ziels werden in der Schale zusammen mit der Vitae des Zaubernden kombiniert. Die Kerze wird über der Schale gehalten und angezündet, wodurch das Wachs in den Inhalt der Schale tropft. Der Name des Gespenstes und des Ziels werden wiederholt gesungen. Während das Wachs schmilzt, bildet es eine Siegelung zwischen den Gegenständen in der Schale und schafft eine Brücke zwischen dem Gespenst und dem gewünschten Ziel. Wenn dieses Siegel gebrochen wird, entzündet der Rum den Besitz des Ziels und sie erleben den Tod des Gespenstes.",
         "system": "Der Zaubernde macht seinen Zeremonienwurf und das Ziel konkurriert mit Fassung + Entschlossenheit, egal ob sie wissen, dass sie Ziel sind oder nicht. Bei einem Sieg des Zaubernden erlebt das Opfer eine Vision des Todes des Gespenstes, wobei eine höhere Differenz zu einem lebendigeren Erlebnis führt. Zum Beispiel reicht ein Punkt der Differenz aus, damit das Ziel kurzzeitig Blitze des Moments hat, während fünf dazu führen können, dass die Erfahrung des Ziels so lebhaft ist, dass es schockiert sein wird festzustellen, dass es danach nicht tot ist. Wenn das Gespenst einen gewaltsamen Tod starb, verursacht dies oberflächlichen Willenskraftschaden gleich der Differenz des Wurfs, aber selbst ein friedlicher Tod fügt einen Punkt zu, da sie den sterbenden Atemzug des Gespenstes erleben. Ein kritischer Sieg des Ziels wirft dieses Trauma zurück auf den Nekromanten und fügt ihm stattdessen den Willenskraftschaden als oberflächlichen Schaden zu. Sei es aus persönlicher Neugier am Tod, um die Umstände eines Todes aus erster Hand zu untersuchen oder um ein tiefes Verständnis eines bestimmten Gespenstes zu erlangen, der Zaubernde möchte vielleicht das Ziel der Zeremonie sein. Sie würfeln nur gegen die normale Schwierigkeit der Zeremonie, und der Zaubernde muss ihren Geist öffnen, um jeglichen resultierenden Willenskraftschaden zu akzeptieren."
-    }    
+    },
+    {
+        "id": 20,
+        "level": 3,
+        "name": "Fleischgolem erschaffen",
+        "summary": "Diese Zeremonie erlaubt es einem Vampir, aus Leichenteilen einen Fleischgolem zu erschaffen. Voraussetzung: Aura des Verfalls oder Nekrotische Seuche.",
+        "ingredients": "Mindestens drei zerstückelte, erwachsene Leichen, einbalsamiert oder weitgehend frei von Verwesung; Tiefseeton sowie in Salpetersäure gelöstes Kupfer; ein Stichel oder Gravurwerkzeug aus Messing oder Platin.",
+        "execution": "Die Zeremonie muss an einem Ort durchgeführt werden, an dem der Schleier gespalten oder außergewöhnlich dünn ist. Der Vampir näht die Leichenteile zu einem einzigen Körper zusammen und gießt die Säure entlang von Wirbelsäule, Eingeweiden und Adern in den Leib. Abschließend ritzt er das Machtwort „tzel“ in den Mund des Golems und tränkt es mit seiner Vitae. Dadurch werden Schatten aus der Vergessenheit in den Körper gezogen und beleben ihn.",
+        "system": "Das Zusammensetzen des Körpers erfordert entweder eine erfolgreiche Probe auf Entschlossenheit + Medizin (Schwierigkeit 3) oder Entschlossenheit + Handwerk (Schwierigkeit 4), alternativ eine erfolgreiche Fleischformen-Probe (Schwierigkeit 2), solange die Körper noch lebten. Anschließend wird die Zeremonieprobe abgelegt. Ein Fehlschlag bei Vorbereitung oder Zeremonie ruiniert die Materialien. Bei einem totalen Fehlschlag brechen die Schatten aus und greifen den Vampir in einem dreirundigen Vergleich auf Intelligenz + Vergessenheit an (Pool 4), wobei sie schweren Willenskraftschaden verursachen. Die Körperkraft des Golems entspricht der gesamten Erfolgsdifferenz aus Vorbereitung und Zeremonie. Er gehorcht seinem Schöpfer, bis das Wort in seinem Mund zerstört wird."
+    },
+    {
+        "id": 21,
+        "level": 3,
+        "name": "Leichenhautgewand",
+        "summary": "Voraussetzung: Schattenblick oder Berührung der Vergessenheit. Diese Zeremonie erschafft ein Kleidungsstück aus von Vergessenheit durchdrungener Leichenhaut, das seinen Träger vor drohender Gefahr warnt.",
+        "ingredients": "Ausreichend Haut eines Sterblichen mit Melancholie-Resonanz, Fett eines Sterblichen mit Phlegmatischer Resonanz, gewachster Faden, optionale Verzierungen.",
+        "execution": "Der Vampir ruft die Kräfte der Vergessenheit an, während seine Hände sich mit Schatten füllen und er das Kleidungsstück zuschneidet, behandelt und näht. Nach dem Nähen wird das Gewand mit dem Fett eingerieben, während der Vampir beruhigend zu ihm spricht.",
+        "system": "Die Qualität des Gewands hängt von den Erfolgen der Zeremonieprobe ab. Am Ende muss der Vampir das nun schwach empfindungsfähige Gewand überzeugen, sein treuester Begleiter zu werden (Manipulation + Überzeugen oder Ausflüchte, Schwierigkeit 2). Misslingt dies, sucht das Gewand nach Gelegenheiten zum Verrat. Beim Tragen erhält der Vampir einen folkloristischen Makel und eine folkloristische Blockade (nach Ermessen der Erzählerin). Ein funktionierendes Gewand spürt Flüche, Bannzeichen und feindselige Wesen und warnt seinen Träger durch stechendes Hautkribbeln. Ein unzufriedenes Gewand kann diese Warnungen bewusst fehlleiten.",
+        "duration": "Das Gewand hält unbegrenzt und heilt Schäden über Nacht. Es kann nur durch Feuer, Blutmagie oder Vergessenheit zerstört werden."
+    },
+    {
+        "id": 22,
+        "level": 4,
+        "name": "An die sterbliche Hülle binden",
+        "summary": "Voraussetzung: Nekrotische Seuche oder Erfülltes Schicksal. Diese Zeremonie verlängert das Leben eines Sterblichen, ohne ihn zum Ghul zu machen.",
+        "ingredients": "Der ausgewählte Sterbliche, eine von Vergessenheit gezeichnete Eisenkette, eine Kerze aus Menschenfett, Erde aus einem frischen Grab, ein Fingerhut Blut oder andere Körperflüssigkeiten des Sterblichen.",
+        "execution": "Der Vampir entzündet die Kerze und lässt den Sterblichen die Graberde schlucken. Die erhitzte Kette wird benutzt, um den Sterblichen zu brandmarken, wodurch das Licht erlischt und sein Geist in der verfallenden Hülle gefesselt wird. Innerhalb von drei Nächten muss das Blut oder die Flüssigkeit ins Ursprungsgrab zurückgebracht werden.",
+        "system": "Probe auf Entschlossenheit + Vergessenheit (Schwierigkeit 5). Jeder Erfolg verlängert die natürliche Lebensspanne um ein Jahrzehnt. Misslingt die Probe oder wird das Blut nicht rechtzeitig zurückgebracht, altert der Sterbliche doppelt so schnell. Die Zeremonie kann mehrfach auf dieselbe Person angewandt werden, erhöht aber jedes Mal die Schwierigkeit um 1. Betroffene werden zunehmend lichtscheu, verwirrt und ängstlich."
+    },
+    {
+        "id": 23,
+        "level": 5,
+        "name": "Gabe des wahren Lebens",
+        "summary": "Voraussetzung: Nekrotische Seuche oder Mahl der Leidenschaft. Diese Zeremonie überträgt Lebenszeit von einem Sterblichen auf einen anderen.",
+        "ingredients": "Zwei Sterbliche, freiwillig oder nicht, ein Seil aus Seide.",
+        "execution": "Der Vampir öffnet die Handgelenke beider Sterblicher, presst sie zusammen und leitet Schatten aus der Vergessenheit, um Lebenskraft zu verschieben.",
+        "system": "Wallungs-Check und anschließender Vergleich auf Entschlossenheit + Vergessenheit gegen Widerstandsfähigkeit + Entschlossenheit des Opfers. Alle fünf Minuten verliert das Ziel zehn Lebensjahre. Der Empfänger altert anschließend nur halb so schnell. Das Beenden erfordert eine Probe auf Entschlossenheit + Vergessenheit (Schwierigkeit 6) oder den Tod des Opfers. Die Zeremonie verursacht fast immer Makel und zieht Aufmerksamkeit jenseits des Schleiers auf sich."
+    },
+    {
+        "id": 24,
+        "level": 2,
+        "name": "Rachen des Ahriman",
+        "summary": "Der Vampir zieht die Leere der Vergessenheit in seinen Körper und kann damit Willen und Motivation anderer verschlingen.",
+        "ingredients": "Ein völlig dunkler, stiller Raum.",
+        "execution": "Der Vampir kontempliert Stille und Dunkelheit und schreit dann, um Platz für die Leere zu schaffen.",
+        "system": "Bei Erfolg wird Mund oder Körperöffnung zu einem Abgrund. Ein Biss verursacht zusätzlich 1 Punkt schweren Willenskraftschaden. Während die Zeremonie wirkt, kann kein Hunger gestillt werden. Die Wirkung hält bis zum Sonnenaufgang oder bis sie aktiv beendet wird, was 1 Punkt oberflächlichen Schaden verursacht."
+    },
+    {
+        "id": 25,
+        "level": 2,
+        "name": "Aschernes Relikt",
+        "summary": "Diese Zeremonie konserviert Teile eines zerstörten Vampirs. Voraussetzung: Asche zu Asche oder Blick der Vergessenheit.",
+        "ingredients": "Der zerfallende Körper eines Vampirs, Salz und Einbalsamierungskräuter.",
+        "execution": "Die Mischung wird rasch auf die Überreste aufgetragen, bevor sie vollständig zerfallen.",
+        "system": "Ein Erfolg bewahrt einen kleinen Körperteil, drei Punkte Differenz auch größere Knochen. Das Relikt besteht bis zu seiner Zerstörung oder Sonnenlichtexposition. Ein außergewöhnlicher Erfolg kann es sogar sonnenlichtresistent machen."
+    },
+    {
+        "id": 26,
+        "level": 3,
+        "name": "Weisheit der Toten",
+        "summary": "Voraussetzung: Blick der Vergessenheit oder Wo der Schleier dünn ist. Diese Zeremonie erlaubt es, Wissen aus dem Kopf oder Schädel eines Verstorbenen zu ziehen.",
+        "ingredients": "Der Kopf oder Schädel des Verstorbenen, reines Wasser, eine kleine Flamme.",
+        "execution": "Kosten: ein Wallungs-Check. Würfelpool: Entschlossenheit + Vergessenheit.",
+        "system": "Probe auf Entschlossenheit + Vergessenheit (Schwierigkeit 2 bei Kopf, 3 bei Schädel). Die Erzählerin bestimmt eine Fertigkeit, in der der Verstorbene besonders bewandert war, plus eine weitere pro Punkt Differenz. Für den Rest der Nacht erhält der Vampir +2 Würfel auf diese Fertigkeiten, solange er den Schädel bei sich trägt und der Verstorbene einen höheren Wert hatte. Bei Tagesanbruch wird für jede verstärkte Probe ein Würfel geworfen; ein Fehlschlag lässt den Schädel zu Asche zerfallen."
+    }
 ]

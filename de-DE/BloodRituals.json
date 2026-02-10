@@ -556,5 +556,239 @@
     "ingredients": "Ein Wahrzeichen des Gebiets, Erde von dort, ein Pferdehaarpinsel.",
     "execution": "Der Zaubernde mischt eine Hungerprobe Blut mit der Erde und malt damit Symbole auf das Wahrzeichen.",
     "system": "Bei Erfolg erhält er eine mentale Verbindung. Pro Sitzung darf er einen Wurf auf Geistesschärfe + Straßenkunde (urban) oder Überleben (ländlich) machen. Jeder Erfolg erlaubt eine wahre Antwort auf eine Frage über das Gebiet. Dauer: bis zum Ende der Geschichte, dann erneuern. Kette: Mit „Nahrung des Landes“ und „Das Unbelebte zwingen“ erhält die Gruppe nahezu totale Kontrolle über das Gebiet: drei freie Fragen pro Sitzung, Warnungen durch Gebäude oder Bäume, und bis zu 5 Punkte schweren Schadens pro Nacht können geheilt werden."
+  },
+    {
+    "id": 51,
+    "level": 3,
+    "name": "Düstere Chrysalis",
+    "description": "Der Vampir sondert große Mengen zähen, blutgetränkten Keratins ab, das sich zu einem schützenden Kokon um ihn verhärtet. In seinem Inneren beschleunigen sich Heilung und körperliche Veränderung drastisch, während die Hülle selbst vor nahezu jeder Gefahr schützt.",
+    "ingredients": "200 g menschliches Haar, eine Motte oder ein Schmetterling. Traditionalisten schwören auf Totenkopfschwärmer und Haar von einer Leiche; jüngere Kainiten behaupten, Keratinpräparate aus dem Handel und eine beliebige Raupe erfüllten denselben Zweck.",
+    "execution": "Der Vampir legt einen Wallungs-Check ab und verschluckt Haar und Insekt über einen Zeitraum von fünfzehn Minuten. Die Chrysalis kann jederzeit in dieser Nacht geformt werden und beginnt automatisch drei Minuten vor Sonnenaufgang zu entstehen, sofern der Vampir die Masse nicht mit einer Probe auf Entschlossenheit + Sportlichkeit (Schwierigkeit 3) wieder auswürgt.",
+    "system": "Der Vampir sondert keratinhaltigen Speichel ab, der sich rasch zu einem Kokon verhärtet. Die Ritualprobe entscheidet, ob sich die Chrysalis vollständig bildet. Die Bildung dauert drei Runden. Innerhalb des Kokons heilt der Vampir in einer Nacht sämtlichen oberflächlichen Schaden oder 2 Punkte schweren Gesundheitsschaden – ohne weitere Wallungs-Checks. Besitzt der Vampir Vicissitude, erfordert deren Einsatz im Kokon keine Probe und gilt als mit Erfolgen in Höhe des Disziplinenpools eingesetzt. Die Hülle ist zäh und flexibel, luft- und flüssigkeitsdicht, schützt vor Sonnenlicht und vor Sturzschäden aus weniger als 100 Metern Höhe. Um sie aufzubrechen, müssen insgesamt 30 Schadenspunkte mit geeignetem Werkzeug verursacht werden. Feuer und Säure schädigen die Chrysalis ebenfalls und erzeugen beißenden Rauch. Die Zerstörung dauert drei Runden. Die Chrysalis hält mindestens einen Tag, sofern sie nicht vorher zerstört wird. Längeres Verweilen birgt das Risiko von Starre gemäß den Hungerregeln."
+  },
+  {
+    "id": 52,
+    "level": 4,
+    "name": "Der Balsam der Bathory",
+    "description": "Der Zaubernde stellt ein Öl oder eine Salbe aus dem Blut junger Sterblicher her, das sein eigenes Fleisch revitalisiert und ihn Jahrzehnte jünger erscheinen lässt.",
+    "ingredients": "Eine Tasse Vitae des Zaubernden, ein halber Liter Blut eines oder mehrerer jugendlicher Opfer mit makelloser Haut (Menge verdoppelt sich je Herstellung), Kamillenblüten, Sheabutter oder Schaffett; optionale Duftöle.",
+    "execution": "Der Zaubernde sammelt sein eigenes Blut und das der Opfer in einem hitzebeständigen Gefäß, erhitzt und verrührt die Mischung mit den übrigen Zutaten, während er sich auf seine gewünschte Perfektion konzentriert.",
+    "system": "Die Ritualprobe erfolgt vor dem Abnehmen vom Feuer. Bei Erfolg entsteht ein geschmeidiger Balsam, der direkt auf die Haut oder im Bad angewendet werden kann. Er wirkt eine Woche lang bei regelmäßiger Anwendung. Der Anwender erhält vorübergehend den Vorteil Atemberaubend. Dieser ersetzt vorhandene Vorteile wie Schön oder Atemberaubend und ist nicht kumulativ. Der Balsam wirkt jedoch süchtig: Ab der zweiten Herstellung wird er nach einer Woche toxisch und verursacht jede Nacht 1 Punkt oberflächlichen Schadens an behandelter Haut, bis ein neuer Balsam gebraut oder ein Monat pro hergestellter Charge ohne Anwendung vergangen ist."
+  },
+  {
+    "id": 53,
+    "level": 2,
+    "name": "Ruf der Aurenreste",
+    "description": "Dieses Ritual erlaubt es dem Zaubernden, mit der verbleibenden psychischen Aura eines Verstorbenen zu sprechen.",
+    "ingredients": "Eine menschliche Leiche oder die Überreste eines zerstörten Vampirs.",
+    "execution": "Das Ritual muss im Umkreis von drei Metern um den Leichnam durchgeführt werden.",
+    "system": "Ein erfolgreicher Ritualwurf erlaubt eine Szene lang die Kommunikation mit der belebten Reflexion des Verstorbenen, basierend auf dessen Erinnerungen bis zum Todeszeitpunkt. Ein kritischer Triumph verlängert die Dauer auf einen ganzen Abend."
+  },
+  {
+    "id": 54,
+    "level": 3,
+    "name": "Augen der Vergangenheit",
+    "description": "Dieses Ritual offenbart, was sich am aktuellen Standort des Zaubernden zu einem bestimmten Zeitpunkt in der Vergangenheit ereignet hat.",
+    "ingredients": "Ein Tropfen Blut pro Jahr Rückblick (ab drei Tropfen ist ein Wallungs-Check erforderlich).",
+    "execution": "Der Zaubernde wählt den Ort, schneidet sich in die Hand und lässt die Blutstropfen auf den Boden fallen.",
+    "system": "Ein erfolgreicher Ritualwurf zeigt eine Szene aus der Vergangenheit von bis zu fünf Jahren. Die Vision dauert eine Szene, ihre Klarheit richtet sich nach den Erfolgen. Danach verblasst die Erinnerung. Ein kritischer Triumph verankert die Vision dauerhaft im Gedächtnis."
+  },
+  {
+    "id": 55,
+    "level": 3,
+    "name": "Illusion des friedlichen Todes",
+    "description": "Dieses Ritual lässt eine Leiche so erscheinen, als sei sie eines natürlichen Todes gestorben.",
+    "ingredients": "Eine weiße Feder.",
+    "execution": "Der Körper wird symbolisch mit der Feder bestäubt.",
+    "system": "Bei Erfolg erscheinen Todesursache und Wunden natürlich. Die Schwierigkeit zur Bestimmung der Todesursache steigt um 3, bei kritischem Triumph um 5. Die Leiche muss mindestens die Hälfte ihres ursprünglichen Blutes besitzen."
+  },
+  {
+    "id": 56,
+    "level": 3,
+    "name": "Sanfter Geist",
+    "description": "Dieses Ritual stärkt den Geist eines Ziels gegen Raserei.",
+    "ingredients": "Kristallglas, Kindred-Vitae.",
+    "execution": "Der Zaubernde teilt Blut mit dem Ziel und flüstert beruhigende Worte, während er das Biest einfängt.",
+    "system": "Bei Erfolg erhält das Ziel für eine Szene +4 Würfel zum Widerstehen von Raserei. Ein kritischer Triumph verlängert die Wirkung auf einen Abend. Das Ritual kann nicht auf den Zaubernden selbst gewirkt werden."
+  },
+  {
+    "id": 57,
+    "level": 3,
+    "name": "Die Unsichtbare Verwandlung",
+    "description": "Dieses Ritual zwingt Lupinen, ihre Wolfsform anzunehmen.",
+    "ingredients": "Wolfsblut, Kindred-Vitae, ein silberner Krug.",
+    "execution": "Der Zaubernde vermischt Vitae mit Wolfsblut und markiert einen abgegrenzten Bereich.",
+    "system": "Drei Wallungs-Checks sind erforderlich. Lupinen, die den Bereich betreten, werden in Lupusform gezwungen, sofern sie keinen erfolgreichen Widerstand leisten. Die Wirkung hält bis zum Morgengrauen oder ein Jahr und einen Tag bei erhöhter Schwierigkeit. Ein kritischer Triumph verdoppelt die benötigten Erfolge zum Widerstehen."
+  },
+  {
+    "id": 58,
+    "level": 4,
+    "name": "Unschuld des Kinderherzens",
+    "description": "Dieses Ritual verbirgt die vampirische Aura des Zaubernden vor Auspex.",
+    "ingredients": "Ein Spielzeug eines sterblichen Kindes.",
+    "execution": "Das Spielzeug wird mit Vitae imprägniert und ständig bei sich getragen.",
+    "system": "Bei Erfolg erscheint die Aura sterblich. Die Wirkung hält eine Nacht oder bis zum Ende der Geschichte bei erhöhter Schwierigkeit. Ein kritischer Triumph verdoppelt die Dauer."
+  },
+  {
+    "id": 59,
+    "level": 4,
+    "name": "Zerreißen der süßen Erde",
+    "description": "Dieses Ritual reißt den Boden auf und legt einen durch Protean verborgenen Vampir frei.",
+    "ingredients": "Eine Lederpeitsche, Kindred-Vitae.",
+    "execution": "Der Zaubernde markiert die Stelle und schlägt wiederholt auf den Boden ein.",
+    "system": "Bei Erfolg öffnet sich eine Grube, die den ruhenden Vampir freilegt. Ein kritischer Triumph weckt ihn nicht."
+  },
+  {
+    "id": 60,
+    "level": 4,
+    "name": "Fluch des Gestaltwandels",
+    "description": "Dieses Ritual verwandelt das Ziel in eine Fledermaus.",
+    "ingredients": "Blut einer tollwütigen Vampirfledermaus, Kindred-Vitae, Knochenmarionette.",
+    "execution": "Das Ziel trinkt das Blut, während der Zaubernde die Marionette führt.",
+    "system": "Bei Erfolg wird das Ziel verwandelt. Misslingt der Widerstand, kann eine monströse Zwischenform entstehen. Die Wirkung hält einen Abend und kann verlängert werden. Der Zaubernde kann sich nicht selbst verfluchen."
+  },
+  {
+    "id": 61,
+    "level": 3,
+    "name": "Sanguiner Wächter",
+    "description": "Dieses Ritual erschafft eine kleine Ratte aus Vitae, die für den Zaubernden spioniert.",
+    "ingredients": "Kindred-Vitae, geringe Mengen Alkohol, silberne Schale.",
+    "execution": "Während zwanzig Minuten wird die Mischung gerührt, bis sich das Wesen formt.",
+    "system": "Bei Erfolg entsteht ein Späher, durch dessen Augen der Zaubernde sehen kann. Er dient bis zum Sonnenaufgang."
+  },
+  {
+    "id": 62,
+    "level": 3,
+    "name": "Klingenhände",
+    "description": "Die Hände des Zaubernden werden zu übernatürlich scharfen Waffen.",
+    "ingredients": "Zwei Rasierklingen, zwei Tropfen Kindred-Vitae.",
+    "execution": "Die Klingen werden während des Rituals fest in den Handflächen gehalten.",
+    "system": "Bei Erfolg werden die Hände zu leichten Nahkampfwaffen mit +2 Schaden. Ein kritischer Triumph erhöht den Schaden auf +3. Die Wirkung hält einen Abend."
+  },
+  {
+    "id": 63,
+    "level": 3,
+    "name": "Illusion der Vollkommenheit",
+    "description": "Dieses Ritual hüllt den Zaubernden in die Illusion einer unauffälligen Person.",
+    "ingredients": "Eine schlichte weiße Maske, Vitae eines Vampirs mit Verdunkelung, Chamäleonhaut.",
+    "execution": "Ein einstündiges Ritual, das mit dem Aufsetzen der Maske endet.",
+    "system": "Bei Erfolg erscheint der Zaubernde durchschnittlich und wechselhaft wahrgenommen. Die Illusion hält eine Szene, bei kritischem Triumph einen Abend."
+  },
+  {
+    "id": 64,
+    "level": 3,
+    "name": "Verwunschene Zuflucht",
+    "description": "Dieses Ritual lässt ein Refugium als heimgesucht erscheinen.",
+    "ingredients": "Vitae eines Vampirs mit Verdunkelung.",
+    "execution": "Über drei Stunden wird Blut an allen Zugängen angebracht.",
+    "system": "Bei Erfolg meiden Sterbliche die Zuflucht. Die Wirkung hält zehn Jahre."
+  },
+  {
+    "id": 65,
+    "level": 2,
+    "name": "Le Sang de l’Amour",
+    "description": "Dieses Ritual verbindet zwei Liebende auf übernatürliche Weise.",
+    "ingredients": "Blut beider Liebenden, zwei Glasphiolen an Ketten.",
+    "execution": "Beide tauschen die Phiolen, während der Zaubernde ein Liebeslied singt.",
+    "system": "Bei Erfolg können beide die ungefähre Position des anderen erspüren. Ein kritischer Triumph erlaubt flüchtige Visionen."
+  },
+  {
+    "id": 66,
+    "level": 1,
+    "name": "Blutapokryphen",
+    "description": "Der Zaubernde verschlüsselt eine Botschaft in Blut.",
+    "ingredients": "Ein Tropfen Quecksilber, Blut im Wert eines Wallungs-Checks.",
+    "execution": "Die Botschaft wird in eine rituelle Schale Blut geflüstert.",
+    "system": "Die Nachricht hält einen Monat plus einen weiteren pro Erfolgsüberschuss."
+  },
+  {
+    "id": 67,
+    "level": 3,
+    "name": "Blutloses Mahl",
+    "description": "Dieses Ritual erzeugt eine klare Vitae, die tödliche Macht besitzt.",
+    "ingredients": "Ein bewusstloser Mensch, ein makelloser Kristallkelch.",
+    "execution": "Drei Stunden Gesänge über dem Opfer.",
+    "system": "Bei Erfolg stirbt das Opfer, und der Kelch füllt sich mit klarer Vitae mit besonderen diableristischen Eigenschaften."
+  },
+  {
+    "id": 68,
+    "level": 2,
+    "name": "Schleier der Stille",
+    "description": "Dieses Ritual erschafft einen Bereich vollkommenen Schweigens.",
+    "ingredients": "Gewebter Stoff, goldener Ring, Vitae eines Vampirs mit Verdunkelung.",
+    "execution": "Der Stoff wird durch den Ring gezogen und an einer Tür befestigt.",
+    "system": "Bei Erfolg herrscht absolute Stille für eine Szene."
+  },
+  {
+    "id": 69,
+    "level": 1,
+    "name": "Blut anreichern",
+    "description": "Dieses Ritual steigert die Nährkraft menschlichen Blutes.",
+    "ingredients": "Eine halbe Phiole Blut des Ziels, fünf Liter frisches menschliches Blut.",
+    "execution": "Das Blut wird langsam in die Phiole gegossen und dem Ziel zurückgegeben.",
+    "system": "Bei Erfolg stillt ein Schluck zwei Hungerstufen. Ein zweiter Zauber tötet das Ziel."
+  },
+  {
+    "id": 70,
+    "level": 2,
+    "name": "Dyskrasie verstärken",
+    "description": "Dieses Ritual macht die Dyskrasie eines Ziels für mehrere Vampire nutzbar.",
+    "ingredients": "Ein resonanzpassender Gegenstand des Ziels.",
+    "execution": "Der Zaubernde kostet das Blut und fokussiert sich auf den Gegenstand.",
+    "system": "Bei Erfolg profitieren alle, die mindestens 1 Hunger stillen, drei Nächte lang von der Dyskrasie."
+  },
+  {
+    "id": 71,
+    "level": 1,
+    "name": "Siegel des unauslöschlichen Zeichens",
+    "description": "Während Narben, Tattoos und andere Veränderungen am vampirischen Fleisch mit der Tagesruhe verblassen, gibt es Kainiten, die Spuren hinterlassen wollen, die selbst der Schlaf der Sonne nicht tilgt. Dieses Ritual verankert ein Zeichen dauerhaft im untoten Körper.",
+    "ingredients": "Heiße Asche, über ein Tattoo, Brandmal oder eine andere Körpermodifikation gegossen.",
+    "execution": "Der Vampir gießt die heiße Asche über das gewünschte Zeichen. Das Ziel erleidet Schaden durch die Hitze, doch sobald dieser geheilt ist, bleibt die Modifikation bestehen.",
+    "system": "Ein erfolgreicher Ritualwurf macht die Körpermodifikation permanent. Sie kann auf keine Weise entfernt werden und gilt fortan als Teil des unsterblichen Körpers. Das Übergießen mit heißer Asche verursacht 1 Punkt oberflächlichen Gesundheitsschaden, der normal geheilt werden kann."
+  },
+  {
+    "id": 72,
+    "level": 2,
+    "name": "Wie Nebel auf dem Wasser",
+    "description": "Mit diesem Ritual schreitet der Vampir lautlos über jede Wasseroberfläche, als trüge sie sein Gewicht nicht. Nebelschwaden steigen dort auf, wo seine Schritte das Wasser berühren.",
+    "ingredients": "Ein Stück Holz und das Gewässer, das überquert werden soll.",
+    "execution": "Der Vampir taucht das Holzstück in das Gewässer und vergießt dabei eine Hungerprobe Blut ins Wasser.",
+    "system": "Bei einem erfolgreichen Ritualwurf kann der Vampir für den Rest der Nacht über die Wasseroberfläche gehen. Er kann den Effekt jederzeit beenden, muss das Ritual jedoch neu wirken, um erneut auf dem Wasser zu wandeln."
+  },
+  {
+    "id": 73,
+    "level": 2,
+    "name": "Calix Secretus",
+    "description": "Dieses Ritual verwandelt einen gewöhnlichen Gegenstand in ein verborgenes Gefäß für das Blut des Zaubernden und erlaubt es, erstaunliche Mengen davon für späteren Gebrauch zu speichern.",
+    "ingredients": "Ein Gegenstand, der in die Hand des Zaubernden passt, sowie dessen eigenes Blut.",
+    "execution": "Der Zaubernde tränkt den Gegenstand mit seinem Blut und spricht die Worte des Rituals, bis das Objekt das Blut vollständig absorbiert.",
+    "system": "Das Ritual dauert eine Stunde. Bei einem erfolgreichen Ritualwurf speichert der Gegenstand Blut des Zaubernden. Um das Blut freizusetzen, muss ein festgelegtes Befehlswort gesprochen werden. Das gespeicherte Blut kann pro zwei Wallungs-Checks, die beim Einlagern gemacht wurden, einen Hunger stillen. Blut im Wert eines einzelnen Wallungs-Checks reicht aus, um einen Ghul zu versorgen oder als Komponente für andere Rituale zu dienen."
+  },
+  {
+    "id": 74,
+    "level": 2,
+    "name": "Flüsterlaus",
+    "description": "Der Blutmagier erschafft eine unsichtbare, nicht-technologische Abhörmarke aus geronnenem Vitae und Sympathiemagie. Die Flüsterlaus haftet an Personen oder Oberflächen und sammelt jedes Geräusch in ihrer Umgebung. Solange der Zaubernde sich innerhalb der Reichweite befindet, kann er mithören, als wäre er selbst vor Ort.",
+    "ingredients": "ein Stück Klebstoff; eine Nadel; Blut des Zaubernden (ein Wallungs-Check).",
+    "execution": "Der Zaubernde formt aus Klebstoff und der Nadel eine winzige Struktur und tränkt sie mit seinem Blut. Die Flüsterlaus kann anschließend bis zum nächsten Sonnenaufgang aufbewahrt werden. Um sie anzubringen, muss der Zaubernde das Ziel (eine Person oder eine Oberfläche) kurz berühren; das Anbringen ist augenblicklich und unauffällig.",
+    "system": "Der Zaubernde legt einen Wallungs-Check ab und führt die Ritualprobe beim Herstellen der Flüsterlaus durch. Bei Erfolg entsteht eine Flüsterlaus, die bis zum nächsten Sonnenaufgang existiert. Das Anbringen erfordert keine Probe und ist eine freie Handlung im Rahmen einer Berührung. Solange der Zaubernde sich innerhalb der Reichweite befindet, kann er mithören. Reichweite: 1 Meile pro Punkt Differenz (mindestens 1 Meile). Bei einem kritischen Triumph beträgt die Reichweite 10 Meilen pro Punkt Differenz. Hören: Normalerweise kann der Zaubernde pro Runde nur eine Geräuschquelle oder ein Gespräch klar verfolgen. Bei einem kritischen Triumph kann er alle Geräuschquellen innerhalb des Wirkungsradius gleichzeitig wahrnehmen und intuitiv zwischen ihnen wechseln. Die Wirkung endet bei Sonnenaufgang oder wenn die Flüsterlaus zerstört wird. Die Flüsterlaus ist unsichtbar und hinterlässt keine physischen Spuren. Sie kann mit „Das Unsichtbare sehen“ (Auspex 1) mit Geistesschärfe + Wahrnehmung gegen die Erfolge der Ritualprobe entdeckt werden. Wird die Laus durch Auspex gefunden, kann sie mit Salz, heißem Wasser oder offener Flamme in einer Aktion zerstört werden. Dies erfordert eine Probe auf Geschicklichkeit + Okkultismus (Schwierigkeit 3)."
+  },
+  {
+    "id": 75,
+    "level": 1,
+    "name": "Antlitz des Schreckens",
+    "description": "Der Zaubernde lässt sein Biest durch die Haut schimmern: Schatten kriechen über Wangenknochen, die Augen wirken tiefer und hungriger, die Stimme bekommt den Klang eines Grabes. Es ist keine Gestaltwandlung, sondern ein sozialer Fluch im Spiegelbild der Sterblichen.",
+    "ingredients": "Ein Handspiegel oder eine polierte Metallfläche; Ruß oder Asche; ein Tropfen Vitae (ein Wallungs-Check kann genügen).",
+    "execution": "Der Zaubernde zeichnet mit Ruß ein grobes Maul oder eine Maske auf den Spiegel, beschlägt ihn mit seinem Atem und setzt einen Tropfen Vitae darauf. Dann starrt er sein Spiegelbild an und spricht den Namen seines Biestes (oder einen selbstgewählten Titel), bis die Konturen im Glas „zurückstarren“.",
+    "system": "Lege die Ritualprobe ab. Bei Erfolg erhält der Zaubernde für eine Szene +2 Würfel auf Proben, die Einschüchtern oder Drohen beinhalten (typischerweise Manipulation oder Charisma + Einschüchtern; in passenden Situationen auch Anführen, wenn es um Furcht und Gehorsam geht). Außerdem erleiden Sterbliche, die ihn direkt konfrontieren wollen, +1 Schwierigkeit auf Proben, um standzuhalten oder ihn anzulügen (Erzählerinentscheidung, nur wenn die Bedrohung im Raum steht). Ein kritischer Triumph erhöht den Bonus auf +3 Würfel. Das Ritual verändert nicht das Aussehen für Kameras oder Spiegelaufnahmen außerhalb des Blickwinkels des Zaubernden; es ist eine unmittelbare, persönliche Wirkung."
+  },
+  {
+    "id": 76,
+    "level": 2,
+    "name": "Blutflakon der Heimkehr",
+    "description": "Der Zaubernde bindet eine Glasphiole an einen Ort und zwingt sein Blut, sich dorthin „zurückzuerinnern“. Zerbricht die Phiole, wird das verschüttete Vitae zu einer kurzlebigen Pforte: Der Vampir kann in die Blutpfütze treten und an der gebundenen Stelle wieder hervortreten.",
+    "ingredients": "Eine kleine Glasphiole mit Korken; ein Stück Erde, Staub oder Mörtel vom Zielort; ein Tropfen Salz; Blut des Zaubernden (zwei Wallungs-Checks).",
+    "execution": "Der Zaubernde füllt die Phiole mit seinem Blut, gibt Salz und das Material vom Zielort hinzu und versiegelt sie. Dann steht er am Zielort (z. B. in der Zuflucht), zeichnet mit der Phiole einen Kreis auf den Boden und spricht fünfzehn Minuten lang die Bindungsformel. Die Phiole ist danach an genau diesen Ort gebunden.",
+    "system": "Der Zaubernde legt zwei Wallungs-Checks ab und führt die Ritualprobe durch. Um sie zu benutzen, muss der Anwender die Phiole auf den Boden werfen (sie muss zerbrechen und Blut verschütten) und in die Blutpfütze treten. In der folgenden Runde tritt er am gebundenen Ort aus einer Blutlache hervor (die dort kurz erscheint). Das Ritual funktioniert nicht, wenn der Zielort in direktem Sonnenlicht liegt. Ist der Zielort versiegelt oder physisch so blockiert, dass kein Körper auftauchen kann, scheitert die Auslösung: Der Zaubernde erleidet 2 Punkte oberflächlichen Gesundheitsschaden und die Phiole ist verbraucht. Entdecken: Auspex 1 kann die Bindung am Zielort als schwache Blut-Signatur wahrnehmen; ein Wurf auf Geistesschärfe + Okkultismus (Schwierigkeit 4) erkennt die Stelle ebenfalls."
   }
 ]

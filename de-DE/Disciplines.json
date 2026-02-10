@@ -69,6 +69,19 @@
           "diceSupplies": "Entschlossenheit + Auspex",
           "system": "Lege eine Probe auf Entschlossenheit + Auspex ab, bei einer Schwierigkeit von 3. Abhängig von der Ablenkung, Entfernung und anderen Faktoren wie der Blutmenge des Anwenders, die sich noch im Opfer befindet, kann sich die Schwierigkeit erhöhen. Das Opfer ist sich der Übernahme meistens nicht bewusst, aber mit der Kraft das Unsichtbare spüren lässt sich der Gast bemerken. Um einen unerwünschten Mitfahrer loszuwerden, muss das Opfer den Eindringling bei einer Probe auf Geistesschärfe + Entschlossenheit vs. Geistesschärfe + Entschlossenheit schlagen. Ein Auspex-Anwender, der auf diese Art rausgeworfen wurde, kann erst in der nächsten Nacht wieder versuchen, die Sinne zu teilen.",
           "duration": "eine Szene"
+        },
+        {
+          "id": 153,
+          "name": "Haruspex",
+          "combination": {
+            "id": 11,
+            "level": 1
+          },
+          "summary": "Manche Orakel, Mystiker und Nekromanten schwören, dass in den letzten, flackernden Augenblicken vor dem Tod das sterbende Bewusstsein die Geheimnisse des Kosmos streift und einen Blick ins Unendliche wirft. Mit der richtigen Einstimmung kann ein Vampir diese ausfransende Erkenntnis packen, bevor sie im Grab verglimmt – und sie zu seinem Vorteil verbiegen, als düstere Vorzeichen für die eigene Zukunft. Einige beobachten den Tod nur, wenn er „natürlich“ geschieht. Andere werden, wenn die eigene Zukunft im Dunkeln liegt, krankhaft paranoid – und sorgen mit Mord und Qualen für einen stetigen Strom aus Einsicht.",
+          "costs": "Ein Wallungs-Check",
+          "diceSupplies": "Entschlossenheit + Auspex",
+          "system": "Der Vampir verbringt eine Runde damit, den Körper eines soeben Gestorbenen oder Sterbenden zu untersuchen (der Tod muss innerhalb der Szene eintreten). Dabei werden Organe entfernt und verstreut, in leere Augen gestarrt und der Leichnam entweiht. Danach entfacht der Vampir sein Blut und würfelt Entschlossenheit + Auspex gegen Schwierigkeit 3. Charaktere erhalten +1 Würfel, wenn sie das Opfer selbst getötet haben, oder +2 Würfel, wenn das Opfer während des „Schauens“ stirbt (ein so quälender Tod bringt wahrscheinlich Makel). Bei Erfolg darf der Vampir bis zum Ende der Nacht einmal bei einem beliebigen Würfelpool alle Würfel neu würfeln. Bei einem kritischen Triumph darf er bis zu drei verschiedene Pools auf diese Weise neu würfeln. Bei jedem Neuwurf darf der Spieler das bessere Ergebnis wählen. Diese Kraft funktioniert nur bei sterblichen Opfern – Vampire und Tiere liefern keinen Funken Einsicht.",
+          "duration": "Eine Nacht"
         }
       ],
       "4": [
@@ -80,6 +93,15 @@
           "diceSupplies": "Intelligenz + Auspex",
           "system": "Lege eine Probe auf Intelligenz + Auspex ab, die Schwierigkeit hängt von der Information ab, nach der gesucht wird. Den emotionalen Zustand der Person, die vor ein paar Tagen eine Mordwaffe benutzt hat, zu erspüren, liegt bei einer Schwierigkeit von 3, aber die Umgebung zu erkennen, in der ein 300 Jahre alter Brief geschrieben wurde, liegt bei einer Schwierigkeit von 6 oder höher. Pro Differenzpunkt der Probe kann der Anwender einen weiteren früheren Benutzer und weitere Umstände erkennen, wobei vom neuesten Ereignis aus rückwärts gezählt wird.",
           "duration": "eine Runde"
+        },
+        {
+          "id": 154,
+          "name": "Offenes Herz",
+          "summary": "Der Vampir dringt in das Unterbewusstsein eines Opfers vor und spürt, was es am meisten begehrt – oder am meisten fürchtet. Mit diesem Wissen in der Hand besitzt der Anwender einen gefährlichen Hebel. Doch wer einem Ahnen zu deutlich zeigt, dass er dessen tiefste Angst kennt, hat womöglich nicht mehr viele Nächte übrig.",
+          "costs": "Ein Wallungs-Check",
+          "diceSupplies": "Intelligenz + Auspex vs. Fassung + Ausflüchte",
+          "system": "Der Anwender entscheidet, ob er nach Ängsten oder Begierden sucht, und verwickelt das Ziel einige Minuten in ein Gespräch, bevor er die Probe ablegt. Gegen ahnungslose Sterbliche gilt Schwierigkeit 0; Sterbliche, die um vampirische Fähigkeiten wissen – sowie alle übernatürlichen Wesen – dürfen mit Fassung + Ausflüchte widerstehen. Die Erfolgsdifferenz bestimmt, wie viel der Anwender erfährt: 1–2: vage Ahnung (z. B. „Reichtum“, „Sex“, „Insekten“, „Einsamkeit“). 3–5: deutlich konkreter (z. B. „an der Börse durchstarten“, „ein Dreier“, „Hornissen“, „meinen Partner verlieren“). 6+: klares Bild samt Kontext oder Vorgeschichte (z. B. „mit dem NDX-Insiderdeal durchkommen“, „ein Dreier mit Billy und Jeanette“, „Hornissen, seit ich in der dritten Klasse aus Mutprobe ein Nest zertrümmert habe“, „Warren erfährt, dass ich über Billy und Jeanette gelogen habe“). Addiere 1 Erfolg, wenn das Objekt der Begierde/Angst anwesend ist, und einen weiteren, wenn das Gespräch das Thema berührt (wobei das Ziel die Absicht wittern kann, sofern der Anwender keinen Vergleich Fassung + Ausflüchte vs. Geistesschärfe + Menschenkenntnis gewinnt).",
+          "duration": "-"
         }
       ],
       "5": [
@@ -256,6 +278,15 @@
           "costs": "ein Wallungs-Check",
           "system": "Proben auf die Trotzhaltung willensstarker Sklaven, die unter der Wirkung von Gunst des Domitors stehen, werden mit einem Malus von drei Würfeln abgelegt, und die Sklaven dürfen für diese Proben keine Willenskraft aufwenden. Zudem bedeutet ein Totaler Fehlschlag bei einem Trotzwurf, dass das Blutband in diesem Monat nicht schwächer wird. Siehe S. 233-241 von Vampire: Die Maskerade für weitere Informationen zu Blutsband und Proben, die abgelegt werden müssen, um diesem zu trotzen.",
           "duration": "ein Monat"
+        },
+        {
+          "id": 159,
+          "name": "Die gestohlene Stimme",
+          "summary": "Statt ein Opfer zu etwas zu zwingen, zwingt der Vampir es zum Schweigen: Es soll stumm Zeuge des Bösen sein. Betroffene können nicht sprechen, rufen oder schreien – jede Stimme wird ihnen geraubt, und ihre letzten Worte verschwinden ungehört im Nichts.",
+          "costs": "Ein Wallungs-Check",
+          "diceSupplies": "Fassung + Beherrschung vs. Entschlossenheit + Darbietung",
+          "system": "Der Vampir muss Blickkontakt herstellen. Gegen Sterbliche ist keine Probe nötig; Kainiten und andere Übernatürliche dürfen mit Entschlossenheit + Darbietung widerstehen. Wer von dieser Kraft betroffen ist, kann nicht mehr sinnvoll kommunizieren: Die Stimme erzeugt keinen Ton, Geschriebenes wird unleserlich, Gesten und Zeichen zucken unkontrolliert, und selbst Schläge gegen Wände bleiben ein dumpfer Stoß – als könnten die Gliedmaßen keine Kraft mehr übertragen.",
+          "duration": "Eine Szene"
         }
       ],
       "3": [
@@ -411,6 +442,33 @@
           "system": "Nach der Hungerprobe öffnet der Koldun den alten Schnitt seiner Initiation. Er kann sich selbst 1 Punkt schwerer Gesundheitsschaden pro Punkt in Blutszauberei zufügen. Für jeden verlorenen Punkt weitet der Koldun seine Sinne weiter aus: 1 Punkt = 15 Meter, 2 Punkte = 90 Meter, 3 Punkte = 500 Meter, 4 Punkte = 1,5 Kilometer, 5 Punkte = 8 Kilometer. Seine Wahrnehmungen fokussieren sich durch das gewählte Element. Ein koldunisch an Feuer gebundener Charakter sieht, riecht, hört und fühlt zum Beispiel durch Flammen, Öfen, Heizspiralen, brennende Zigaretten usw. innerhalb seines Wirkungsradius. Koldunische Zauberei kann mystisch verborgene Wesen wie verdunkelte Vampire wahrnehmen, wenn ein erfolgreicher Wurf aus Entschlossenheit + Blutszauberei gegen Geistesschärfe oder Entschlossenheit + Verdunkelung (oder ein anderes relevantes übernatürliches Merkmal) gelingt.",
           "duration": "Eine Szene, wobei der Koldun diese Kraft in derselben Nacht jederzeit auf dem vorherigen Niveau erneuern kann, indem er eine weitere Hungerprobe macht und 1 Punkt verschärften Gesundheitsschaden erleidet. Bei Sonnenaufgang endet die Kraft vollständig.",
           "multiple": true
+        },
+        {
+          "id": 155,
+          "name": "Forme das sanguine Sakrament",
+          "summary": "Prunkvolle Tremere nutzen diese Kraft, um Blut oder Vitae zu Zeichen, Formen oder Bildern zu modellieren. Das kann bloßes Schauspiel im Elysium sein, eine clevere Manipulation von Blutspritzern zur Irreführung der Ermittler – oder der einzige Weg, ein Bannzeichen unter einer verschlossenen Tür hindurch zu bekommen.",
+          "costs": "Kostenlos (oder ein Wallungs-Check, wenn eigenes Blut verwendet wird)",
+          "diceSupplies": "Manipulation + Blutmagie",
+          "system": "Der Vampir würfelt Manipulation + Blutmagie und lässt durch Konzentration Blut oder Vitae in das gewünschte Muster fließen. Die Schwierigkeit richtet sich nach der Komplexität: von einem einfachen „SOS“ (Schwierigkeit 2) über ein Porträt (Schwierigkeit 4) bis zu einem topologisch komplexen Zaubersiegel (Schwierigkeit 6). Bei Fehlschlag spritzt das Blut chaotisch auseinander. Bei einem kritischen Triumph entsteht nicht nur das gewünschte Bild – der Vampir kann es während der Szene sogar frei weiterformen.",
+          "duration": "Bis zum Ende der Szene oder bis der Anwender es auflöst"
+        },
+        {
+          "id": 183,
+          "name": "Schweigen des Geronnenen Blutes",
+          "summary": "Indem der Vampir seine Vitae zwingt, den Raum selbst zu durchtränken, erstickt er Schall an der Quelle. Luft wird schwer, Stimmen brechen ab, und selbst Gewalt verliert ihre Stimme. Diese Gabe wird genutzt, um Urteile zu vollstrecken, ohne dass die Nacht davon erfährt.",
+          "costs": "Ein Wallungs-Check",
+          "diceSupplies": "Fassung + Blutmagie",
+          "system": "Der Anwender tränkt einen Bereich bis zu 3 Metern Radius mit seiner Vitae. Bei Erfolg erhalten alle Proben, die auf Hören basieren, –2 Würfel. Laute Geräusche sind außerhalb des Bereichs nur dumpf wahrnehmbar. Bei einem kritischen Triumph steigt der Malus auf –4 Würfel, und einfache Aufnahmegeräte liefern nur verzerrtes Rauschen oder Stille. Sicht und andere Sinne bleiben unbeeinflusst.",
+          "duration": "Eine Szene"
+        },
+        {
+          "id": 184,
+          "name": "Blut der Verlöschung",
+          "summary": "Blut vergisst nichts – aber es kann andere Spuren auslöschen. Diese Technik zwingt vorhandene Beweise, sich dem Willen der Vitae zu beugen, bis sie bedeutungslos oder falsch wirken.",
+          "costs": "Ein Wallungs-Check",
+          "diceSupplies": "Manipulation + Blutmagie",
+          "system": "Der Anwender verstreicht Vitae über Blutspuren, Gewebe, Einschusslöcher, Schmauchspuren, Fingerabdrücke oder Fußspuren in einem abgegrenzten Bereich (ein Raum oder Fahrzeug). Profane forensische Untersuchungen erleiden –3 Würfel und liefern widersprüchliche oder irrelevante Ergebnisse. Bei kritischem Triumph erscheinen die Spuren alt, tierisch oder sekundär. Übernatürliche Wahrnehmung bleibt unbeeinflusst.",
+          "duration": "Bis zur aktiven Untersuchung"
         }
       ],
       "2": [
@@ -422,6 +480,42 @@
           "diceSupplies": "Intelligenz + Blutmagie vs. Widerstandsfähigkeit + Fassung",
           "system": "Der Anwender würfelt in einem Wettbewerb auf Intelligenz + Blutmagie vs. Widerstandsfähigkeit + Fassung des Opfers, das er sehen kann, während er sich eine Runde lang konzentriert und subtile Gesten ausführt. Bei einem Triumph erhöht sich der Hunger des Opfers um 1, während er sich bei einem kritischen Triumph um 2 Punkte erhöht. Das Opfer erkennt, wer es damit plagt, wenn es den Anwender sieht, während es auf Intelligenz + Okkultismus vs. Geistesschärfe + Ausflüchte würfelt.",
           "duration": "k.A."
+        },
+        {
+          "id": 176,
+          "name": "Geheimnisse auswaschen",
+          "summary": "Der Blutmagier entfesselt dünne Strähnen seines Blutes, geschärft auf die Suche nach einer bestimmten Information. Das Blut flutet das Ziel der Nachforschung und erlaubt es, enorme Textmengen und ganze Archive in Minuten zu durchkämmen. Zurück bleibt ein verräterischer Blutfleck.",
+          "costs": "Ein Wallungs-Check",
+          "diceSupplies": "Intelligenz + Blutmagie",
+          "system": "Der Anwender legt den Wallungs-Check ab und würfelt Intelligenz + Blutmagie gegen eine Schwierigkeit nach Ermessen der Erzählerin: von 2 (ein einzelner Brief in einem normalen Büro) bis 5 (verschlüsselte Informationen in einer riesigen Bibliothek). Wurde die Information übernatürlich verborgen, steigt die Schwierigkeit weiter. Die benötigte Zeit hängt von der Größe ab: ein Raum dauert Minuten, eine Bibliothek Stunden oder die ganze Nacht. Die Kraft hilft nicht beim Entziffern unbekannter Sprachen oder Chiffren. Nichtschriftliche Informationen (Gemälde, Musik, alte Disketten) funktionieren nach Ermessen der Erzählerin, meist mit höherer Schwierigkeit.",
+          "duration": "Eine Nacht oder bis die Information gefunden wurde (oder die Suche ins Leere läuft)"
+        },
+        {
+          "id": 185,
+          "name": "Blutdurchtränktes Metall",
+          "summary": "Metall, Stein und Mechanik erinnern sich daran, dass sie einst formbar waren. Blut zwingt sie, sich daran zu erinnern.",
+          "costs": "Ein Wallungs-Check",
+          "diceSupplies": "Geschicklichkeit + Blutmagie",
+          "system": "Der Anwender berührt ein mechanisches Hindernis (Schloss, Riegel, Kette, Gitter) und lässt Vitae eindringen. Mechanische Schlösser öffnen sich lautlos ohne weitere Probe. Elektronische Schlösser erfordern zusätzlich eine Probe auf Technologie (Schwierigkeit 3). Bei kritischem Triumph bleibt kein sichtbarer Manipulationsschaden zurück.",
+          "duration": "Ein Augenblick"
+        },
+        {
+          "id": 186,
+          "name": "Vitae der Störung",
+          "summary": "Maschinen sind blind für Magie, aber nicht für Blut. Wo Vitae fließt, stolpert der Strom.",
+          "costs": "Ein Wallungs-Check",
+          "diceSupplies": "Intelligenz + Blutmagie",
+          "system": "Der Anwender bringt Vitae mit einem elektronischen oder mechanischem Gerät oder Sensor in Kontakt. Bei Erfolg fällt das Gerät für eine Szene aus oder zeigt Fehlfunktionen. Kameras liefern Standbilder, Schleifen oder Bildrauschen. Bei kritischem Triumph wirkt der Defekt wie ein plausibler technischer Fehler.",
+          "duration": "Eine Szene oder eine Nacht bei kritischem Triumph"
+        },
+        {
+          "id": 187,
+          "name": "Sanguine Schrapnelle",
+          "summary": "Der Vampir reißt sein Blut aus dem Körper und zwingt es, sich selbst zu zerfetzen. Die Vitae erstarrt zu einer Wand aus rasenden Klingen, die sich nach vorn entlädt und alles zerschneidet, was sich ihr entgegenstellt.",
+          "costs": "Ein Wallungs-Check",
+          "diceSupplies": "Geistesschärfe + Blutmagie",
+          "system": "Der Anwender stößt Vitae aus einer offenen Wunde aus. Vor ihm formt sich für einen Augenblick eine rechteckige Wand aus blutigen Splittern (bis zu 3 Meter breit, 2 Meter hoch), die sich bis zu 10 Meter nach vorn entlädt. Der Angriff verursacht schweren Gesundheitsschaden in Höhe der Erfolgsdifferenz gegen alle Ziele im Wirkungsbereich. Rüstung schützt normal, wird aber bei einem kritischen Triumph ignoriert. Glas zerbricht automatisch, fragile Oberflächen werden zerstört; bei kritischem Triumph können auch Holzstrukturen durchtrennt werden.",
+          "duration": "Eine Handlung"
         }
       ],
       "3": [
@@ -442,6 +536,32 @@
           "diceSupplies": "Körperkraft + Blutmagie vs. Widerstandsfähigkeit + Okkultismus oder Seelenstärke",
           "system": "Der Anwender konzentriert sich eine Runde lang und drängt das Blut durch eine offene, meist selbst zugefügte Wunde. Mit jedem Wallungs-Check, der das Blut in Gift umwandelt, vergeht eine Runde und es entsteht genug Blut, um eine Klingenwaffe für den Nahkampf mit klebrigem Sekret zu beschichten oder einen Gegner zu bespucken. Um einen Gegner zu bespucken, ist eine Probe auf Geschicklichkeit + Sportlichkeit nötig, der man wie allen anderen Fernkampfangriffen ausweichen kann. Allerdings sind Vampire auch bekannt dafür, dem Opfer einfach einen Zungenkuss zu geben und das Gift so zu übertragen. Noch subtilere Vampire verwandeln ihr Blut, um mögliche Diableristen zu vergiften: giftiges Blut aus einer Ader zu trinken ist ein garantierter Treffer! Von solchen Ader-zu-Fang-Übertragungen abgesehen, handelt es sich bei Skorpionblut um ein Kontaktgift, das sich in anderen Flüssigkeiten auflöst und zu zähflüssig ist, um über eine Spritze injiziert zu werden. Der Anwender kann damit keine Getränke versetzen oder über seinen eigenen Biss injizieren (wegen des Druckunterschiedes). Auf Pfeilspitzen und Kugeln lässt sich nicht genug Blut auftragen, um diese Kraft mit Fernkampfwaffen einzusetzen, und die Wirkung hält nicht lange genug, um Hohlspitzgeschosse mit Skorpionblut zu füllen. Sobald das Gift trifft, würfelt der Anwender auf Körperkraft + Blutmagie vs. Widerstandsfähigkeit + Okkultismus. (Vampire mit Seelenstärke können mit Widerstandsfähigkeit + Seelenstärke widerstehen.) Gewinnt der Anwender den Wettbewerb, fügt das Gift die Differenz bei Sterblichen als Schweren Schaden zu und bei Vampiren als Leichten Schaden, der nicht halbiert wird. Ein Sterblicher, der auch nur einen Schadenspunkt erleidet, bricht bewusstlos zusammen.",
           "duration": "das Gift ist eine Szene lang wirksam"
+        },
+        {
+          "id": 175,
+          "name": "Wogen des Herzens",
+          "summary": "Der Vampir kann die Resonanz von Blut verändern – oder so starke Gefühle hineinbrennen, dass sie eine Zwangshandlung auslösen.",
+          "costs": "Ein Wallungs-Check",
+          "system": "Der Vampir entscheidet, ob er sein eigenes Blut beeinflusst oder das Blut eines Sterblichen bzw. Kainiten, von dem er gerade trinkt. Wähle eine beliebige Zwangshandlung (einschließlich einer Clan-Zwangshandlung). Der nächste Kainit, der dieses veränderte Blut trinkt, erleidet diese Zwangshandlung. Bei Sterblichen bleibt das Blut einen Monat lang verändert. Bei Vampiren bleibt es verändert, bis sie Hunger 5 erreichen oder ein Monat vergangen ist (je nachdem, was zuerst eintritt). Der Anwender selbst ist immun gegen die Zwangshandlung.\nAlternativ kann der Anwender die Resonanz des Zielblutes verstärken oder abschwächen: Er kann sie von akut zu intensiv, von intensiv zu flüchtig oder von flüchtig zu keiner Resonanz senken. Ein Vampir kann Resonanz nur von flüchtig zu intensiv steigern. Die Veränderung tritt sofort ein, ist aber nicht zwingend dauerhaft – Blutresonanz wandelt sich natürlicherweise und kann weiter beeinflusst werden. Üblicherweise hat sich die Resonanz sterblichen Blutes nach einigen Tagen, spätestens einer Woche, wieder verändert.",
+          "duration": "-"
+        },
+        {
+          "id": 188,
+          "name": "Hämatitklinge",
+          "summary": "Der Vampir öffnet seine Pulsader und zwingt das austretende Blut, Form und Zweck anzunehmen. Die Klinge ist Teil seines Körpers, geboren aus Schmerz und Wille.",
+          "costs": "Ein Wallungs-Check und 1 oberflächlicher Gesundheitsschaden",
+          "diceSupplies": "Körperkraft + Blutmagie",
+          "system": "Aus der geöffneten Pulsader formt sich eine scharfkantige Blutklinge, die als Teil des Körpers gilt. Angriffe erfolgen mit Handgemenge statt Nahkampf und verursachen +1 Schaden. Die Klinge kann zum Pflocken eingesetzt werden: Bei einem erfolgreichen Pflockangriff verfestigt sie sich, löst sich vom Körper und wird unbrauchbar. Verfällt das Ziel in Starre oder endet eine Stunde, zerfällt die Klinge zu Staub.",
+          "duration": "Eine Stunde"
+        },
+        {
+          "id": 189,
+          "name": "Bluttentakel",
+          "summary": "Der Vampir lässt sein Blut aus dem Körper strömen und zwingt es, zu greifen, zu halten und zu tragen. Die Vitae wird zu fremden Gliedmaßen, die seinem Willen folgen.",
+          "costs": "Ein Wallungs-Check",
+          "diceSupplies": "Entschlossenheit + Blutmagie",
+          "system": "Der Anwender formt bis zu vier Bluttentakel aus seinem Körper oder verschütteter Vitae in unmittelbarer Nähe. Diese können Objekte greifen, Türen öffnen, Gegner festhalten oder den Anwender beim Klettern an Wänden und Decken unterstützen. Während die Tentakel aktiv sind, kann der Anwender eine zusätzliche einfache Handlung pro Runde ausführen, die ausschließlich von den Tentakeln übernommen wird. Die Tentakel können keinen eigenständigen Schaden verursachen. Für Proben mit den Tentakeln wird zusätzlich Blutmagie zum Würfelpool hinzugefügt.",
+          "duration": "Eine Szene"
         }
       ],
       "4": [
@@ -453,6 +573,33 @@
           "diceSupplies": "Geistesschärfe + Blutmagie vs. Geistesschärfe + Okkultismus",
           "system": "Der Anwender winkt ein sterbliches Opfer in Sicht heran und würfelt auf Geistesschärfe + Blutmagie vs. Geistesschärfe + Okkultismus. Bei einem Triumph wird eine Arterie geöffnet und der Vampir kann vom anderen Ende des Raumes aus trinken. (Ein Opfer in Ganzkörperrüstung wie einem Chemikalienschutzanzug blutet dagegen wie verrückt in den Anzug.) Während des Trinkens kann der Anwender nichts anderes tun, dafür kann er doppelt so schnell trinken wie sonst (bei kritischen Triumph sogar dreimal so schnell), dank des magischen Drucks der Kraft.",
           "duration": "einmaliges Trinken"
+        },
+         {
+          "id": 156,
+          "name": "Fulminierende Vitae",
+          "summary": "Der Vampir füllt sein Blut in ein etwa pintgroßes Fläschchen oder Glas und lädt es blutmagisch auf. Versiegelt darin brodelt die Vitae, als wolle sie sich befreien. Zerbricht das Gefäß, explodiert das Blut wie Splitter und schneidet alles im Spritzbereich. Bleibt es lange genug ungebrochen, verkocht die Flüssigkeit zu rostfarbenem Rückstand, der wie Glassplitter schneidet. Vielleicht ist Blut deshalb so effektiv gegen Kainiten: Wer in der Explosion steht, findet seine Wunden deutlich schwerer zu schließen als nach Messer oder Kugel. Wenn es eng wird, greifen manche eben zum Messer – und zum eigenen Handgelenk.",
+          "costs": "Zwei Wallungs-Checks",
+          "diceSupplies": "Widerstandsfähigkeit + Blutmagie",
+          "system": "Wenn das Gefäß zerbricht – durch Wurf, Explosion oder Unfall – detoniert die fulminierende Vitae in einem Radius von etwa 6 Metern. Kainiten im Wirkungsbereich erleiden schweren Gesundheitsschaden in Höhe der Erfolgsdifferenz eines Vergleichs Widerstandsfähigkeit + Blutmagie vs. Geistesschärfe + Sportlichkeit. Sterbliche erleiden nur oberflächlichen Gesundheitsschaden, auch weil sich ihr Blut mit der Vitae mischt und kurzfristig „heilend“ wirkt. Unbelebte Gegenstände bleiben unversehrt. Wer durch diese Kraft Schaden nimmt, gilt außerdem als hätte er die Vitae gekostet (für Zwecke von Blutsband, Disziplinenlernen usw.).",
+          "duration": "Das Gefäß bleibt bis zum Morgengrauen „scharf“"
+        },
+        {
+          "id": 157,
+          "name": "Marionette",
+          "requirement": 155,
+          "summary": "Die Meisterschaft des Blutmagiers reicht so weit, dass er Blut lenkt, während es noch in den Adern seines Besitzers fließt. Mit Blick und Gesten zieht er Blut zu humanoiden Formen – und setzt sie in Bewegung. Für lebende Ziele ist das Grauen: Gliedmaßen werden schmerzhaft gezerrt, der Körper stolpert ohne Rücksicht, und die Adern fühlen sich an, als wollten sie aus der Haut reißen. Widerstand ist möglich – blutig, qualvoll und kurz.",
+          "costs": "Ein Wallungs-Check",
+          "diceSupplies": "Manipulation + Blutmagie",
+          "system": "Der Vampir konzentriert sich eine Runde, entfacht sein Blut und legt die Aktivierungsprobe ab. Gegen verschüttetes Blut (oder Leichen) gilt Schwierigkeit 2. Lebende Ziele dürfen mit Widerstandsfähigkeit + Okkultismus (oder Seelenstärke) widerstehen. Pro Punkt Differenz hat der Vampir für eine Runde volle Kontrolle und nutzt Manipulation + Blutmagie für alle körperlichen Handlungen der „Marionette“. Lebende Ziele bleiben bei Bewusstsein und können sprechen – meist bleibt es bei panischen Schreien. Lebende Ziele können die Kontrolle für eine Runde zurückerzwingen, erleiden dabei aber 1 Punkt schweren Gesundheitsschaden, da ihr Blut ihr Fleisch von innen zerreißt. Blut ohne Körper verhärtet und schärft sich vorübergehend und verursacht im Kampf +2 Schaden. Der Anwender muss währenddessen Konzentration halten: Bewegung und Gespräch sind möglich, aber die meisten offensiven Handlungen mit Würfelpools brechen den Zauber und beenden die Kraft – außer der Anwender erzielt beim offensiven Wurf einen kritischen Triumph. Vampire und Vitae können nicht puppenspielartig gelenkt werden, nur Blut von Lebenden.",
+          "duration": "Eine Runde pro Punkt Differenz"
+        },
+        {
+          "id": 179,
+          "name": "Blut-Aegis",
+          "summary": "Der Vampir zwingt seine Vitae, eine greifbare Schutzbarriere zu bilden: ein zitterndes Blutblatt, das sich von selbst bewegt, um Geschosse abzufangen.",
+          "costs": "Ein oder mehr Wallungs-Checks",
+          "system": "Der Anwender gibt Blut im Wert eines oder mehr Wallungs-Checks aus. Pro eingesetztem Check reduziert die schwebende Barriere den Schaden eingehender Fernkampfangriffe um 5. Der Effekt ist automatisch: Die Vitae fängt jedes Projektil in einer Fontäne Blut ab und formt sich neu, solange die Kraft aktiv ist. Ist der Schutz verbraucht, wird das Blut träge und liegt als Spritzer im Konfliktbereich.",
+          "duration": "Eine Szene oder bis die Schadenspunkte aufgebraucht sind (je nachdem, was zuerst eintritt)"
         }
       ],
       "5": [
@@ -473,6 +620,15 @@
           "diceSupplies": "Entschlossenheit + Blutmagie vs. Fassung + Okkultismus oder Seelenstärke",
           "system": "Der Anwender zahlt die Kosten, berührt das Opfer (im Kampf oder ähnlichen Situation ist ein Wurf auf Geschicklichkeit + Sportlichkeit nötig) und würfelt auf Entschlossenheit + Blutmagie vs. Fassung + Okkultismus. (Vampire mit Seelenstärke können mit Fassung + Seelenstärke widerstehen.) Bei einem Triumph verursacht jeder Differenzpunkt beim Opfer einen Punkt Schweren Schaden. Sterbliche, die wenigstens einen Schadenspunkt erleiden, sterben einen qualvollen Tod. Vampire erhalten 1 Hunger pro zugefügtem Schadenspunkt, bis der Hunger auf 5 ansteigt.",
           "duration": "eine Runde"
+        },
+        {
+          "id": 190,
+          "name": "Purpurne Apotheose",
+          "summary": "Für einen flüchtigen Moment erhebt sich der Blutmagier über seine Begrenzungen. Blut gehorcht ihm bedingungslos, Körper und Wille verschmelzen zu einem Werkzeug reiner Dominanz. Danach bleibt nur der Preis.",
+          "costs": "Zwei Wallungs-Checks",
+          "diceSupplies": "",
+          "system": "Bei Aktivierung wählt der Anwender drei Effekte: +3 Würfel auf alle körperlichen Attribute und Fähigkeiten; +3 Würfel auf alle sozialen Attribute und Fähigkeiten; +3 Würfel auf alle geistigen Attribute und Fähigkeiten; Gegner erleiden –3 Würfel auf Proben, gegen den Anwender; Erhöhe jeden zugefügten Schaden um 3 schweren Schaden; Ohne Hungerwürfel würfeln; Halbiere jeden erlittenen Schaden der Szene. Nach Ende der Szene erleidet der Anwender 3 unhalbierte oberflächliche Gesundheitsschäden und erhält 1 Makel. Bei kritischem Triumph entfällt einer dieser Nachteile nach Wahl.",
+          "duration": "Eine Szene"
         }
       ],
       "6": [
@@ -572,6 +728,15 @@
           "costs": "ein Wallungs-Check",
           "system": "Der Wert in Geschwindigkeit wird dem Würfelvorrat für Proben auf Geschicklichkeit außerhalb des Kampfes hinzugefügt. Einmal pro Runde kann der Anwender den Wert auch dazu addieren, wenn er sich mit Geschicklichkeit + Sportlichkeit verteidigt.",
           "duration": "eine Szene"
+        },
+        {
+          "id": 181,
+          "name": "Eilauftrag",
+          "summary": "Der Vampir erledigt zeitfressende Aufgaben mit atemberaubender Geschwindigkeit: Finger und Hände verschwimmen, während er schreibt, repariert oder baut. Die nötige Konzentration verhindert offensive Nutzung, doch sie erlaubt es, unter Druck schneller ans Ziel zu kommen.",
+          "costs": "Ein Wallungs-Check",
+          "diceSupplies": "N/A",
+          "system": "Solange aktiv, kann der Vampir fertigkeitenbasierte Aufgaben, die sonst ganze Runden dauern würden, in Sekunden erledigen und eine volle Handlung als Nebenhandlung behandeln (Vampire: Die Maskerade, S. 298). Die Kraft kann keine Angriffe, Verteidigungen oder andere aktiv widerstandene Handlungen beschleunigen, erlaubt aber z. B. ein Schloss zu knacken und anschließend zu schießen (Letzteres mit –2 Würfeln gemäß Nebenhandlungsregeln).",
+          "duration": "Eine Szene"
         }
       ],
       "3": [
@@ -592,6 +757,14 @@
           "diceSupplies": "Geschicklichkeit + Sportlichkeit",
           "system": "Lege eine Probe auf Geschicklichkeit + Sportlichkeit ab, die Schwierigkeit reicht von 3 (schräge Oberfläche mit Haftung) bis 6 (glatte senkrechte Oberfläche, Wasser), je nach Oberfläche und Neigungswinkel. Jeder Differenzpunkt bringt den Vampir höher oder weiter. Bei einer Differenz von 0 schafft er es an ein nahegelegenes Ziel, bei einer Differenz von 1 schafft er es etwas weiter und so weiter. Die Erzählerin sollte dem Spieler vorher mitteilen, wenn ein Ziel selbst mit Überwinden zu weit entfernt ist. Als Richtlinie gilt, dass alles, was 60 Meter entfernt ist und über Wasser erreicht werden muss (oder alles, was 30 Stockwerke hoch liegt) vermutlich die Reichweite der Kraft übersteigt.",
           "duration": "eine Runde"
+        },
+        {
+          "id": 158,
+          "name": "Tausend Schnitte",
+          "summary": "Geschwindigkeit ersetzt keine Wucht – aber sie lässt einen Sturm aus Schnitten entstehen. Das Opfer wirkt, als würde sein Körper plötzlich in Hunderten Wunden aufbrechen, jede einzeln klein, gemeinsam jedoch qualvoll in der Masse.",
+          "costs": "Ein Wallungs-Check",
+          "system": "Der Vampir darf seinen Wert in Geschwindigkeit zu einem einzelnen Handgemenge- oder Nahkampfangriff addieren (der nicht bereits durch eine Disziplin verstärkt wurde), sofern er Klauen oder eine Klingenwaffe nutzt. Bei sterblichen Opfern verursacht die Salve nur oberflächlichen Schaden, fügt jedoch automatisch genug zusätzlichen oberflächlichen Schaden zu, um das Opfer Handlungsunfähig zu machen (nach Ermessen der Erzählerin sind Opfer vor Schmerz praktisch ausgeschaltet). Der Angriff spritzt Blut weit umher, wodurch Vampire mit Hunger 3+ Hunger-Raserei-Proben ablegen müssen. Gegen Kainiten ist der Angriff vergleichsweise ungefährlich, doch die vielen blutlosen Wunden sind ein wandelnder Maskeradebruch und können nach Ermessen der Erzählerin eine Zornraserei-Probe auslösen.",
+          "duration": "Eine Handlung"
         }
       ],
       "4": [
@@ -715,6 +888,14 @@
           "diceSupplies": "Geistesschärfe + Überleben",
           "system": "Wenn der Vampir Zeit hat, sich darauf vorzubereiten, ist keine Probe erforderlich. Als Reaktion, wie zum Beispiel während eines Sturzes, muss er zum Aktivieren der Kraft auf Geistesschärfe + Überleben (Schwierigkeit 3) würfeln. Solange die Kraft wirkt, ist der Vampir gegen Schäden durch Stürze, Kollisionen oder wenn er geworfen wird immun. Außerdem vermeidet der Anwender nach Ermessen der Erzählerin das Auslösen von Geräten, die auf Druck reagieren.",
           "duration": "so lange, wie gewünscht"
+        },
+        {
+          "id": 169,
+          "name": "Winden",
+          "summary": "Manche Kainiten machen Fleisch und Knochen gummiartig, um sich durch unmögliche Spalten zu zwängen. Einige verstecken sich so in Wänden oder machen ihre Zuflucht mit Eingängen dicht, denen kaum jemand folgen kann.",
+          "costs": "Kostenlos oder ein Wallungs-Check",
+          "system": "Addiere den Wert in Gestaltwandeln zu allen Pools, um dich durch enge Räume zu winden, einem Griff zu entkommen oder Fesseln zu lösen. Der Anwender kann sich durch alles zwängen, solange sein Kopf hindurchpasst – Knochen können sich leicht aus- und wieder einrenken. Hat der Anwender etwa fünf Minuten Zeit, kann er einen Wallungs-Check ablegen, um noch nachgiebiger zu werden: Fleisch und Knochen breiten sich aus und kollabieren, sodass er durch Öffnungen von etwa 5 cm Durchmesser passt. Wird er dabei gestört oder gewaltsam herausgerissen, erleidet er 1 Punkt schweren Gesundheitsschaden.",
+          "duration": "-"
         }
       ],
       "2": [
@@ -738,6 +919,28 @@
           "diceSupplies": "Entschlossenheit + Gestaltwandeln",
           "system": "System: Würfle Entschlossenheit + Gestaltwandeln. Jeder Erfolg bei der Probe erlaubt dem Anwender, eine einzige Veränderung mithilfe von Fleischformen vorzunehmen. Die maximale Anzahl der Veränderungen darf allerdings nicht den Gesamtwert des Anwenders in Gestaltwandeln übersteigen, unabhängig von der Anzahl der Anwendungen oder Erfolge. Jede Veränderung bewirkt den Verlust eines einzelnen Punktes eines körperlichen Attributes des Anwenders. Dies stellt den Aufwand an Körpermasse dar, die schließlich irgendwo herkommen muss. (Kein Attribut kann unter 1 gesenkt werden.) Jede Anwendung der Kraft dauert eine volle Runde. Mögliche Änderungen durch Fleischformen sind hier aufgeführt: Umverteilen: Füge einem beliebigen körperlichen Attribut des Anwenders einen Punkt hinzu. Kein Attribut kann damit über 5 Punkte gesteigert werden. Diese Veränderungen sind sichtbar, bedrohen aber nicht die Maskerade. Waffen (Nur einmal pro Ziel): Je nachdem, ob der Anwender sich Dornen aus Knochen oder Knüppel aus dichtem Knorpel wachsen lässt, erhält er ein entsprechendes Äquivalent an leichtem Durchschlag oder schwerer Schlagkraft (+2 Schaden). (Im Gegensatz zu Tierische Waffen ist der von diesen Waffen verursachte Schaden banal, doch setzt ein in Fleischformen begabter Vampir darüber hinaus noch Tierische Waffen ein, haben auch diese häufig die Form von Knochensplittern oder -klingen). Rüstung: Ein Punkt eines Attributes kann in zwei Punkte Rüstung (S. 304) umgewandelt werden, wobei hier die Grenze bei sechs Punkten Rüstung liegt. Dies geschieht oft in Form von verstärktem, subkutanem Knochen oder Fett- und Knorpelschichten, was dem Anwender mit zunehmender Punktzahl ein immer unmenschlicheres Äußeres verleiht. Erscheinungsbild: Der Benutzer kann sein Äußeres verändern, entweder um seine Identität zu verschleiern, sein Aussehen zu verbessern oder um eine andere Person zu imitieren. Hierbei handelt es sich um eine zeitaufwendige Angelegenheit, die eine ganze Szene in Anspruch nimmt und eine Probe auf Geschicklichkeit + Handwerk erfordert, um zum Erfolg zu führen. Um die eigene Identität zu verschleiern, liegt die Schwierigkeit bei 3, um den Vorteil „Aussehen“ zu verbessern (jede Stufe zählt als eine Veränderung) bei 4 und um eine bestimmte Person zu imitieren bei 5. Ein Fehlschlag bei der Probe führt zu keinem Ergebnis (der Attributspunkt geht dennoch verloren), während ein totaler Fehlschlag dazu führt, dass der Vorteil \"Aussehen\" um eine Stufe sinkt und sich möglicherweise in einen Makel verwandelt, wenn der Wert auf der Kippe steht. Nosferatu können diesen Aspekt der Kraft nur dazu verwenden, um ihre eigene Identität zu verbergen. Andere Veränderungen: Kreativere Anwendungen dieser Kraft, wie z. B. die Erschaffung eines geheimen Beutels irgendwo am Körper oder das Verschieben von Augen, liegen außerhalb der Möglichkeiten dieser Mechanik, und die Erzählerin muss über die Anzahl der erforderlichen Veränderungen (und verlorenen Attributspunkte) sowie die Schwierigkeit und die für die Operation erforderliche Zeit entscheiden. Geschicklichkeit + Handwerk und Intelligenz + Medizin sind in diesen Fällen die wichtigsten Proben. Veränderungen können wie Schwerer Schaden geheilt werden, wobei jede Veränderung einer Stufe Schaden entspricht (verlorene Attributspunkte werden entsprechend wiederhergestellt).",
           "duration": "permanent"
+        },
+         {
+          "id": 173,
+          "name": "Kuss der Schlange",
+          "summary": "Die Fangzähne werden länger und hohl, sodass der Kainit beim Biss oder Kuss einen Hauch eigener Vitae injizieren kann. Manche nutzen das, um unauffällig ein Blutsband anzustoßen, andere, um brutales Gift zu verabreichen.",
+          "costs": "Ein Wallungs-Check",
+          "diceSupplies": "-",
+          "system": "Wenn der Kainit jemanden beißt oder küsst, kann er einen Wallungs-Check ablegen, um Vitae in das Opfer zu pressen. Das Opfer gilt als hätte es die Vitae gekostet (für Blutsband, Disziplinenlernen, Ghulwerdung und andere Effekte). Haben Blut oder Vitae des Kainiten schädliche Nebenwirkungen, werden diese ebenfalls übertragen. Blutmagier können zudem Kräfte wie „Skorpionsberührung“ oder „Baals Liebkosung“ über den Biss einsetzen – zur bösen Überraschung derjenigen, die den Kuss erwarten.",
+          "duration": "Eine Szene"
+        },
+        {
+          "id": 174,
+          "name": "Der falsche Schluck",
+          "combination": {
+            "id": 7,
+            "level": 1
+          },
+          "summary": "Die Beherrschung der eigenen Gestalt verhindert, dass geschlucktes Blut (oder Vitae) in den Körper gelangt. So kann der Vampir Vergiftung oder das Entstehen eines Blutsbandes vermeiden.",
+          "costs": "Ein Wallungs-Check",
+          "diceSupplies": "-",
+          "system": "Der Charakter muss diese Kraft unmittelbar beim Trinken aktivieren. Er kann das Blut zwar im Magen behalten und schmecken, doch es gelangt nicht ins System und stillt keinen Hunger. In dieser Zeit kann kein weiteres Blut oder keine Vitae konsumiert werden. Der Kainit hat eine Szene Zeit, das Blut wieder zu erbrechen – sonst gelangt es doch ins System. Mit einem weiteren Wallungs-Check kann die Wirkung um eine weitere Szene verlängert werden.",
+          "duration": "Eine Szene oder länger"
         }
       ],
       "3": [
@@ -838,6 +1041,15 @@
           "costs": "zwei Wallungs-Checks",
           "system": "Wie bei Verschmelzung mit der Erde (siehe Vampire: Die Maskerade, S. 272), nur dass der Vampir nicht durch die Beschaffenheit der Oberfläche eingeschränkt wird, auf der er sich zur Ruhe legt. Einige Vampire sind dafür bekannt, dass sie sich in den Wänden ihrer Herrenhäuser einnisten, während andere sich unter den verzogenen Dielen eines besetzten Hauses verstecken oder sich sogar in einem flachen Becken mit „totem Wasser“ verstecken. Außerdem kann der Vampir in einem Umkreis von bis zu einer Meile von dem Ort, an dem er mit dem Land verschmolzen ist, alle sensorischen Reize wahrnehmen. Dazu gehört das Belauschen von Gesprächen, der körperliche Genuss einer Liebelei oder der Geruch eines Feuers, das ein außer Kontrolle geratener Mob gerade entfacht. Der Vampir erlebt diese Sinne über am Ort der Ereignisse anwesende Tiere, egal, wie klein sie sind. Handelt es sich um diskrete oder absichtlich verheimlichte Ereignisse, muss ein Wettbewerb zwischen Geistesschärfe + Tierhaftigkeit des Anwenders vs. den entsprechenden Würfelvorrat des Gegners ausgewürfelt werden. Um sich vor Einbruch der Dunkelheit des folgenden Tages nach Eintritt in diesem Zustand zu erheben, ist eine Probe auf Entschlossenheit + Gestaltwandeln gegen eine Schwierigkeit von 4 erforderlich, und selbst dann kann es bis zu einer Stunde dauern, bis der Vampir sich wieder vollständig erhoben hat. Ein kritischer Triumph ermöglicht ein sofortiges Aufstehen.",
           "duration": "einen Tag oder länger oder bis zu einer körperlichen Störung"
+        },
+        {
+          "id": 170,
+          "name": "Schwarm",
+          "requirement": 5,
+          "summary": "Nicht länger an eine einzelne Gestalt gebunden, löst der Vampir seinen Körper in eine Masse aus Insekten, Reptilien oder anderem Ungeziefer auf. Der Schwarm ist kaum zu töten und kann Feinde überwältigen. Er beißt, kratzt, kriecht, schlängelt, fliegt, bohrt und frisst sich in jedes weiche Gewebe – viele verfallen in blanken Terror, bevor sie von der hungrigen Masse verschlungen werden.",
+          "costs": "Zwei Wallungs-Checks",
+          "system": "Der Vampir entfacht sein Blut und benötigt eine volle Runde, um sich in einen Schwarm zu verwandeln. Er wählt die Art, doch die Tiere müssen klein sein (kaum größer als eine Hand). Typische Optionen: Fledermäuse, Krähen, Ratten, Mäuse, Kakerlaken, Spinnen, Fliegen, Heuschrecken, Schlangen, Blutegel. Einmal gewählt, bleibt die Art bei jeder Nutzung konstant. In Schwarmform besitzt der Vampir alle Bewegungs- und Wahrnehmungsvorteile des Schwarms (die Masse an Eindrücken erschwert Details ohne Konzentration). Disziplinen können nicht eingesetzt werden – das Bewusstsein ist zu dünn verteilt. Der Schwarm kann pro Runde eine Anzahl Ziele angreifen, die der Blutpotenz entspricht. Betroffene erleiden –2 Würfel auf alle Proben und 1 Schaden pro Runde (schwer für Sterbliche, oberflächlich für Übernatürliche). Konventionelle Angriffe richten kaum etwas aus, doch Feuer und Sonnenlicht sind weiterhin tödlich, ebenso Flächeneffekte. Überlebt auch nur ein einzelnes Schwarmtier, kann sich der Vampir vollständig regenerieren; überlebt keines, erleidet er den endgültigen Tod. Viele Sterbliche müssen Willenskraftproben ablegen oder in Panik fliehen (Schwierigkeit meist 3, angepasst an Phobien oder Konditionierung).",
+          "duration": "Eine Szene oder bis freiwillig beendet"
         }
       ],
       "6": [
@@ -970,6 +1182,19 @@
           "diceSupplies": "Manipulation + Präsenz vs. Fassung + Geistesschärfe",
           "system": "Um jemanden zu imitieren, zu dem das Opfer starke Emotionen hat, muss der Vampir dessen Aussehen und die Gefühle des Opfers für diese Person kennen. Wie sie das herausfinden, variiert zwischen den Vampiren. Wird es aktiviert, würfelt der Spielleiter verdeckt einen Wettbewerb zwischen der Manipulation + Präsenz des Benutzers und der Fassung + Geistesschärfe des Opfers, wobei ein Misserfolg bedeutet, dass das Antlitz keine emotionale Ladung besitzt, was tief beunruhigend ist und jede soziale Interaktion mit dem Opfer verdirbt. Es verhindert auch, dass sie für den Rest der Geschichte Opfer dieser Macht werden.  Bei einem Gewinn fügt der Vampir seinem Präsenzwert zu jeglichen Würfen hinzu, die die Resonanz eines Sterblichen oder den emotionalen Zustand eines Vampirs beeinflussen. Als Ankerpunkt eines Vampirs aufzutreten, ist ein gefährliches Spiel, besonders wenn das Opfer 'Das Unsichtbare Wahrnehmen' besitzt (siehe Vampire: Die Maskerade, S. 249), aber richtig gespielt, kann es zu Flecken für das Opfer führen, da ihr Ankerpunkt durch Verhaltensänderungen, Idealwechsel oder sogar scheinbaren Tod beschädigt oder ganz abgetrennt erscheint.",
           "duration": "Eine Szene"
+        },
+         {
+          "id": 167,
+          "name": "Leidenschaftsschmarotzer",
+          "combination": {
+            "id": 1,
+            "level": 2
+          },
+          "summary": "Die Toten fühlen noch – doch oft nur als dumpfes Echo dessen, was Lebende empfinden. Viele Kainiten leben emotional durch Diener und Ankerpunkte, oder schmecken Gefühl über Resonanz im gestohlenen Blut. Diese Kraft erlaubt es dem Vampir, in menschlicher Leidenschaft zu baden: echte Emotion – schön, hässlich und alles dazwischen – und sie für sich nutzbar zu machen. Während der Vampir die Höhen menschlichen Fühlens kostet, fühlen sich seine Opfer ausgelaugt, gebrochen und neigen zu unberechenbaren Verzweiflungstaten.",
+          "costs": "Ein Wallungs-Check",
+          "diceSupplies": "Fassung + Auspex",
+          "system": "Der Vampir verbringt eine Szene in unmittelbarer Nähe zu einem sterblichen Ziel, ohne es direkt ansprechen zu müssen. (Die Kraft wirkt nicht auf Kainiten – selbst nicht auf Menschlichkeit 10.) Nach dem Entfachen würfelt er Fassung + Auspex gegen Schwierigkeit 3 (die Erzählerin kann sie senken, wenn Emotionen hochkochen oder absichtlich angeheizt werden). Bei Erfolg erhält der Vampir bis Sonnenaufgang alle Vorteile von Menschlichkeit 10 (er sammelt jedoch weiterhin Makel und würfelt Reue mit seinem aktuellen Menschlichkeitswert). Bei kritischem Triumph heilt er zusätzlich 1 Punkt Willenskraftschaden (beliebiger Art). Bei bestialischem Fehlschlag oder schmutzigem kritischen Erfolg überrollt ihn die Emotionswoge: Er erleidet eine Zwangshandlung. Von diesem Rausch kann ein Vampir nur einmal pro Nacht profitieren, darf aber bei Fehlschlag erneut versuchen. Sterbliche Ziele verlieren für drei Nächte jede Resonanz im Blut; sie wird zu flüchtiger Leerer Resonanz. In dieser Zeit können sie ihren niedrigsten Impulsen freien Lauf lassen und in eine gefühllose Rücksichtslosigkeit abrutschen.",
+          "duration": "Bis Sonnenaufgang für den Vampir, drei Nächte für das sterbliche Ziel"
         }
       ],
       "4": [
@@ -993,6 +1218,27 @@
           "diceSupplies": "Manipulation + Präsenz vs. Fassung + Intelligenz",
           "system": "Der Anwender muss sich fünf Minuten lang konzentrieren und an die Person denken, die er herbeirufen will, dann würfelt er auf Manipulation + Präsenz vs. Fassung + Intelligenz. Bei einem Triumph hört das Opfer den Ruf, muss ihm aber nicht unbedingt folgen. Bei einem kritischen Triumph erscheint das Opfer so schnell wie möglich, sofern es sich keinem unmittelbaren Risiko aussetzt.",
           "duration": "eine Nacht"
+        },
+         {
+          "id": 168,
+          "name": "Begierde entfachen",
+          "combination": {
+            "id": 10,
+            "level": 1
+          },
+          "summary": "Der Vampir verstärkt unsichtbar das aktuelle Verlangen eines Subjekts, bis es nur noch daran denkt, es zu stillen – ohne Rücksicht auf sich selbst. Ohne Vorwissen über das Ziel kann das Ergebnis explosiv sein. Richtig eingesetzt verschafft es selbst dem schlechtesten Feilscher die Oberhand.",
+          "costs": "Ein Wallungs-Check",
+          "diceSupplies": "Manipulation + Präsenz vs. Fassung + Entschlossenheit",
+          "system": "Der Anwender muss das Subjekt berühren und einen Vergleich Manipulation + Präsenz vs. Fassung + Entschlossenheit gewinnen. (Nach Ermessen der Erzählerin werden Sterbliche ohne Probe betroffen.) Betroffene erleiden die Zwangshandlung „Bedürfnis“ (wie unten beschrieben), gerichtet auf das, was sie in der aktuellen Szene am meisten wollen – ausgenommen übernatürlich provozierte Begierden (z. B. durch andere Präsenzkräfte) sowie unerreichbare Wünsche innerhalb der Szene. Nach Ermessen der Erzählerin erhalten Vampire mit Hunger 3+ stattdessen die Zwangshandlung „Hunger“. Ist das Objekt der Begierde verhandelbar, erhält der Anwender +4 Würfel auf entsprechende Verhandlungen.",
+          "duration": "Eine Szene"
+        },
+        {
+          "id": 172,
+          "name": "Flügelmann",
+          "summary": "Die Präsenz des Kainiten lässt sich auf ein anderes Subjekt ausdehnen – von angespannten Verhandlungen bis zur Jagd nach Romantik, Beute oder beidem.",
+          "costs": "Ein Wallungs-Check zusätzlich zur genutzten Kraft",
+          "system": "Als volle Handlung und mit einem zusätzlichen Wallungs-Check kann der Anwender die Vorteile einer seiner Präsenzkräfte auf einen willigen Vampir übertragen. Dabei gelten Präsenzwert und Blutpotenzbonus des Vampirs, der „Flügelmann“ einsetzt. Besitzt das Ziel ebenfalls Präsenz, gilt der höhere Bonus, aber nicht beide. Das Ziel kann denselben Präsenz-Effekt nicht doppelt erhalten. Der Anwender kann die betreffende Kraft nicht gleichzeitig auf sich selbst nutzen, solange er sie auf jemand anderen ausdehnt. Anwender und Ziel müssen für alle Betroffenen sichtbar sein.",
+          "duration": "Wie die verwendete Kraft"
         }
       ],
       "5": [
@@ -1157,6 +1403,24 @@
           "costs": "keine",
           "system": "Erhöht die Schwierigkeit für Blick in die Seele (Auspex 3), Telepathie (Auspex 5) und ähnliche Kräfte, die gegen den Anwender eingesetzt werden, um die Hälfte seines Wertes in Seelenstärke (aufgerundet). Wenn die Regeln des Anwenders gestatten, den Kräften zu widerstehen, fügt er stattdessen seinen Wert in Seelenstärke dem Würfelvorrat hinzu.",
           "duration": "eine Szene"
+        },
+        {
+          "id": 160,
+          "name": "Hornhaut um die Seele",
+          "summary": "Für viele Kainiten ist das Biest die größte existenzielle Bedrohung. Nacht für Nacht zwingt das Dasein zu Verrat, Grausamkeit und Entscheidungen, die an der eigenen Identität nagen. Diese Kraft erlaubt es, der Degeneration zuvorzukommen: Der Vampir fügt seiner Menschlichkeit bewusst eine Wunde zu, um sich gegen kommende Gräuel abzustumpfen – und zu tun, was getan werden muss, egal wie verachtenswert.",
+          "costs": "Zwei Makel",
+          "diceSupplies": "Varriert je nach Gräueltat",
+          "system": "Der Vampir muss eine geplante, vorsätzliche Gräueltat begehen, die ihn für das Kommende abstumpft. Was das bedeutet, hängt von den Chronikgrundsätzen ab, muss jedoch mindestens drei sterbliche Todesopfer umfassen. Der Abscheu ist so groß, dass der Vampir drei Makel erhält (einen davon kann er durch eine Überzeugung abmildern). Für den Rest der Nacht kann er durch keine zukünftige Auslösung weitere Makel erhalten – egal wie schlimm – und selbst Diablerie kann den potenziellen Verlust an Menschlichkeit auf 1 begrenzen. (Sollten die Proben sonst dazu führen, dass das Opfer die Kontrolle übernimmt, geschieht dies trotzdem.)",
+          "duration": "Eine Nacht"
+        },
+        {
+          "id": 178,
+          "name": "Das Maul des Biestes versiegeln",
+          "summary": "Durch eiserne Disziplin hat der Vampir gelernt, den Ruf des Hungers kurzzeitig niederzuhalten. Er zwingt das Biest zur Ruhe und ignoriert seine Forderungen – ein riskantes Spiel, denn der Versuch kann den Hunger sogar erhöhen.",
+          "costs": "Zwei Wallungs-Checks",
+          "diceSupplies": "-",
+          "system": "Zu einem beliebigen Zeitpunkt während einer Szene darf der Vampir zwei Wallungs-Checks ablegen und die Effekte des Hungers für den Rest der Szene ignorieren. Dafür werden alle Würfelpools um einen Wert reduziert, der der Hälfte seines aktuellen Hungers entspricht (aufgerundet). Steigt der Hunger währenddessen auf andere Weise, reduzieren sich die Pools um einen weiteren Würfel. Sinkt ein Pool durch diese Reduktion auf 0, muss der Charakter eine Probe ablegen, um einer Zornraserei zu widerstehen – das Unterdrücken des Hungers macht das Biest wütender.",
+          "duration": "Eine Szene"
         }
       ],
       "4": [
@@ -1195,6 +1459,14 @@
           "costs": "ein Wallungs-Check",
           "system": "Sobald die Kraft aktiviert wurde, erleidet der Vampir keine Nachteile mehr durch Schaden auf seine Gesundheit, wie körperliche Beeinträchtigungen. Zusätzlich kann er mit jeder Schadensstufe auf seiner Gesundheit, egal ob Schwerer oder Leichter Schaden, ein körperliches Attribut um einen Punkt erhöhen (abgeleitete Werte werden davon nicht beeinflusst). Mit dieser Kraft lassen sich die Attribute des Anwenders nicht auf einen Wert steigern, der seinen Blutschubwert + 6 überschreitet.",
           "duration": "eine Szene"
+        },
+        {
+          "id": 161,
+          "name": "Fleischschilde",
+          "summary": "In der Nähe schwacher Sterblicher (Kranke, Sterbende, Kinder, Verletzte) spürt der Vampir, wie sein Blut aufspringt: Im Kontrast zu ihrer schwachen Lebenskraft fühlt sich sein Körper stärker an. Manche Kainiten halten sich kranke Blutpuppen nur für diesen Kick. Sie dürfen nur nicht so krank werden, dass sie Vitae brauchen – wer Vitae gekostet hat, taugt nicht mehr als Fleischschild.",
+          "costs": "Ein Wallungs-Check",
+          "system": "Solange aktiv, erhöht der Vampir seine Seelenstärke vorübergehend um eine Anzahl Punkte in Höhe der Hälfte der anwesenden schwachen Sterblichen (abgerundet), bis maximal +5. Diese Erhöhung verleiht keine neuen Kräfte, zählt aber für Würfelpools und andere Effekte. Die Erzählerin zählt alle „Schwachen Sterblichen“ (Vampire: Die Maskerade, S. 185) sowie verletzte/kranke durchschnittliche Sterbliche.",
+          "duration": "Eine Szene oder bis der Vampir die Nähe der betroffenen Sterblichen verlässt (je nachdem, was zuerst eintritt)"
         }
       ],
       "6": [
@@ -1287,6 +1559,15 @@
           "costs": "ein Wallungs-Check",
           "system": "Sobald die Kraft aktiviert wurde, wird die Stärkestufe des Anwenders zu seinem unbewaffneten Schaden sowie Kraftakten dazu addiert.",
           "duration": "eine Szene"
+        },
+        {
+          "id": 182,
+          "name": "Unerbittlicher Griff",
+          "summary": "Der Griff des Vampirs wird unmenschlich stark. Hat er erst einmal Halt, ist er kaum noch abzuschütteln – es sei denn, man reißt ihm etwas ab.",
+          "costs": "Ein Wallungs-Check",
+          "diceSupplies": "N/A",
+          "system": "Der Vampir addiert seinen Wert in Stärke als automatische Erfolge auf alle Versuche, bei denen es darum geht, etwas festzuhalten. Das gilt auch fürs Halten eines Griffs – nicht jedoch für die initiale Probe, um den Griff überhaupt anzusetzen.",
+          "duration": "Eine Szene"
         }
       ],
       "3": [
@@ -1318,6 +1599,14 @@
           "costs": "ein Wallungs-Check",
           "system": "Mit dieser Kraft gelingt einem Vampir automatisch jede Probe, um an einer nicht metallischen Oberfläche entlang zu klettern. Nach Ermessen der Erzählerin kann der Anwender auch eine Fassade aus Kupfer oder Bronze oder über eine andere Oberfläche aus einem weichen Metall klettern. Dünne Glasoberflächen (außer die Glasfassade moderner Bürogebäude) könnten unter dem Druck zerspringen. Ein Vampir kann auf diese Art maximal eine Szene lang an Wänden oder Decken hängen, allerdings können nur barfüßige Vampire sich mit ihren Füßen festhalten. Klettern und Festhalten hinterlassen offensichtliche Spuren, die von allen entdeckt werden können, wenn sie eine Probe auf Intelligenz + Ermitteln (Schwierigkeit 2) ablegen. Auf Glas lassen sich die Spuren dieser Kraft auch ohne Probe erkennen.",
           "duration": "eine Szene"
+        },
+         {
+          "id": 166,
+          "name": "Übermaß",
+          "summary": "Der vampirische Körper trägt unfassbare Kraft, ohne äußerlich zu ächzen. Einige fragen sich, warum Kainiten sich bei diesen Leistungen nicht selbst zerreißen. Die Wahrheit: Manche tun es. Mit Übermaß treibt der Vampir sich über seine ohnehin grotesken Grenzen hinaus und opfert Gesundheit für den entscheidenden Vorteil – Muskeln reißen Fleischfetzen, Knochen splittern unter der Wucht.",
+          "costs": "Kostenlos",
+          "system": "Immer wenn der Vampir Stärke einsetzt (einschließlich Pools, die halben Stärkewert nutzen, wie „Kraftprotz“), behandelt er seinen Stärkewert, als läge er 2 Stufen höher – auch über dem normalen Maximum von 5. Bei jeder solchen Probe erleidet er 1 Punkt schweren Gesundheitsschaden, sobald er einen kritischen Erfolg (schmutzig oder nicht) oder einen Fehlschlag (bestialisch oder nicht) würfelt: Sein eigener Körper zerreißt unter der Belastung.",
+          "duration": "Passiv"
         }
       ],
       "4": [
@@ -1453,6 +1742,19 @@
           "costs": "Ein Wallungs-Check pro Tierart, die für die Szene ausgewählt wurde. Gewährt eine Herbeirufung und unbegrenzte Kommunikation. Gratis, wenn es bei Famuli angewendet wird.",
           "system": "Einfache Kommunikation erfordert keine Probe. Ein Tier dazu überreden, einen Dienst zu erweisen, erfordert einen Wurf auf Manipulation + Tierhaftigkeit. Die Schwierigkeit hängt von der Aufgabe ab. Einen Vogel dazu bringen, nachts jeden im Auge zu behalten, der den Park betritt, liegt bei Schwierigkeit 3, ein Tier damit zu beauftragen, einen Ort mit seinem Leben zu verteidigen, liegt bei Schwierigkeit 6. Tiere herbeizurufen erfordert einen Wurf auf Charisma + Tierhaftigkeit. Die Schwierigkeit hängt davon ab, wie selten die Tiere sind, die herbeigerufen werden sollen. Die Anzahl der herbeigerufenen Tiere hängt von der Differenz bei der Probe ab. Ein kritischer Triumph ruft die meisten, wenn nicht gar alle Tiere einer Art aus der Gegend herbei.",
           "duration": "eine Szene"
+        },
+        {
+          "id": 180,
+          "name": "Tierbote",
+          "combination": {
+            "id": 1,
+            "level": 1
+          },
+          "summary": "Der Famulus des Vampirs kann eine kurze Botschaft zu einer benannten Person tragen – sofern er sie erreichen kann. Wer in Hörweite ist, hört die Nachricht so, als spräche der Famulus mit der Stimme seines Meisters.",
+          "costs": "Ein Wallungs-Check pro Nacht",
+          "diceSupplies": "Keine, aber der Famulus würfelt Entschlossenheit + Szenekenntnis/Überleben (oder Äquivalent), wenn der Aufenthaltsort des Ziels unbekannt ist.",
+          "system": "Der Vampir flüstert dem Famulus einen einzigen Satz zu und benennt das Ziel. Ist dessen Aufenthaltsort unbekannt, muss der Famulus es aufspüren und eine Verfolgungsprobe (s. oben) gegen Schwierigkeit 2 ablegen – oder widerstanden durch Intelligenz + Szenekenntnis/Überleben des Ziels, falls es aktiv versucht, sich zu verstecken (vor dem Famulus oder anderen Gefahren). Der Versuch ist einmal pro Nacht möglich. Die Nachricht wird überbracht, sobald der Famulus Blickkontakt zum Ziel herstellt; anschließend kehrt er zu seinem Meister zurück.",
+          "duration": "Eine oder mehrere Nächte, je nach Suchdauer"
         }
       ],
       "3": [
@@ -1484,6 +1786,28 @@
           "costs": "keine zusätzlichen Kosten",
           "system": "Diese Kraft erweitert alle Kräfte, die bislang auf Wirbeltiere beschränkt waren, auf Insektenschwärme und behandelt einen Schwarm wie ein einzelnes Wesen. Der Vampir kann den Schwarm als Famulus an sich binden, und manche geben ihm sogar die Fähigkeit, in den Öffnungen ihrer Körper zu nisten. Dadurch ist der Schwarm vor Blicken geschützt, während er sich von der winzigen Menge Blut ernähren kann, der er braucht, um sich auf unbestimmte Zeit zu erhalten. Solange er sich einnistet, kann der Schwarm nur durch Röntgenstrahlen aufgespürt werden. Schwärme fügen im Kampf nur wenig Schaden zu. Sie haben 5 Punkte in Gesundheit und einen Vorrat von acht Würfeln, um sich gegen Angriffe zu wehren. Schwärme erleiden im Handgemenge Leichten Schaden. Feuer und Insektizide verursachen Schweren Schaden. Vampire können Schwärme zur Spionage einsetzen, als Ablenkung (das umschwärmte Opfer hat bei jeder Probe zwei Würfel weniger) oder um Sterbliche einzuschüchtern (der Vampir hat ein bis drei Würfel mehr im Vorrat für Einschüchtern, je nach Insektenart und den Phobien des Opfers). Spieler und Erzählerinnen lassen sich bestimmt weitere kreative Anwendungen für diese Kraft einfallen.",
           "duration": "passiv"
+        },
+        {
+          "id": 151,
+          "name": "Omen",
+          "combination": {
+            "id": 1,
+            "level": 1
+          },
+          "summary": "Indem der Vampir seinen auserwählten Kreaturen Futter gibt, das mit ein bisschen von seinem eigenen Blut gemischt ist, kann er die wirbelnde Masse innerhalb eines Insektenschwarms, eines Vogelschwarms oder eines Fischschwarms kontrollieren, um an das verborgene Wissen zu kommen, das sie auf ihren Reisen sammeln.",
+          "costs": "ein Wallungs-Check",
+          "diceSupplies": "Manipulation + Tierhaftigkeit",
+          "system": "Würfle Manipulation + Tierhaftigkeit gegen eine Schwierigkeit, die davon abhängt, wie detailliert die Frage ist. Im Allgemeinen steigt die Schwierigkeit von Orten (leicht) über Dinge (mittel) zu Personen (schwierig). „Wo ist Clarices Bar?“ wäre meist Schwierigkeit 2; „Wer ist Lyles geheimes Blutsband?“ kann Schwierigkeit 5 oder mehr sein, besonders wenn das Ziel die Antwort verbirgt. Die Erzählerin beantwortet die Frage, indem sie beschreibt, welches Bild der Schwarm formt – üblicherweise die direkteste mögliche Antwort: ein Gesicht, eine Hausfront, eine kurze, lebendige Szene aus einem Arbeitsraum. Ein kritischer Triumph enthüllt zusätzlich etwas Wichtiges, unabhängig von der eigentlichen Frage, da die Tiere kommende Strömungen von Handlung und Untätigkeit spüren. Das Erlebnis traumatisiert die Tiere – und färbt auf die Tierhaftigkeit des Vampirs ab: Für den Rest der Sitzung erhöht sich die Schwierigkeit aller Tierhaftigkeitsproben, die diese Kraft oder lebende Kreaturen betreffen, um 1 pro Einsatz dieser Kraft.",
+          "duration": "Einige Minuten, um das Wissen des Schwarms zu sammeln"
+        },
+        {
+          "id": 152,
+          "name": "Den Parasiten wecken",
+          "summary": "Vampire sind tot – doch nicht frei von Leben. Während sie ruhen, nisten Insekten in ihnen; wenn sie essen, bleibt Nahrung in ihrem Darm zurück; selbst das getrunkene Blut fault lange genug, um mehr als nur den Vampir zu nähren. Diese parasitären Eier bleiben normalerweise ungeschlüpft und träge. Wird diese Kraft entfesselt, reifen sie rasend schnell: Sie winden sich unter der Haut, kriechen aus Augenhöhlen und Körperöffnungen, nagen sich durch Fleisch und blähen den Körper, bis er zu platzen droht. Ein abscheulicher Hinweis darauf, was in ihnen wohnt.",
+          "costs": "Ein Wallungs-Check",
+          "diceSupplies": "Entschlossenheit + Tierhaftigkeit",
+          "system": "Der Vampir entfacht sein Blut, konzentriert sich eine Handlung lang und würfelt dann Entschlossenheit + Tierhaftigkeit gegen die Menschlichkeit des Ziels (Sterbliche widerstehen mit Widerstandsfähigkeit + Geistesschärfe). Das Opfer muss sich in unmittelbarer Nähe befinden. Die Effekte richten sich nach der Erfolgsdifferenz; ein kritischer Triumph erhöht zudem bei einem vampirischen Ziel den Hunger um 1: ▪ Grund-Erfolg (Differenz 0): Das Ziel reduziert soziale und mentale Würfelpools um 1, da Maden unter der Haut wühlen; Verwirrung, Kopfschmerzen, Übelkeit bei Beobachtern. ▪ Differenz 1: –2 Würfel auf alle Pools, Larven platzen in größerer Zahl aus dem Fleisch. Soziale Proben scheitern oft ohne Wurf; die Maskerade wird massiv belastet. ▪ Differenz 2+: Aus Eiern werden in Sekunden Puppen, dann explodieren Fliegen in einer Fontäne aus Blut und Gewebe; Sterbliche sterben, Übernatürliche erleiden –2 Würfel, 2 unhalbierten oberflächlichen Gesundheitsschaden und können nicht sprechen, weil der Hals sich mit Maden füllt. Setzt der Vampir die Kraft gegen sich selbst ein (z. B. zur Einschüchterung), erleidet er in dieser Szene –2 Würfel auf alle anderen Pools. Ziele widerstehen dann mit Fassung + Entschlossenheit. Gewinnt der Vampir, weicht das Ziel zurück, flieht oder verliert das Gesicht und verliert Willenskraft in Höhe der Differenz.",
+          "duration": "Eine Szene"
         }
       ],
       "4": [
@@ -1621,6 +1945,31 @@
           "costs": "ein Wallungs-Check",
           "system": "Der Vampir würfelt Manipulation + Verdunkelung. Jede unvorbereitete Person sowie alle, die sich in Sichtweite des Vampirs befinden und die Halluzination wahrnehmen können (weil sich die projizierte Erscheinung in ihrem Sichtfeld befindet oder indem sie das Ziel einer taktilen Empfindung werden), werden abgelenkt und erleiden einen Abzug von zwei Würfeln auf ihre nächste Handlung. Ziele, die beim Versuch scheitern, sich mit Fassung + Geistesschärfe zu widersetzen, verlieren ihre nächste aktive Handlung. (Sie können sich jedoch weiterhin normal widersetzen und versuchen, zu widerstehen, allerdings mit einem Abzug von zwei Würfeln.) Weitere Auswirkungen der Halluzination liegen im Ermessen der Erzählerin, doch es ist ratsam, hierbei Vorsicht walten zu lassen. Diese Art der Halluzination kann weder aufgezeichnet, noch übertragen werden (z. B. durch die Anwendung von Geist in der Maschine).",
           "duration": "eine Runde"
+        },
+        {
+          "id": 171,
+          "name": "Doppeldeutig",
+          "combination": {
+            "id": 1,
+            "level": 1
+          },
+          "summary": "Die meisten Kainiten nutzen Verdunkelung, um Dinge oder Handlungen zu verbergen. Manche verbergen damit ihre Worte. Der Anwender sagt das eine und übermittelt heimlich etwas anderes an genau eine Person – während Umstehende nichts merken. Praktisch, wenn man dem Freund des Prinzen direkt vor ihren Augen schöne Worte macht.",
+          "costs": "Ein Wallungs-Check",
+          "system": "Der Kainit fügt seinen Worten eine geheime Botschaft (bis zu ein Satz) hinzu, die nur ein bestimmter Zuhörer hören kann. Alle anderen nehmen sie nur wahr, wenn sie den Wurf Fassung + Verdunkelung des Anwenders mit Geistesschärfe + Auspex übertreffen.",
+          "duration": "Eine Äußerung"
+        },
+        {
+          "id": 177,
+          "name": "Geistergang",
+          "combination": {
+            "id": 9,
+            "level": 1
+          },
+          "summary": "Der Vampir verleiht den Tieren unter seinem Einfluss eine Spur übernatürlicher Unauffälligkeit und verschleiert ihre Fährten vor profanen Methoden.",
+          "costs": "Ein Wallungs-Check",
+          "diceSupplies": "-",
+          "system": "Von dieser Kraft betroffene Tiere hinterlassen keine Spuren, die mit gewöhnlichen Mitteln verfolgt werden können. „Das Unsichtbare sehen“ (Auspex 1) kann dennoch Hinweise auf ihr Vorbeiziehen erkennen, wie in den allgemeinen Regeln zu Verdunkelung beschrieben.",
+          "duration": "Eine Sitzung"
         }
       ],
       "3": [
@@ -1665,6 +2014,19 @@
           "diceSupplies": "Manipulation + Verdunkelung",
           "system": "Der Anwender legt eine Probe auf Manipulation + Verdunkelung ab. Die Schwierigkeit setzt sich zusammen aus der Summe der Sinne, die von der Halluzination beeinflusst werden sollen, plus eins. (Eine audiovisuelle Halluzination hätte demnach die Schwierigkeit 3, während ein Eindruck auf alle 5 Sinne die Schwierigkeit 6 hätte.) Am einfachsten lassen sich recht kleine oder unauffällige visuelle Halluzinationen erzeugen. Erhöht die Schwierigkeit um eins, wenn die Halluzination die Größe eines Raumes einnehmen soll, um zwei bei der Größe eines Hauses und so weiter. Weitere Komplikationen könnten sich ebenfalls auf die Schwierigkeit auswirken, doch das liegt im Ermessen der Erzählerin. Jeder Versuch, das Aussehen einer bestimmten Person nachzuahmen oder auf andere Art zu täuschen, kann je nach Ansinnen zusätzliche Proben auf Darbietung oder Ausflüchte erfordern. Vampire und andere übernatürliche Wesen haben die Möglichkeit, die Halluzination zu durchschauen, doch Sterbliche können dies nur, wenn sie einen triftigen Grund haben, die Halluzination anzuzweifeln. In beiden Fällen erfolgt eine Probe auf Intelligenz + Wahrnehmung gegen Manipulation + Präsenz des Anwenders. Ein Erfolg bedeutet, dass die betreffende Person nicht mehr von der Halluzination betroffen ist und diese daraufhin effektiv für sie verschwindet. Jeder Versuch, mit der Halluzination zu interagieren, führt ebenfalls dazu, dass sie vollständig in sich zusammenfällt, da sich alle Anwesenden bewusst werden, dass es sich um eine irreale Erscheinung handelt (wie bei dem Beispiel der einstürzenden Treppe, während jemand die Treppe hinabsteigt). Beachte, dass die Anwendung dieser Kraft nicht offensichtlich ist, sodass selbst eine Enttarnung der Halluzination nicht offenbart, von wem sie stammt. Diese Art der Halluzination kann weder aufgezeichnet noch übertragen werden (z. B. durch die Anwendung von Geist in der Maschine).",
           "duration": "Sie dauert eine Szene lang an, es sei denn, der Vampir entscheidet sich, sie vorher zu beenden."
+        },
+        {
+          "id": 162,
+          "name": "Maske der Verstorbenen",
+          "combination": {
+            "id": 11,
+            "level": 1
+          },
+          "summary": "Der Anwender saugt die spirituellen Rückstände eines kürzlich verstorbenen Sterblichen auf und stiehlt nicht nur dessen Aussehen, sondern auch Haltung und Manierismen. Unter dieser Wirkung ist er fast nicht vom Toten zu unterscheiden – nur die Allernächsten wittern Unheil.",
+          "costs": "Ein Wallungs-Check",
+          "diceSupplies": "Geistesschärfe + Verdunkelung",
+          "system": "Der Anwender berührt einen sterblichen Leichnam, der seit weniger als einer Woche tot ist. Die Erzählerin würfelt verdeckt Geistesschärfe + Verdunkelung gegen Schwierigkeit 3. Bei Fehlschlag ist die Ähnlichkeit schwach; Vertraute des Verstorbenen merken automatisch, dass etwas nicht stimmt. Bei Erfolg ist die Verkleidung überzeugend, doch der Anwender muss gegen Nahestehende einen Vergleich Manipulation + Darbietung vs. Geistesschärfe + Menschenkenntnis gewinnen, sonst spüren sie das „Falsche“ an ihm. „Das Unsichtbare sehen“ (Auspex 1) kann die Maske wie üblich durchdringen.",
+          "duration": "Bis zum Morgengrauen"
         }
       ],
       "4": [
@@ -1690,6 +2052,19 @@
           "diceSupplies": "Geistesschärfe + Verdunkelung vs. Geistesschärfe + Wahrnehmung",
           "system": "Wenn du vor den Augen von Sterblichen verschwindest, lege einen Wettbewerb auf Geistesschärfe + Verdunkelung vs. Geistesschärfe + Wahrnehmung ab. Bei einem Triumph stellen Beobachtende infrage, ob der Vampir jemals da war, ihre Erinnerung ist diesbezüglich getrübt. Bei einem kritischen Triumph löst sich die Erinnerung der Beobachtenden an den Vampir komplett auf. Diese Kraft kann nicht die Erinnerung von Vampiren beeinflussen, aber ein Triumph des Anwenders verbirgt ihn, als hätte er die Kraft aktiviert, während niemand hinsieht. Diese Kraft kann nur einmal pro Szene eingesetzt werden.",
           "duration": "siehe verstärkte Kraft"
+        },
+        {
+          "id": 163,
+          "name": "Abgeschiedenheit",
+          "combination": {
+            "id": 2,
+            "level": 1
+          },
+          "summary": "Diese Fähigkeit kehrt Verdunkelung um: Statt den Anwender zu verbergen, macht sie das Opfer blind für alle Menschen in der Umgebung. Für das Opfer ist die Welt leer – es kann niemanden sehen, hören oder fühlen. Das ist für die meisten Folter und wird ebenso oft genutzt, um jemanden zu brechen, wie um Wachposten plump auszuschalten. Anfangs merken Opfer oft nichts – doch wenn die Einsamkeit einsetzt, werden sie zunehmend erratisch bis hin zum Wahn.",
+          "costs": "Ein Wallungs-Check",
+          "diceSupplies": "Manipulation + Verdunkelung vs. Entschlossenheit + Wahrnehmung",
+          "system": "Der Anwender fängt den Blick des Opfers und muss einen Vergleich Manipulation + Verdunkelung vs. Entschlossenheit + Wahrnehmung gewinnen. Bei Erfolg scheinen der Anwender und alle in der Nähe für das Opfer zu verschwinden. Der Effekt hält eine Szene (oder Nacht) plus eine weitere pro Punkt Differenz. Das Opfer kann währenddessen keine lebenden oder toten Personen wahrnehmen. Es weicht ihnen unbewusst aus und ist taub für Geräusche, die sie verursachen. Nur wenn jemand dem Opfer körperlich schadet, wird diese Person kurz wahrgenommen – ähnlich wie bei „Ungesehener Durchgang“ (Vampire: Die Maskerade, S. 261). Jedes Mal, wenn das geschieht, wird erneut eine Disziplinenprobe abgelegt. Widersteht das Opfer erfolgreich, bricht die Wirkung vorzeitig.",
+          "duration": "Anzahl Szenen oder Nächte entsprechend der Differenz oder bis gebrochen"
         }
       ],
       "5": [
@@ -1921,6 +2296,15 @@
           "diceSupplies": "Intelligenz + Vergessenheit vs. Widerstandsfähigkeit + Medizin oder Seelenstärke",
           "system": "Der Anwender macht einen Wallungs-Check und würfelt dann Intelligenz + Vergessenheit, während er sein Opfer berührt. Wenn das Opfer schwach ist (ein Baby, ein älterer Mensch, krank, im Begriff, sich von einer Krankheit zu erholen, sterbend oder mit 3 unmarkierten Lebenspunkten oder weniger), wird es automatisch infiziert. Ist das Opfer gesund, würfelt es Widerstandsfähigkeit + Medizin (wer über Seelenstärke verfügt, kann diese anstelle von Medizin verwenden) und widersteht der Krankheit, wenn es mehr Erfolge erzielt als der Vampir. Diese Fähigkeit kann nicht bei Vampiren eingesetzt werden. Geschichtenerzähler können entscheiden, dass die Verbreitung einer solch schrecklichen Krankheit Markel rechtfertigt. Die Opfer der Krankheit erleiden zu Beginn jeder Szene, die auf die Infektion folgt, einen Schaden in Form von schwerer Gesundheit. Das Opfer leidet eine Anzahl von Szenen lang an der Krankheit, die der Vergessenheit des Anwenders entspricht. Die Krankheit kann nicht medizinisch behandelt werden, da sie übernatürlichen Ursprungs ist, aber sie kann durch das Trinken von Lebenskraft geheilt werden. Erzielt der Spieler bei der Aktivierung dieser Fähigkeit einen kritischen Erfolg, kann er die Krankheit durch Berührung übertragbar machen, wobei die nachfolgenden Empfänger eine Runde lang weniger an der Krankheit leiden als das Opfer, von dem sie infiziert wurden. Wenn der Spieler einen totalen Fehlschlag würfelt, verkrampft sich der Lebenssaft des Vampirs wie bei einer Vergiftung. Er erleidet drei schwere Lebenspunkte Schaden, wenn das infizierte Blut aus ihm herausfließt, und muss einen Wallungs-Check machen.",
           "duration": "ein Zug zur Aktivierung, variable Länge der Bedingung"
+        },
+        {
+          "id": 164,
+          "name": "Das Geweihte entweihen",
+          "summary": "ERFORDERT ENTWEDER Aura des Verfalls (Hecata) oder Berührung der Vergessenheit (Lasombra). Der Vampir zieht hasserfüllte nekromantische Schatten aus der Vergessenheit, um Wahrer Glaube zu trotzen und das Heiligste welken zu lassen. Sobald die Schatten den geweihten Gegenstand oder Gläubigen umschlingen, beginnt er auf unnatürliche Weise zu verfallen: Fleisch nekrotisiert, Symbole rosten, trüben oder zerbröseln, Weihwasser wird schwarz wie Teer.",
+          "costs": "Ein Wallungs-Check",
+          "diceSupplies": "Entschlossenheit + Vergessenheit vs. Willenskraft",
+          "system": "Der Anwender führt einen Vergleich Entschlossenheit + Vergessenheit vs. Willenskraft des Trägers von Wahrem Glauben. Bei Erfolg kann er diese Kraft gegen den Gegner oder eines seiner heiligen Symbole richten. Gegen ein Symbol: Es korrodiert und wird wirkungslos. Gegen einen Gläubigen: Es negiert dessen Wert in Wahrem Glauben für eine Runde und lässt ihn taumeln, was ihn eine Handlung kostet. (Der sichtbare Verfall verursacht keinen Schaden; die Schatten zeigen nur, was unweigerlich kommen wird.) Der Vampir kann den Vergleich in jeder Folgerunde wiederholen, ohne weitere Wallungs-Checks; der Gegner verliert jedoch keine weiteren Handlungen. Verliert der Anwender einen Vergleich, endet die Kraft. Hat der Anwender eine religiöse Überzeugung, die durch diesen Angriff verletzt wird, verursacht die Nutzung einen Makel.",
+          "duration": "-"
         }
       ],
       "5": [
@@ -1957,6 +2341,15 @@
           "diceSupplies": "Entschlossenheit + Vergessenheit vs. Entschlossenheit + Okkultismus oder Seelenstärke",
           "system": "Der Vampir macht zwei Wallungs-Proben, um genügend Lebenskraft zu verbrauchen, um beide Hände zu bedecken, und berührt das Opfer. Nachdem er Entschlossenheit + Vergessenheit gegen Entschlossenheit + Okkultismus des Opfers gewürfelt hat (wer Seelenstärke hat, kann sie anstelle von Okkultismus verwenden), erleidet das Opfer für jeden Punkt der Marge des Vampirs zwei Punkte erhöhten Willenskraftschaden. Der Angriff zersetzt den Geist des Opfers, bis es nur noch eine zerbrochene Hülle ist, und wenn es durch diese Macht beeinträchtigt ist, kehrt es nach dem Tod nicht als Gespenst zurück. Geschichtenerzähler können entscheiden, dass die geistzerstörende Natur dieser Macht Markel rechtfertigt, obwohl wie immer eine angemessene Überzeugung diese abmildern kann.",
           "duration": "ein Zug"
+        },
+        {
+          "id": 165,
+          "name": "Die Dunkelheit im Innern",
+          "summary": "Kainitische Philosophen grübeln seit jeher über das gespaltene Selbst: Anima, Biest – und der Schatten. Trägt jeder sein zerstörerisches Spiegelbild aus Wut und Schmerz in sich? Meister der Vergessenheit glauben, die Antwort zu kennen. Diese grausame Kraft reißt die negativen, gewalttätigen Teile einer Psyche heraus und manifestiert sie: als ausgekotzte Angst, als Schatten, der sich abpellt, als Reflex, der plötzlich mit Blutdurst starrt. Dieses „böse Zwilling“ ist von Selbsthass zerfressen und stürzt sich sofort auf seinen Wirt, um ihn in denselben bodenlosen Abgrund zu zerren.",
+          "costs": "Zwei Wallungs-Checks",
+          "diceSupplies": "Manipulation + Vergessenheit vs. Fassung + Entschlossenheit",
+          "system": "Der Vampir macht lockende Gesten, während er einen Vergleich Manipulation + Vergessenheit vs. Fassung + Entschlossenheit beginnt. Gewinnt der Vampir, beschwört er aus dem Opfer eine dunkle Entität und verursacht dabei 1 Punkt schweren Gesundheitsschadens, wenn sie sich aus dem Wirt löst. Das Opfer muss für den Vampir klar sichtbar sein. Die Entität besitzt dieselben körperlichen Attribute und Fertigkeiten wie ihr Wirt, keine Willenskraft, 6 Gesundheitsstufen und erleidet Schaden wie ein Vampir. Hat der Wirt übernatürliche Kräfte, die seine körperlichen Fähigkeiten verstärken (z. B. Disziplinen), besitzt der Doppelgänger diese ebenfalls (Werte halbiert und abgerundet; Aktivierungskosten werden stattdessen mit Gesundheit bezahlt). Er hat genau ein Ziel: die Vernichtung seines lebenden Wirts – alles andere ignoriert er.",
+          "duration": "Eine Szene oder bis entweder er oder sein Wirt zerstört ist"
         }
       ],
       "6": [
