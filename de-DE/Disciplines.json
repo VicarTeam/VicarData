@@ -495,9 +495,9 @@
           "name": "Blutdurchtränktes Metall",
           "summary": "Metall, Stein und Mechanik erinnern sich daran, dass sie einst formbar waren. Blut zwingt sie, sich daran zu erinnern.",
           "costs": "Ein Wallungs-Check",
-          "diceSupplies": "Geschicklichkeit + Blutmagie",
-          "system": "Der Anwender berührt ein mechanisches Hindernis (Schloss, Riegel, Kette, Gitter) und lässt Vitae eindringen. Mechanische Schlösser öffnen sich lautlos ohne weitere Probe. Elektronische Schlösser erfordern zusätzlich eine Probe auf Technologie (Schwierigkeit 3). Bei kritischem Triumph bleibt kein sichtbarer Manipulationsschaden zurück.",
-          "duration": "Ein Augenblick"
+          "diceSupplies": "Geschicklichkeit + Blutmagie gegen eine Schwierigkeit von 2 (3 bei komplexeren Mechanismen)",
+          "system": "Der Anwender berührt ein mechanisches Hindernis (Schloss, Riegel, Kette, Gitter) und lässt Vitae eindringen. Mechanische Schlösser öffnen sich lautlos ohne weitere Probe. Elektronische Schlösser erfordern zusätzlich eine Probe auf Intelligenz + Technologie (Schwierigkeit 3). Bei kritischem Triumph bleibt kein sichtbarer Manipulationsschaden zurück.",
+          "duration": "-"
         },
         {
           "id": 186,
